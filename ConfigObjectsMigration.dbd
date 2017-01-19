@@ -1,0 +1,2526 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="_x0038_24ed719-554e-4b91-9041-2718dfb0a3a0">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="debug_mode" type="xs:short" minOccurs="0" />
+                <xs:element name="default_folder_type" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="create_report" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="checkin_as_current" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="add_vdoc_child_row" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="rendition_path_seperator" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="repeating_attribute_delimiter" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="version_from" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="version_policy" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="create_cabinet" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="use_transcation_processing" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="content_size_threshold" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="content_size_column" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="use_override" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="override_class_name" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="bypass_attribute_processing" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="file_ext" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="dctm_format" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="resolve_extension_to_format" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="report_folder_path" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="legacy_object_id_field" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="delimiter_character" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="domain" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="d2fd3351-44f6-48f5-8732-8159add7385a">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="r_object_id" type="xs:string" minOccurs="0" />
+                <xs:element name="object_name" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_site" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="r_object_id" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_site" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_area" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="c2bc9a35-aaf8-4c50-9678-4c9757dde781">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="tipo" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="tipo_legado" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="r_object_id" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_area" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_subarea" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_legacy_objectid" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0037_9cdcccd-68bd-4c64-bb6d-65f63f3eb988">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="tipo" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="a_satus" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0034_f5dc7c7-5ae8-45fa-ad84-81df02058e4e">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="fase" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="sigla" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Item" type="xs:short" minOccurs="0" />
+                <xs:element name="r_object_id" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="object_name" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="codigo_site" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="codigo" type="xs:short" minOccurs="0" />
+                <xs:element name="nome" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Item" type="xs:short" minOccurs="0" />
+                <xs:element name="r_object_id" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="object_name" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="200" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="codigo_site" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="codigo" type="xs:short" minOccurs="0" />
+                <xs:element name="nome" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="codigo_area" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0032_d42797b-c6cc-4861-ab72-865a3b873e17">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Item" type="xs:short" minOccurs="0" />
+                <xs:element name="fase" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="r_object_id" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="object_name" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ativo" type="xs:boolean" minOccurs="0" />
+                <xs:element name="sigla_segmento_negocio" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="numero_projeto" type="xs:short" minOccurs="0" />
+                <xs:element name="numero_sequencial" type="xs:short" minOccurs="0" />
+                <xs:element name="tipo" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="codigo_site" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="nome" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="numero_se" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="data_abertura" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="responsavel_tecnico" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="area_responsavel" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0039_4281bc2-f472-49f5-bcea-29325253179c">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Item" type="xs:short" minOccurs="0" />
+                <xs:element name="r_object_id" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="object_name" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="codigo_site" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="codigo" type="xs:short" minOccurs="0" />
+                <xs:element name="codigo_area" type="xs:short" minOccurs="0" />
+                <xs:element name="sigla" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="identificacao" type="xs:short" minOccurs="0" />
+                <xs:element name="titulo" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="200" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Item" type="xs:short" minOccurs="0" />
+                <xs:element name="tag_antigo" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="codigo_site" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <_x0038_24ed719-554e-4b91-9041-2718dfb0a3a0>
+    <debug_mode>2</debug_mode>
+    <default_folder_type>vale_eng_folder</default_folder_type>
+    <create_report>true</create_report>
+    <checkin_as_current>true</checkin_as_current>
+    <add_vdoc_child_row>false</add_vdoc_child_row>
+    <rendition_path_seperator>|</rendition_path_seperator>
+    <repeating_attribute_delimiter>|</repeating_attribute_delimiter>
+    <version_from>Current</version_from>
+    <version_policy>Major</version_policy>
+    <create_cabinet>true</create_cabinet>
+    <use_transcation_processing>true</use_transcation_processing>
+    <content_size_threshold>100000</content_size_threshold>
+    <content_size_column>r_full_content_size</content_size_column>
+    <use_override>false</use_override>
+    <resolve_extension_to_format>true</resolve_extension_to_format>
+    <delimiter_character>|</delimiter_character>
+    <domain>vale_eng</domain>
+  </_x0038_24ed719-554e-4b91-9041-2718dfb0a3a0>
+  <d2fd3351-44f6-48f5-8732-8159add7385a>
+    <r_object_id>090003e980011d88</r_object_id>
+    <object_name>KM - MANGANES DO AZUL - PA</object_name>
+    <vale_site>KM</vale_site>
+  </d2fd3351-44f6-48f5-8732-8159add7385a>
+  <d2fd3351-44f6-48f5-8732-8159add7385a>
+    <r_object_id>090003e980057790</r_object_id>
+    <object_name>IA - IGARAPE BAHIA - PA</object_name>
+    <vale_site>IA</vale_site>
+  </d2fd3351-44f6-48f5-8732-8159add7385a>
+  <d2fd3351-44f6-48f5-8732-8159add7385a>
+    <r_object_id>090003e980059aa0</r_object_id>
+    <object_name>PZ - USINAS DE PELOTIZACAO</object_name>
+    <vale_site>PZ</vale_site>
+  </d2fd3351-44f6-48f5-8732-8159add7385a>
+  <d2fd3351-44f6-48f5-8732-8159add7385a>
+    <r_object_id>090003e98005a922</r_object_id>
+    <object_name>KK - SISTEMA NORTE - GERAL - PA - MA</object_name>
+    <vale_site>KK</vale_site>
+  </d2fd3351-44f6-48f5-8732-8159add7385a>
+  <d2fd3351-44f6-48f5-8732-8159add7385a>
+    <r_object_id>090003e98005b2b0</r_object_id>
+    <object_name>KM - MANGANES DO AZUL - PA</object_name>
+    <vale_site>KM</vale_site>
+  </d2fd3351-44f6-48f5-8732-8159add7385a>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98004fe9f</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>50</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98004fea0</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>51</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98004fea1</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>52</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98004fea2</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>53</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98004fea3</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>54</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98004fea4</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>55</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98004fea5</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>56</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98004fea6</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>57</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98004fea7</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>58</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98004fea8</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>59</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e9800583c8</r_object_id>
+    <vale_site>IA</vale_site>
+    <vale_area>50</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e9800583c9</r_object_id>
+    <vale_site>IA</vale_site>
+    <vale_area>51</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e9800583ca</r_object_id>
+    <vale_site>IA</vale_site>
+    <vale_area>52</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e9800583cb</r_object_id>
+    <vale_site>IA</vale_site>
+    <vale_area>53</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e9800583cc</r_object_id>
+    <vale_site>IA</vale_site>
+    <vale_area>54</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98005a1b5</r_object_id>
+    <vale_site>KK</vale_site>
+    <vale_area>00</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98005a1b6</r_object_id>
+    <vale_site>KK</vale_site>
+    <vale_area>20</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98005b848</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>0</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98005b849</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>51</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98005b84a</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>54</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98005b84b</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>52</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98005b84c</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>55</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98005b84d</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>57</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98005b84e</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>58</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98005b84f</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>59</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98005b850</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>50</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98005b851</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>56</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98005b852</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>10</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98005b853</r_object_id>
+    <vale_site>KM</vale_site>
+    <vale_area>53</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e9800583d1</r_object_id>
+    <vale_site>IA</vale_site>
+    <vale_area>59</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e9800583d0</r_object_id>
+    <vale_site>IA</vale_site>
+    <vale_area>58</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e9800583cf</r_object_id>
+    <vale_site>IA</vale_site>
+    <vale_area>57</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e9800583ce</r_object_id>
+    <vale_site>IA</vale_site>
+    <vale_area>56</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e9800583cd</r_object_id>
+    <vale_site>IA</vale_site>
+    <vale_area>55</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <c2bc9a35-aaf8-4c50-9678-4c9757dde781>
+    <tipo>proj</tipo>
+    <tipo_legado>PR</tipo_legado>
+  </c2bc9a35-aaf8-4c50-9678-4c9757dde781>
+  <c2bc9a35-aaf8-4c50-9678-4c9757dde781>
+    <tipo>oper</tipo>
+    <tipo_legado>SE</tipo_legado>
+  </c2bc9a35-aaf8-4c50-9678-4c9757dde781>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>50</vale_area>
+    <vale_subarea>0</vale_subarea>
+    <vale_legacy_objectid>08035f518001e310</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>50</vale_area>
+    <vale_subarea>10</vale_subarea>
+    <vale_legacy_objectid>08035f518001e312</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>50</vale_area>
+    <vale_subarea>20</vale_subarea>
+    <vale_legacy_objectid>08035f518001e314</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>50</vale_area>
+    <vale_subarea>30</vale_subarea>
+    <vale_legacy_objectid>08035f518001e316</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>50</vale_area>
+    <vale_subarea>40</vale_subarea>
+    <vale_legacy_objectid>08035f518001e318</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>51</vale_area>
+    <vale_subarea>0</vale_subarea>
+    <vale_legacy_objectid>08035f518001e31c</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>51</vale_area>
+    <vale_subarea>10</vale_subarea>
+    <vale_legacy_objectid>08035f518001e31e</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>51</vale_area>
+    <vale_subarea>20</vale_subarea>
+    <vale_legacy_objectid>08035f518001e320</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>51</vale_area>
+    <vale_subarea>30</vale_subarea>
+    <vale_legacy_objectid>08035f518001e322</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>51</vale_area>
+    <vale_subarea>40</vale_subarea>
+    <vale_legacy_objectid>08035f518001e324</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>51</vale_area>
+    <vale_subarea>50</vale_subarea>
+    <vale_legacy_objectid>08035f518001e326</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>51</vale_area>
+    <vale_subarea>60</vale_subarea>
+    <vale_legacy_objectid>08035f518001e328</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>51</vale_area>
+    <vale_subarea>70</vale_subarea>
+    <vale_legacy_objectid>08035f518001e32a</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>51</vale_area>
+    <vale_subarea>80</vale_subarea>
+    <vale_legacy_objectid>08035f518001e32c</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>51</vale_area>
+    <vale_subarea>90</vale_subarea>
+    <vale_legacy_objectid>08035f518001e32e</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>52</vale_area>
+    <vale_subarea>0</vale_subarea>
+    <vale_legacy_objectid>08035f518001e332</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>52</vale_area>
+    <vale_subarea>10</vale_subarea>
+    <vale_legacy_objectid>08035f518001e334</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>52</vale_area>
+    <vale_subarea>30</vale_subarea>
+    <vale_legacy_objectid>08035f518001e336</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>52</vale_area>
+    <vale_subarea>40</vale_subarea>
+    <vale_legacy_objectid>08035f518001e338</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>53</vale_area>
+    <vale_subarea>0</vale_subarea>
+    <vale_legacy_objectid>08035f518001e33c</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>53</vale_area>
+    <vale_subarea>10</vale_subarea>
+    <vale_legacy_objectid>08035f518001e33e</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>53</vale_area>
+    <vale_subarea>20</vale_subarea>
+    <vale_legacy_objectid>08035f518001e340</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>53</vale_area>
+    <vale_subarea>30</vale_subarea>
+    <vale_legacy_objectid>08035f518001e342</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>53</vale_area>
+    <vale_subarea>40</vale_subarea>
+    <vale_legacy_objectid>08035f518001e344</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>53</vale_area>
+    <vale_subarea>50</vale_subarea>
+    <vale_legacy_objectid>08035f518001e346</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>53</vale_area>
+    <vale_subarea>60</vale_subarea>
+    <vale_legacy_objectid>08035f518001e348</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>53</vale_area>
+    <vale_subarea>70</vale_subarea>
+    <vale_legacy_objectid>08035f518001e34a</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>54</vale_area>
+    <vale_subarea>0</vale_subarea>
+    <vale_legacy_objectid>08035f518001e34e</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>54</vale_area>
+    <vale_subarea>10</vale_subarea>
+    <vale_legacy_objectid>08035f518001e350</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>54</vale_area>
+    <vale_subarea>30</vale_subarea>
+    <vale_legacy_objectid>08035f518001e352</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>55</vale_area>
+    <vale_subarea>0</vale_subarea>
+    <vale_legacy_objectid>08035f518001e356</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>55</vale_area>
+    <vale_subarea>10</vale_subarea>
+    <vale_legacy_objectid>08035f518001e358</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>55</vale_area>
+    <vale_subarea>30</vale_subarea>
+    <vale_legacy_objectid>08035f518001e35a</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>55</vale_area>
+    <vale_subarea>40</vale_subarea>
+    <vale_legacy_objectid>08035f518001e35c</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>55</vale_area>
+    <vale_subarea>70</vale_subarea>
+    <vale_legacy_objectid>08035f518001e35e</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>56</vale_area>
+    <vale_subarea>0</vale_subarea>
+    <vale_legacy_objectid>08035f518001e362</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>56</vale_area>
+    <vale_subarea>10</vale_subarea>
+    <vale_legacy_objectid>08035f518001e364</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>56</vale_area>
+    <vale_subarea>20</vale_subarea>
+    <vale_legacy_objectid>08035f518001e366</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>56</vale_area>
+    <vale_subarea>30</vale_subarea>
+    <vale_legacy_objectid>08035f518001e368</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>56</vale_area>
+    <vale_subarea>40</vale_subarea>
+    <vale_legacy_objectid>08035f518001e36a</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>56</vale_area>
+    <vale_subarea>70</vale_subarea>
+    <vale_legacy_objectid>08035f518001e36c</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>57</vale_area>
+    <vale_subarea>0</vale_subarea>
+    <vale_legacy_objectid>08035f518001e370</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>57</vale_area>
+    <vale_subarea>20</vale_subarea>
+    <vale_legacy_objectid>08035f518001e372</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>57</vale_area>
+    <vale_subarea>30</vale_subarea>
+    <vale_legacy_objectid>08035f518001e374</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>57</vale_area>
+    <vale_subarea>40</vale_subarea>
+    <vale_legacy_objectid>08035f518001e376</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>57</vale_area>
+    <vale_subarea>50</vale_subarea>
+    <vale_legacy_objectid>08035f518001e378</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>57</vale_area>
+    <vale_subarea>90</vale_subarea>
+    <vale_legacy_objectid>08035f518001e37a</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>58</vale_area>
+    <vale_subarea>0</vale_subarea>
+    <vale_legacy_objectid>08035f518001e37e</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>58</vale_area>
+    <vale_subarea>10</vale_subarea>
+    <vale_legacy_objectid>08035f518001e380</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>58</vale_area>
+    <vale_subarea>20</vale_subarea>
+    <vale_legacy_objectid>08035f518001e382</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>58</vale_area>
+    <vale_subarea>30</vale_subarea>
+    <vale_legacy_objectid>08035f518001e384</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>58</vale_area>
+    <vale_subarea>40</vale_subarea>
+    <vale_legacy_objectid>08035f518001e386</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>58</vale_area>
+    <vale_subarea>50</vale_subarea>
+    <vale_legacy_objectid>08035f518001e388</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>58</vale_area>
+    <vale_subarea>60</vale_subarea>
+    <vale_legacy_objectid>08035f518001e38a</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>59</vale_area>
+    <vale_subarea>0</vale_subarea>
+    <vale_legacy_objectid>08035f518001e38e</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>59</vale_area>
+    <vale_subarea>10</vale_subarea>
+    <vale_legacy_objectid>08035f518001e390</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>59</vale_area>
+    <vale_subarea>20</vale_subarea>
+    <vale_legacy_objectid>08035f518001e392</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>59</vale_area>
+    <vale_subarea>30</vale_subarea>
+    <vale_legacy_objectid>08035f518001e395</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>59</vale_area>
+    <vale_subarea>40</vale_subarea>
+    <vale_legacy_objectid>08035f518001e397</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>59</vale_area>
+    <vale_subarea>50</vale_subarea>
+    <vale_legacy_objectid>08035f518001e399</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>59</vale_area>
+    <vale_subarea>60</vale_subarea>
+    <vale_legacy_objectid>08035f518001e39b</vale_legacy_objectid>
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>00</vale_area>
+    <vale_subarea>05</vale_subarea>
+    <vale_legacy_objectid />
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>00</vale_area>
+    <vale_subarea>50</vale_subarea>
+    <vale_legacy_objectid />
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>20</vale_area>
+    <vale_subarea>00</vale_subarea>
+    <vale_legacy_objectid />
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+    <vale_area>20</vale_area>
+    <vale_subarea>10</vale_subarea>
+    <vale_legacy_objectid />
+  </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
+  <_x0037_9cdcccd-68bd-4c64-bb6d-65f63f3eb988>
+    <tipo>PR-True</tipo>
+    <a_satus>Migration</a_satus>
+  </_x0037_9cdcccd-68bd-4c64-bb6d-65f63f3eb988>
+  <_x0037_9cdcccd-68bd-4c64-bb6d-65f63f3eb988>
+    <tipo>PR-False</tipo>
+    <a_satus>Completed</a_satus>
+  </_x0037_9cdcccd-68bd-4c64-bb6d-65f63f3eb988>
+  <_x0037_9cdcccd-68bd-4c64-bb6d-65f63f3eb988>
+    <tipo>SE-True</tipo>
+    <a_satus>Approved</a_satus>
+  </_x0037_9cdcccd-68bd-4c64-bb6d-65f63f3eb988>
+  <_x0037_9cdcccd-68bd-4c64-bb6d-65f63f3eb988>
+    <tipo>SE-False</tipo>
+    <a_satus>Completed</a_satus>
+  </_x0037_9cdcccd-68bd-4c64-bb6d-65f63f3eb988>
+  <_x0034_f5dc7c7-5ae8-45fa-ad84-81df02058e4e>
+    <fase>FEL1</fase>
+    <sigla>F1</sigla>
+  </_x0034_f5dc7c7-5ae8-45fa-ad84-81df02058e4e>
+  <_x0034_f5dc7c7-5ae8-45fa-ad84-81df02058e4e>
+    <fase>FEL2</fase>
+    <sigla>F2</sigla>
+  </_x0034_f5dc7c7-5ae8-45fa-ad84-81df02058e4e>
+  <_x0034_f5dc7c7-5ae8-45fa-ad84-81df02058e4e>
+    <fase>FEL3</fase>
+    <sigla>F3</sigla>
+  </_x0034_f5dc7c7-5ae8-45fa-ad84-81df02058e4e>
+  <_x0034_f5dc7c7-5ae8-45fa-ad84-81df02058e4e>
+    <fase>CONS</fase>
+    <sigla>F4</sigla>
+  </_x0034_f5dc7c7-5ae8-45fa-ad84-81df02058e4e>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+    <Item>1</Item>
+    <r_object_id>08035f51803be19b</r_object_id>
+    <object_name>00 - GRD - MANGANES DO AZUL</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>0</codigo>
+    <nome>GRD - MANGANES DO AZUL</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+    <Item>2</Item>
+    <r_object_id>08035f5180595b52</r_object_id>
+    <object_name>51 - INSTALACOES DE APOIO A LAVRA</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>51</codigo>
+    <nome>INSTALACOES DE APOIO A LAVRA</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+    <Item>3</Item>
+    <r_object_id>08035f51807304d8</r_object_id>
+    <object_name>54 - RECUPERACAO DE SOLIDOS</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>54</codigo>
+    <nome>RECUPERACAO DE SOLIDOS</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+    <Item>4</Item>
+    <r_object_id>08035f5180595b53</r_object_id>
+    <object_name>52 - BRITAGEM</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>52</codigo>
+    <nome>BRITAGEM</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+    <Item>5</Item>
+    <r_object_id>08035f5180595b90</r_object_id>
+    <object_name>55 - ESTOCAGEM E CARREGAMENTO</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>55</codigo>
+    <nome>ESTOCAGEM E CARREGAMENTO</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+    <Item>6</Item>
+    <r_object_id>08035f5180595b92</r_object_id>
+    <object_name>57 - INSTALACOES ADMINISTRATIVAS</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>57</codigo>
+    <nome>INSTALACOES ADMINISTRATIVAS</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+    <Item>7</Item>
+    <r_object_id>08035f5180595b93</r_object_id>
+    <object_name>58 - UTILIDADES</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>58</codigo>
+    <nome>UTILIDADES</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+    <Item>8</Item>
+    <r_object_id>08035f5180595b94</r_object_id>
+    <object_name>59 - INTERCONEXOES E INTERFERENCIAS</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>59</codigo>
+    <nome>INTERCONEXOES E INTERFERENCIAS</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+    <Item>9</Item>
+    <r_object_id>08035f518039967a</r_object_id>
+    <object_name>50 - MINA</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>50</codigo>
+    <nome>MINA</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+    <Item>10</Item>
+    <r_object_id>08035f5180595aea</r_object_id>
+    <object_name>56 - INSTALACOES DE APOIO INDUSTRIAL</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>56</codigo>
+    <nome>INSTALACOES DE APOIO INDUSTRIAL</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+    <Item>11</Item>
+    <r_object_id>08035f5180a5cfcd</r_object_id>
+    <object_name>10 - CARAJAS</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>10</codigo>
+    <nome>CARAJAS</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+    <Item>12</Item>
+    <r_object_id>08035f5180397ce3</r_object_id>
+    <object_name>53 - USINA DE PRODUTOS</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>53</codigo>
+    <nome>USINA DE PRODUTOS</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>1</Item>
+    <r_object_id>08035f51803be3c8</r_object_id>
+    <object_name>0000 - GRD - MANGANES DO AZUL/GERAL</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>0</codigo>
+    <nome>GERAL</nome>
+    <codigo_area>0</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>2</Item>
+    <r_object_id>08035f518039967b</r_object_id>
+    <object_name>5000 - MINA/GERAL</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>0</codigo>
+    <nome>GERAL</nome>
+    <codigo_area>50</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>3</Item>
+    <r_object_id>08035f5180595b95</r_object_id>
+    <object_name>5100 - INSTALACOES DE APOIO A LAVRA/GERAL</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>0</codigo>
+    <nome>GERAL</nome>
+    <codigo_area>51</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>4</Item>
+    <r_object_id>08035f5180595b96</r_object_id>
+    <object_name>5110 - INSTALACOES DE APOIO A LAVRA/OPERACAO DA LAVRA</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>10</codigo>
+    <nome>OPERACAO DA LAVRA</nome>
+    <codigo_area>51</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>5</Item>
+    <r_object_id>08035f5180595b97</r_object_id>
+    <object_name>5120 - INSTALACOES DE APOIO A LAVRA/REDE DE DISTRIBUICAO DE ENERGIA</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>20</codigo>
+    <nome>REDE DE DISTRIBUICAO DE ENERGIA</nome>
+    <codigo_area>51</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>6</Item>
+    <r_object_id>08035f5180595b98</r_object_id>
+    <object_name>5140 - INSTALACOES DE APOIO A LAVRA/POSTO DE ABASTECIMENTO E INSPECAO DE CAMINHOES DE N4 E N5</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>40</codigo>
+    <nome>POSTO DE ABASTECIMENTO E INSPECAO DE CAMINHOES DE N4 E N5</nome>
+    <codigo_area>51</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>7</Item>
+    <r_object_id>08035f5180595b99</r_object_id>
+    <object_name>5200 - BRITAGEM/GERAL</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>0</codigo>
+    <nome>GERAL</nome>
+    <codigo_area>52</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>8</Item>
+    <r_object_id>08035f5180595bc6</r_object_id>
+    <object_name>5210 - BRITAGEM/BRITAGEM PRIMARIA</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>10</codigo>
+    <nome>BRITAGEM PRIMARIA</nome>
+    <codigo_area>52</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>9</Item>
+    <r_object_id>08035f5180595bc7</r_object_id>
+    <object_name>5310 - USINA DE PRODUTOS/MANGANES METALURGICO</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>10</codigo>
+    <nome>MANGANES METALURGICO</nome>
+    <codigo_area>53</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>10</Item>
+    <r_object_id>08035f5180397ce4</r_object_id>
+    <object_name>5300 - USINA DE PRODUTOS/GERAL</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>0</codigo>
+    <nome>GERAL</nome>
+    <codigo_area>53</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>11</Item>
+    <r_object_id>08035f5180595bcc</r_object_id>
+    <object_name>5520 - ESTOCAGEM E CARREGAMENTO/ESTACAO DE CARREGAMENTO</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>20</codigo>
+    <nome>ESTACAO DE CARREGAMENTO</nome>
+    <codigo_area>55</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>12</Item>
+    <r_object_id>08035f5180595d97</r_object_id>
+    <object_name>5860 - UTILIDADES/CENTRAL DE AR COMPRIMIDO</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>60</codigo>
+    <nome>CENTRAL DE AR COMPRIMIDO</nome>
+    <codigo_area>58</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>13</Item>
+    <r_object_id>08035f5180595d98</r_object_id>
+    <object_name>5900 - INTERCONEXOES E INTERFERENCIAS/GERAL</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>0</codigo>
+    <nome>GERAL</nome>
+    <codigo_area>59</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>14</Item>
+    <r_object_id>08035f5180595d99</r_object_id>
+    <object_name>5910 - INTERCONEXOES E INTERFERENCIAS/DISTRIBUICAO DE ENERGIA</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>10</codigo>
+    <nome>DISTRIBUICAO DE ENERGIA</nome>
+    <codigo_area>59</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>15</Item>
+    <r_object_id>08035f5180595d9a</r_object_id>
+    <object_name>5920 - INTERCONEXOES E INTERFERENCIAS/DISTRIBUICAO DE AGUA, POLPA E AR COMPRIMIDO</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>20</codigo>
+    <nome>DISTRIBUICAO DE AGUA, POLPA E AR COMPRIMIDO</nome>
+    <codigo_area>59</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>16</Item>
+    <r_object_id>08035f5180595d9b</r_object_id>
+    <object_name>5960 - INTERCONEXOES E INTERFERENCIAS/REDE DE COLETA DE ESGOTO</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>60</codigo>
+    <nome>REDE DE COLETA DE ESGOTO</nome>
+    <codigo_area>59</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>17</Item>
+    <r_object_id>08035f5180595bc8</r_object_id>
+    <object_name>5340 - USINA DE PRODUTOS/BIOXIDO DO MANGANES (SECAGEM)</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>40</codigo>
+    <nome>BIOXIDO DO MANGANES (SECAGEM)</nome>
+    <codigo_area>53</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>18</Item>
+    <r_object_id>08035f5180595bc9</r_object_id>
+    <object_name>5350 - USINA DE PRODUTOS/MANGANES QUIMICO</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>50</codigo>
+    <nome>MANGANES QUIMICO</nome>
+    <codigo_area>53</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>19</Item>
+    <r_object_id>08035f5180595c85</r_object_id>
+    <object_name>5660 - INSTALACOES DE APOIO INDUSTRIAL/OFICINA DE MANUTENCAO - USINA DE MOAGEM E SECAGEM</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>60</codigo>
+    <nome>OFICINA DE MANUTENCAO - USINA DE MOAGEM E SECAGEM</nome>
+    <codigo_area>56</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>20</Item>
+    <r_object_id>08035f5180595c88</r_object_id>
+    <object_name>5700 - INSTALACOES ADMINISTRATIVAS/GERAL</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>0</codigo>
+    <nome>GERAL</nome>
+    <codigo_area>57</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>21</Item>
+    <r_object_id>08035f5180595d09</r_object_id>
+    <object_name>5710 - INSTALACOES ADMINISTRATIVAS/ESCRITORIO CENTRAL / RESTAURANTE / VESTIARIO</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>10</codigo>
+    <nome>ESCRITORIO CENTRAL / RESTAURANTE / VESTIARIO</nome>
+    <codigo_area>57</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>22</Item>
+    <r_object_id>08035f5180595d0b</r_object_id>
+    <object_name>5800 - UTILIDADES/GERAL</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>0</codigo>
+    <nome>GERAL</nome>
+    <codigo_area>58</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>23</Item>
+    <r_object_id>08035f5180595bcd</r_object_id>
+    <object_name>5600 - INSTALACOES DE APOIO INDUSTRIAL/GERAL</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>0</codigo>
+    <nome>GERAL</nome>
+    <codigo_area>56</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>24</Item>
+    <r_object_id>08035f5180595d9c</r_object_id>
+    <object_name>5990 - INTERCONEXOES E INTERFERENCIAS/INSTALACOES PROVISORIAS</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>90</codigo>
+    <nome>INSTALACOES PROVISORIAS</nome>
+    <codigo_area>59</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>25</Item>
+    <r_object_id>08035f5180595bca</r_object_id>
+    <object_name>5510 - ESTOCAGEM E CARREGAMENTO/PATIO DE ESTOCAGEM</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>10</codigo>
+    <nome>PATIO DE ESTOCAGEM</nome>
+    <codigo_area>55</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>26</Item>
+    <r_object_id>08035f5180595c84</r_object_id>
+    <object_name>5650 - INSTALACOES DE APOIO INDUSTRIAL/OFICINA DE MANUTENCAO DA USINA DE MANGANES</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>50</codigo>
+    <nome>OFICINA DE MANUTENCAO DA USINA DE MANGANES</nome>
+    <codigo_area>56</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>27</Item>
+    <r_object_id>08035f5180595d0c</r_object_id>
+    <object_name>5810 - UTILIDADES/SUBESTACAO PRINCIPAL</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>10</codigo>
+    <nome>SUBESTACAO PRINCIPAL</nome>
+    <codigo_area>58</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>28</Item>
+    <r_object_id>08035f5180595d0e</r_object_id>
+    <object_name>5820 - UTILIDADES/BARRAGEM DE CAPTACAO E ADUCAO</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>20</codigo>
+    <nome>BARRAGEM DE CAPTACAO E ADUCAO</nome>
+    <codigo_area>58</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>29</Item>
+    <r_object_id>08035f5180595c82</r_object_id>
+    <object_name>5620 - INSTALACOES DE APOIO INDUSTRIAL/POSTO DE LAVAGEM / LUBRIFICACAO / BORRACHARIA</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>20</codigo>
+    <nome>POSTO DE LAVAGEM / LUBRIFICACAO / BORRACHARIA</nome>
+    <codigo_area>56</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>30</Item>
+    <r_object_id>08035f5180595d0f</r_object_id>
+    <object_name>5830 - UTILIDADES/BARRAGEM DE REJEITO</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>30</codigo>
+    <nome>BARRAGEM DE REJEITO</nome>
+    <codigo_area>58</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>31</Item>
+    <r_object_id>08035f518071d42a</r_object_id>
+    <object_name>5760 - INSTALACOES ADMINISTRATIVAS/TERMINAL RODOVIARIO</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>60</codigo>
+    <nome>TERMINAL RODOVIARIO</nome>
+    <codigo_area>57</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>32</Item>
+    <r_object_id>08035f518073054a</r_object_id>
+    <object_name>5400 - RECUPERACAO DE SOLIDOS/GERAL</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>0</codigo>
+    <nome>GERAL</nome>
+    <codigo_area>54</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>33</Item>
+    <r_object_id>08035f51807304de</r_object_id>
+    <object_name>5680 - INSTALACOES DE APOIO INDUSTRIAL/LABORATORIO</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>80</codigo>
+    <nome>LABORATORIO</nome>
+    <codigo_area>56</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>34</Item>
+    <r_object_id>08035f51807304dd</r_object_id>
+    <object_name>5640 - INSTALACOES DE APOIO INDUSTRIAL/POSTO DE ABASTECIMENTO DE COMBUSTIVEL</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>40</codigo>
+    <nome>POSTO DE ABASTECIMENTO DE COMBUSTIVEL</nome>
+    <codigo_area>56</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>35</Item>
+    <r_object_id>08035f5180730546</r_object_id>
+    <object_name>5500 - ESTOCAGEM E CARREGAMENTO/GERAL</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>0</codigo>
+    <nome>GERAL</nome>
+    <codigo_area>55</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>36</Item>
+    <r_object_id>08035f51807304d9</r_object_id>
+    <object_name>5190 - INSTALACOES DE APOIO A LAVRA/PILHA DE ESTERIL</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>90</codigo>
+    <nome>PILHA DE ESTERIL</nome>
+    <codigo_area>51</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>37</Item>
+    <r_object_id>08035f51807304db</r_object_id>
+    <object_name>5610 - INSTALACOES DE APOIO INDUSTRIAL/OFICINA CENTRAL DE MANUTENCAO</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>10</codigo>
+    <nome>OFICINA CENTRAL DE MANUTENCAO</nome>
+    <codigo_area>56</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>38</Item>
+    <r_object_id>08035f5180a5cfce</r_object_id>
+    <object_name>1000 - CARAJAS/GERAL</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>0</codigo>
+    <nome>GERAL</nome>
+    <codigo_area>10</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>39</Item>
+    <r_object_id>08035f518115c081</r_object_id>
+    <object_name>5320 - USINA DE PRODUTOS/CONCENTRACAO POR ESPIRAIS</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>20</codigo>
+    <nome>CONCENTRACAO POR ESPIRAIS</nome>
+    <codigo_area>53</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>40</Item>
+    <r_object_id>08035f518115c161</r_object_id>
+    <object_name>5330 - USINA DE PRODUTOS/ESPESSADORES</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>30</codigo>
+    <nome>ESPESSADORES</nome>
+    <codigo_area>53</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>41</Item>
+    <r_object_id>08035f518115c162</r_object_id>
+    <object_name>5360 - USINA DE PRODUTOS/FILTRAGEM PELLET FEED</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>60</codigo>
+    <nome>FILTRAGEM PELLET FEED</nome>
+    <codigo_area>53</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>42</Item>
+    <r_object_id>08035f518142a800</r_object_id>
+    <object_name>5380 - USINA DE PRODUTOS/CICLONAGEM / CLASSIFICACAO</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>80</codigo>
+    <nome>CICLONAGEM / CLASSIFICACAO</nome>
+    <codigo_area>53</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>43</Item>
+    <r_object_id>08035f518142a801</r_object_id>
+    <object_name>5390 - USINA DE PRODUTOS/ESPESSAMENTO</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>90</codigo>
+    <nome>ESPESSAMENTO</nome>
+    <codigo_area>53</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>44</Item>
+    <r_object_id>08035f518142a802</r_object_id>
+    <object_name>5890 - UTILIDADES/PLANTA DE REAGENTES</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>90</codigo>
+    <nome>PLANTA DE REAGENTES</nome>
+    <codigo_area>58</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>1</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f518017b590</r_object_id>
+    <object_name>M0011 - SPCI - SISTEMA DE COMBATE A INCEDIO - MINA DE MANGANES DO AZUL</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>11</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>SPCI - SISTEMA DE COMBATE A INCEDIO - MINA DE MANGANES DO AZUL</nome>
+    <area_responsavel>DIIC - GEEIC - GAPCF</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>2</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f5180690561</r_object_id>
+    <object_name>M1234 - AVALIACAO DE SEGURANCA DAS BARRAGENS DO MANGANES</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>1234</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>AVALIACAO DE SEGURANCA DAS BARRAGENS DO MANGANES</nome>
+    <area_responsavel>DIIC - GEEIC - GAPCF</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>3</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f51807607e6</r_object_id>
+    <object_name>M0589 - ESCRITORIO ADMINISTRATIVO MANGANES (SE-ENG 071)</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>589</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>ESCRITORIO ADMINISTRATIVO MANGANES (SE-ENG 071)</nome>
+    <area_responsavel>DEEB - DIIC - GAPCF / GAENC</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>4</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f51807795eb</r_object_id>
+    <object_name>M0583 - ALTEAMENTO DA BARRAGEM DO AZUL</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>583</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>ALTEAMENTO DA BARRAGEM DO AZUL</nome>
+    <area_responsavel>DEEB - DIIC - GAPCF / GEFEC - GAENC</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>5</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f518123acf1</r_object_id>
+    <object_name>M1237 - SEGUNDO ALTEAMENTO DA BARRAGEM DO AZUL</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>1237</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>SEGUNDO ALTEAMENTO DA BARRAGEM DO AZUL</nome>
+    <area_responsavel>DEEB - DIIC - GAPCF</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>6</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f5181734e06</r_object_id>
+    <object_name>M1233-01 - ENG 170: BARRAGEM DE CONTENCAO DE SEDIMENTOS DA PDE 02 - MANGANES DO AZUL</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>1233</numero_projeto>
+    <numero_sequencial>1</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>ENG 170: BARRAGEM DE CONTENCAO DE SEDIMENTOS DA PDE 02 - MANGANES DO AZUL</nome>
+    <area_responsavel>DIIC-GEFEC-GAENC</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>7</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f5181927194</r_object_id>
+    <object_name>M0013-01 - ADEQUACAO DA USINA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>13</numero_projeto>
+    <numero_sequencial>1</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>ADEQUACAO DA USINA</nome>
+    <area_responsavel>DIIC - GAPCF</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>8</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f51819ac4b0</r_object_id>
+    <object_name>M1250 - (ENG-171-1) - INSTALACAO DE ELEVADORES DE AMOSTRAS - USINA MANGANES</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>1250</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>(ENG-171-1) - INSTALACAO DE ELEVADORES DE AMOSTRAS - USINA MANGANES</nome>
+    <area_responsavel>DIIC-GEFEC-GAENC</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>9</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f5181b1bf61</r_object_id>
+    <object_name>M1251 - REVITALIZACAO DAS BARRAGENS E DIQUES MANGANES</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>1251</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>REVITALIZACAO DAS BARRAGENS E DIQUES MANGANES</nome>
+    <area_responsavel>DIIC-GEFEC-GAENC</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>10</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f5182537a21</r_object_id>
+    <object_name>M0013-02 - CORRECAO DA EROSAO DO PREDIO DAS PENEIRAS 7 E 8</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>13</numero_projeto>
+    <numero_sequencial>2</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>CORRECAO DA EROSAO DO PREDIO DAS PENEIRAS 7 E 8</nome>
+    <area_responsavel>DIIC-GEFEC-GAENC</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>11</Item>
+    <fase>FEL1</fase>
+    <r_object_id>08035f518071ba40</r_object_id>
+    <object_name>M1232 - TCLD MANGANES PARA PATIO D</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>1232</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>TCLD MANGANES PARA PATIO D</nome>
+    <area_responsavel>DEEB - DIIC - GAPCF</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>12</Item>
+    <fase>FEL1</fase>
+    <r_object_id>08035f518071c7d5</r_object_id>
+    <object_name>M1245 - USINA MANGANES DO AZUL</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>1245</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>USINA MANGANES DO AZUL</nome>
+    <area_responsavel>DEEB / DIIC</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>13</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f51803a47ba</r_object_id>
+    <object_name>M1007 - FEED PARA PELOTIZACAO DE MANGANES</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>1007</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>FEED PARA PELOTIZACAO DE MANGANES</nome>
+    <area_responsavel>DIEF - GEDEF - GADEF</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>14</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f5180690561</r_object_id>
+    <object_name>M1234 - AVALIACAO DE SEGURANCA DAS BARRAGENS DO MANGANES</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>1234</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>AVALIACAO DE SEGURANCA DAS BARRAGENS DO MANGANES</nome>
+    <area_responsavel>DIIC - GEEIC - GAPCF</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>15</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f518071b8bf</r_object_id>
+    <object_name>M0007 - PROJETO 85 - RECUPERACAO DA BARRAGEM DO KALUNGA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>7</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>PROJETO 85 - RECUPERACAO DA BARRAGEM DO KALUNGA</nome>
+    <area_responsavel>DEEB / DIIC</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>16</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f518071b92d</r_object_id>
+    <object_name>M0008 - PROJETO 85 - RECUPERACAO DA BARRAGEM DO AZUL</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>8</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>PROJETO 85 - RECUPERACAO DA BARRAGEM DO AZUL</nome>
+    <area_responsavel>DEEB / DIIC</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>17</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f518071b972</r_object_id>
+    <object_name>M0009 - PROJETO 85 - OTIMIZACAO DA USINA DO MANGANES</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>9</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>PROJETO 85 - OTIMIZACAO DA USINA DO MANGANES</nome>
+    <area_responsavel>DEEB / DIIC</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>18</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f518071c7d5</r_object_id>
+    <object_name>M1245 - USINA MANGANES DO AZUL</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>1245</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>USINA MANGANES DO AZUL</nome>
+    <area_responsavel>DEEB / DIIC</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>19</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f51807607e6</r_object_id>
+    <object_name>M0589 - ESCRITORIO ADMINISTRATIVO MANGANES (SE-ENG 071)</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>589</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>ESCRITORIO ADMINISTRATIVO MANGANES (SE-ENG 071)</nome>
+    <area_responsavel>DEEB - DIIC - GAPCF / GAENC</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>20</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f518123acf1</r_object_id>
+    <object_name>M1237 - SEGUNDO ALTEAMENTO DA BARRAGEM DO AZUL</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>1237</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>SEGUNDO ALTEAMENTO DA BARRAGEM DO AZUL</nome>
+    <area_responsavel>DEEB - DIIC - GAPCF</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>21</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f518132c317</r_object_id>
+    <object_name>M0013 - MANGANES DO AZUL - ADEQUACAO</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>13</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>MANGANES DO AZUL - ADEQUACAO</nome>
+    <area_responsavel>DIEF - GAQEF - GEDEF</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>22</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f5181734e06</r_object_id>
+    <object_name>M1233-01 - ENG 170: BARRAGEM DE CONTENCAO DE SEDIMENTOS DA PDE 02 - MANGANES DO AZUL</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>1233</numero_projeto>
+    <numero_sequencial>1</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>ENG 170: BARRAGEM DE CONTENCAO DE SEDIMENTOS DA PDE 02 - MANGANES DO AZUL</nome>
+    <area_responsavel>DIIC-GEFEC-GAENC</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>23</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f518182b243</r_object_id>
+    <object_name>M1238 - SISTEMA DE AMOSTRAGEM MANGANES DO AZUL</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>1238</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>SISTEMA DE AMOSTRAGEM MANGANES DO AZUL</nome>
+    <area_responsavel>DIIC-GEFEC-GAENC</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>24</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f5181927194</r_object_id>
+    <object_name>M0013-01 - ADEQUACAO DA USINA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>13</numero_projeto>
+    <numero_sequencial>1</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>ADEQUACAO DA USINA</nome>
+    <area_responsavel>DIIC - GAPCF</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>25</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f5182617588</r_object_id>
+    <object_name>M1240 - CANAL DESVIO IGARAPE - CAVA 1</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>1240</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>CANAL DESVIO IGARAPE - CAVA 1</nome>
+    <area_responsavel>DIIC - GEEIC - GAPCF</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>26</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f518285e901</r_object_id>
+    <object_name>N1285 - ESTUDO DE SEGURANCA SISMICA NAS BARRAGENS DE CARAJAS</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>N</sigla_segmento_negocio>
+    <numero_projeto>1285</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>ESTUDO DE SEGURANCA SISMICA NAS BARRAGENS DE CARAJAS</nome>
+    <area_responsavel>DIIC-GEEIC-GAPCF</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>27</Item>
+    <fase>FEL3</fase>
+    <r_object_id>08035f518017b590</r_object_id>
+    <object_name>M0011 - SPCI - SISTEMA DE COMBATE A INCEDIO - MINA DE MANGANES DO AZUL</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>11</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>SPCI - SISTEMA DE COMBATE A INCEDIO - MINA DE MANGANES DO AZUL</nome>
+    <area_responsavel>DIIC - GEEIC - GAPCF</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>28</Item>
+    <fase>FEL3</fase>
+    <r_object_id>08035f5180690561</r_object_id>
+    <object_name>M1234 - AVALIACAO DE SEGURANCA DAS BARRAGENS DO MANGANES</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>1234</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>AVALIACAO DE SEGURANCA DAS BARRAGENS DO MANGANES</nome>
+    <area_responsavel>DIIC - GEEIC - GAPCF</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>29</Item>
+    <fase>FEL3</fase>
+    <r_object_id>08035f518123acf1</r_object_id>
+    <object_name>M1237 - SEGUNDO ALTEAMENTO DA BARRAGEM DO AZUL</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>1237</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>SEGUNDO ALTEAMENTO DA BARRAGEM DO AZUL</nome>
+    <area_responsavel>DEEB - DIIC - GAPCF</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>30</Item>
+    <fase>FEL3</fase>
+    <r_object_id>08035f518132c317</r_object_id>
+    <object_name>M0013 - MANGANES DO AZUL - ADEQUACAO</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>13</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>MANGANES DO AZUL - ADEQUACAO</nome>
+    <area_responsavel>DIEF - GAQEF - GEDEF</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>1</Item>
+    <r_object_id>08035f51806d973d</r_object_id>
+    <object_name>TR-1210KM-01</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>0</codigo>
+    <codigo_area>50</codigo_area>
+    <sigla>TR</sigla>
+    <identificacao>1</identificacao>
+    <titulo>TRANSPORTADOR DE CORREIA</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>2</Item>
+    <r_object_id>08035f51809c7ff4</r_object_id>
+    <object_name>BA-1920KM-50</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>10</codigo>
+    <codigo_area>50</codigo_area>
+    <sigla>BA</sigla>
+    <identificacao>50</identificacao>
+    <titulo>BOMBA DE AGUA SUBIMERSA DO SISTEMA DE SEPARACAO DE AGUA E OLEO TANQUE DE 5M³ ST-1920-05</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>3</Item>
+    <r_object_id>08035f51809c8515</r_object_id>
+    <object_name>BQ-1920KM-50</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>20</codigo>
+    <codigo_area>50</codigo_area>
+    <sigla>BQ</sigla>
+    <identificacao>50</identificacao>
+    <titulo>BOMBA DE DOSADORA DO SISTEMA DE SEPARACAO DE AGUA E OLEO TANQUE DE 5M³ ST-1920-05</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>4</Item>
+    <r_object_id>08035f51809c8516</r_object_id>
+    <object_name>BQ-1920KM-51</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>30</codigo>
+    <codigo_area>50</codigo_area>
+    <sigla>BQ</sigla>
+    <identificacao>51</identificacao>
+    <titulo>BOMBA DOSADORA DO SISTEMA DE SEPARACAO DE AGUA E OLEO TANQUE DE 30M³ ST-1920-02</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>5</Item>
+    <r_object_id>08035f51809c8517</r_object_id>
+    <object_name>BA-1920KM-51</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>40</codigo>
+    <codigo_area>50</codigo_area>
+    <sigla>BA</sigla>
+    <identificacao>51</identificacao>
+    <titulo>BOMBA DE AGUA SUBIMERSA DO SISTEMA DE SEPARACAO DE AGUA E OLEO TANQUE DE 30M³ ST-1920-02</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>6</Item>
+    <r_object_id>08035f5180b0db6f</r_object_id>
+    <object_name>ST-1980KM-02</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>0</codigo>
+    <codigo_area>51</codigo_area>
+    <sigla>ST</sigla>
+    <identificacao>2</identificacao>
+    <titulo>SISTEMA DE REFIGERACAO</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>7</Item>
+    <r_object_id>08035f5180b0b654</r_object_id>
+    <object_name>BA-1920KM-54</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>10</codigo>
+    <codigo_area>51</codigo_area>
+    <sigla>BA</sigla>
+    <identificacao>54</identificacao>
+    <titulo>BOMBA DE AGUA SUBMERSA DO SISTEMA DE SEPARACAO DE AGUA E OLEO TANQUE DE 30M³ ST-1920-02</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>8</Item>
+    <r_object_id>08035f5180b0d5ff</r_object_id>
+    <object_name>QD-1920KM-23</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>20</codigo>
+    <codigo_area>51</codigo_area>
+    <sigla>QD</sigla>
+    <identificacao>23</identificacao>
+    <titulo>QUADRO DE DISTRIBUICAO DO SISTEMA DE SEPARACAO DE AGUA E OLEO TANQUE DE 30M³ ST-1920-02</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>9</Item>
+    <r_object_id>08035f5180b0d601</r_object_id>
+    <object_name>QD-1920KM-24</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>30</codigo>
+    <codigo_area>51</codigo_area>
+    <sigla>QD</sigla>
+    <identificacao>24</identificacao>
+    <titulo>QUADRO DE DISTRIBUICAO DO SISTEMA DE SEPARACAO DE AGUA E OLEO TANQUE DE 30M³ ST-1920-02</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>10</Item>
+    <r_object_id>08035f5180b0d602</r_object_id>
+    <object_name>QD-1920KM-20</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>40</codigo>
+    <codigo_area>51</codigo_area>
+    <sigla>QD</sigla>
+    <identificacao>20</identificacao>
+    <titulo>QUADRO DE DISTRIBUICAO DO SISTEMA DE SEPARACAO DE AGUA E OLEO TANQUE DE 5M³ ST-1920-05</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>11</Item>
+    <r_object_id>08035f5180b0db77</r_object_id>
+    <object_name>QA-1980KM-01</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>50</codigo>
+    <codigo_area>51</codigo_area>
+    <sigla>QA</sigla>
+    <identificacao>1</identificacao>
+    <titulo>QUADRO DE ALARMES</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>12</Item>
+    <r_object_id>08035f5180b0dc32</r_object_id>
+    <object_name>AI-1980KM-02</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>60</codigo>
+    <codigo_area>51</codigo_area>
+    <sigla>AI</sigla>
+    <identificacao>2</identificacao>
+    <titulo>DETECTOR DE SISTEMA DE INCENDIO/FUMACA/TEMPERATURA/CHAMA/AMOSTRAGEM DE AR (DETECTOR DE FUMACA)</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>13</Item>
+    <r_object_id>08035f5180b0dc33</r_object_id>
+    <object_name>TW-1980KM-02</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>70</codigo>
+    <codigo_area>51</codigo_area>
+    <sigla>TW</sigla>
+    <identificacao>2</identificacao>
+    <titulo>TORRE DE TELECOMUNICACOES (TORRE AUTOPORTANTE 90 METROS)</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>14</Item>
+    <r_object_id>08035f5180b0b415</r_object_id>
+    <object_name>ST-1980KM-01</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>80</codigo>
+    <codigo_area>51</codigo_area>
+    <sigla>ST</sigla>
+    <identificacao>1</identificacao>
+    <titulo>SISTEMA DE CENTRAL DE INCEDIO</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>15</Item>
+    <r_object_id>08035f5180b0b3b7</r_object_id>
+    <object_name>QT-1980KM-01</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>90</codigo>
+    <codigo_area>51</codigo_area>
+    <sigla>QT</sigla>
+    <identificacao>1</identificacao>
+    <titulo>QUADRO DE TELEFONIA MOVEL</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>16</Item>
+    <r_object_id>08035f5180b0d188</r_object_id>
+    <object_name>BQ-1920KM-53</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>10</codigo>
+    <codigo_area>52</codigo_area>
+    <sigla>BQ</sigla>
+    <identificacao>53</identificacao>
+    <titulo>BOMBA DOSADORA DO SISTEMA DE SEPARACAO DE AGUA E OLEO TANQUE DE 30M³ ST-1920-02</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>17</Item>
+    <r_object_id>08035f5180b0d189</r_object_id>
+    <object_name>BQ-1920KM-54</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>30</codigo>
+    <codigo_area>52</codigo_area>
+    <sigla>BQ</sigla>
+    <identificacao>54</identificacao>
+    <titulo>BOMBA DOSADORA DO SISTEMA DE SEPARACAO DE AGUA E OLEO TANQUE DE 30M³ ST-1920-02</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>18</Item>
+    <r_object_id>08035f5180b0d4ce</r_object_id>
+    <object_name>QD-1920KM-21</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>40</codigo>
+    <codigo_area>52</codigo_area>
+    <sigla>QD</sigla>
+    <identificacao>21</identificacao>
+    <titulo>QUADRO DE DISTRIBUICAO DO SISTEMA DE SEPARACAO DE AGUA E OLEO TANQUE DE 30M³ ST-1920-02</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>19</Item>
+    <r_object_id>08035f5180b0db78</r_object_id>
+    <object_name>AI-1980KM-01</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>10</codigo>
+    <codigo_area>53</codigo_area>
+    <sigla>AI</sigla>
+    <identificacao>1</identificacao>
+    <titulo>DETECTOR DE SISTEMA DE INCENDIO/FUMACA/TEMPERATURA/CHAMA/AMOSTRAGEM DE AR (DETECTOR DE TEMPERATURA)</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>20</Item>
+    <r_object_id>08035f5180b0b0dc</r_object_id>
+    <object_name>TW-1980KM-01</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>20</codigo>
+    <codigo_area>53</codigo_area>
+    <sigla>TW</sigla>
+    <identificacao>1</identificacao>
+    <titulo>TORRE AUTOPORTANTE DE 110 METROS</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>21</Item>
+    <r_object_id>08035f5180b0b367</r_object_id>
+    <object_name>QD-1980KM-69</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>30</codigo>
+    <codigo_area>53</codigo_area>
+    <sigla>QD</sigla>
+    <identificacao>69</identificacao>
+    <titulo>QDC QUADRO NAO ESTABILIZADO</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>22</Item>
+    <r_object_id>08035f5180b0b64d</r_object_id>
+    <object_name>BA-1920KM-52</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>40</codigo>
+    <codigo_area>53</codigo_area>
+    <sigla>BA</sigla>
+    <identificacao>52</identificacao>
+    <titulo>BOMBA DE AGUA SUBMERSA DO SISTEMA DE SEPARACAO DE AGUA E OLEO TANQUE DE 30M³ ST-1920-02</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>23</Item>
+    <r_object_id>08035f5180b0b64e</r_object_id>
+    <object_name>BA-1920KM-53</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>50</codigo>
+    <codigo_area>53</codigo_area>
+    <sigla>BA</sigla>
+    <identificacao>53</identificacao>
+    <titulo>BOMBA DE AGUA SUBMERSA DO SISTEMA DE SEPARACAO DE AGUA E OLEO TANQUE DE 30M³ ST-1920-02</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>24</Item>
+    <r_object_id>08035f5180b0d187</r_object_id>
+    <object_name>BQ-1920KM-52</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>60</codigo>
+    <codigo_area>53</codigo_area>
+    <sigla>BQ</sigla>
+    <identificacao>52</identificacao>
+    <titulo>BOMBA DOSADORA DO SISTEMA DE SEPARACAO DE AGUA E OLEO TANQUE DE 30M³ ST-1920-02</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>25</Item>
+    <r_object_id>08035f5180b0d5fe</r_object_id>
+    <object_name>QD-1920KM-22</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>70</codigo>
+    <codigo_area>53</codigo_area>
+    <sigla>QD</sigla>
+    <identificacao>22</identificacao>
+    <titulo>QUADRO DE DISTRIBUICAO DO SISTEMA DE SEPARACAO DE AGUA E OLEO TANQUE DE 30M³ ST-1920-02</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>26</Item>
+    <r_object_id>08035f5180627ef3</r_object_id>
+    <object_name>TQ-1920KM-01</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>0</codigo>
+    <codigo_area>54</codigo_area>
+    <sigla>TQ</sigla>
+    <identificacao>1</identificacao>
+    <titulo>PROJETO DETALHADO INTERCONEXOES E INTERFERENCIAS SISTEMA DE AGUA BRUTA RESERVATORIO DE AGA BRUTA - TQ-1920KM-01 DESENHO UNIFILAR - PLANTA, VISTA E CORTE</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>27</Item>
+    <r_object_id>08035f5180628046</r_object_id>
+    <object_name>TQ-1510KM-01</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>10</codigo>
+    <codigo_area>54</codigo_area>
+    <sigla>TQ</sigla>
+    <identificacao>1</identificacao>
+    <titulo>PROJETO DETALHADO ESTOCAGEM, CARREGAMENTO PATIO DE PRODUTOS E CARREGAMENTO RESERVATORIO TIPO TALUPA - TQ-1510KM-01 DESENHO UNIFILAR - PLANTA E VISTAS</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>28</Item>
+    <r_object_id>08035f5180627ff0</r_object_id>
+    <object_name>TQ-1500KM-01</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>30</codigo>
+    <codigo_area>54</codigo_area>
+    <sigla>TQ</sigla>
+    <identificacao>1</identificacao>
+    <titulo>PROJETO DETALHADO ESTOCAGEM, CARREGAMENTO GERAL RESERVATORIO TIPO TALUPA - TQ-1500KM-01</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>29</Item>
+    <r_object_id>08035f5180628047</r_object_id>
+    <object_name>TQ-1612KM-01</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>0</codigo>
+    <codigo_area>55</codigo_area>
+    <sigla>TQ</sigla>
+    <identificacao>1</identificacao>
+    <titulo>PROJETO DETALHADO INSTALACOES DE APOIO INDUSTRIAS TENQUE EMULSAO TANQUE DE EMULSAO - TQ-1612KM-01 DESENHO UNIFILAR - PLANTA, VISTAS E CORTE</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>30</Item>
+    <r_object_id>08035f5180628048</r_object_id>
+    <object_name>TQ-1920KM-03</object_name>
+    <codigo_site>KM</codigo_site>
+    <codigo>10</codigo>
+    <codigo_area>55</codigo_area>
+    <sigla>TQ</sigla>
+    <identificacao>3</identificacao>
+    <titulo>PROJETO DETALHADO INTERCONEXOES E INTERFERENCIAS AGUA POTAVEL RESERVATORIO TIPO TALUDE - TQ-1920KM-03 DESENHO UNIFILAR - PLANTA E VISTAS</titulo>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>1</Item>
+    <tag_antigo>TO-513M-03</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>2</Item>
+    <tag_antigo>TR-531M-14</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>3</Item>
+    <tag_antigo>BA-531M-03</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>4</Item>
+    <tag_antigo>TR-531M-12</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>5</Item>
+    <tag_antigo>BA-531M-10</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>6</Item>
+    <tag_antigo>TR-531M-07</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>7</Item>
+    <tag_antigo>VA-531M-03</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>8</Item>
+    <tag_antigo>TR-531M-08</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>9</Item>
+    <tag_antigo>BA-583M-201</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>10</Item>
+    <tag_antigo>SE-531-01 &amp; QL-531M-02</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>11</Item>
+    <tag_antigo>QL-561M-06</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>12</Item>
+    <tag_antigo>SE-581K</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>13</Item>
+    <tag_antigo>AB-583M-202-A</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>14</Item>
+    <tag_antigo>AB-583M-204-A</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>15</Item>
+    <tag_antigo>TQ-583M-05</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>16</Item>
+    <tag_antigo>FIT-583M</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>17</Item>
+    <tag_antigo>PN-531M-07 &amp; PN-531M-07</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>18</Item>
+    <tag_antigo>BA-531M-09</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>19</Item>
+    <tag_antigo>PN-531M-5R</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>20</Item>
+    <tag_antigo>BA-531M-06</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>21</Item>
+    <tag_antigo>BA-531M-05</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>22</Item>
+    <tag_antigo>PN-531M-07/PN-531M-08</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>23</Item>
+    <tag_antigo>MO-500M-01-M1</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>24</Item>
+    <tag_antigo>WT-500M-03</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>25</Item>
+    <tag_antigo>SI-531M-06 &amp; SI-531M-04</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>26</Item>
+    <tag_antigo>TQ-531M-03 &amp; BA-531M-02</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>27</Item>
+    <tag_antigo>PN-531M-08 &amp; SP-531M-03</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>28</Item>
+    <tag_antigo>PN-531M-07 -  PN-531M-08</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>29</Item>
+    <tag_antigo>AL-531M-04</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>30</Item>
+    <tag_antigo>TR-531M-18</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>31</Item>
+    <tag_antigo>PN-531M-06</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>32</Item>
+    <tag_antigo>BA-531M-11</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>33</Item>
+    <tag_antigo>BA-583M-202</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>34</Item>
+    <tag_antigo>TR-531M-11</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>35</Item>
+    <tag_antigo>BA-541M-01</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>36</Item>
+    <tag_antigo>BA-541M-02</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>37</Item>
+    <tag_antigo>BA-583M-05</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>38</Item>
+    <tag_antigo>MC-583M-201</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>39</Item>
+    <tag_antigo>BA-561M-30</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>40</Item>
+    <tag_antigo>MC-561M-06</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>41</Item>
+    <tag_antigo>QL-561M-05</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>42</Item>
+    <tag_antigo>TR-561M-01</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>43</Item>
+    <tag_antigo>AM-583M-01</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>44</Item>
+    <tag_antigo>TQ-583M-01</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>45</Item>
+    <tag_antigo>BA-500M-201</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>46</Item>
+    <tag_antigo>TF-531M-01</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>47</Item>
+    <tag_antigo>QL-531M-02</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>48</Item>
+    <tag_antigo>TT-500M-201</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>49</Item>
+    <tag_antigo>BA-531M-09 &amp; BA-531M-10</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>50</Item>
+    <tag_antigo>PN-531M-08 &amp; PL-531M-12</tag_antigo>
+    <codigo_site>KM</codigo_site>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+</NewDataSet>

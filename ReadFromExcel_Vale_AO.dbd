@@ -1,0 +1,3616 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="r_object_id" type="xs:string" minOccurs="0" />
+                <xs:element name="object_name" type="xs:string" minOccurs="0" />
+                <xs:element name="r_object_type" type="xs:string" minOccurs="0" />
+                <xs:element name="title" type="xs:string" minOccurs="0" />
+                <xs:element name="subject" type="xs:string" minOccurs="0" />
+                <xs:element name="authors" type="xs:string" minOccurs="0" />
+                <xs:element name="keywords" type="xs:string" minOccurs="0" />
+                <xs:element name="a_application_type" type="xs:string" minOccurs="0" />
+                <xs:element name="a_status" type="xs:string" minOccurs="0" />
+                <xs:element name="r_creation_date" type="xs:string" minOccurs="0" />
+                <xs:element name="r_modify_date" type="xs:string" minOccurs="0" />
+                <xs:element name="r_modifier" type="xs:string" minOccurs="0" />
+                <xs:element name="r_access_date" type="xs:string" minOccurs="0" />
+                <xs:element name="a_is_hidden" type="xs:string" minOccurs="0" />
+                <xs:element name="i_is_deleted" type="xs:string" minOccurs="0" />
+                <xs:element name="a_retention_date" type="xs:string" minOccurs="0" />
+                <xs:element name="a_archive" type="xs:string" minOccurs="0" />
+                <xs:element name="a_compound_architecture" type="xs:string" minOccurs="0" />
+                <xs:element name="a_link_resolved" type="xs:string" minOccurs="0" />
+                <xs:element name="i_reference_cnt" type="xs:string" minOccurs="0" />
+                <xs:element name="i_has_folder" type="xs:string" minOccurs="0" />
+                <xs:element name="i_folder_id" type="xs:string" minOccurs="0" />
+                <xs:element name="r_composite_id" type="xs:string" minOccurs="0" />
+                <xs:element name="r_composite_label" type="xs:string" minOccurs="0" />
+                <xs:element name="r_component_label" type="xs:string" minOccurs="0" />
+                <xs:element name="r_order_no" type="xs:string" minOccurs="0" />
+                <xs:element name="r_link_cnt" type="xs:string" minOccurs="0" />
+                <xs:element name="r_link_high_cnt" type="xs:string" minOccurs="0" />
+                <xs:element name="r_assembled_from_id" type="xs:string" minOccurs="0" />
+                <xs:element name="r_frzn_assembly_cnt" type="xs:string" minOccurs="0" />
+                <xs:element name="r_has_frzn_assembly" type="xs:string" minOccurs="0" />
+                <xs:element name="resolution_label" type="xs:string" minOccurs="0" />
+                <xs:element name="r_is_virtual_doc" type="xs:string" minOccurs="0" />
+                <xs:element name="i_contents_id" type="xs:string" minOccurs="0" />
+                <xs:element name="a_content_type" type="xs:string" minOccurs="0" />
+                <xs:element name="r_page_cnt" type="xs:string" minOccurs="0" />
+                <xs:element name="r_content_size" type="xs:string" minOccurs="0" />
+                <xs:element name="a_full_text" type="xs:string" minOccurs="0" />
+                <xs:element name="a_storage_type" type="xs:string" minOccurs="0" />
+                <xs:element name="i_cabinet_id" type="xs:string" minOccurs="0" />
+                <xs:element name="owner_name" type="xs:string" minOccurs="0" />
+                <xs:element name="owner_permit" type="xs:string" minOccurs="0" />
+                <xs:element name="group_name" type="xs:string" minOccurs="0" />
+                <xs:element name="group_permit" type="xs:string" minOccurs="0" />
+                <xs:element name="world_permit" type="xs:string" minOccurs="0" />
+                <xs:element name="i_antecedent_id" type="xs:string" minOccurs="0" />
+                <xs:element name="i_chronicle_id" type="xs:string" minOccurs="0" />
+                <xs:element name="i_latest_flag" type="xs:string" minOccurs="0" />
+                <xs:element name="r_lock_owner" type="xs:string" minOccurs="0" />
+                <xs:element name="r_lock_date" type="xs:string" minOccurs="0" />
+                <xs:element name="r_lock_machine" type="xs:string" minOccurs="0" />
+                <xs:element name="log_entry" type="xs:string" minOccurs="0" />
+                <xs:element name="r_version_label" type="xs:string" minOccurs="0" />
+                <xs:element name="i_branch_cnt" type="xs:string" minOccurs="0" />
+                <xs:element name="i_direct_dsc" type="xs:string" minOccurs="0" />
+                <xs:element name="r_immutable_flag" type="xs:string" minOccurs="0" />
+                <xs:element name="r_frozen_flag" type="xs:string" minOccurs="0" />
+                <xs:element name="r_has_events" type="xs:string" minOccurs="0" />
+                <xs:element name="acl_domain" type="xs:string" minOccurs="0" />
+                <xs:element name="acl_name" type="xs:string" minOccurs="0" />
+                <xs:element name="a_special_app" type="xs:string" minOccurs="0" />
+                <xs:element name="i_is_reference" type="xs:string" minOccurs="0" />
+                <xs:element name="r_creator_name" type="xs:string" minOccurs="0" />
+                <xs:element name="r_is_public" type="xs:string" minOccurs="0" />
+                <xs:element name="r_policy_id" type="xs:string" minOccurs="0" />
+                <xs:element name="r_resume_state" type="xs:string" minOccurs="0" />
+                <xs:element name="r_current_state" type="xs:string" minOccurs="0" />
+                <xs:element name="r_alias_set_id" type="xs:string" minOccurs="0" />
+                <xs:element name="a_effective_date" type="xs:string" minOccurs="0" />
+                <xs:element name="a_expiration_date" type="xs:string" minOccurs="0" />
+                <xs:element name="a_publish_formats" type="xs:string" minOccurs="0" />
+                <xs:element name="a_effective_label" type="xs:string" minOccurs="0" />
+                <xs:element name="a_effective_flag" type="xs:string" minOccurs="0" />
+                <xs:element name="a_category" type="xs:string" minOccurs="0" />
+                <xs:element name="language_code" type="xs:string" minOccurs="0" />
+                <xs:element name="a_is_template" type="xs:string" minOccurs="0" />
+                <xs:element name="a_controlling_app" type="xs:string" minOccurs="0" />
+                <xs:element name="r_full_content_size" type="xs:string" minOccurs="0" />
+                <xs:element name="a_extended_properties" type="xs:string" minOccurs="0" />
+                <xs:element name="a_is_signed" type="xs:string" minOccurs="0" />
+                <xs:element name="a_last_review_date" type="xs:string" minOccurs="0" />
+                <xs:element name="i_retain_until" type="xs:string" minOccurs="0" />
+                <xs:element name="r_aspect_name" type="xs:string" minOccurs="0" />
+                <xs:element name="i_retainer_id" type="xs:string" minOccurs="0" />
+                <xs:element name="i_partition" type="xs:string" minOccurs="0" />
+                <xs:element name="i_is_replica" type="xs:string" minOccurs="0" />
+                <xs:element name="i_vstamp" type="xs:string" minOccurs="0" />
+                <xs:element name="category" type="xs:string" minOccurs="0" />
+                <xs:element name="readers" type="xs:string" minOccurs="0" />
+                <xs:element name="reviewers" type="xs:string" minOccurs="0" />
+                <xs:element name="approvers" type="xs:string" minOccurs="0" />
+                <xs:element name="qo_approvers" type="xs:string" minOccurs="0" />
+                <xs:element name="doc_coordinators" type="xs:string" minOccurs="0" />
+                <xs:element name="country" type="xs:string" minOccurs="0" />
+                <xs:element name="effective_date" type="xs:string" minOccurs="0" />
+                <xs:element name="expiration_date" type="xs:string" minOccurs="0" />
+                <xs:element name="review_date" type="xs:string" minOccurs="0" />
+                <xs:element name="approved_date" type="xs:string" minOccurs="0" />
+                <xs:element name="contributors" type="xs:string" minOccurs="0" />
+                <xs:element name="issued_date" type="xs:string" minOccurs="0" />
+                <xs:element name="litigation_hold" type="xs:string" minOccurs="0" />
+                <xs:element name="project_name" type="xs:string" minOccurs="0" />
+                <xs:element name="tbr_distribution_list" type="xs:string" minOccurs="0" />
+                <xs:element name="auditors" type="xs:string" minOccurs="0" />
+                <xs:element name="regulatory_affairs" type="xs:string" minOccurs="0" />
+                <xs:element name="dossier_element_id" type="xs:string" minOccurs="0" />
+                <xs:element name="document_type" type="xs:string" minOccurs="0" />
+                <xs:element name="document_id" type="xs:string" minOccurs="0" />
+                <xs:element name="form_managers" type="xs:string" minOccurs="0" />
+                <xs:element name="form_users" type="xs:string" minOccurs="0" />
+                <xs:element name="document_source" type="xs:string" minOccurs="0" />
+                <xs:element name="domain" type="xs:string" minOccurs="0" />
+                <xs:element name="process_zone" type="xs:string" minOccurs="0" />
+                <xs:element name="sent_for_approval_date" type="xs:string" minOccurs="0" />
+                <xs:element name="auto_attach_to" type="xs:string" minOccurs="0" />
+                <xs:element name="auto_set_to_effective" type="xs:string" minOccurs="0" />
+                <xs:element name="is_placeholder" type="xs:string" minOccurs="0" />
+                <xs:element name="inclusion_rule" type="xs:string" minOccurs="0" />
+                <xs:element name="reason_for_omission" type="xs:string" minOccurs="0" />
+                <xs:element name="previous_state" type="xs:string" minOccurs="0" />
+                <xs:element name="is_repeatable" type="xs:string" minOccurs="0" />
+                <xs:element name="is_submissible" type="xs:string" minOccurs="0" />
+                <xs:element name="actual_doc_count" type="xs:string" minOccurs="0" />
+                <xs:element name="planned_doc_count" type="xs:string" minOccurs="0" />
+                <xs:element name="expected_doc_count" type="xs:string" minOccurs="0" />
+                <xs:element name="is_shared" type="xs:string" minOccurs="0" />
+                <xs:element name="uses_special_naming_conv" type="xs:string" minOccurs="0" />
+                <xs:element name="tbr_redistribution_list" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_site" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_site_nome" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_site_normativos" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_site_membros" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0033_46ce94b-161c-4edd-b82a-26321b4e7700">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="r_object_id" type="xs:string" minOccurs="0" />
+                <xs:element name="object_name" type="xs:string" minOccurs="0" />
+                <xs:element name="r_object_type" type="xs:string" minOccurs="0" />
+                <xs:element name="title" type="xs:string" minOccurs="0" />
+                <xs:element name="subject" type="xs:string" minOccurs="0" />
+                <xs:element name="authors" type="xs:string" minOccurs="0" />
+                <xs:element name="keywords" type="xs:string" minOccurs="0" />
+                <xs:element name="a_application_type" type="xs:string" minOccurs="0" />
+                <xs:element name="a_status" type="xs:string" minOccurs="0" />
+                <xs:element name="r_creation_date" type="xs:string" minOccurs="0" />
+                <xs:element name="r_modify_date" type="xs:string" minOccurs="0" />
+                <xs:element name="r_modifier" type="xs:string" minOccurs="0" />
+                <xs:element name="r_access_date" type="xs:string" minOccurs="0" />
+                <xs:element name="a_is_hidden" type="xs:string" minOccurs="0" />
+                <xs:element name="i_is_deleted" type="xs:string" minOccurs="0" />
+                <xs:element name="a_retention_date" type="xs:string" minOccurs="0" />
+                <xs:element name="a_archive" type="xs:string" minOccurs="0" />
+                <xs:element name="a_compound_architecture" type="xs:string" minOccurs="0" />
+                <xs:element name="a_link_resolved" type="xs:string" minOccurs="0" />
+                <xs:element name="i_reference_cnt" type="xs:string" minOccurs="0" />
+                <xs:element name="i_has_folder" type="xs:string" minOccurs="0" />
+                <xs:element name="i_folder_id" type="xs:string" minOccurs="0" />
+                <xs:element name="r_composite_id" type="xs:string" minOccurs="0" />
+                <xs:element name="r_composite_label" type="xs:string" minOccurs="0" />
+                <xs:element name="r_component_label" type="xs:string" minOccurs="0" />
+                <xs:element name="r_order_no" type="xs:string" minOccurs="0" />
+                <xs:element name="r_link_cnt" type="xs:string" minOccurs="0" />
+                <xs:element name="r_link_high_cnt" type="xs:string" minOccurs="0" />
+                <xs:element name="r_assembled_from_id" type="xs:string" minOccurs="0" />
+                <xs:element name="r_frzn_assembly_cnt" type="xs:string" minOccurs="0" />
+                <xs:element name="r_has_frzn_assembly" type="xs:string" minOccurs="0" />
+                <xs:element name="resolution_label" type="xs:string" minOccurs="0" />
+                <xs:element name="r_is_virtual_doc" type="xs:string" minOccurs="0" />
+                <xs:element name="i_contents_id" type="xs:string" minOccurs="0" />
+                <xs:element name="a_content_type" type="xs:string" minOccurs="0" />
+                <xs:element name="r_page_cnt" type="xs:string" minOccurs="0" />
+                <xs:element name="r_content_size" type="xs:string" minOccurs="0" />
+                <xs:element name="a_full_text" type="xs:string" minOccurs="0" />
+                <xs:element name="a_storage_type" type="xs:string" minOccurs="0" />
+                <xs:element name="i_cabinet_id" type="xs:string" minOccurs="0" />
+                <xs:element name="owner_name" type="xs:string" minOccurs="0" />
+                <xs:element name="owner_permit" type="xs:string" minOccurs="0" />
+                <xs:element name="group_name" type="xs:string" minOccurs="0" />
+                <xs:element name="group_permit" type="xs:string" minOccurs="0" />
+                <xs:element name="world_permit" type="xs:string" minOccurs="0" />
+                <xs:element name="i_antecedent_id" type="xs:string" minOccurs="0" />
+                <xs:element name="i_chronicle_id" type="xs:string" minOccurs="0" />
+                <xs:element name="i_latest_flag" type="xs:string" minOccurs="0" />
+                <xs:element name="r_lock_owner" type="xs:string" minOccurs="0" />
+                <xs:element name="r_lock_date" type="xs:string" minOccurs="0" />
+                <xs:element name="r_lock_machine" type="xs:string" minOccurs="0" />
+                <xs:element name="log_entry" type="xs:string" minOccurs="0" />
+                <xs:element name="r_version_label" type="xs:string" minOccurs="0" />
+                <xs:element name="i_branch_cnt" type="xs:string" minOccurs="0" />
+                <xs:element name="i_direct_dsc" type="xs:string" minOccurs="0" />
+                <xs:element name="r_immutable_flag" type="xs:string" minOccurs="0" />
+                <xs:element name="r_frozen_flag" type="xs:string" minOccurs="0" />
+                <xs:element name="r_has_events" type="xs:string" minOccurs="0" />
+                <xs:element name="acl_domain" type="xs:string" minOccurs="0" />
+                <xs:element name="acl_name" type="xs:string" minOccurs="0" />
+                <xs:element name="a_special_app" type="xs:string" minOccurs="0" />
+                <xs:element name="i_is_reference" type="xs:string" minOccurs="0" />
+                <xs:element name="r_creator_name" type="xs:string" minOccurs="0" />
+                <xs:element name="r_is_public" type="xs:string" minOccurs="0" />
+                <xs:element name="r_policy_id" type="xs:string" minOccurs="0" />
+                <xs:element name="r_resume_state" type="xs:string" minOccurs="0" />
+                <xs:element name="r_current_state" type="xs:string" minOccurs="0" />
+                <xs:element name="r_alias_set_id" type="xs:string" minOccurs="0" />
+                <xs:element name="a_effective_date" type="xs:string" minOccurs="0" />
+                <xs:element name="a_expiration_date" type="xs:string" minOccurs="0" />
+                <xs:element name="a_publish_formats" type="xs:string" minOccurs="0" />
+                <xs:element name="a_effective_label" type="xs:string" minOccurs="0" />
+                <xs:element name="a_effective_flag" type="xs:string" minOccurs="0" />
+                <xs:element name="a_category" type="xs:string" minOccurs="0" />
+                <xs:element name="language_code" type="xs:string" minOccurs="0" />
+                <xs:element name="a_is_template" type="xs:string" minOccurs="0" />
+                <xs:element name="a_controlling_app" type="xs:string" minOccurs="0" />
+                <xs:element name="r_full_content_size" type="xs:string" minOccurs="0" />
+                <xs:element name="a_extended_properties" type="xs:string" minOccurs="0" />
+                <xs:element name="a_is_signed" type="xs:string" minOccurs="0" />
+                <xs:element name="a_last_review_date" type="xs:string" minOccurs="0" />
+                <xs:element name="i_retain_until" type="xs:string" minOccurs="0" />
+                <xs:element name="r_aspect_name" type="xs:string" minOccurs="0" />
+                <xs:element name="i_retainer_id" type="xs:string" minOccurs="0" />
+                <xs:element name="i_partition" type="xs:string" minOccurs="0" />
+                <xs:element name="i_is_replica" type="xs:string" minOccurs="0" />
+                <xs:element name="i_vstamp" type="xs:string" minOccurs="0" />
+                <xs:element name="category" type="xs:string" minOccurs="0" />
+                <xs:element name="readers" type="xs:string" minOccurs="0" />
+                <xs:element name="reviewers" type="xs:string" minOccurs="0" />
+                <xs:element name="approvers" type="xs:string" minOccurs="0" />
+                <xs:element name="qo_approvers" type="xs:string" minOccurs="0" />
+                <xs:element name="doc_coordinators" type="xs:string" minOccurs="0" />
+                <xs:element name="country" type="xs:string" minOccurs="0" />
+                <xs:element name="effective_date" type="xs:string" minOccurs="0" />
+                <xs:element name="expiration_date" type="xs:string" minOccurs="0" />
+                <xs:element name="review_date" type="xs:string" minOccurs="0" />
+                <xs:element name="approved_date" type="xs:string" minOccurs="0" />
+                <xs:element name="contributors" type="xs:string" minOccurs="0" />
+                <xs:element name="issued_date" type="xs:string" minOccurs="0" />
+                <xs:element name="litigation_hold" type="xs:string" minOccurs="0" />
+                <xs:element name="project_name" type="xs:string" minOccurs="0" />
+                <xs:element name="tbr_distribution_list" type="xs:string" minOccurs="0" />
+                <xs:element name="auditors" type="xs:string" minOccurs="0" />
+                <xs:element name="regulatory_affairs" type="xs:string" minOccurs="0" />
+                <xs:element name="dossier_element_id" type="xs:string" minOccurs="0" />
+                <xs:element name="document_type" type="xs:string" minOccurs="0" />
+                <xs:element name="document_id" type="xs:string" minOccurs="0" />
+                <xs:element name="form_managers" type="xs:string" minOccurs="0" />
+                <xs:element name="form_users" type="xs:string" minOccurs="0" />
+                <xs:element name="document_source" type="xs:string" minOccurs="0" />
+                <xs:element name="domain" type="xs:string" minOccurs="0" />
+                <xs:element name="process_zone" type="xs:string" minOccurs="0" />
+                <xs:element name="sent_for_approval_date" type="xs:string" minOccurs="0" />
+                <xs:element name="auto_attach_to" type="xs:string" minOccurs="0" />
+                <xs:element name="auto_set_to_effective" type="xs:string" minOccurs="0" />
+                <xs:element name="is_placeholder" type="xs:string" minOccurs="0" />
+                <xs:element name="inclusion_rule" type="xs:string" minOccurs="0" />
+                <xs:element name="reason_for_omission" type="xs:string" minOccurs="0" />
+                <xs:element name="previous_state" type="xs:string" minOccurs="0" />
+                <xs:element name="is_repeatable" type="xs:string" minOccurs="0" />
+                <xs:element name="is_submissible" type="xs:string" minOccurs="0" />
+                <xs:element name="actual_doc_count" type="xs:string" minOccurs="0" />
+                <xs:element name="planned_doc_count" type="xs:string" minOccurs="0" />
+                <xs:element name="expected_doc_count" type="xs:string" minOccurs="0" />
+                <xs:element name="is_shared" type="xs:string" minOccurs="0" />
+                <xs:element name="uses_special_naming_conv" type="xs:string" minOccurs="0" />
+                <xs:element name="tbr_redistribution_list" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_site" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_area" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_area_nome" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_site_membros" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_site_normativos" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_normativo_sistema" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0035_fc80089-0f67-411b-bd04-fa6bc76b5652">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="r_object_id" type="xs:string" minOccurs="0" />
+                <xs:element name="object_name" type="xs:string" minOccurs="0" />
+                <xs:element name="r_object_type" type="xs:string" minOccurs="0" />
+                <xs:element name="title" type="xs:string" minOccurs="0" />
+                <xs:element name="subject" type="xs:string" minOccurs="0" />
+                <xs:element name="authors" type="xs:string" minOccurs="0" />
+                <xs:element name="keywords" type="xs:string" minOccurs="0" />
+                <xs:element name="a_application_type" type="xs:string" minOccurs="0" />
+                <xs:element name="a_status" type="xs:string" minOccurs="0" />
+                <xs:element name="r_creation_date" type="xs:string" minOccurs="0" />
+                <xs:element name="r_modify_date" type="xs:string" minOccurs="0" />
+                <xs:element name="r_modifier" type="xs:string" minOccurs="0" />
+                <xs:element name="r_access_date" type="xs:string" minOccurs="0" />
+                <xs:element name="a_is_hidden" type="xs:string" minOccurs="0" />
+                <xs:element name="i_is_deleted" type="xs:string" minOccurs="0" />
+                <xs:element name="a_retention_date" type="xs:string" minOccurs="0" />
+                <xs:element name="a_archive" type="xs:string" minOccurs="0" />
+                <xs:element name="a_compound_architecture" type="xs:string" minOccurs="0" />
+                <xs:element name="a_link_resolved" type="xs:string" minOccurs="0" />
+                <xs:element name="i_reference_cnt" type="xs:string" minOccurs="0" />
+                <xs:element name="i_has_folder" type="xs:string" minOccurs="0" />
+                <xs:element name="i_folder_id" type="xs:string" minOccurs="0" />
+                <xs:element name="r_composite_id" type="xs:string" minOccurs="0" />
+                <xs:element name="r_composite_label" type="xs:string" minOccurs="0" />
+                <xs:element name="r_component_label" type="xs:string" minOccurs="0" />
+                <xs:element name="r_order_no" type="xs:string" minOccurs="0" />
+                <xs:element name="r_link_cnt" type="xs:string" minOccurs="0" />
+                <xs:element name="r_link_high_cnt" type="xs:string" minOccurs="0" />
+                <xs:element name="r_assembled_from_id" type="xs:string" minOccurs="0" />
+                <xs:element name="r_frzn_assembly_cnt" type="xs:string" minOccurs="0" />
+                <xs:element name="r_has_frzn_assembly" type="xs:string" minOccurs="0" />
+                <xs:element name="resolution_label" type="xs:string" minOccurs="0" />
+                <xs:element name="r_is_virtual_doc" type="xs:string" minOccurs="0" />
+                <xs:element name="i_contents_id" type="xs:string" minOccurs="0" />
+                <xs:element name="a_content_type" type="xs:string" minOccurs="0" />
+                <xs:element name="r_page_cnt" type="xs:string" minOccurs="0" />
+                <xs:element name="r_content_size" type="xs:string" minOccurs="0" />
+                <xs:element name="a_full_text" type="xs:string" minOccurs="0" />
+                <xs:element name="a_storage_type" type="xs:string" minOccurs="0" />
+                <xs:element name="i_cabinet_id" type="xs:string" minOccurs="0" />
+                <xs:element name="owner_name" type="xs:string" minOccurs="0" />
+                <xs:element name="owner_permit" type="xs:string" minOccurs="0" />
+                <xs:element name="group_name" type="xs:string" minOccurs="0" />
+                <xs:element name="group_permit" type="xs:string" minOccurs="0" />
+                <xs:element name="world_permit" type="xs:string" minOccurs="0" />
+                <xs:element name="i_antecedent_id" type="xs:string" minOccurs="0" />
+                <xs:element name="i_chronicle_id" type="xs:string" minOccurs="0" />
+                <xs:element name="i_latest_flag" type="xs:string" minOccurs="0" />
+                <xs:element name="r_lock_owner" type="xs:string" minOccurs="0" />
+                <xs:element name="r_lock_date" type="xs:string" minOccurs="0" />
+                <xs:element name="r_lock_machine" type="xs:string" minOccurs="0" />
+                <xs:element name="log_entry" type="xs:string" minOccurs="0" />
+                <xs:element name="r_version_label" type="xs:string" minOccurs="0" />
+                <xs:element name="i_branch_cnt" type="xs:string" minOccurs="0" />
+                <xs:element name="i_direct_dsc" type="xs:string" minOccurs="0" />
+                <xs:element name="r_immutable_flag" type="xs:string" minOccurs="0" />
+                <xs:element name="r_frozen_flag" type="xs:string" minOccurs="0" />
+                <xs:element name="r_has_events" type="xs:string" minOccurs="0" />
+                <xs:element name="acl_domain" type="xs:string" minOccurs="0" />
+                <xs:element name="acl_name" type="xs:string" minOccurs="0" />
+                <xs:element name="a_special_app" type="xs:string" minOccurs="0" />
+                <xs:element name="i_is_reference" type="xs:string" minOccurs="0" />
+                <xs:element name="r_creator_name" type="xs:string" minOccurs="0" />
+                <xs:element name="r_is_public" type="xs:string" minOccurs="0" />
+                <xs:element name="r_policy_id" type="xs:string" minOccurs="0" />
+                <xs:element name="r_resume_state" type="xs:string" minOccurs="0" />
+                <xs:element name="r_current_state" type="xs:string" minOccurs="0" />
+                <xs:element name="r_alias_set_id" type="xs:string" minOccurs="0" />
+                <xs:element name="a_effective_date" type="xs:string" minOccurs="0" />
+                <xs:element name="a_expiration_date" type="xs:string" minOccurs="0" />
+                <xs:element name="a_publish_formats" type="xs:string" minOccurs="0" />
+                <xs:element name="a_effective_label" type="xs:string" minOccurs="0" />
+                <xs:element name="a_effective_flag" type="xs:string" minOccurs="0" />
+                <xs:element name="a_category" type="xs:string" minOccurs="0" />
+                <xs:element name="language_code" type="xs:string" minOccurs="0" />
+                <xs:element name="a_is_template" type="xs:string" minOccurs="0" />
+                <xs:element name="a_controlling_app" type="xs:string" minOccurs="0" />
+                <xs:element name="r_full_content_size" type="xs:string" minOccurs="0" />
+                <xs:element name="a_extended_properties" type="xs:string" minOccurs="0" />
+                <xs:element name="a_is_signed" type="xs:string" minOccurs="0" />
+                <xs:element name="a_last_review_date" type="xs:string" minOccurs="0" />
+                <xs:element name="i_retain_until" type="xs:string" minOccurs="0" />
+                <xs:element name="r_aspect_name" type="xs:string" minOccurs="0" />
+                <xs:element name="i_retainer_id" type="xs:string" minOccurs="0" />
+                <xs:element name="i_partition" type="xs:string" minOccurs="0" />
+                <xs:element name="i_is_replica" type="xs:string" minOccurs="0" />
+                <xs:element name="i_vstamp" type="xs:string" minOccurs="0" />
+                <xs:element name="category" type="xs:string" minOccurs="0" />
+                <xs:element name="readers" type="xs:string" minOccurs="0" />
+                <xs:element name="reviewers" type="xs:string" minOccurs="0" />
+                <xs:element name="approvers" type="xs:string" minOccurs="0" />
+                <xs:element name="qo_approvers" type="xs:string" minOccurs="0" />
+                <xs:element name="doc_coordinators" type="xs:string" minOccurs="0" />
+                <xs:element name="country" type="xs:string" minOccurs="0" />
+                <xs:element name="effective_date" type="xs:string" minOccurs="0" />
+                <xs:element name="expiration_date" type="xs:string" minOccurs="0" />
+                <xs:element name="review_date" type="xs:string" minOccurs="0" />
+                <xs:element name="approved_date" type="xs:string" minOccurs="0" />
+                <xs:element name="contributors" type="xs:string" minOccurs="0" />
+                <xs:element name="issued_date" type="xs:string" minOccurs="0" />
+                <xs:element name="litigation_hold" type="xs:string" minOccurs="0" />
+                <xs:element name="project_name" type="xs:string" minOccurs="0" />
+                <xs:element name="tbr_distribution_list" type="xs:string" minOccurs="0" />
+                <xs:element name="auditors" type="xs:string" minOccurs="0" />
+                <xs:element name="regulatory_affairs" type="xs:string" minOccurs="0" />
+                <xs:element name="dossier_element_id" type="xs:string" minOccurs="0" />
+                <xs:element name="document_type" type="xs:string" minOccurs="0" />
+                <xs:element name="document_id" type="xs:string" minOccurs="0" />
+                <xs:element name="form_managers" type="xs:string" minOccurs="0" />
+                <xs:element name="form_users" type="xs:string" minOccurs="0" />
+                <xs:element name="document_source" type="xs:string" minOccurs="0" />
+                <xs:element name="domain" type="xs:string" minOccurs="0" />
+                <xs:element name="process_zone" type="xs:string" minOccurs="0" />
+                <xs:element name="sent_for_approval_date" type="xs:string" minOccurs="0" />
+                <xs:element name="auto_attach_to" type="xs:string" minOccurs="0" />
+                <xs:element name="auto_set_to_effective" type="xs:string" minOccurs="0" />
+                <xs:element name="is_placeholder" type="xs:string" minOccurs="0" />
+                <xs:element name="inclusion_rule" type="xs:string" minOccurs="0" />
+                <xs:element name="reason_for_omission" type="xs:string" minOccurs="0" />
+                <xs:element name="previous_state" type="xs:string" minOccurs="0" />
+                <xs:element name="is_repeatable" type="xs:string" minOccurs="0" />
+                <xs:element name="is_submissible" type="xs:string" minOccurs="0" />
+                <xs:element name="actual_doc_count" type="xs:string" minOccurs="0" />
+                <xs:element name="planned_doc_count" type="xs:string" minOccurs="0" />
+                <xs:element name="expected_doc_count" type="xs:string" minOccurs="0" />
+                <xs:element name="is_shared" type="xs:string" minOccurs="0" />
+                <xs:element name="uses_special_naming_conv" type="xs:string" minOccurs="0" />
+                <xs:element name="tbr_redistribution_list" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_site" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_area" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_subarea" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_subarea_nome" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_normativo_sistema" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_site_membros" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_site_normativos" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="r_object_id" type="xs:string" minOccurs="0" />
+                <xs:element name="object_name" type="xs:string" minOccurs="0" />
+                <xs:element name="title" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_site" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_numero_se" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_tipo_se" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_fase" type="xs:string" minOccurs="0" />
+                <xs:element name="vale_numero_projeto" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0036_4ddbd77-52fc-4fe9-bcd4-f06c18ef0331">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="debug_mode" type="xs:short" minOccurs="0" />
+                <xs:element name="default_folder_type" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="create_report" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="checkin_as_current" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="add_vdoc_child_row" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="rendition_path_seperator" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="repeating_attribute_delimiter" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="version_from" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="version_policy" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="create_cabinet" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="use_transcation_processing" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="content_size_threshold" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="content_size_column" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="use_override" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="override_class_name" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="bypass_attribute_processing" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="file_ext" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="dctm_format" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="resolve_extension_to_format" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="report_folder_path" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="legacy_object_id_field" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="delimiter_character" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_qt_reprogramacao" type="xs:decimal" minOccurs="0" />
+                <xs:element name="category" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_padronizado" type="xs:boolean" minOccurs="0" />
+                <xs:element name="vale_documento_fornecedor" type="xs:boolean" minOccurs="0" />
+                <xs:element name="vale_caderno_flag" type="xs:boolean" minOccurs="0" />
+                <xs:element name="domain" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NoName" type="xs:double" minOccurs="0" />
+                <xs:element name="NoName1" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="pt" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="en" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Cod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0036_e4db5b9-6a77-443e-a7e9-0f9091c39901">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ao_doc_type_classification" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_site" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="permissao_grupos" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="cbe3c191-f612-43fa-b806-47e2e05188f9">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="filepath" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="filename" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="r_version_label" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="a_status" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_documento_fornecedor" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_documento_base" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_control_doc_number" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="title" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="document_type" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_asset_area" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_subarea" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_site" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_discipline_s" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_asset_corporation" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_project_number" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_eng_project" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_revision" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_numero_paginas" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_tipo_formato_papel" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_doc_type_classification" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_sigla_tipo_emissao" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_asset_org_function_area" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_sigla_idioma" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_finalidade_devolucao" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_asset_equipment_number" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_localizacao_acervo" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_asset_number" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_observacoes" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_1a_emissao" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_reprogramacao" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_qt_reprogramacao" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_data_realizada" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_avanco_fisico" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_codigo_atividade" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_item_contrato" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_codigo_sap" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_medicao" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_coringa" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_substituto" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_numero_ld" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_padronizado" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_livre" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_data_reuniao" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_localidade" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_data_envio" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_nome_remetente" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_nome_destinatario" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_is_fluido" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_is_espec" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_is_linha" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_is_folha" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_is_spool" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_equipamento" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_rc_referencia" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_rp_referencia" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_rt_referencia" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_numero_contrato" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_numero_contratada" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_empresa_contratada" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_ind_multipagina" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_parent_doc" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_folha_pagina" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_folha_subpagina" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="numero_vale" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="F65" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="F66" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+    <r_object_id>090003e980011d85</r_object_id>
+    <object_name>OP - ONCA PUMA - PA</object_name>
+    <r_object_type>vale_eng_site</r_object_type>
+    <title />
+    <subject />
+    <authors />
+    <keywords />
+    <a_application_type />
+    <a_status />
+    <r_creation_date>16/09/2016 15:50:21</r_creation_date>
+    <r_modify_date>16/09/2016 15:50:21</r_modify_date>
+    <r_modifier>dmadmin</r_modifier>
+    <r_access_date>nulldate</r_access_date>
+    <a_is_hidden>F</a_is_hidden>
+    <i_is_deleted>F</i_is_deleted>
+    <a_retention_date>nulldate</a_retention_date>
+    <a_archive>F</a_archive>
+    <a_compound_architecture />
+    <a_link_resolved>F</a_link_resolved>
+    <i_reference_cnt>1</i_reference_cnt>
+    <i_has_folder>T</i_has_folder>
+    <i_folder_id>0b0003e980011d67</i_folder_id>
+    <r_composite_id />
+    <r_composite_label />
+    <r_component_label />
+    <r_order_no />
+    <r_link_cnt>0</r_link_cnt>
+    <r_link_high_cnt>0</r_link_high_cnt>
+    <r_assembled_from_id>0000000000000000</r_assembled_from_id>
+    <r_frzn_assembly_cnt>0</r_frzn_assembly_cnt>
+    <r_has_frzn_assembly>F</r_has_frzn_assembly>
+    <resolution_label />
+    <r_is_virtual_doc>0</r_is_virtual_doc>
+    <i_contents_id>0000000000000000</i_contents_id>
+    <a_content_type />
+    <r_page_cnt>0</r_page_cnt>
+    <r_content_size>0</r_content_size>
+    <a_full_text>T</a_full_text>
+    <a_storage_type>filestore_01</a_storage_type>
+    <i_cabinet_id>0c0003e980011d60</i_cabinet_id>
+    <owner_name>dmadmin</owner_name>
+    <owner_permit>1</owner_permit>
+    <group_name>docu</group_name>
+    <group_permit>1</group_permit>
+    <world_permit>1</world_permit>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>090003e980011d85</i_chronicle_id>
+    <i_latest_flag>T</i_latest_flag>
+    <r_lock_owner />
+    <r_lock_date>nulldate</r_lock_date>
+    <r_lock_machine />
+    <log_entry />
+    <r_version_label>1.0,CURRENT</r_version_label>
+    <i_branch_cnt>0</i_branch_cnt>
+    <i_direct_dsc>F</i_direct_dsc>
+    <r_immutable_flag>F</r_immutable_flag>
+    <r_frozen_flag>F</r_frozen_flag>
+    <r_has_events>F</r_has_events>
+    <acl_domain>dmadmin</acl_domain>
+    <acl_name>Vale ACL Object Site OP</acl_name>
+    <a_special_app />
+    <i_is_reference>F</i_is_reference>
+    <r_creator_name>dmadmin</r_creator_name>
+    <r_is_public>F</r_is_public>
+    <r_policy_id>0000000000000000</r_policy_id>
+    <r_resume_state>0</r_resume_state>
+    <r_current_state>0</r_current_state>
+    <r_alias_set_id>0000000000000000</r_alias_set_id>
+    <a_effective_date />
+    <a_expiration_date />
+    <a_publish_formats />
+    <a_effective_label />
+    <a_effective_flag />
+    <a_category />
+    <language_code />
+    <a_is_template>F</a_is_template>
+    <a_controlling_app />
+    <r_full_content_size>0</r_full_content_size>
+    <a_extended_properties />
+    <a_is_signed>F</a_is_signed>
+    <a_last_review_date>nulldate</a_last_review_date>
+    <i_retain_until>nulldate</i_retain_until>
+    <r_aspect_name />
+    <i_retainer_id />
+    <i_partition>0</i_partition>
+    <i_is_replica>F</i_is_replica>
+    <i_vstamp>0</i_vstamp>
+    <category>0</category>
+    <readers />
+    <reviewers />
+    <approvers />
+    <qo_approvers />
+    <doc_coordinators />
+    <country />
+    <effective_date>nulldate</effective_date>
+    <expiration_date>nulldate</expiration_date>
+    <review_date>nulldate</review_date>
+    <approved_date>nulldate</approved_date>
+    <contributors />
+    <issued_date>nulldate</issued_date>
+    <litigation_hold>F</litigation_hold>
+    <project_name />
+    <tbr_distribution_list />
+    <auditors />
+    <regulatory_affairs />
+    <dossier_element_id />
+    <document_type />
+    <document_id />
+    <form_managers />
+    <form_users />
+    <document_source>0</document_source>
+    <domain>vale_eng</domain>
+    <process_zone />
+    <sent_for_approval_date>nulldate</sent_for_approval_date>
+    <auto_attach_to />
+    <auto_set_to_effective>F</auto_set_to_effective>
+    <is_placeholder>F</is_placeholder>
+    <inclusion_rule>0</inclusion_rule>
+    <reason_for_omission />
+    <previous_state />
+    <is_repeatable>F</is_repeatable>
+    <is_submissible>F</is_submissible>
+    <actual_doc_count>0</actual_doc_count>
+    <planned_doc_count>0</planned_doc_count>
+    <expected_doc_count>0</expected_doc_count>
+    <is_shared>F</is_shared>
+    <uses_special_naming_conv>F</uses_special_naming_conv>
+    <tbr_redistribution_list />
+    <vale_site>op</vale_site>
+    <vale_site_nome>ONCA PUMA - PA</vale_site_nome>
+    <vale_site_normativos>enggr_normativo_site_op</vale_site_normativos>
+    <vale_site_membros>enggr_membros_site_op</vale_site_membros>
+  </_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+  <_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+    <r_object_id>090003e980011d86</r_object_id>
+    <object_name>KK - SISTEMA NORTE - GERAL - PA - MA</object_name>
+    <r_object_type>vale_eng_site</r_object_type>
+    <title />
+    <subject />
+    <authors />
+    <keywords />
+    <a_application_type />
+    <a_status />
+    <r_creation_date>16/09/2016 15:50:21</r_creation_date>
+    <r_modify_date>16/09/2016 15:50:21</r_modify_date>
+    <r_modifier>dmadmin</r_modifier>
+    <r_access_date>nulldate</r_access_date>
+    <a_is_hidden>F</a_is_hidden>
+    <i_is_deleted>F</i_is_deleted>
+    <a_retention_date>nulldate</a_retention_date>
+    <a_archive>F</a_archive>
+    <a_compound_architecture />
+    <a_link_resolved>F</a_link_resolved>
+    <i_reference_cnt>1</i_reference_cnt>
+    <i_has_folder>T</i_has_folder>
+    <i_folder_id>0b0003e980011d67</i_folder_id>
+    <r_composite_id />
+    <r_composite_label />
+    <r_component_label />
+    <r_order_no />
+    <r_link_cnt>0</r_link_cnt>
+    <r_link_high_cnt>0</r_link_high_cnt>
+    <r_assembled_from_id>0000000000000000</r_assembled_from_id>
+    <r_frzn_assembly_cnt>0</r_frzn_assembly_cnt>
+    <r_has_frzn_assembly>F</r_has_frzn_assembly>
+    <resolution_label />
+    <r_is_virtual_doc>0</r_is_virtual_doc>
+    <i_contents_id>0000000000000000</i_contents_id>
+    <a_content_type />
+    <r_page_cnt>0</r_page_cnt>
+    <r_content_size>0</r_content_size>
+    <a_full_text>T</a_full_text>
+    <a_storage_type>filestore_01</a_storage_type>
+    <i_cabinet_id>0c0003e980011d60</i_cabinet_id>
+    <owner_name>dmadmin</owner_name>
+    <owner_permit>1</owner_permit>
+    <group_name>docu</group_name>
+    <group_permit>1</group_permit>
+    <world_permit>1</world_permit>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>090003e980011d86</i_chronicle_id>
+    <i_latest_flag>T</i_latest_flag>
+    <r_lock_owner />
+    <r_lock_date>nulldate</r_lock_date>
+    <r_lock_machine />
+    <log_entry />
+    <r_version_label>1.0,CURRENT</r_version_label>
+    <i_branch_cnt>0</i_branch_cnt>
+    <i_direct_dsc>F</i_direct_dsc>
+    <r_immutable_flag>F</r_immutable_flag>
+    <r_frozen_flag>F</r_frozen_flag>
+    <r_has_events>F</r_has_events>
+    <acl_domain>dmadmin</acl_domain>
+    <acl_name>Vale ACL Object Site KK</acl_name>
+    <a_special_app />
+    <i_is_reference>F</i_is_reference>
+    <r_creator_name>dmadmin</r_creator_name>
+    <r_is_public>F</r_is_public>
+    <r_policy_id>0000000000000000</r_policy_id>
+    <r_resume_state>0</r_resume_state>
+    <r_current_state>0</r_current_state>
+    <r_alias_set_id>0000000000000000</r_alias_set_id>
+    <a_effective_date />
+    <a_expiration_date />
+    <a_publish_formats />
+    <a_effective_label />
+    <a_effective_flag />
+    <a_category />
+    <language_code />
+    <a_is_template>F</a_is_template>
+    <a_controlling_app />
+    <r_full_content_size>0</r_full_content_size>
+    <a_extended_properties />
+    <a_is_signed>F</a_is_signed>
+    <a_last_review_date>nulldate</a_last_review_date>
+    <i_retain_until>nulldate</i_retain_until>
+    <r_aspect_name />
+    <i_retainer_id />
+    <i_partition>0</i_partition>
+    <i_is_replica>F</i_is_replica>
+    <i_vstamp>0</i_vstamp>
+    <category>0</category>
+    <readers />
+    <reviewers />
+    <approvers />
+    <qo_approvers />
+    <doc_coordinators />
+    <country />
+    <effective_date>nulldate</effective_date>
+    <expiration_date>nulldate</expiration_date>
+    <review_date>nulldate</review_date>
+    <approved_date>nulldate</approved_date>
+    <contributors />
+    <issued_date>nulldate</issued_date>
+    <litigation_hold>F</litigation_hold>
+    <project_name />
+    <tbr_distribution_list />
+    <auditors />
+    <regulatory_affairs />
+    <dossier_element_id />
+    <document_type />
+    <document_id />
+    <form_managers />
+    <form_users />
+    <document_source>0</document_source>
+    <domain>vale_eng</domain>
+    <process_zone />
+    <sent_for_approval_date>nulldate</sent_for_approval_date>
+    <auto_attach_to />
+    <auto_set_to_effective>F</auto_set_to_effective>
+    <is_placeholder>F</is_placeholder>
+    <inclusion_rule>0</inclusion_rule>
+    <reason_for_omission />
+    <previous_state />
+    <is_repeatable>F</is_repeatable>
+    <is_submissible>F</is_submissible>
+    <actual_doc_count>0</actual_doc_count>
+    <planned_doc_count>0</planned_doc_count>
+    <expected_doc_count>0</expected_doc_count>
+    <is_shared>F</is_shared>
+    <uses_special_naming_conv>F</uses_special_naming_conv>
+    <tbr_redistribution_list />
+    <vale_site>kk</vale_site>
+    <vale_site_nome>SISTEMA NORTE - GERAL - PA - MA</vale_site_nome>
+    <vale_site_normativos>enggr_normativo_site_kk</vale_site_normativos>
+    <vale_site_membros>enggr_membros_site_kk</vale_site_membros>
+  </_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+  <_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+    <r_object_id>090003e980011d87</r_object_id>
+    <object_name>KL - CARAJAS SERRA LESTE - PA</object_name>
+    <r_object_type>vale_eng_site</r_object_type>
+    <title />
+    <subject />
+    <authors />
+    <keywords />
+    <a_application_type />
+    <a_status />
+    <r_creation_date>16/09/2016 15:50:21</r_creation_date>
+    <r_modify_date>16/09/2016 15:50:21</r_modify_date>
+    <r_modifier>dmadmin</r_modifier>
+    <r_access_date>nulldate</r_access_date>
+    <a_is_hidden>F</a_is_hidden>
+    <i_is_deleted>F</i_is_deleted>
+    <a_retention_date>nulldate</a_retention_date>
+    <a_archive>F</a_archive>
+    <a_compound_architecture />
+    <a_link_resolved>F</a_link_resolved>
+    <i_reference_cnt>1</i_reference_cnt>
+    <i_has_folder>T</i_has_folder>
+    <i_folder_id>0b0003e980011d67</i_folder_id>
+    <r_composite_id />
+    <r_composite_label />
+    <r_component_label />
+    <r_order_no />
+    <r_link_cnt>0</r_link_cnt>
+    <r_link_high_cnt>0</r_link_high_cnt>
+    <r_assembled_from_id>0000000000000000</r_assembled_from_id>
+    <r_frzn_assembly_cnt>0</r_frzn_assembly_cnt>
+    <r_has_frzn_assembly>F</r_has_frzn_assembly>
+    <resolution_label />
+    <r_is_virtual_doc>0</r_is_virtual_doc>
+    <i_contents_id>0000000000000000</i_contents_id>
+    <a_content_type />
+    <r_page_cnt>0</r_page_cnt>
+    <r_content_size>0</r_content_size>
+    <a_full_text>T</a_full_text>
+    <a_storage_type>filestore_01</a_storage_type>
+    <i_cabinet_id>0c0003e980011d60</i_cabinet_id>
+    <owner_name>dmadmin</owner_name>
+    <owner_permit>1</owner_permit>
+    <group_name>docu</group_name>
+    <group_permit>1</group_permit>
+    <world_permit>1</world_permit>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>090003e980011d87</i_chronicle_id>
+    <i_latest_flag>T</i_latest_flag>
+    <r_lock_owner />
+    <r_lock_date>nulldate</r_lock_date>
+    <r_lock_machine />
+    <log_entry />
+    <r_version_label>1.0,CURRENT</r_version_label>
+    <i_branch_cnt>0</i_branch_cnt>
+    <i_direct_dsc>F</i_direct_dsc>
+    <r_immutable_flag>F</r_immutable_flag>
+    <r_frozen_flag>F</r_frozen_flag>
+    <r_has_events>F</r_has_events>
+    <acl_domain>dmadmin</acl_domain>
+    <acl_name>Vale ACL Object Site KL</acl_name>
+    <a_special_app />
+    <i_is_reference>F</i_is_reference>
+    <r_creator_name>dmadmin</r_creator_name>
+    <r_is_public>F</r_is_public>
+    <r_policy_id>0000000000000000</r_policy_id>
+    <r_resume_state>0</r_resume_state>
+    <r_current_state>0</r_current_state>
+    <r_alias_set_id>0000000000000000</r_alias_set_id>
+    <a_effective_date />
+    <a_expiration_date />
+    <a_publish_formats />
+    <a_effective_label />
+    <a_effective_flag />
+    <a_category />
+    <language_code />
+    <a_is_template>F</a_is_template>
+    <a_controlling_app />
+    <r_full_content_size>0</r_full_content_size>
+    <a_extended_properties />
+    <a_is_signed>F</a_is_signed>
+    <a_last_review_date>nulldate</a_last_review_date>
+    <i_retain_until>nulldate</i_retain_until>
+    <r_aspect_name />
+    <i_retainer_id />
+    <i_partition>0</i_partition>
+    <i_is_replica>F</i_is_replica>
+    <i_vstamp>0</i_vstamp>
+    <category>0</category>
+    <readers />
+    <reviewers />
+    <approvers />
+    <qo_approvers />
+    <doc_coordinators />
+    <country />
+    <effective_date>nulldate</effective_date>
+    <expiration_date>nulldate</expiration_date>
+    <review_date>nulldate</review_date>
+    <approved_date>nulldate</approved_date>
+    <contributors />
+    <issued_date>nulldate</issued_date>
+    <litigation_hold>F</litigation_hold>
+    <project_name />
+    <tbr_distribution_list />
+    <auditors />
+    <regulatory_affairs />
+    <dossier_element_id />
+    <document_type />
+    <document_id />
+    <form_managers />
+    <form_users />
+    <document_source>0</document_source>
+    <domain>vale_eng</domain>
+    <process_zone />
+    <sent_for_approval_date>nulldate</sent_for_approval_date>
+    <auto_attach_to />
+    <auto_set_to_effective>F</auto_set_to_effective>
+    <is_placeholder>F</is_placeholder>
+    <inclusion_rule>0</inclusion_rule>
+    <reason_for_omission />
+    <previous_state />
+    <is_repeatable>F</is_repeatable>
+    <is_submissible>F</is_submissible>
+    <actual_doc_count>0</actual_doc_count>
+    <planned_doc_count>0</planned_doc_count>
+    <expected_doc_count>0</expected_doc_count>
+    <is_shared>F</is_shared>
+    <uses_special_naming_conv>F</uses_special_naming_conv>
+    <tbr_redistribution_list />
+    <vale_site>kl</vale_site>
+    <vale_site_nome>CARAJAS SERRA LESTE - PA</vale_site_nome>
+    <vale_site_normativos>enggr_normativo_site_kl</vale_site_normativos>
+    <vale_site_membros>enggr_membros_site_kl</vale_site_membros>
+  </_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+  <_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+    <r_object_id>090003e980011d88</r_object_id>
+    <object_name>KM - MANGANES DO AZUL - PA</object_name>
+    <r_object_type>vale_eng_site</r_object_type>
+    <title />
+    <subject />
+    <authors />
+    <keywords />
+    <a_application_type />
+    <a_status />
+    <r_creation_date>16/09/2016 15:50:22</r_creation_date>
+    <r_modify_date>16/09/2016 15:50:22</r_modify_date>
+    <r_modifier>dmadmin</r_modifier>
+    <r_access_date>nulldate</r_access_date>
+    <a_is_hidden>F</a_is_hidden>
+    <i_is_deleted>F</i_is_deleted>
+    <a_retention_date>nulldate</a_retention_date>
+    <a_archive>F</a_archive>
+    <a_compound_architecture />
+    <a_link_resolved>F</a_link_resolved>
+    <i_reference_cnt>1</i_reference_cnt>
+    <i_has_folder>T</i_has_folder>
+    <i_folder_id>0b0003e980011d67</i_folder_id>
+    <r_composite_id />
+    <r_composite_label />
+    <r_component_label />
+    <r_order_no />
+    <r_link_cnt>0</r_link_cnt>
+    <r_link_high_cnt>0</r_link_high_cnt>
+    <r_assembled_from_id>0000000000000000</r_assembled_from_id>
+    <r_frzn_assembly_cnt>0</r_frzn_assembly_cnt>
+    <r_has_frzn_assembly>F</r_has_frzn_assembly>
+    <resolution_label />
+    <r_is_virtual_doc>0</r_is_virtual_doc>
+    <i_contents_id>0000000000000000</i_contents_id>
+    <a_content_type />
+    <r_page_cnt>0</r_page_cnt>
+    <r_content_size>0</r_content_size>
+    <a_full_text>T</a_full_text>
+    <a_storage_type>filestore_01</a_storage_type>
+    <i_cabinet_id>0c0003e980011d60</i_cabinet_id>
+    <owner_name>dmadmin</owner_name>
+    <owner_permit>1</owner_permit>
+    <group_name>docu</group_name>
+    <group_permit>1</group_permit>
+    <world_permit>1</world_permit>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>090003e980011d88</i_chronicle_id>
+    <i_latest_flag>T</i_latest_flag>
+    <r_lock_owner />
+    <r_lock_date>nulldate</r_lock_date>
+    <r_lock_machine />
+    <log_entry />
+    <r_version_label>1.0,CURRENT</r_version_label>
+    <i_branch_cnt>0</i_branch_cnt>
+    <i_direct_dsc>F</i_direct_dsc>
+    <r_immutable_flag>F</r_immutable_flag>
+    <r_frozen_flag>F</r_frozen_flag>
+    <r_has_events>F</r_has_events>
+    <acl_domain>dmadmin</acl_domain>
+    <acl_name>Vale ACL Object Site KM</acl_name>
+    <a_special_app />
+    <i_is_reference>F</i_is_reference>
+    <r_creator_name>dmadmin</r_creator_name>
+    <r_is_public>F</r_is_public>
+    <r_policy_id>0000000000000000</r_policy_id>
+    <r_resume_state>0</r_resume_state>
+    <r_current_state>0</r_current_state>
+    <r_alias_set_id>0000000000000000</r_alias_set_id>
+    <a_effective_date />
+    <a_expiration_date />
+    <a_publish_formats />
+    <a_effective_label />
+    <a_effective_flag />
+    <a_category />
+    <language_code />
+    <a_is_template>F</a_is_template>
+    <a_controlling_app />
+    <r_full_content_size>0</r_full_content_size>
+    <a_extended_properties />
+    <a_is_signed>F</a_is_signed>
+    <a_last_review_date>nulldate</a_last_review_date>
+    <i_retain_until>nulldate</i_retain_until>
+    <r_aspect_name />
+    <i_retainer_id />
+    <i_partition>0</i_partition>
+    <i_is_replica>F</i_is_replica>
+    <i_vstamp>0</i_vstamp>
+    <category>0</category>
+    <readers />
+    <reviewers />
+    <approvers />
+    <qo_approvers />
+    <doc_coordinators />
+    <country />
+    <effective_date>nulldate</effective_date>
+    <expiration_date>nulldate</expiration_date>
+    <review_date>nulldate</review_date>
+    <approved_date>nulldate</approved_date>
+    <contributors />
+    <issued_date>nulldate</issued_date>
+    <litigation_hold>F</litigation_hold>
+    <project_name />
+    <tbr_distribution_list />
+    <auditors />
+    <regulatory_affairs />
+    <dossier_element_id />
+    <document_type />
+    <document_id />
+    <form_managers />
+    <form_users />
+    <document_source>0</document_source>
+    <domain>vale_eng</domain>
+    <process_zone />
+    <sent_for_approval_date>nulldate</sent_for_approval_date>
+    <auto_attach_to />
+    <auto_set_to_effective>F</auto_set_to_effective>
+    <is_placeholder>F</is_placeholder>
+    <inclusion_rule>0</inclusion_rule>
+    <reason_for_omission />
+    <previous_state />
+    <is_repeatable>F</is_repeatable>
+    <is_submissible>F</is_submissible>
+    <actual_doc_count>0</actual_doc_count>
+    <planned_doc_count>0</planned_doc_count>
+    <expected_doc_count>0</expected_doc_count>
+    <is_shared>F</is_shared>
+    <uses_special_naming_conv>F</uses_special_naming_conv>
+    <tbr_redistribution_list />
+    <vale_site>km</vale_site>
+    <vale_site_nome>MANGANES DO AZUL - PA</vale_site_nome>
+    <vale_site_normativos>enggr_normativo_site_km</vale_site_normativos>
+    <vale_site_membros>enggr_membros_site_km</vale_site_membros>
+  </_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+  <_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+    <r_object_id>090003e980011d89</r_object_id>
+    <object_name>KN - CARAJAS SERRA NORTE - PA</object_name>
+    <r_object_type>vale_eng_site</r_object_type>
+    <title />
+    <subject />
+    <authors />
+    <keywords />
+    <a_application_type />
+    <a_status />
+    <r_creation_date>16/09/2016 15:50:22</r_creation_date>
+    <r_modify_date>16/09/2016 15:50:22</r_modify_date>
+    <r_modifier>dmadmin</r_modifier>
+    <r_access_date>nulldate</r_access_date>
+    <a_is_hidden>F</a_is_hidden>
+    <i_is_deleted>F</i_is_deleted>
+    <a_retention_date>nulldate</a_retention_date>
+    <a_archive>F</a_archive>
+    <a_compound_architecture />
+    <a_link_resolved>F</a_link_resolved>
+    <i_reference_cnt>1</i_reference_cnt>
+    <i_has_folder>T</i_has_folder>
+    <i_folder_id>0b0003e980011d67</i_folder_id>
+    <r_composite_id />
+    <r_composite_label />
+    <r_component_label />
+    <r_order_no />
+    <r_link_cnt>0</r_link_cnt>
+    <r_link_high_cnt>0</r_link_high_cnt>
+    <r_assembled_from_id>0000000000000000</r_assembled_from_id>
+    <r_frzn_assembly_cnt>0</r_frzn_assembly_cnt>
+    <r_has_frzn_assembly>F</r_has_frzn_assembly>
+    <resolution_label />
+    <r_is_virtual_doc>0</r_is_virtual_doc>
+    <i_contents_id>0000000000000000</i_contents_id>
+    <a_content_type />
+    <r_page_cnt>0</r_page_cnt>
+    <r_content_size>0</r_content_size>
+    <a_full_text>T</a_full_text>
+    <a_storage_type>filestore_01</a_storage_type>
+    <i_cabinet_id>0c0003e980011d60</i_cabinet_id>
+    <owner_name>dmadmin</owner_name>
+    <owner_permit>1</owner_permit>
+    <group_name>docu</group_name>
+    <group_permit>1</group_permit>
+    <world_permit>1</world_permit>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>090003e980011d89</i_chronicle_id>
+    <i_latest_flag>T</i_latest_flag>
+    <r_lock_owner />
+    <r_lock_date>nulldate</r_lock_date>
+    <r_lock_machine />
+    <log_entry />
+    <r_version_label>1.0,CURRENT</r_version_label>
+    <i_branch_cnt>0</i_branch_cnt>
+    <i_direct_dsc>F</i_direct_dsc>
+    <r_immutable_flag>F</r_immutable_flag>
+    <r_frozen_flag>F</r_frozen_flag>
+    <r_has_events>F</r_has_events>
+    <acl_domain>dmadmin</acl_domain>
+    <acl_name>Vale ACL Object Site KN</acl_name>
+    <a_special_app />
+    <i_is_reference>F</i_is_reference>
+    <r_creator_name>dmadmin</r_creator_name>
+    <r_is_public>F</r_is_public>
+    <r_policy_id>0000000000000000</r_policy_id>
+    <r_resume_state>0</r_resume_state>
+    <r_current_state>0</r_current_state>
+    <r_alias_set_id>0000000000000000</r_alias_set_id>
+    <a_effective_date />
+    <a_expiration_date />
+    <a_publish_formats />
+    <a_effective_label />
+    <a_effective_flag />
+    <a_category />
+    <language_code />
+    <a_is_template>F</a_is_template>
+    <a_controlling_app />
+    <r_full_content_size>0</r_full_content_size>
+    <a_extended_properties />
+    <a_is_signed>F</a_is_signed>
+    <a_last_review_date>nulldate</a_last_review_date>
+    <i_retain_until>nulldate</i_retain_until>
+    <r_aspect_name />
+    <i_retainer_id />
+    <i_partition>0</i_partition>
+    <i_is_replica>F</i_is_replica>
+    <i_vstamp>0</i_vstamp>
+    <category>0</category>
+    <readers />
+    <reviewers />
+    <approvers />
+    <qo_approvers />
+    <doc_coordinators />
+    <country />
+    <effective_date>nulldate</effective_date>
+    <expiration_date>nulldate</expiration_date>
+    <review_date>nulldate</review_date>
+    <approved_date>nulldate</approved_date>
+    <contributors />
+    <issued_date>nulldate</issued_date>
+    <litigation_hold>F</litigation_hold>
+    <project_name />
+    <tbr_distribution_list />
+    <auditors />
+    <regulatory_affairs />
+    <dossier_element_id />
+    <document_type />
+    <document_id />
+    <form_managers />
+    <form_users />
+    <document_source>0</document_source>
+    <domain>vale_eng</domain>
+    <process_zone />
+    <sent_for_approval_date>nulldate</sent_for_approval_date>
+    <auto_attach_to />
+    <auto_set_to_effective>F</auto_set_to_effective>
+    <is_placeholder>F</is_placeholder>
+    <inclusion_rule>0</inclusion_rule>
+    <reason_for_omission />
+    <previous_state />
+    <is_repeatable>F</is_repeatable>
+    <is_submissible>F</is_submissible>
+    <actual_doc_count>0</actual_doc_count>
+    <planned_doc_count>0</planned_doc_count>
+    <expected_doc_count>0</expected_doc_count>
+    <is_shared>F</is_shared>
+    <uses_special_naming_conv>F</uses_special_naming_conv>
+    <tbr_redistribution_list />
+    <vale_site>kn</vale_site>
+    <vale_site_nome>CARAJAS SERRA NORTE - PA</vale_site_nome>
+    <vale_site_normativos>enggr_normativo_site_kn</vale_site_normativos>
+    <vale_site_membros>enggr_membros_site_kn</vale_site_membros>
+  </_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+  <_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+    <r_object_id>090003e980011d8a</r_object_id>
+    <object_name>SA - SALOBO - PA</object_name>
+    <r_object_type>vale_eng_site</r_object_type>
+    <title />
+    <subject />
+    <authors />
+    <keywords />
+    <a_application_type />
+    <a_status />
+    <r_creation_date>16/09/2016 15:50:22</r_creation_date>
+    <r_modify_date>16/09/2016 15:50:22</r_modify_date>
+    <r_modifier>dmadmin</r_modifier>
+    <r_access_date>nulldate</r_access_date>
+    <a_is_hidden>F</a_is_hidden>
+    <i_is_deleted>F</i_is_deleted>
+    <a_retention_date>nulldate</a_retention_date>
+    <a_archive>F</a_archive>
+    <a_compound_architecture />
+    <a_link_resolved>F</a_link_resolved>
+    <i_reference_cnt>1</i_reference_cnt>
+    <i_has_folder>T</i_has_folder>
+    <i_folder_id>0b0003e980011d67</i_folder_id>
+    <r_composite_id />
+    <r_composite_label />
+    <r_component_label />
+    <r_order_no />
+    <r_link_cnt>0</r_link_cnt>
+    <r_link_high_cnt>0</r_link_high_cnt>
+    <r_assembled_from_id>0000000000000000</r_assembled_from_id>
+    <r_frzn_assembly_cnt>0</r_frzn_assembly_cnt>
+    <r_has_frzn_assembly>F</r_has_frzn_assembly>
+    <resolution_label />
+    <r_is_virtual_doc>0</r_is_virtual_doc>
+    <i_contents_id>0000000000000000</i_contents_id>
+    <a_content_type />
+    <r_page_cnt>0</r_page_cnt>
+    <r_content_size>0</r_content_size>
+    <a_full_text>T</a_full_text>
+    <a_storage_type>filestore_01</a_storage_type>
+    <i_cabinet_id>0c0003e980011d60</i_cabinet_id>
+    <owner_name>dmadmin</owner_name>
+    <owner_permit>1</owner_permit>
+    <group_name>docu</group_name>
+    <group_permit>1</group_permit>
+    <world_permit>1</world_permit>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>090003e980011d8a</i_chronicle_id>
+    <i_latest_flag>T</i_latest_flag>
+    <r_lock_owner />
+    <r_lock_date>nulldate</r_lock_date>
+    <r_lock_machine />
+    <log_entry />
+    <r_version_label>1.0,CURRENT</r_version_label>
+    <i_branch_cnt>0</i_branch_cnt>
+    <i_direct_dsc>F</i_direct_dsc>
+    <r_immutable_flag>F</r_immutable_flag>
+    <r_frozen_flag>F</r_frozen_flag>
+    <r_has_events>F</r_has_events>
+    <acl_domain>dmadmin</acl_domain>
+    <acl_name>Vale ACL Object Site SA</acl_name>
+    <a_special_app />
+    <i_is_reference>F</i_is_reference>
+    <r_creator_name>dmadmin</r_creator_name>
+    <r_is_public>F</r_is_public>
+    <r_policy_id>0000000000000000</r_policy_id>
+    <r_resume_state>0</r_resume_state>
+    <r_current_state>0</r_current_state>
+    <r_alias_set_id>0000000000000000</r_alias_set_id>
+    <a_effective_date />
+    <a_expiration_date />
+    <a_publish_formats />
+    <a_effective_label />
+    <a_effective_flag />
+    <a_category />
+    <language_code />
+    <a_is_template>F</a_is_template>
+    <a_controlling_app />
+    <r_full_content_size>0</r_full_content_size>
+    <a_extended_properties />
+    <a_is_signed>F</a_is_signed>
+    <a_last_review_date>nulldate</a_last_review_date>
+    <i_retain_until>nulldate</i_retain_until>
+    <r_aspect_name />
+    <i_retainer_id />
+    <i_partition>0</i_partition>
+    <i_is_replica>F</i_is_replica>
+    <i_vstamp>0</i_vstamp>
+    <category>0</category>
+    <readers />
+    <reviewers />
+    <approvers />
+    <qo_approvers />
+    <doc_coordinators />
+    <country />
+    <effective_date>nulldate</effective_date>
+    <expiration_date>nulldate</expiration_date>
+    <review_date>nulldate</review_date>
+    <approved_date>nulldate</approved_date>
+    <contributors />
+    <issued_date>nulldate</issued_date>
+    <litigation_hold>F</litigation_hold>
+    <project_name />
+    <tbr_distribution_list />
+    <auditors />
+    <regulatory_affairs />
+    <dossier_element_id />
+    <document_type />
+    <document_id />
+    <form_managers />
+    <form_users />
+    <document_source>0</document_source>
+    <domain>vale_eng</domain>
+    <process_zone />
+    <sent_for_approval_date>nulldate</sent_for_approval_date>
+    <auto_attach_to />
+    <auto_set_to_effective>F</auto_set_to_effective>
+    <is_placeholder>F</is_placeholder>
+    <inclusion_rule>0</inclusion_rule>
+    <reason_for_omission />
+    <previous_state />
+    <is_repeatable>F</is_repeatable>
+    <is_submissible>F</is_submissible>
+    <actual_doc_count>0</actual_doc_count>
+    <planned_doc_count>0</planned_doc_count>
+    <expected_doc_count>0</expected_doc_count>
+    <is_shared>F</is_shared>
+    <uses_special_naming_conv>F</uses_special_naming_conv>
+    <tbr_redistribution_list />
+    <vale_site>sa</vale_site>
+    <vale_site_nome>SALOBO - PA</vale_site_nome>
+    <vale_site_normativos>enggr_normativo_site_sa</vale_site_normativos>
+    <vale_site_membros>enggr_membros_site_sa</vale_site_membros>
+  </_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+  <_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+    <r_object_id>090003e980011d8b</r_object_id>
+    <object_name>SS - SOSSEGO - PA</object_name>
+    <r_object_type>vale_eng_site</r_object_type>
+    <title />
+    <subject />
+    <authors />
+    <keywords />
+    <a_application_type />
+    <a_status />
+    <r_creation_date>16/09/2016 15:50:22</r_creation_date>
+    <r_modify_date>16/09/2016 15:50:22</r_modify_date>
+    <r_modifier>dmadmin</r_modifier>
+    <r_access_date>nulldate</r_access_date>
+    <a_is_hidden>F</a_is_hidden>
+    <i_is_deleted>F</i_is_deleted>
+    <a_retention_date>nulldate</a_retention_date>
+    <a_archive>F</a_archive>
+    <a_compound_architecture />
+    <a_link_resolved>F</a_link_resolved>
+    <i_reference_cnt>1</i_reference_cnt>
+    <i_has_folder>T</i_has_folder>
+    <i_folder_id>0b0003e980011d67</i_folder_id>
+    <r_composite_id />
+    <r_composite_label />
+    <r_component_label />
+    <r_order_no />
+    <r_link_cnt>0</r_link_cnt>
+    <r_link_high_cnt>0</r_link_high_cnt>
+    <r_assembled_from_id>0000000000000000</r_assembled_from_id>
+    <r_frzn_assembly_cnt>0</r_frzn_assembly_cnt>
+    <r_has_frzn_assembly>F</r_has_frzn_assembly>
+    <resolution_label />
+    <r_is_virtual_doc>0</r_is_virtual_doc>
+    <i_contents_id>0000000000000000</i_contents_id>
+    <a_content_type />
+    <r_page_cnt>0</r_page_cnt>
+    <r_content_size>0</r_content_size>
+    <a_full_text>T</a_full_text>
+    <a_storage_type>filestore_01</a_storage_type>
+    <i_cabinet_id>0c0003e980011d60</i_cabinet_id>
+    <owner_name>dmadmin</owner_name>
+    <owner_permit>1</owner_permit>
+    <group_name>docu</group_name>
+    <group_permit>1</group_permit>
+    <world_permit>1</world_permit>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>090003e980011d8b</i_chronicle_id>
+    <i_latest_flag>T</i_latest_flag>
+    <r_lock_owner />
+    <r_lock_date>nulldate</r_lock_date>
+    <r_lock_machine />
+    <log_entry />
+    <r_version_label>1.0,CURRENT</r_version_label>
+    <i_branch_cnt>0</i_branch_cnt>
+    <i_direct_dsc>F</i_direct_dsc>
+    <r_immutable_flag>F</r_immutable_flag>
+    <r_frozen_flag>F</r_frozen_flag>
+    <r_has_events>F</r_has_events>
+    <acl_domain>dmadmin</acl_domain>
+    <acl_name>Vale ACL Object Site SS</acl_name>
+    <a_special_app />
+    <i_is_reference>F</i_is_reference>
+    <r_creator_name>dmadmin</r_creator_name>
+    <r_is_public>F</r_is_public>
+    <r_policy_id>0000000000000000</r_policy_id>
+    <r_resume_state>0</r_resume_state>
+    <r_current_state>0</r_current_state>
+    <r_alias_set_id>0000000000000000</r_alias_set_id>
+    <a_effective_date />
+    <a_expiration_date />
+    <a_publish_formats />
+    <a_effective_label />
+    <a_effective_flag />
+    <a_category />
+    <language_code />
+    <a_is_template>F</a_is_template>
+    <a_controlling_app />
+    <r_full_content_size>0</r_full_content_size>
+    <a_extended_properties />
+    <a_is_signed>F</a_is_signed>
+    <a_last_review_date>nulldate</a_last_review_date>
+    <i_retain_until>nulldate</i_retain_until>
+    <r_aspect_name />
+    <i_retainer_id />
+    <i_partition>0</i_partition>
+    <i_is_replica>F</i_is_replica>
+    <i_vstamp>0</i_vstamp>
+    <category>0</category>
+    <readers />
+    <reviewers />
+    <approvers />
+    <qo_approvers />
+    <doc_coordinators />
+    <country />
+    <effective_date>nulldate</effective_date>
+    <expiration_date>nulldate</expiration_date>
+    <review_date>nulldate</review_date>
+    <approved_date>nulldate</approved_date>
+    <contributors />
+    <issued_date>nulldate</issued_date>
+    <litigation_hold>F</litigation_hold>
+    <project_name />
+    <tbr_distribution_list />
+    <auditors />
+    <regulatory_affairs />
+    <dossier_element_id />
+    <document_type />
+    <document_id />
+    <form_managers />
+    <form_users />
+    <document_source>0</document_source>
+    <domain>vale_eng</domain>
+    <process_zone />
+    <sent_for_approval_date>nulldate</sent_for_approval_date>
+    <auto_attach_to />
+    <auto_set_to_effective>F</auto_set_to_effective>
+    <is_placeholder>F</is_placeholder>
+    <inclusion_rule>0</inclusion_rule>
+    <reason_for_omission />
+    <previous_state />
+    <is_repeatable>F</is_repeatable>
+    <is_submissible>F</is_submissible>
+    <actual_doc_count>0</actual_doc_count>
+    <planned_doc_count>0</planned_doc_count>
+    <expected_doc_count>0</expected_doc_count>
+    <is_shared>F</is_shared>
+    <uses_special_naming_conv>F</uses_special_naming_conv>
+    <tbr_redistribution_list />
+    <vale_site>ss</vale_site>
+    <vale_site_nome>SOSSEGO - PA</vale_site_nome>
+    <vale_site_normativos>enggr_normativo_site_ss</vale_site_normativos>
+    <vale_site_membros>enggr_membros_site_ss</vale_site_membros>
+  </_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+  <_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+    <r_object_id>090003e980011d8c</r_object_id>
+    <object_name>TI - TREINAMENTO</object_name>
+    <r_object_type>vale_eng_site</r_object_type>
+    <title />
+    <subject />
+    <authors />
+    <keywords />
+    <a_application_type />
+    <a_status />
+    <r_creation_date>16/09/2016 15:50:22</r_creation_date>
+    <r_modify_date>16/09/2016 15:50:22</r_modify_date>
+    <r_modifier>dmadmin</r_modifier>
+    <r_access_date>nulldate</r_access_date>
+    <a_is_hidden>F</a_is_hidden>
+    <i_is_deleted>F</i_is_deleted>
+    <a_retention_date>nulldate</a_retention_date>
+    <a_archive>F</a_archive>
+    <a_compound_architecture />
+    <a_link_resolved>F</a_link_resolved>
+    <i_reference_cnt>1</i_reference_cnt>
+    <i_has_folder>T</i_has_folder>
+    <i_folder_id>0b0003e980011d67</i_folder_id>
+    <r_composite_id />
+    <r_composite_label />
+    <r_component_label />
+    <r_order_no />
+    <r_link_cnt>0</r_link_cnt>
+    <r_link_high_cnt>0</r_link_high_cnt>
+    <r_assembled_from_id>0000000000000000</r_assembled_from_id>
+    <r_frzn_assembly_cnt>0</r_frzn_assembly_cnt>
+    <r_has_frzn_assembly>F</r_has_frzn_assembly>
+    <resolution_label />
+    <r_is_virtual_doc>0</r_is_virtual_doc>
+    <i_contents_id>0000000000000000</i_contents_id>
+    <a_content_type />
+    <r_page_cnt>0</r_page_cnt>
+    <r_content_size>0</r_content_size>
+    <a_full_text>T</a_full_text>
+    <a_storage_type>filestore_01</a_storage_type>
+    <i_cabinet_id>0c0003e980011d60</i_cabinet_id>
+    <owner_name>dmadmin</owner_name>
+    <owner_permit>1</owner_permit>
+    <group_name>docu</group_name>
+    <group_permit>1</group_permit>
+    <world_permit>1</world_permit>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>090003e980011d8c</i_chronicle_id>
+    <i_latest_flag>T</i_latest_flag>
+    <r_lock_owner />
+    <r_lock_date>nulldate</r_lock_date>
+    <r_lock_machine />
+    <log_entry />
+    <r_version_label>1.0,CURRENT</r_version_label>
+    <i_branch_cnt>0</i_branch_cnt>
+    <i_direct_dsc>F</i_direct_dsc>
+    <r_immutable_flag>F</r_immutable_flag>
+    <r_frozen_flag>F</r_frozen_flag>
+    <r_has_events>F</r_has_events>
+    <acl_domain>dmadmin</acl_domain>
+    <acl_name>Vale ACL Object Site TI</acl_name>
+    <a_special_app />
+    <i_is_reference>F</i_is_reference>
+    <r_creator_name>dmadmin</r_creator_name>
+    <r_is_public>F</r_is_public>
+    <r_policy_id>0000000000000000</r_policy_id>
+    <r_resume_state>0</r_resume_state>
+    <r_current_state>0</r_current_state>
+    <r_alias_set_id>0000000000000000</r_alias_set_id>
+    <a_effective_date />
+    <a_expiration_date />
+    <a_publish_formats />
+    <a_effective_label />
+    <a_effective_flag />
+    <a_category />
+    <language_code />
+    <a_is_template>F</a_is_template>
+    <a_controlling_app />
+    <r_full_content_size>0</r_full_content_size>
+    <a_extended_properties />
+    <a_is_signed>F</a_is_signed>
+    <a_last_review_date>nulldate</a_last_review_date>
+    <i_retain_until>nulldate</i_retain_until>
+    <r_aspect_name />
+    <i_retainer_id />
+    <i_partition>0</i_partition>
+    <i_is_replica>F</i_is_replica>
+    <i_vstamp>0</i_vstamp>
+    <category>0</category>
+    <readers />
+    <reviewers />
+    <approvers />
+    <qo_approvers />
+    <doc_coordinators />
+    <country />
+    <effective_date>nulldate</effective_date>
+    <expiration_date>nulldate</expiration_date>
+    <review_date>nulldate</review_date>
+    <approved_date>nulldate</approved_date>
+    <contributors />
+    <issued_date>nulldate</issued_date>
+    <litigation_hold>F</litigation_hold>
+    <project_name />
+    <tbr_distribution_list />
+    <auditors />
+    <regulatory_affairs />
+    <dossier_element_id />
+    <document_type />
+    <document_id />
+    <form_managers />
+    <form_users />
+    <document_source>0</document_source>
+    <domain>vale_eng</domain>
+    <process_zone />
+    <sent_for_approval_date>nulldate</sent_for_approval_date>
+    <auto_attach_to />
+    <auto_set_to_effective>F</auto_set_to_effective>
+    <is_placeholder>F</is_placeholder>
+    <inclusion_rule>0</inclusion_rule>
+    <reason_for_omission />
+    <previous_state />
+    <is_repeatable>F</is_repeatable>
+    <is_submissible>F</is_submissible>
+    <actual_doc_count>0</actual_doc_count>
+    <planned_doc_count>0</planned_doc_count>
+    <expected_doc_count>0</expected_doc_count>
+    <is_shared>F</is_shared>
+    <uses_special_naming_conv>F</uses_special_naming_conv>
+    <tbr_redistribution_list />
+    <vale_site>ti</vale_site>
+    <vale_site_nome>TREINAMENTO</vale_site_nome>
+    <vale_site_normativos>enggr_normativo_site_ti</vale_site_normativos>
+    <vale_site_membros>enggr_membros_site_ti</vale_site_membros>
+  </_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+  <_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+    <r_object_id>090003e980011d8d</r_object_id>
+    <object_name>ZZ - EMC - MSOD</object_name>
+    <r_object_type>vale_eng_site</r_object_type>
+    <title />
+    <subject />
+    <authors />
+    <keywords />
+    <a_application_type />
+    <a_status />
+    <r_creation_date>16/09/2016 15:50:22</r_creation_date>
+    <r_modify_date>16/09/2016 15:50:22</r_modify_date>
+    <r_modifier>dmadmin</r_modifier>
+    <r_access_date>nulldate</r_access_date>
+    <a_is_hidden>F</a_is_hidden>
+    <i_is_deleted>F</i_is_deleted>
+    <a_retention_date>nulldate</a_retention_date>
+    <a_archive>F</a_archive>
+    <a_compound_architecture />
+    <a_link_resolved>F</a_link_resolved>
+    <i_reference_cnt>1</i_reference_cnt>
+    <i_has_folder>T</i_has_folder>
+    <i_folder_id>0b0003e980011d67</i_folder_id>
+    <r_composite_id />
+    <r_composite_label />
+    <r_component_label />
+    <r_order_no />
+    <r_link_cnt>0</r_link_cnt>
+    <r_link_high_cnt>0</r_link_high_cnt>
+    <r_assembled_from_id>0000000000000000</r_assembled_from_id>
+    <r_frzn_assembly_cnt>0</r_frzn_assembly_cnt>
+    <r_has_frzn_assembly>F</r_has_frzn_assembly>
+    <resolution_label />
+    <r_is_virtual_doc>0</r_is_virtual_doc>
+    <i_contents_id>0000000000000000</i_contents_id>
+    <a_content_type />
+    <r_page_cnt>0</r_page_cnt>
+    <r_content_size>0</r_content_size>
+    <a_full_text>T</a_full_text>
+    <a_storage_type>filestore_01</a_storage_type>
+    <i_cabinet_id>0c0003e980011d60</i_cabinet_id>
+    <owner_name>dmadmin</owner_name>
+    <owner_permit>1</owner_permit>
+    <group_name>docu</group_name>
+    <group_permit>1</group_permit>
+    <world_permit>1</world_permit>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>090003e980011d8d</i_chronicle_id>
+    <i_latest_flag>T</i_latest_flag>
+    <r_lock_owner />
+    <r_lock_date>nulldate</r_lock_date>
+    <r_lock_machine />
+    <log_entry />
+    <r_version_label>1.0,CURRENT</r_version_label>
+    <i_branch_cnt>0</i_branch_cnt>
+    <i_direct_dsc>F</i_direct_dsc>
+    <r_immutable_flag>F</r_immutable_flag>
+    <r_frozen_flag>F</r_frozen_flag>
+    <r_has_events>F</r_has_events>
+    <acl_domain>dmadmin</acl_domain>
+    <acl_name>Vale ACL Object Site ZZ</acl_name>
+    <a_special_app />
+    <i_is_reference>F</i_is_reference>
+    <r_creator_name>dmadmin</r_creator_name>
+    <r_is_public>F</r_is_public>
+    <r_policy_id>0000000000000000</r_policy_id>
+    <r_resume_state>0</r_resume_state>
+    <r_current_state>0</r_current_state>
+    <r_alias_set_id>0000000000000000</r_alias_set_id>
+    <a_effective_date />
+    <a_expiration_date />
+    <a_publish_formats />
+    <a_effective_label />
+    <a_effective_flag />
+    <a_category />
+    <language_code />
+    <a_is_template>F</a_is_template>
+    <a_controlling_app />
+    <r_full_content_size>0</r_full_content_size>
+    <a_extended_properties />
+    <a_is_signed>F</a_is_signed>
+    <a_last_review_date>nulldate</a_last_review_date>
+    <i_retain_until>nulldate</i_retain_until>
+    <r_aspect_name />
+    <i_retainer_id />
+    <i_partition>0</i_partition>
+    <i_is_replica>F</i_is_replica>
+    <i_vstamp>0</i_vstamp>
+    <category>0</category>
+    <readers />
+    <reviewers />
+    <approvers />
+    <qo_approvers />
+    <doc_coordinators />
+    <country />
+    <effective_date>nulldate</effective_date>
+    <expiration_date>nulldate</expiration_date>
+    <review_date>nulldate</review_date>
+    <approved_date>nulldate</approved_date>
+    <contributors />
+    <issued_date>nulldate</issued_date>
+    <litigation_hold>F</litigation_hold>
+    <project_name />
+    <tbr_distribution_list />
+    <auditors />
+    <regulatory_affairs />
+    <dossier_element_id />
+    <document_type />
+    <document_id />
+    <form_managers />
+    <form_users />
+    <document_source>0</document_source>
+    <domain>vale_eng</domain>
+    <process_zone />
+    <sent_for_approval_date>nulldate</sent_for_approval_date>
+    <auto_attach_to />
+    <auto_set_to_effective>F</auto_set_to_effective>
+    <is_placeholder>F</is_placeholder>
+    <inclusion_rule>0</inclusion_rule>
+    <reason_for_omission />
+    <previous_state />
+    <is_repeatable>F</is_repeatable>
+    <is_submissible>F</is_submissible>
+    <actual_doc_count>0</actual_doc_count>
+    <planned_doc_count>0</planned_doc_count>
+    <expected_doc_count>0</expected_doc_count>
+    <is_shared>F</is_shared>
+    <uses_special_naming_conv>F</uses_special_naming_conv>
+    <tbr_redistribution_list />
+    <vale_site>zz</vale_site>
+    <vale_site_nome>EMC - MSOD</vale_site_nome>
+    <vale_site_normativos>enggr_normativo_site_zz</vale_site_normativos>
+    <vale_site_membros>enggr_membros_site_zz</vale_site_membros>
+  </_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+  <_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+    <r_object_id>090003e980011d8e</r_object_id>
+    <object_name>KS - CARAJAS SERRA SUL - PA</object_name>
+    <r_object_type>vale_eng_site</r_object_type>
+    <title />
+    <subject />
+    <authors />
+    <keywords />
+    <a_application_type />
+    <a_status />
+    <r_creation_date>16/09/2016 15:50:22</r_creation_date>
+    <r_modify_date>16/09/2016 15:50:22</r_modify_date>
+    <r_modifier>dmadmin</r_modifier>
+    <r_access_date>nulldate</r_access_date>
+    <a_is_hidden>F</a_is_hidden>
+    <i_is_deleted>F</i_is_deleted>
+    <a_retention_date>nulldate</a_retention_date>
+    <a_archive>F</a_archive>
+    <a_compound_architecture />
+    <a_link_resolved>F</a_link_resolved>
+    <i_reference_cnt>1</i_reference_cnt>
+    <i_has_folder>T</i_has_folder>
+    <i_folder_id>0b0003e980011d67</i_folder_id>
+    <r_composite_id />
+    <r_composite_label />
+    <r_component_label />
+    <r_order_no />
+    <r_link_cnt>0</r_link_cnt>
+    <r_link_high_cnt>0</r_link_high_cnt>
+    <r_assembled_from_id>0000000000000000</r_assembled_from_id>
+    <r_frzn_assembly_cnt>0</r_frzn_assembly_cnt>
+    <r_has_frzn_assembly>F</r_has_frzn_assembly>
+    <resolution_label />
+    <r_is_virtual_doc>0</r_is_virtual_doc>
+    <i_contents_id>0000000000000000</i_contents_id>
+    <a_content_type />
+    <r_page_cnt>0</r_page_cnt>
+    <r_content_size>0</r_content_size>
+    <a_full_text>T</a_full_text>
+    <a_storage_type>filestore_01</a_storage_type>
+    <i_cabinet_id>0c0003e980011d60</i_cabinet_id>
+    <owner_name>dmadmin</owner_name>
+    <owner_permit>1</owner_permit>
+    <group_name>docu</group_name>
+    <group_permit>1</group_permit>
+    <world_permit>1</world_permit>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>090003e980011d8e</i_chronicle_id>
+    <i_latest_flag>T</i_latest_flag>
+    <r_lock_owner />
+    <r_lock_date>nulldate</r_lock_date>
+    <r_lock_machine />
+    <log_entry />
+    <r_version_label>1.0,CURRENT</r_version_label>
+    <i_branch_cnt>0</i_branch_cnt>
+    <i_direct_dsc>F</i_direct_dsc>
+    <r_immutable_flag>F</r_immutable_flag>
+    <r_frozen_flag>F</r_frozen_flag>
+    <r_has_events>F</r_has_events>
+    <acl_domain>dmadmin</acl_domain>
+    <acl_name>Vale ACL Object Site KS</acl_name>
+    <a_special_app />
+    <i_is_reference>F</i_is_reference>
+    <r_creator_name>dmadmin</r_creator_name>
+    <r_is_public>F</r_is_public>
+    <r_policy_id>0000000000000000</r_policy_id>
+    <r_resume_state>0</r_resume_state>
+    <r_current_state>0</r_current_state>
+    <r_alias_set_id>0000000000000000</r_alias_set_id>
+    <a_effective_date />
+    <a_expiration_date />
+    <a_publish_formats />
+    <a_effective_label />
+    <a_effective_flag />
+    <a_category />
+    <language_code />
+    <a_is_template>F</a_is_template>
+    <a_controlling_app />
+    <r_full_content_size>0</r_full_content_size>
+    <a_extended_properties />
+    <a_is_signed>F</a_is_signed>
+    <a_last_review_date>nulldate</a_last_review_date>
+    <i_retain_until>nulldate</i_retain_until>
+    <r_aspect_name />
+    <i_retainer_id />
+    <i_partition>0</i_partition>
+    <i_is_replica>F</i_is_replica>
+    <i_vstamp>0</i_vstamp>
+    <category>0</category>
+    <readers />
+    <reviewers />
+    <approvers />
+    <qo_approvers />
+    <doc_coordinators />
+    <country />
+    <effective_date>nulldate</effective_date>
+    <expiration_date>nulldate</expiration_date>
+    <review_date>nulldate</review_date>
+    <approved_date>nulldate</approved_date>
+    <contributors />
+    <issued_date>nulldate</issued_date>
+    <litigation_hold>F</litigation_hold>
+    <project_name />
+    <tbr_distribution_list />
+    <auditors />
+    <regulatory_affairs />
+    <dossier_element_id />
+    <document_type />
+    <document_id />
+    <form_managers />
+    <form_users />
+    <document_source>0</document_source>
+    <domain>vale_eng</domain>
+    <process_zone />
+    <sent_for_approval_date>nulldate</sent_for_approval_date>
+    <auto_attach_to />
+    <auto_set_to_effective>F</auto_set_to_effective>
+    <is_placeholder>F</is_placeholder>
+    <inclusion_rule>0</inclusion_rule>
+    <reason_for_omission />
+    <previous_state />
+    <is_repeatable>F</is_repeatable>
+    <is_submissible>F</is_submissible>
+    <actual_doc_count>0</actual_doc_count>
+    <planned_doc_count>0</planned_doc_count>
+    <expected_doc_count>0</expected_doc_count>
+    <is_shared>F</is_shared>
+    <uses_special_naming_conv>F</uses_special_naming_conv>
+    <tbr_redistribution_list />
+    <vale_site>ks</vale_site>
+    <vale_site_nome>CARAJAS SERRA SUL - PA</vale_site_nome>
+    <vale_site_normativos>enggr_normativo_site_ks</vale_site_normativos>
+    <vale_site_membros>enggr_membros_site_ks</vale_site_membros>
+  </_x0037_35b68d3-ad70-4ad9-918d-8b1ce39436ba>
+  <_x0033_46ce94b-161c-4edd-b82a-26321b4e7700>
+    <r_object_id>090003e98001252d</r_object_id>
+    <object_name>00 - GERAL</object_name>
+    <r_object_type>vale_eng_area</r_object_type>
+    <title />
+    <subject />
+    <authors>GED User 02</authors>
+    <keywords />
+    <a_application_type />
+    <a_status />
+    <r_creation_date>16/09/2016 16:42:52</r_creation_date>
+    <r_modify_date>16/09/2016 16:42:53</r_modify_date>
+    <r_modifier>GED User 02</r_modifier>
+    <r_access_date>nulldate</r_access_date>
+    <a_is_hidden>F</a_is_hidden>
+    <i_is_deleted>F</i_is_deleted>
+    <a_retention_date>nulldate</a_retention_date>
+    <a_archive>F</a_archive>
+    <a_compound_architecture />
+    <a_link_resolved>F</a_link_resolved>
+    <i_reference_cnt>1</i_reference_cnt>
+    <i_has_folder>T</i_has_folder>
+    <i_folder_id>0b0003e980012539</i_folder_id>
+    <r_composite_id />
+    <r_composite_label />
+    <r_component_label />
+    <r_order_no />
+    <r_link_cnt>0</r_link_cnt>
+    <r_link_high_cnt>0</r_link_high_cnt>
+    <r_assembled_from_id>0000000000000000</r_assembled_from_id>
+    <r_frzn_assembly_cnt>0</r_frzn_assembly_cnt>
+    <r_has_frzn_assembly>F</r_has_frzn_assembly>
+    <resolution_label />
+    <r_is_virtual_doc>0</r_is_virtual_doc>
+    <i_contents_id>0000000000000000</i_contents_id>
+    <a_content_type />
+    <r_page_cnt>0</r_page_cnt>
+    <r_content_size>0</r_content_size>
+    <a_full_text>T</a_full_text>
+    <a_storage_type />
+    <i_cabinet_id>0c0003e980011d60</i_cabinet_id>
+    <owner_name>GED User 02</owner_name>
+    <owner_permit>1</owner_permit>
+    <group_name />
+    <group_permit>1</group_permit>
+    <world_permit>1</world_permit>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>090003e98001252d</i_chronicle_id>
+    <i_latest_flag>T</i_latest_flag>
+    <r_lock_owner />
+    <r_lock_date>nulldate</r_lock_date>
+    <r_lock_machine />
+    <log_entry />
+    <r_version_label>1.0,CURRENT</r_version_label>
+    <i_branch_cnt>0</i_branch_cnt>
+    <i_direct_dsc>F</i_direct_dsc>
+    <r_immutable_flag>F</r_immutable_flag>
+    <r_frozen_flag>F</r_frozen_flag>
+    <r_has_events>F</r_has_events>
+    <acl_domain>dmadmin</acl_domain>
+    <acl_name>d2_acf5d723_d8896006</acl_name>
+    <a_special_app />
+    <i_is_reference>F</i_is_reference>
+    <r_creator_name>GED User 02</r_creator_name>
+    <r_is_public>F</r_is_public>
+    <r_policy_id>0000000000000000</r_policy_id>
+    <r_resume_state>0</r_resume_state>
+    <r_current_state>0</r_current_state>
+    <r_alias_set_id>0000000000000000</r_alias_set_id>
+    <a_effective_date />
+    <a_expiration_date />
+    <a_publish_formats />
+    <a_effective_label />
+    <a_effective_flag />
+    <a_category />
+    <language_code />
+    <a_is_template>F</a_is_template>
+    <a_controlling_app />
+    <r_full_content_size>0</r_full_content_size>
+    <a_extended_properties />
+    <a_is_signed>F</a_is_signed>
+    <a_last_review_date>nulldate</a_last_review_date>
+    <i_retain_until>nulldate</i_retain_until>
+    <r_aspect_name />
+    <i_retainer_id />
+    <i_partition>0</i_partition>
+    <i_is_replica>F</i_is_replica>
+    <i_vstamp>7</i_vstamp>
+    <category>0</category>
+    <readers />
+    <reviewers />
+    <approvers />
+    <qo_approvers />
+    <doc_coordinators />
+    <country />
+    <effective_date>nulldate</effective_date>
+    <expiration_date>nulldate</expiration_date>
+    <review_date>nulldate</review_date>
+    <approved_date>nulldate</approved_date>
+    <contributors />
+    <issued_date>nulldate</issued_date>
+    <litigation_hold>F</litigation_hold>
+    <project_name />
+    <tbr_distribution_list />
+    <auditors />
+    <regulatory_affairs />
+    <dossier_element_id />
+    <document_type />
+    <document_id />
+    <form_managers />
+    <form_users />
+    <document_source>0</document_source>
+    <domain>vale_eng</domain>
+    <process_zone />
+    <sent_for_approval_date>nulldate</sent_for_approval_date>
+    <auto_attach_to />
+    <auto_set_to_effective>F</auto_set_to_effective>
+    <is_placeholder>F</is_placeholder>
+    <inclusion_rule>0</inclusion_rule>
+    <reason_for_omission />
+    <previous_state />
+    <is_repeatable>F</is_repeatable>
+    <is_submissible>F</is_submissible>
+    <actual_doc_count>0</actual_doc_count>
+    <planned_doc_count>0</planned_doc_count>
+    <expected_doc_count>0</expected_doc_count>
+    <is_shared>F</is_shared>
+    <uses_special_naming_conv>F</uses_special_naming_conv>
+    <tbr_redistribution_list />
+    <vale_site>kk</vale_site>
+    <vale_area>00</vale_area>
+    <vale_area_nome>GERAL</vale_area_nome>
+    <vale_site_membros>enggr_membros_site_kk</vale_site_membros>
+    <vale_site_normativos>enggr_normativo_site_kk</vale_site_normativos>
+    <vale_normativo_sistema />
+  </_x0033_46ce94b-161c-4edd-b82a-26321b4e7700>
+  <_x0033_46ce94b-161c-4edd-b82a-26321b4e7700>
+    <r_object_id>090003e98002c9af</r_object_id>
+    <object_name>87 - USINA 7</object_name>
+    <r_object_type>vale_eng_area</r_object_type>
+    <title />
+    <subject />
+    <authors>GED User 02</authors>
+    <keywords />
+    <a_application_type />
+    <a_status />
+    <r_creation_date>14/10/2016 11:25:44</r_creation_date>
+    <r_modify_date>14/10/2016 11:25:45</r_modify_date>
+    <r_modifier>GED User 02</r_modifier>
+    <r_access_date>nulldate</r_access_date>
+    <a_is_hidden>F</a_is_hidden>
+    <i_is_deleted>F</i_is_deleted>
+    <a_retention_date>nulldate</a_retention_date>
+    <a_archive>F</a_archive>
+    <a_compound_architecture />
+    <a_link_resolved>F</a_link_resolved>
+    <i_reference_cnt>1</i_reference_cnt>
+    <i_has_folder>T</i_has_folder>
+    <i_folder_id>0b0003e980012539</i_folder_id>
+    <r_composite_id />
+    <r_composite_label />
+    <r_component_label />
+    <r_order_no />
+    <r_link_cnt>0</r_link_cnt>
+    <r_link_high_cnt>0</r_link_high_cnt>
+    <r_assembled_from_id>0000000000000000</r_assembled_from_id>
+    <r_frzn_assembly_cnt>0</r_frzn_assembly_cnt>
+    <r_has_frzn_assembly>F</r_has_frzn_assembly>
+    <resolution_label />
+    <r_is_virtual_doc>0</r_is_virtual_doc>
+    <i_contents_id>0000000000000000</i_contents_id>
+    <a_content_type />
+    <r_page_cnt>0</r_page_cnt>
+    <r_content_size>0</r_content_size>
+    <a_full_text>T</a_full_text>
+    <a_storage_type />
+    <i_cabinet_id>0c0003e980011d60</i_cabinet_id>
+    <owner_name>GED User 02</owner_name>
+    <owner_permit>1</owner_permit>
+    <group_name />
+    <group_permit>1</group_permit>
+    <world_permit>1</world_permit>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>090003e98002c9af</i_chronicle_id>
+    <i_latest_flag>T</i_latest_flag>
+    <r_lock_owner />
+    <r_lock_date>nulldate</r_lock_date>
+    <r_lock_machine />
+    <log_entry />
+    <r_version_label>1.0,CURRENT</r_version_label>
+    <i_branch_cnt>0</i_branch_cnt>
+    <i_direct_dsc>F</i_direct_dsc>
+    <r_immutable_flag>F</r_immutable_flag>
+    <r_frozen_flag>F</r_frozen_flag>
+    <r_has_events>F</r_has_events>
+    <acl_domain>dmadmin</acl_domain>
+    <acl_name>d2_acf5d723_d8896006</acl_name>
+    <a_special_app />
+    <i_is_reference>F</i_is_reference>
+    <r_creator_name>GED User 02</r_creator_name>
+    <r_is_public>F</r_is_public>
+    <r_policy_id>0000000000000000</r_policy_id>
+    <r_resume_state>0</r_resume_state>
+    <r_current_state>0</r_current_state>
+    <r_alias_set_id>0000000000000000</r_alias_set_id>
+    <a_effective_date />
+    <a_expiration_date />
+    <a_publish_formats />
+    <a_effective_label />
+    <a_effective_flag />
+    <a_category />
+    <language_code />
+    <a_is_template>F</a_is_template>
+    <a_controlling_app />
+    <r_full_content_size>0</r_full_content_size>
+    <a_extended_properties />
+    <a_is_signed>F</a_is_signed>
+    <a_last_review_date>nulldate</a_last_review_date>
+    <i_retain_until>nulldate</i_retain_until>
+    <r_aspect_name />
+    <i_retainer_id />
+    <i_partition>0</i_partition>
+    <i_is_replica>F</i_is_replica>
+    <i_vstamp>7</i_vstamp>
+    <category>0</category>
+    <readers />
+    <reviewers />
+    <approvers />
+    <qo_approvers />
+    <doc_coordinators />
+    <country />
+    <effective_date>nulldate</effective_date>
+    <expiration_date>nulldate</expiration_date>
+    <review_date>nulldate</review_date>
+    <approved_date>nulldate</approved_date>
+    <contributors />
+    <issued_date>nulldate</issued_date>
+    <litigation_hold>F</litigation_hold>
+    <project_name />
+    <tbr_distribution_list />
+    <auditors />
+    <regulatory_affairs />
+    <dossier_element_id />
+    <document_type />
+    <document_id />
+    <form_managers />
+    <form_users />
+    <document_source>0</document_source>
+    <domain>vale_eng</domain>
+    <process_zone />
+    <sent_for_approval_date>nulldate</sent_for_approval_date>
+    <auto_attach_to />
+    <auto_set_to_effective>F</auto_set_to_effective>
+    <is_placeholder>F</is_placeholder>
+    <inclusion_rule>0</inclusion_rule>
+    <reason_for_omission />
+    <previous_state />
+    <is_repeatable>F</is_repeatable>
+    <is_submissible>F</is_submissible>
+    <actual_doc_count>0</actual_doc_count>
+    <planned_doc_count>0</planned_doc_count>
+    <expected_doc_count>0</expected_doc_count>
+    <is_shared>F</is_shared>
+    <uses_special_naming_conv>F</uses_special_naming_conv>
+    <tbr_redistribution_list />
+    <vale_site>kk</vale_site>
+    <vale_area>87</vale_area>
+    <vale_area_nome>USINA 7</vale_area_nome>
+    <vale_site_membros>enggr_membros_site_kk</vale_site_membros>
+    <vale_site_normativos>enggr_normativo_site_kk</vale_site_normativos>
+    <vale_normativo_sistema />
+  </_x0033_46ce94b-161c-4edd-b82a-26321b4e7700>
+  <_x0035_fc80089-0f67-411b-bd04-fa6bc76b5652>
+    <r_object_id>090003e98001252e</r_object_id>
+    <object_name>0000 - GERAL</object_name>
+    <r_object_type>vale_eng_subarea</r_object_type>
+    <title />
+    <subject />
+    <authors>GED User 02</authors>
+    <keywords />
+    <a_application_type />
+    <a_status />
+    <r_creation_date>16/09/2016 16:43:22</r_creation_date>
+    <r_modify_date>16/09/2016 16:43:23</r_modify_date>
+    <r_modifier>GED User 02</r_modifier>
+    <r_access_date>nulldate</r_access_date>
+    <a_is_hidden>F</a_is_hidden>
+    <i_is_deleted>F</i_is_deleted>
+    <a_retention_date>nulldate</a_retention_date>
+    <a_archive>F</a_archive>
+    <a_compound_architecture />
+    <a_link_resolved>F</a_link_resolved>
+    <i_reference_cnt>1</i_reference_cnt>
+    <i_has_folder>T</i_has_folder>
+    <i_folder_id>0b0003e98001253a</i_folder_id>
+    <r_composite_id />
+    <r_composite_label />
+    <r_component_label />
+    <r_order_no />
+    <r_link_cnt>0</r_link_cnt>
+    <r_link_high_cnt>0</r_link_high_cnt>
+    <r_assembled_from_id>0000000000000000</r_assembled_from_id>
+    <r_frzn_assembly_cnt>0</r_frzn_assembly_cnt>
+    <r_has_frzn_assembly>F</r_has_frzn_assembly>
+    <resolution_label />
+    <r_is_virtual_doc>0</r_is_virtual_doc>
+    <i_contents_id>0000000000000000</i_contents_id>
+    <a_content_type />
+    <r_page_cnt>0</r_page_cnt>
+    <r_content_size>0</r_content_size>
+    <a_full_text>T</a_full_text>
+    <a_storage_type />
+    <i_cabinet_id>0c0003e980011d60</i_cabinet_id>
+    <owner_name>GED User 02</owner_name>
+    <owner_permit>1</owner_permit>
+    <group_name />
+    <group_permit>1</group_permit>
+    <world_permit>1</world_permit>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>090003e98001252e</i_chronicle_id>
+    <i_latest_flag>T</i_latest_flag>
+    <r_lock_owner />
+    <r_lock_date>nulldate</r_lock_date>
+    <r_lock_machine />
+    <log_entry />
+    <r_version_label>1.0,CURRENT</r_version_label>
+    <i_branch_cnt>0</i_branch_cnt>
+    <i_direct_dsc>F</i_direct_dsc>
+    <r_immutable_flag>F</r_immutable_flag>
+    <r_frozen_flag>F</r_frozen_flag>
+    <r_has_events>F</r_has_events>
+    <acl_domain>dmadmin</acl_domain>
+    <acl_name>d2_acf5d723_d8896006</acl_name>
+    <a_special_app />
+    <i_is_reference>F</i_is_reference>
+    <r_creator_name>GED User 02</r_creator_name>
+    <r_is_public>F</r_is_public>
+    <r_policy_id>0000000000000000</r_policy_id>
+    <r_resume_state>0</r_resume_state>
+    <r_current_state>0</r_current_state>
+    <r_alias_set_id>0000000000000000</r_alias_set_id>
+    <a_effective_date />
+    <a_expiration_date />
+    <a_publish_formats />
+    <a_effective_label />
+    <a_effective_flag />
+    <a_category />
+    <language_code />
+    <a_is_template>F</a_is_template>
+    <a_controlling_app />
+    <r_full_content_size>0</r_full_content_size>
+    <a_extended_properties />
+    <a_is_signed>F</a_is_signed>
+    <a_last_review_date>nulldate</a_last_review_date>
+    <i_retain_until>nulldate</i_retain_until>
+    <r_aspect_name />
+    <i_retainer_id />
+    <i_partition>0</i_partition>
+    <i_is_replica>F</i_is_replica>
+    <i_vstamp>7</i_vstamp>
+    <category>0</category>
+    <readers />
+    <reviewers />
+    <approvers />
+    <qo_approvers />
+    <doc_coordinators />
+    <country />
+    <effective_date>nulldate</effective_date>
+    <expiration_date>nulldate</expiration_date>
+    <review_date>nulldate</review_date>
+    <approved_date>nulldate</approved_date>
+    <contributors />
+    <issued_date>nulldate</issued_date>
+    <litigation_hold>F</litigation_hold>
+    <project_name />
+    <tbr_distribution_list />
+    <auditors />
+    <regulatory_affairs />
+    <dossier_element_id />
+    <document_type />
+    <document_id />
+    <form_managers />
+    <form_users />
+    <document_source>0</document_source>
+    <domain>vale_eng</domain>
+    <process_zone />
+    <sent_for_approval_date>nulldate</sent_for_approval_date>
+    <auto_attach_to />
+    <auto_set_to_effective>F</auto_set_to_effective>
+    <is_placeholder>F</is_placeholder>
+    <inclusion_rule>0</inclusion_rule>
+    <reason_for_omission />
+    <previous_state />
+    <is_repeatable>F</is_repeatable>
+    <is_submissible>F</is_submissible>
+    <actual_doc_count>0</actual_doc_count>
+    <planned_doc_count>0</planned_doc_count>
+    <expected_doc_count>0</expected_doc_count>
+    <is_shared>F</is_shared>
+    <uses_special_naming_conv>F</uses_special_naming_conv>
+    <tbr_redistribution_list />
+    <vale_site>kk</vale_site>
+    <vale_area>00</vale_area>
+    <vale_subarea>00</vale_subarea>
+    <vale_subarea_nome>GERAL</vale_subarea_nome>
+    <vale_normativo_sistema />
+    <vale_site_membros>enggr_membros_site_kk</vale_site_membros>
+    <vale_site_normativos>enggr_normativo_site_kk</vale_site_normativos>
+  </_x0035_fc80089-0f67-411b-bd04-fa6bc76b5652>
+  <_x0035_fc80089-0f67-411b-bd04-fa6bc76b5652>
+    <r_object_id>090003e98002c9b0</r_object_id>
+    <object_name>8712 - PATIO DE PELOTAS</object_name>
+    <r_object_type>vale_eng_subarea</r_object_type>
+    <title />
+    <subject />
+    <authors>GED User 02</authors>
+    <keywords />
+    <a_application_type />
+    <a_status />
+    <r_creation_date>14/10/2016 11:26:46</r_creation_date>
+    <r_modify_date>14/10/2016 11:26:46</r_modify_date>
+    <r_modifier>GED User 02</r_modifier>
+    <r_access_date>nulldate</r_access_date>
+    <a_is_hidden>F</a_is_hidden>
+    <i_is_deleted>F</i_is_deleted>
+    <a_retention_date>nulldate</a_retention_date>
+    <a_archive>F</a_archive>
+    <a_compound_architecture />
+    <a_link_resolved>F</a_link_resolved>
+    <i_reference_cnt>1</i_reference_cnt>
+    <i_has_folder>T</i_has_folder>
+    <i_folder_id>0b0003e98001253a</i_folder_id>
+    <r_composite_id />
+    <r_composite_label />
+    <r_component_label />
+    <r_order_no />
+    <r_link_cnt>0</r_link_cnt>
+    <r_link_high_cnt>0</r_link_high_cnt>
+    <r_assembled_from_id>0000000000000000</r_assembled_from_id>
+    <r_frzn_assembly_cnt>0</r_frzn_assembly_cnt>
+    <r_has_frzn_assembly>F</r_has_frzn_assembly>
+    <resolution_label />
+    <r_is_virtual_doc>0</r_is_virtual_doc>
+    <i_contents_id>0000000000000000</i_contents_id>
+    <a_content_type />
+    <r_page_cnt>0</r_page_cnt>
+    <r_content_size>0</r_content_size>
+    <a_full_text>T</a_full_text>
+    <a_storage_type />
+    <i_cabinet_id>0c0003e980011d60</i_cabinet_id>
+    <owner_name>GED User 02</owner_name>
+    <owner_permit>1</owner_permit>
+    <group_name />
+    <group_permit>1</group_permit>
+    <world_permit>1</world_permit>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>090003e98002c9b0</i_chronicle_id>
+    <i_latest_flag>T</i_latest_flag>
+    <r_lock_owner />
+    <r_lock_date>nulldate</r_lock_date>
+    <r_lock_machine />
+    <log_entry />
+    <r_version_label>1.0,CURRENT</r_version_label>
+    <i_branch_cnt>0</i_branch_cnt>
+    <i_direct_dsc>F</i_direct_dsc>
+    <r_immutable_flag>F</r_immutable_flag>
+    <r_frozen_flag>F</r_frozen_flag>
+    <r_has_events>F</r_has_events>
+    <acl_domain>dmadmin</acl_domain>
+    <acl_name>d2_acf5d723_d8896006</acl_name>
+    <a_special_app />
+    <i_is_reference>F</i_is_reference>
+    <r_creator_name>GED User 02</r_creator_name>
+    <r_is_public>F</r_is_public>
+    <r_policy_id>0000000000000000</r_policy_id>
+    <r_resume_state>0</r_resume_state>
+    <r_current_state>0</r_current_state>
+    <r_alias_set_id>0000000000000000</r_alias_set_id>
+    <a_effective_date />
+    <a_expiration_date />
+    <a_publish_formats />
+    <a_effective_label />
+    <a_effective_flag />
+    <a_category />
+    <language_code />
+    <a_is_template>F</a_is_template>
+    <a_controlling_app />
+    <r_full_content_size>0</r_full_content_size>
+    <a_extended_properties />
+    <a_is_signed>F</a_is_signed>
+    <a_last_review_date>nulldate</a_last_review_date>
+    <i_retain_until>nulldate</i_retain_until>
+    <r_aspect_name />
+    <i_retainer_id />
+    <i_partition>0</i_partition>
+    <i_is_replica>F</i_is_replica>
+    <i_vstamp>7</i_vstamp>
+    <category>0</category>
+    <readers />
+    <reviewers />
+    <approvers />
+    <qo_approvers />
+    <doc_coordinators />
+    <country />
+    <effective_date>nulldate</effective_date>
+    <expiration_date>nulldate</expiration_date>
+    <review_date>nulldate</review_date>
+    <approved_date>nulldate</approved_date>
+    <contributors />
+    <issued_date>nulldate</issued_date>
+    <litigation_hold>F</litigation_hold>
+    <project_name />
+    <tbr_distribution_list />
+    <auditors />
+    <regulatory_affairs />
+    <dossier_element_id />
+    <document_type />
+    <document_id />
+    <form_managers />
+    <form_users />
+    <document_source>0</document_source>
+    <domain>vale_eng</domain>
+    <process_zone />
+    <sent_for_approval_date>nulldate</sent_for_approval_date>
+    <auto_attach_to />
+    <auto_set_to_effective>F</auto_set_to_effective>
+    <is_placeholder>F</is_placeholder>
+    <inclusion_rule>0</inclusion_rule>
+    <reason_for_omission />
+    <previous_state />
+    <is_repeatable>F</is_repeatable>
+    <is_submissible>F</is_submissible>
+    <actual_doc_count>0</actual_doc_count>
+    <planned_doc_count>0</planned_doc_count>
+    <expected_doc_count>0</expected_doc_count>
+    <is_shared>F</is_shared>
+    <uses_special_naming_conv>F</uses_special_naming_conv>
+    <tbr_redistribution_list />
+    <vale_site>kk</vale_site>
+    <vale_area>87</vale_area>
+    <vale_subarea>12</vale_subarea>
+    <vale_subarea_nome>PATIO DE PELOTAS</vale_subarea_nome>
+    <vale_normativo_sistema />
+    <vale_site_membros>enggr_membros_site_kk</vale_site_membros>
+    <vale_site_normativos>enggr_normativo_site_kk</vale_site_normativos>
+  </_x0035_fc80089-0f67-411b-bd04-fa6bc76b5652>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98004012c</r_object_id>
+    <object_name>SE-123456-PRIMEIRA SE</object_name>
+    <title>PRIMEIRA SE</title>
+    <vale_site>kk</vale_site>
+    <vale_numero_se>123456</vale_numero_se>
+    <vale_tipo_se>oper</vale_tipo_se>
+    <vale_fase>oper</vale_fase>
+    <vale_numero_projeto />
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98004012d</r_object_id>
+    <object_name>1234-F3</object_name>
+    <title>PRIMEIRO PROJETO</title>
+    <vale_site>kk</vale_site>
+    <vale_numero_se />
+    <vale_tipo_se>proj</vale_tipo_se>
+    <vale_fase>fel3</vale_fase>
+    <vale_numero_projeto>1234</vale_numero_projeto>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98004012f</r_object_id>
+    <object_name>SE-11225589-SEGUNDA SE</object_name>
+    <title>SEGUNDA SE</title>
+    <vale_site>kk</vale_site>
+    <vale_numero_se>11225589</vale_numero_se>
+    <vale_tipo_se>oper</vale_tipo_se>
+    <vale_fase>oper</vale_fase>
+    <vale_numero_projeto />
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980040130</r_object_id>
+    <object_name>SE-8954782-TERCEIRA SE</object_name>
+    <title>TERCEIRA SE</title>
+    <vale_site>kk</vale_site>
+    <vale_numero_se>8954782</vale_numero_se>
+    <vale_tipo_se>oper</vale_tipo_se>
+    <vale_fase>oper</vale_fase>
+    <vale_numero_projeto />
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980040559</r_object_id>
+    <object_name>SE-5897-TESTE SE QUARTA</object_name>
+    <title>TESTE SE QUARTA</title>
+    <vale_site>kk</vale_site>
+    <vale_numero_se>5897</vale_numero_se>
+    <vale_tipo_se>oper</vale_tipo_se>
+    <vale_fase>oper</vale_fase>
+    <vale_numero_projeto />
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980040997</r_object_id>
+    <object_name>SE-12345-SE NOVO LC</object_name>
+    <title>SE NOVO LC</title>
+    <vale_site>kk</vale_site>
+    <vale_numero_se>12345</vale_numero_se>
+    <vale_tipo_se>oper</vale_tipo_se>
+    <vale_fase>oper</vale_fase>
+    <vale_numero_projeto />
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980040a30</r_object_id>
+    <object_name>SE-1234568-TESTE SE STATUS 01</object_name>
+    <title>TESTE SE STATUS 01</title>
+    <vale_site>kk</vale_site>
+    <vale_numero_se>1234568</vale_numero_se>
+    <vale_tipo_se>oper</vale_tipo_se>
+    <vale_fase>oper</vale_fase>
+    <vale_numero_projeto />
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980041dd5</r_object_id>
+    <object_name>25879-5-F2</object_name>
+    <title>PROJETO TESTE 01</title>
+    <vale_site>kk</vale_site>
+    <vale_numero_se />
+    <vale_tipo_se>proj</vale_tipo_se>
+    <vale_fase>fel2</vale_fase>
+    <vale_numero_projeto>25879-5</vale_numero_projeto>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98004252a</r_object_id>
+    <object_name>SE-112233-TESTE RELATION 01</object_name>
+    <title>TESTE RELATION 01</title>
+    <vale_site>kk</vale_site>
+    <vale_numero_se>112233</vale_numero_se>
+    <vale_tipo_se>oper</vale_tipo_se>
+    <vale_fase>oper</vale_fase>
+    <vale_numero_projeto />
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98004252f</r_object_id>
+    <object_name>SE-1234567890-SE FRITZ - NAO MEXA</object_name>
+    <title>SE FRITZ - NAO MEXA</title>
+    <vale_site>kk</vale_site>
+    <vale_numero_se>1234567890</vale_numero_se>
+    <vale_tipo_se>oper</vale_tipo_se>
+    <vale_fase>oper</vale_fase>
+    <vale_numero_projeto />
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980042532</r_object_id>
+    <object_name>041191-F1</object_name>
+    <title>TESTE LETICIA</title>
+    <vale_site>kn</vale_site>
+    <vale_numero_se />
+    <vale_tipo_se>proj</vale_tipo_se>
+    <vale_fase>fel1</vale_fase>
+    <vale_numero_projeto>041191</vale_numero_projeto>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0036_4ddbd77-52fc-4fe9-bcd4-f06c18ef0331>
+    <debug_mode>4</debug_mode>
+    <default_folder_type>vale_eng_folder</default_folder_type>
+    <create_report>true</create_report>
+    <checkin_as_current>true</checkin_as_current>
+    <add_vdoc_child_row>false</add_vdoc_child_row>
+    <rendition_path_seperator>|</rendition_path_seperator>
+    <repeating_attribute_delimiter>|</repeating_attribute_delimiter>
+    <version_from>current</version_from>
+    <version_policy>Major</version_policy>
+    <create_cabinet>true</create_cabinet>
+    <use_transcation_processing>true</use_transcation_processing>
+    <content_size_threshold>100000</content_size_threshold>
+    <content_size_column>r_full_contenr_full_content_size</content_size_column>
+    <use_override>false</use_override>
+    <resolve_extension_to_format>true</resolve_extension_to_format>
+    <delimiter_character>|</delimiter_character>
+    <vale_qt_reprogramacao>0</vale_qt_reprogramacao>
+    <category>5</category>
+    <vale_padronizado>false</vale_padronizado>
+    <vale_documento_fornecedor>false</vale_documento_fornecedor>
+    <vale_caderno_flag>false</vale_caderno_flag>
+    <domain>vale_eng</domain>
+  </_x0036_4ddbd77-52fc-4fe9-bcd4-f06c18ef0331>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>a</NoName1>
+    <pt>A - ARQUITETURA</pt>
+    <en>A - ARCHITECTURE</en>
+    <Cod>A</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>b</NoName1>
+    <pt>B - CIVIL/INFRAESTRUTURA</pt>
+    <en>B - CIVIL/INFRASTRUCTURE</en>
+    <Cod>B</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>c</NoName1>
+    <pt>C - CIVIL/CONCRETO</pt>
+    <en>C - CIVIL/CONCRETE</en>
+    <Cod>C</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>d</NoName1>
+    <pt>D - ENGENHARIA NAVAL</pt>
+    <en>D - NAVAL ENGINEERING</en>
+    <Cod>D</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>e</NoName1>
+    <pt>E - ELETRICA</pt>
+    <en>E - ELECTRICAL</en>
+    <Cod>E</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>f</NoName1>
+    <pt>F - PLANEJAMENTO E CONTROLE</pt>
+    <en>F - PLANNING AND CONTROL</en>
+    <Cod>F</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>g</NoName1>
+    <pt>G - GERAL/ COORDENACAO</pt>
+    <en>G - GENERAL/ COORDINATION</en>
+    <Cod>G</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>h</NoName1>
+    <pt>H - ENGENHARIA ECONOMICA</pt>
+    <en>H - ECONOMIC ENGINEERING</en>
+    <Cod>H</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>i</NoName1>
+    <pt>I - REFRATARIOS</pt>
+    <en>I - REFRACTORY</en>
+    <Cod>I</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>j</NoName1>
+    <pt>J - AUTOMACAO INDUSTRIAL</pt>
+    <en>J - INDUSTRIAL AUTOMATION</en>
+    <Cod>J</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>k</NoName1>
+    <pt>K - TELECOMUNICACOES</pt>
+    <en>K - TELECOMMUNICATIONS</en>
+    <Cod>K</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>l</NoName1>
+    <pt>L - MECANICA/ARRANJOS</pt>
+    <en>L - MECHANICAL/ ARRANGEMENTS</en>
+    <Cod>L</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>m</NoName1>
+    <pt>M - MECANICA/ EQUIPAMENTOS</pt>
+    <en>M - MECHANICAL/ EQUIPMENT</en>
+    <Cod>M</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>n</NoName1>
+    <pt>N - SUSTENTABILIDADE</pt>
+    <en>N - SUSTAINABILITY</en>
+    <Cod>N</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>o</NoName1>
+    <pt>O - NAO APLICAVEL</pt>
+    <en>O - NOT APPLICABLE</en>
+    <Cod>O</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>p</NoName1>
+    <pt>P - PROCESSOS INDUSTRIAIS</pt>
+    <en>P - INDUSTRIAL PROCESSES</en>
+    <Cod>P</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>q</NoName1>
+    <pt>Q - QUALIDADE</pt>
+    <en>Q - QUALITY</en>
+    <Cod>Q</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>r</NoName1>
+    <pt>R - SAUDE E SEGURANCA</pt>
+    <en>R - HEALTH AND SAFETY</en>
+    <Cod>R</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>s</NoName1>
+    <pt>S - ESTRUTURAS METALICAS</pt>
+    <en>S - STEEL STRUCTURES</en>
+    <Cod>S</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>t</NoName1>
+    <pt>T - TUBULACAO E SISTEMAS</pt>
+    <en>T - PIPING AND SYSTEMS</en>
+    <Cod>T</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>u</NoName1>
+    <pt>U - LAVRA</pt>
+    <en>U - MINING</en>
+    <Cod>U</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>v</NoName1>
+    <pt>V - TOPOGRAFIA</pt>
+    <en>V - TOPOGRAPHY</en>
+    <Cod>V</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>w</NoName1>
+    <pt>W - GEOLOGIA</pt>
+    <en>W - GEOLOGY</en>
+    <Cod>W</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>x</NoName1>
+    <pt>X - GEOTECNIA/ CLIMATOLOGIA/ HIDROLOGIA/ HIDROGEOLOGIA</pt>
+    <en>X - GEOTECHNICS/ CLIMATOLOGY/ HYDROLOGY/ HYDROGEOLOGY</en>
+    <Cod>X</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>y</NoName1>
+    <pt>Y - SUPERESTRUTURA</pt>
+    <en>Y - SUPERSTRUCTURE</en>
+    <Cod>Y</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+    <NoName>1</NoName>
+    <NoName1>z</NoName1>
+    <pt>Z - ESTRUTURAS MARITIMAS E COSTEIRAS</pt>
+    <en>Z - MARITIME AND COASTAL STRUCTURE</en>
+    <Cod>Z</Cod>
+  </_x0037_9a459c9-9b91-4538-895f-d35c75ddf4c6>
+  <_x0036_e4db5b9-6a77-443e-a7e9-0f9091c39901>
+    <ao_doc_type_classification>c</ao_doc_type_classification>
+    <vale_site>kk</vale_site>
+    <permissao_grupos>vale_kk_security_delete_confidential</permissao_grupos>
+  </_x0036_e4db5b9-6a77-443e-a7e9-0f9091c39901>
+  <_x0036_e4db5b9-6a77-443e-a7e9-0f9091c39901>
+    <ao_doc_type_classification>r</ao_doc_type_classification>
+    <vale_site>kk</vale_site>
+    <permissao_grupos>vale_kk_security_delete_confidential| vale_kk_security_delete_restrict</permissao_grupos>
+  </_x0036_e4db5b9-6a77-443e-a7e9-0f9091c39901>
+  <_x0036_e4db5b9-6a77-443e-a7e9-0f9091c39901>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_site>kk</vale_site>
+    <permissao_grupos>vale_kk_security_delete_confidential| vale_kk_security_delete_restrict| vale_kk_security_delete_internal</permissao_grupos>
+  </_x0036_e4db5b9-6a77-443e-a7e9-0f9091c39901>
+  <_x0036_e4db5b9-6a77-443e-a7e9-0f9091c39901>
+    <ao_doc_type_classification>p</ao_doc_type_classification>
+    <vale_site>kk</vale_site>
+    <permissao_grupos>vale_kk_security_delete_confidential| vale_kk_security_delete_restrict| vale_kk_security_delete_internal| vale_kk_security_delete_public</permissao_grupos>
+  </_x0036_e4db5b9-6a77-443e-a7e9-0f9091c39901>
+  <_x0036_e4db5b9-6a77-443e-a7e9-0f9091c39901>
+    <ao_doc_type_classification>c</ao_doc_type_classification>
+    <vale_site>kl</vale_site>
+    <permissao_grupos>vale_kl_security_delete_confidential</permissao_grupos>
+  </_x0036_e4db5b9-6a77-443e-a7e9-0f9091c39901>
+  <_x0036_e4db5b9-6a77-443e-a7e9-0f9091c39901>
+    <ao_doc_type_classification>r</ao_doc_type_classification>
+    <vale_site>kl</vale_site>
+    <permissao_grupos>vale_kl_security_delete_confidential| vale_kl_security_delete_restrict</permissao_grupos>
+  </_x0036_e4db5b9-6a77-443e-a7e9-0f9091c39901>
+  <_x0036_e4db5b9-6a77-443e-a7e9-0f9091c39901>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_site>kl</vale_site>
+    <permissao_grupos>vale_kl_security_delete_confidential| vale_kl_security_delete_restrict| vale_kl_security_delete_internal</permissao_grupos>
+  </_x0036_e4db5b9-6a77-443e-a7e9-0f9091c39901>
+  <_x0036_e4db5b9-6a77-443e-a7e9-0f9091c39901>
+    <ao_doc_type_classification>p</ao_doc_type_classification>
+    <vale_site>kl</vale_site>
+    <permissao_grupos>vale_kl_security_delete_confidential| vale_kl_security_delete_restrict| vale_kl_security_delete_internal| vale_kl_security_delete_public</permissao_grupos>
+  </_x0036_e4db5b9-6a77-443e-a7e9-0f9091c39901>
+  <cbe3c191-f612-43fa-b806-47e2e05188f9>
+    <filepath>C:\Users\C0309765\Desktop\Documento Testes</filepath>
+    <filename>Cad_01.dwg</filename>
+    <a_status>Draft</a_status>
+    <title>Documento Engenharia 01</title>
+    <document_type>dg</document_type>
+    <ao_asset_area>87</ao_asset_area>
+    <vale_subarea>12</vale_subarea>
+    <vale_site>kk</vale_site>
+    <ao_discipline_s>j</ao_discipline_s>
+    <ao_asset_corporation>VALE SA</ao_asset_corporation>
+    <vale_eng_project>SE-1234567890-SE FRITZ - NAO MEXA</vale_eng_project>
+    <ao_revision>2</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_sigla_tipo_emissao>b</vale_sigla_tipo_emissao>
+    <numero_vale>8712KK-E-00025</numero_vale>
+  </cbe3c191-f612-43fa-b806-47e2e05188f9>
+  <cbe3c191-f612-43fa-b806-47e2e05188f9>
+    <filepath>C:\Users\C0309765\Desktop\Documento Testes</filepath>
+    <filename>Cad_01.dwg</filename>
+    <a_status>Draft</a_status>
+    <title>Documento Engenharia 02</title>
+    <document_type>dg</document_type>
+    <ao_asset_area>87</ao_asset_area>
+    <vale_subarea>12</vale_subarea>
+    <vale_site>kk</vale_site>
+    <ao_discipline_s>j</ao_discipline_s>
+    <ao_asset_corporation>VALE SA</ao_asset_corporation>
+    <vale_eng_project>SE-1234567890-SE FRITZ - NAO MEXA</vale_eng_project>
+    <ao_revision>2</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_sigla_tipo_emissao>b</vale_sigla_tipo_emissao>
+    <numero_vale>8712KK-E-00026</numero_vale>
+  </cbe3c191-f612-43fa-b806-47e2e05188f9>
+  <cbe3c191-f612-43fa-b806-47e2e05188f9>
+    <filepath>C:\Users\C0309765\Desktop\Documento Testes</filepath>
+    <filename>Cad_01.dwg</filename>
+    <a_status>Draft</a_status>
+    <title>Documento Engenharia 03</title>
+    <document_type>dg</document_type>
+    <ao_asset_area>87</ao_asset_area>
+    <vale_subarea>12</vale_subarea>
+    <vale_site>kk</vale_site>
+    <ao_discipline_s>j</ao_discipline_s>
+    <ao_asset_corporation>VALE SA</ao_asset_corporation>
+    <vale_eng_project>SE-1234567890-SE FRITZ - NAO MEXA</vale_eng_project>
+    <ao_revision>2</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_sigla_tipo_emissao>b</vale_sigla_tipo_emissao>
+    <numero_vale>8712KK-E-00027</numero_vale>
+  </cbe3c191-f612-43fa-b806-47e2e05188f9>
+  <cbe3c191-f612-43fa-b806-47e2e05188f9>
+    <filepath>C:\Users\C0309765\Desktop\Documento Testes</filepath>
+    <filename>Cad_01.dwg</filename>
+    <a_status>Draft</a_status>
+    <title>Documento Engenharia 04</title>
+    <document_type>dg</document_type>
+    <ao_asset_area>87</ao_asset_area>
+    <vale_subarea>12</vale_subarea>
+    <vale_site>kk</vale_site>
+    <ao_discipline_s>j</ao_discipline_s>
+    <ao_asset_corporation>VALE SA</ao_asset_corporation>
+    <vale_eng_project>SE-1234567890-SE FRITZ - NAO MEXA</vale_eng_project>
+    <ao_revision>2</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_sigla_tipo_emissao>b</vale_sigla_tipo_emissao>
+    <numero_vale>8712KK-E-00028</numero_vale>
+  </cbe3c191-f612-43fa-b806-47e2e05188f9>
+  <cbe3c191-f612-43fa-b806-47e2e05188f9>
+    <filepath>C:\Users\C0309765\Desktop\Documento Testes</filepath>
+    <filename>Cad_01.dwg</filename>
+    <a_status>Draft</a_status>
+    <title>Documento Engenharia 05</title>
+    <document_type>dg</document_type>
+    <ao_asset_area>87</ao_asset_area>
+    <vale_subarea>12</vale_subarea>
+    <vale_site>kk</vale_site>
+    <ao_discipline_s>j</ao_discipline_s>
+    <ao_asset_corporation>VALE SA</ao_asset_corporation>
+    <vale_eng_project>SE-1234567890-SE FRITZ - NAO MEXA</vale_eng_project>
+    <ao_revision>2</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_sigla_tipo_emissao>b</vale_sigla_tipo_emissao>
+    <numero_vale>8712KK-E-00029</numero_vale>
+  </cbe3c191-f612-43fa-b806-47e2e05188f9>
+  <cbe3c191-f612-43fa-b806-47e2e05188f9>
+    <filepath>C:\Users\C0309765\Desktop\Documento Testes</filepath>
+    <filename>Cad_01.dwg</filename>
+    <a_status>Draft</a_status>
+    <title>Documento Engenharia 06</title>
+    <document_type>dg</document_type>
+    <ao_asset_area>87</ao_asset_area>
+    <vale_subarea>12</vale_subarea>
+    <vale_site>kk</vale_site>
+    <ao_discipline_s>j</ao_discipline_s>
+    <ao_asset_corporation>VALE SA</ao_asset_corporation>
+    <vale_eng_project>SE-1234567890-SE FRITZ - NAO MEXA</vale_eng_project>
+    <ao_revision>2</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_sigla_tipo_emissao>b</vale_sigla_tipo_emissao>
+    <numero_vale>8712KK-E-00030</numero_vale>
+  </cbe3c191-f612-43fa-b806-47e2e05188f9>
+  <cbe3c191-f612-43fa-b806-47e2e05188f9>
+    <filepath>C:\Users\C0309765\Desktop\Documento Testes</filepath>
+    <filename>Cad_01.dwg</filename>
+    <a_status>Draft</a_status>
+    <title>Documento Engenharia 07</title>
+    <document_type>dg</document_type>
+    <ao_asset_area>87</ao_asset_area>
+    <vale_subarea>12</vale_subarea>
+    <vale_site>kk</vale_site>
+    <ao_discipline_s>j</ao_discipline_s>
+    <ao_asset_corporation>VALE SA</ao_asset_corporation>
+    <vale_eng_project>SE-1234567890-SE FRITZ - NAO MEXA</vale_eng_project>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_sigla_tipo_emissao>b</vale_sigla_tipo_emissao>
+    <numero_vale>8712KK-E-00025</numero_vale>
+  </cbe3c191-f612-43fa-b806-47e2e05188f9>
+  <cbe3c191-f612-43fa-b806-47e2e05188f9>
+    <filepath>C:\Users\C0309765\Desktop\Documento Testes</filepath>
+    <filename>Cad_01.dwg</filename>
+    <a_status>Draft</a_status>
+    <title>Documento Engenharia 08</title>
+    <document_type>dg</document_type>
+    <ao_asset_area>87</ao_asset_area>
+    <vale_subarea>12</vale_subarea>
+    <vale_site>kk</vale_site>
+    <ao_discipline_s>j</ao_discipline_s>
+    <ao_asset_corporation>VALE SA</ao_asset_corporation>
+    <vale_eng_project>SE-1234567890-SE FRITZ - NAO MEXA</vale_eng_project>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_sigla_tipo_emissao>b</vale_sigla_tipo_emissao>
+    <numero_vale>8712KK-E-00026</numero_vale>
+  </cbe3c191-f612-43fa-b806-47e2e05188f9>
+  <cbe3c191-f612-43fa-b806-47e2e05188f9>
+    <filepath>C:\Users\C0309765\Desktop\Documento Testes</filepath>
+    <filename>Cad_01.dwg</filename>
+    <a_status>Draft</a_status>
+    <title>Documento Engenharia 09</title>
+    <document_type>dg</document_type>
+    <ao_asset_area>87</ao_asset_area>
+    <vale_subarea>12</vale_subarea>
+    <vale_site>kk</vale_site>
+    <ao_discipline_s>j</ao_discipline_s>
+    <ao_asset_corporation>VALE SA</ao_asset_corporation>
+    <vale_eng_project>SE-1234567890-SE FRITZ - NAO MEXA</vale_eng_project>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_sigla_tipo_emissao>b</vale_sigla_tipo_emissao>
+    <numero_vale>8712KK-E-00027</numero_vale>
+  </cbe3c191-f612-43fa-b806-47e2e05188f9>
+  <cbe3c191-f612-43fa-b806-47e2e05188f9>
+    <filepath>C:\Users\C0309765\Desktop\Documento Testes</filepath>
+    <filename>Cad_01.dwg</filename>
+    <a_status>Draft</a_status>
+    <title>Documento Engenharia 10</title>
+    <document_type>dg</document_type>
+    <ao_asset_area>87</ao_asset_area>
+    <vale_subarea>12</vale_subarea>
+    <vale_site>kk</vale_site>
+    <ao_discipline_s>j</ao_discipline_s>
+    <ao_asset_corporation>VALE SA</ao_asset_corporation>
+    <vale_eng_project>SE-1234567890-SE FRITZ - NAO MEXA</vale_eng_project>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_sigla_tipo_emissao>b</vale_sigla_tipo_emissao>
+    <numero_vale>8712KK-E-00028</numero_vale>
+  </cbe3c191-f612-43fa-b806-47e2e05188f9>
+  <cbe3c191-f612-43fa-b806-47e2e05188f9>
+    <filepath>C:\Users\C0309765\Desktop\Documento Testes</filepath>
+    <filename>Cad_01.dwg</filename>
+    <a_status>Draft</a_status>
+    <title>Documento Engenharia 11</title>
+    <document_type>dg</document_type>
+    <ao_asset_area>87</ao_asset_area>
+    <vale_subarea>12</vale_subarea>
+    <vale_site>kk</vale_site>
+    <ao_discipline_s>j</ao_discipline_s>
+    <ao_asset_corporation>VALE SA</ao_asset_corporation>
+    <vale_eng_project>SE-1234567890-SE FRITZ - NAO MEXA</vale_eng_project>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_sigla_tipo_emissao>b</vale_sigla_tipo_emissao>
+    <numero_vale>8712KK-E-00029</numero_vale>
+  </cbe3c191-f612-43fa-b806-47e2e05188f9>
+  <cbe3c191-f612-43fa-b806-47e2e05188f9>
+    <filepath>C:\Users\C0309765\Desktop\Documento Testes</filepath>
+    <filename>Cad_01.dwg</filename>
+    <a_status>Draft</a_status>
+    <title>Documento Engenharia 12</title>
+    <document_type>dg</document_type>
+    <ao_asset_area>87</ao_asset_area>
+    <vale_subarea>12</vale_subarea>
+    <vale_site>kk</vale_site>
+    <ao_discipline_s>j</ao_discipline_s>
+    <ao_asset_corporation>VALE SA</ao_asset_corporation>
+    <vale_eng_project>SE-1234567890-SE FRITZ - NAO MEXA</vale_eng_project>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_sigla_tipo_emissao>b</vale_sigla_tipo_emissao>
+    <numero_vale>8712KK-E-00030</numero_vale>
+  </cbe3c191-f612-43fa-b806-47e2e05188f9>
+</NewDataSet>

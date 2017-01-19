@@ -1,0 +1,278 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="_x0036_836e55e-ede3-4915-a605-f9e3244ca8ee">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="debug_mode" type="xs:short" minOccurs="0" />
+                <xs:element name="default_folder_type" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="create_report" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="checkin_as_current" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="add_vdoc_child_row" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="rendition_path_seperator" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="repeating_attribute_delimiter" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="version_from" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="version_policy" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="create_cabinet" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="use_transcation_processing" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="content_size_threshold" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="content_size_column" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="use_override" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="override_class_name" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="bypass_attribute_processing" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="file_ext" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="dctm_format" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="resolve_extension_to_format" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="report_folder_path" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="legacy_object_id_field" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="delimiter_character" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="domain" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="bb499749-de3d-4c9a-8903-f1286a40334f">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Item" type="xs:short" minOccurs="0" />
+                <xs:element name="r_object_id" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="object_name" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="numero_vale_doc_principal" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="title" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="numero_referencia" type="xs:short" minOccurs="0" />
+                <xs:element name="revisao_doc_principal" type="xs:boolean" minOccurs="0" />
+                <xs:element name="a_content_type" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="codigo_site" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="file_path" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="error" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <_x0036_836e55e-ede3-4915-a605-f9e3244ca8ee>
+    <debug_mode>2</debug_mode>
+    <default_folder_type>vale_eng_folder</default_folder_type>
+    <create_report>true</create_report>
+    <checkin_as_current>true</checkin_as_current>
+    <add_vdoc_child_row>false</add_vdoc_child_row>
+    <rendition_path_seperator>|</rendition_path_seperator>
+    <repeating_attribute_delimiter>|</repeating_attribute_delimiter>
+    <version_from>Current</version_from>
+    <version_policy>Major</version_policy>
+    <create_cabinet>true</create_cabinet>
+    <use_transcation_processing>true</use_transcation_processing>
+    <content_size_threshold>100000</content_size_threshold>
+    <content_size_column>r_full|_content_size</content_size_column>
+    <use_override>false</use_override>
+    <resolve_extension_to_format>true</resolve_extension_to_format>
+    <delimiter_character>|</delimiter_character>
+    <domain>vale_eng</domain>
+  </_x0036_836e55e-ede3-4915-a605-f9e3244ca8ee>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>1</Item>
+    <r_object_id>09035f518107e5e7</r_object_id>
+    <object_name>RL-5000IA-N-00853_REF1.XLS</object_name>
+    <numero_vale_doc_principal>RL-5000IA-N-00853</numero_vale_doc_principal>
+    <numero_referencia>1</numero_referencia>
+    <revisao_doc_principal>false</revisao_doc_principal>
+    <a_content_type>excel8book</a_content_type>
+    <codigo_site>IA</codigo_site>
+    <file_path>/1_RL-5000IA-N-00853_REF1.XLS</file_path>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>2</Item>
+    <r_object_id>09035f518107e5e8</r_object_id>
+    <object_name>RL-5000IA-N-00853_REF2.XLSX</object_name>
+    <numero_vale_doc_principal>RL-5000IA-N-00853</numero_vale_doc_principal>
+    <numero_referencia>2</numero_referencia>
+    <revisao_doc_principal>false</revisao_doc_principal>
+    <a_content_type>excel12book</a_content_type>
+    <codigo_site>IA</codigo_site>
+    <file_path>/2_RL-5000IA-N-00853_REF2.XLSX</file_path>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+</NewDataSet>
