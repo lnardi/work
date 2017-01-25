@@ -1549,73 +1549,8 @@
     <codigo_area>58</codigo_area>
   </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
   <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>1</Item>
-    <fase>CONS</fase>
-    <r_object_id>08035f518017b590</r_object_id>
-    <object_name>M0011 - SPCI - SISTEMA DE COMBATE A INCEDIO - MINA DE MANGANES DO AZUL</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>11</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>SPCI - SISTEMA DE COMBATE A INCEDIO - MINA DE MANGANES DO AZUL</nome>
-    <area_responsavel>DIIC - GEEIC - GAPCF</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>2</Item>
-    <fase>CONS</fase>
-    <r_object_id>08035f5180690561</r_object_id>
-    <object_name>M1234 - AVALIACAO DE SEGURANCA DAS BARRAGENS DO MANGANES</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>1234</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>AVALIACAO DE SEGURANCA DAS BARRAGENS DO MANGANES</nome>
-    <area_responsavel>DIIC - GEEIC - GAPCF</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>3</Item>
-    <fase>CONS</fase>
-    <r_object_id>08035f51807607e6</r_object_id>
-    <object_name>M0589 - ESCRITORIO ADMINISTRATIVO MANGANES (SE-ENG 071)</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>589</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>ESCRITORIO ADMINISTRATIVO MANGANES (SE-ENG 071)</nome>
-    <area_responsavel>DEEB - DIIC - GAPCF / GAENC</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>4</Item>
-    <fase>CONS</fase>
-    <r_object_id>08035f51807795eb</r_object_id>
-    <object_name>M0583 - ALTEAMENTO DA BARRAGEM DO AZUL</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>583</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>ALTEAMENTO DA BARRAGEM DO AZUL</nome>
-    <area_responsavel>DEEB - DIIC - GAPCF / GEFEC - GAENC</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>5</Item>
-    <fase>CONS</fase>
-    <r_object_id>08035f518123acf1</r_object_id>
-    <object_name>M1237 - SEGUNDO ALTEAMENTO DA BARRAGEM DO AZUL</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>1237</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>SEGUNDO ALTEAMENTO DA BARRAGEM DO AZUL</nome>
-    <area_responsavel>DEEB - DIIC - GAPCF</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>6</Item>
-    <fase>CONS</fase>
+    <Item>31</Item>
+    <fase>FEL3</fase>
     <r_object_id>08035f5181734e06</r_object_id>
     <object_name>M1233-01 - ENG 170: BARRAGEM DE CONTENCAO DE SEDIMENTOS DA PDE 02 - MANGANES DO AZUL</object_name>
     <ativo>true</ativo>
@@ -1628,219 +1563,8 @@
     <area_responsavel>DIIC-GEFEC-GAENC</area_responsavel>
   </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
   <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>7</Item>
-    <fase>CONS</fase>
-    <r_object_id>08035f5181927194</r_object_id>
-    <object_name>M0013-01 - ADEQUACAO DA USINA</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>13</numero_projeto>
-    <numero_sequencial>1</numero_sequencial>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>ADEQUACAO DA USINA</nome>
-    <area_responsavel>DIIC - GAPCF</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>8</Item>
-    <fase>CONS</fase>
-    <r_object_id>08035f51819ac4b0</r_object_id>
-    <object_name>M1250 - (ENG-171-1) - INSTALACAO DE ELEVADORES DE AMOSTRAS - USINA MANGANES</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>1250</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>(ENG-171-1) - INSTALACAO DE ELEVADORES DE AMOSTRAS - USINA MANGANES</nome>
-    <area_responsavel>DIIC-GEFEC-GAENC</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>9</Item>
-    <fase>CONS</fase>
-    <r_object_id>08035f5181b1bf61</r_object_id>
-    <object_name>M1251 - REVITALIZACAO DAS BARRAGENS E DIQUES MANGANES</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>1251</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>REVITALIZACAO DAS BARRAGENS E DIQUES MANGANES</nome>
-    <area_responsavel>DIIC-GEFEC-GAENC</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>10</Item>
-    <fase>CONS</fase>
-    <r_object_id>08035f5182537a21</r_object_id>
-    <object_name>M0013-02 - CORRECAO DA EROSAO DO PREDIO DAS PENEIRAS 7 E 8</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>13</numero_projeto>
-    <numero_sequencial>2</numero_sequencial>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>CORRECAO DA EROSAO DO PREDIO DAS PENEIRAS 7 E 8</nome>
-    <area_responsavel>DIIC-GEFEC-GAENC</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>11</Item>
-    <fase>FEL1</fase>
-    <r_object_id>08035f518071ba40</r_object_id>
-    <object_name>M1232 - TCLD MANGANES PARA PATIO D</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>1232</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>TCLD MANGANES PARA PATIO D</nome>
-    <area_responsavel>DEEB - DIIC - GAPCF</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>12</Item>
-    <fase>FEL1</fase>
-    <r_object_id>08035f518071c7d5</r_object_id>
-    <object_name>M1245 - USINA MANGANES DO AZUL</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>1245</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>USINA MANGANES DO AZUL</nome>
-    <area_responsavel>DEEB / DIIC</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>13</Item>
-    <fase>FEL2</fase>
-    <r_object_id>08035f51803a47ba</r_object_id>
-    <object_name>M1007 - FEED PARA PELOTIZACAO DE MANGANES</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>1007</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>FEED PARA PELOTIZACAO DE MANGANES</nome>
-    <area_responsavel>DIEF - GEDEF - GADEF</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>14</Item>
-    <fase>FEL2</fase>
-    <r_object_id>08035f5180690561</r_object_id>
-    <object_name>M1234 - AVALIACAO DE SEGURANCA DAS BARRAGENS DO MANGANES</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>1234</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>AVALIACAO DE SEGURANCA DAS BARRAGENS DO MANGANES</nome>
-    <area_responsavel>DIIC - GEEIC - GAPCF</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>15</Item>
-    <fase>FEL2</fase>
-    <r_object_id>08035f518071b8bf</r_object_id>
-    <object_name>M0007 - PROJETO 85 - RECUPERACAO DA BARRAGEM DO KALUNGA</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>7</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>PROJETO 85 - RECUPERACAO DA BARRAGEM DO KALUNGA</nome>
-    <area_responsavel>DEEB / DIIC</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>16</Item>
-    <fase>FEL2</fase>
-    <r_object_id>08035f518071b92d</r_object_id>
-    <object_name>M0008 - PROJETO 85 - RECUPERACAO DA BARRAGEM DO AZUL</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>8</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>PROJETO 85 - RECUPERACAO DA BARRAGEM DO AZUL</nome>
-    <area_responsavel>DEEB / DIIC</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>17</Item>
-    <fase>FEL2</fase>
-    <r_object_id>08035f518071b972</r_object_id>
-    <object_name>M0009 - PROJETO 85 - OTIMIZACAO DA USINA DO MANGANES</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>9</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>PROJETO 85 - OTIMIZACAO DA USINA DO MANGANES</nome>
-    <area_responsavel>DEEB / DIIC</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>18</Item>
-    <fase>FEL2</fase>
-    <r_object_id>08035f518071c7d5</r_object_id>
-    <object_name>M1245 - USINA MANGANES DO AZUL</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>1245</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>USINA MANGANES DO AZUL</nome>
-    <area_responsavel>DEEB / DIIC</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>19</Item>
-    <fase>FEL2</fase>
-    <r_object_id>08035f51807607e6</r_object_id>
-    <object_name>M0589 - ESCRITORIO ADMINISTRATIVO MANGANES (SE-ENG 071)</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>589</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>ESCRITORIO ADMINISTRATIVO MANGANES (SE-ENG 071)</nome>
-    <area_responsavel>DEEB - DIIC - GAPCF / GAENC</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>20</Item>
-    <fase>FEL2</fase>
-    <r_object_id>08035f518123acf1</r_object_id>
-    <object_name>M1237 - SEGUNDO ALTEAMENTO DA BARRAGEM DO AZUL</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>1237</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>SEGUNDO ALTEAMENTO DA BARRAGEM DO AZUL</nome>
-    <area_responsavel>DEEB - DIIC - GAPCF</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>21</Item>
-    <fase>FEL2</fase>
-    <r_object_id>08035f518132c317</r_object_id>
-    <object_name>M0013 - MANGANES DO AZUL - ADEQUACAO</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>13</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>MANGANES DO AZUL - ADEQUACAO</nome>
-    <area_responsavel>DIEF - GAQEF - GEDEF</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>22</Item>
-    <fase>FEL2</fase>
-    <r_object_id>08035f5181734e06</r_object_id>
-    <object_name>M1233-01 - ENG 170: BARRAGEM DE CONTENCAO DE SEDIMENTOS DA PDE 02 - MANGANES DO AZUL</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>1233</numero_projeto>
-    <numero_sequencial>1</numero_sequencial>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>ENG 170: BARRAGEM DE CONTENCAO DE SEDIMENTOS DA PDE 02 - MANGANES DO AZUL</nome>
-    <area_responsavel>DIIC-GEFEC-GAENC</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>23</Item>
-    <fase>FEL2</fase>
+    <Item>32</Item>
+    <fase>FEL3</fase>
     <r_object_id>08035f518182b243</r_object_id>
     <object_name>M1238 - SISTEMA DE AMOSTRAGEM MANGANES DO AZUL</object_name>
     <ativo>true</ativo>
@@ -1852,8 +1576,8 @@
     <area_responsavel>DIIC-GEFEC-GAENC</area_responsavel>
   </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
   <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>24</Item>
-    <fase>FEL2</fase>
+    <Item>33</Item>
+    <fase>FEL3</fase>
     <r_object_id>08035f5181927194</r_object_id>
     <object_name>M0013-01 - ADEQUACAO DA USINA</object_name>
     <ativo>true</ativo>
@@ -1866,8 +1590,34 @@
     <area_responsavel>DIIC - GAPCF</area_responsavel>
   </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
   <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>25</Item>
-    <fase>FEL2</fase>
+    <Item>34</Item>
+    <fase>FEL3</fase>
+    <r_object_id>08035f51819ac4b0</r_object_id>
+    <object_name>M1250 - (ENG-171-1) - INSTALACAO DE ELEVADORES DE AMOSTRAS - USINA MANGANES</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>1250</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>(ENG-171-1) - INSTALACAO DE ELEVADORES DE AMOSTRAS - USINA MANGANES</nome>
+    <area_responsavel>DIIC-GEFEC-GAENC</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>35</Item>
+    <fase>FEL3</fase>
+    <r_object_id>08035f5181b1bf61</r_object_id>
+    <object_name>M1251 - REVITALIZACAO DAS BARRAGENS E DIQUES MANGANES</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>M</sigla_segmento_negocio>
+    <numero_projeto>1251</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>REVITALIZACAO DAS BARRAGENS E DIQUES MANGANES</nome>
+    <area_responsavel>DIIC-GEFEC-GAENC</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>36</Item>
+    <fase>FEL3</fase>
     <r_object_id>08035f5182617588</r_object_id>
     <object_name>M1240 - CANAL DESVIO IGARAPE - CAVA 1</object_name>
     <ativo>true</ativo>
@@ -1879,69 +1629,206 @@
     <area_responsavel>DIIC - GEEIC - GAPCF</area_responsavel>
   </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
   <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>26</Item>
-    <fase>FEL2</fase>
-    <r_object_id>08035f518285e901</r_object_id>
-    <object_name>N1285 - ESTUDO DE SEGURANCA SISMICA NAS BARRAGENS DE CARAJAS</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>N</sigla_segmento_negocio>
-    <numero_projeto>1285</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KM</codigo_site>
-    <nome>ESTUDO DE SEGURANCA SISMICA NAS BARRAGENS DE CARAJAS</nome>
-    <area_responsavel>DIIC-GEEIC-GAPCF</area_responsavel>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>27</Item>
+    <Item>37</Item>
     <fase>FEL3</fase>
-    <r_object_id>08035f518017b590</r_object_id>
-    <object_name>M0011 - SPCI - SISTEMA DE COMBATE A INCEDIO - MINA DE MANGANES DO AZUL</object_name>
+    <r_object_id>08035f5182705e83</r_object_id>
+    <object_name>M1236 - PLANO DIRETOR DE DISPOSICAO DE REJEITOS DO MN</object_name>
     <ativo>true</ativo>
     <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>11</numero_projeto>
+    <numero_projeto>1236</numero_projeto>
     <tipo>PR</tipo>
     <codigo_site>KM</codigo_site>
-    <nome>SPCI - SISTEMA DE COMBATE A INCEDIO - MINA DE MANGANES DO AZUL</nome>
-    <area_responsavel>DIIC - GEEIC - GAPCF</area_responsavel>
+    <nome>PLANO DIRETOR DE DISPOSICAO DE REJEITOS DO MN</nome>
+    <area_responsavel>DEEB/DIIC/GAPCF</area_responsavel>
   </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
   <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>28</Item>
-    <fase>FEL3</fase>
-    <r_object_id>08035f5180690561</r_object_id>
-    <object_name>M1234 - AVALIACAO DE SEGURANCA DAS BARRAGENS DO MANGANES</object_name>
+    <Item>38</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f518071ca4f</r_object_id>
+    <object_name>SE-CSC0004 - RODOVIARIA DO MANGANES</object_name>
     <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>1234</numero_projeto>
-    <tipo>PR</tipo>
+    <tipo>SE</tipo>
     <codigo_site>KM</codigo_site>
-    <nome>AVALIACAO DE SEGURANCA DAS BARRAGENS DO MANGANES</nome>
-    <area_responsavel>DIIC - GEEIC - GAPCF</area_responsavel>
+    <nome>RODOVIARIA DO MANGANES</nome>
+    <numero_se>CSC0004</numero_se>
+    <data_abertura>2011-11-17T14:15:38-02:00</data_abertura>
+    <responsavel_tecnico>CSC</responsavel_tecnico>
   </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
   <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>29</Item>
-    <fase>FEL3</fase>
-    <r_object_id>08035f518123acf1</r_object_id>
-    <object_name>M1237 - SEGUNDO ALTEAMENTO DA BARRAGEM DO AZUL</object_name>
+    <Item>39</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f518071ca52</r_object_id>
+    <object_name>SE-CSC0005 - LAVADOR DE VEICULOS MANGANES</object_name>
+    <ativo>true</ativo>
+    <tipo>SE</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>LAVADOR DE VEICULOS MANGANES</nome>
+    <numero_se>CSC0005</numero_se>
+    <data_abertura>2011-11-17T14:18:47-02:00</data_abertura>
+    <responsavel_tecnico>CSC</responsavel_tecnico>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>40</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f5180837efa</r_object_id>
+    <object_name>SE-70004879 - SUBSTITUICAO DAS CALHAS DA USINA DE BENEFICIAMENTO POR TUBULACAO DE PEAD</object_name>
+    <ativo>true</ativo>
+    <tipo>SE</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>SUBSTITUICAO DAS CALHAS DA USINA DE BENEFICIAMENTO POR TUBULACAO DE PEAD</nome>
+    <numero_se>70004879</numero_se>
+    <data_abertura>2012-02-16T16:55:14-02:00</data_abertura>
+    <responsavel_tecnico>LOYDE DE JESUS / JANILSON LIMA / MARIA CECILIA</responsavel_tecnico>
+    <area_responsavel>DIFN</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>41</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f51808d9ca6</r_object_id>
+    <object_name>SE-133482 - ESTUDOS PARA LICENCIAMENTO E TECNOLOGIA AMBIENTAL - RESIDUOS, PASSIVOS AMBIENTAIS, RECURSOS HIDRICOS E RISCOS AMBIENTAIS.</object_name>
     <ativo>true</ativo>
     <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>1237</numero_projeto>
-    <tipo>PR</tipo>
+    <tipo>SE</tipo>
     <codigo_site>KM</codigo_site>
-    <nome>SEGUNDO ALTEAMENTO DA BARRAGEM DO AZUL</nome>
+    <nome>ESTUDOS PARA LICENCIAMENTO E TECNOLOGIA AMBIENTAL - RESIDUOS, PASSIVOS AMBIENTAIS, RECURSOS HIDRICOS E RISCOS AMBIENTAIS.</nome>
+    <numero_se>133482</numero_se>
+    <data_abertura>2012-04-17T15:33:35-03:00</data_abertura>
+    <responsavel_tecnico>MARIA CECILIA / JANILSON LIMA</responsavel_tecnico>
+    <area_responsavel>DIAM</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>42</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f5180970c62</r_object_id>
+    <object_name>SE-DIR0001 - ARQUIVO TECNICO NORTE</object_name>
+    <ativo>true</ativo>
+    <tipo>SE</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>ARQUIVO TECNICO NORTE</nome>
+    <numero_se>DIR0001</numero_se>
+    <data_abertura>2012-06-05T10:26:17-03:00</data_abertura>
+    <responsavel_tecnico>ARQUIVO TECNICO DE CARAJAS</responsavel_tecnico>
     <area_responsavel>DEEB - DIIC - GAPCF</area_responsavel>
   </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
   <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>30</Item>
-    <fase>FEL3</fase>
-    <r_object_id>08035f518132c317</r_object_id>
-    <object_name>M0013 - MANGANES DO AZUL - ADEQUACAO</object_name>
+    <Item>43</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f5180b42334</r_object_id>
+    <object_name>SE-GACIN002 - DEMANDAS DIVERSAS DA ATA</object_name>
     <ativo>true</ativo>
-    <sigla_segmento_negocio>M</sigla_segmento_negocio>
-    <numero_projeto>13</numero_projeto>
-    <tipo>PR</tipo>
+    <tipo>SE</tipo>
     <codigo_site>KM</codigo_site>
-    <nome>MANGANES DO AZUL - ADEQUACAO</nome>
-    <area_responsavel>DIEF - GAQEF - GEDEF</area_responsavel>
+    <nome>DEMANDAS DIVERSAS DA ATA</nome>
+    <numero_se>GACIN002</numero_se>
+    <responsavel_tecnico>TATIANA CARRENHO</responsavel_tecnico>
+    <area_responsavel>DIFN-GECON-GACIN</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>44</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f518131e7af</r_object_id>
+    <object_name>SE-MN0002 - REDE DE ALIMENTACAO DOS POCOS DA MINA DO AZUL</object_name>
+    <ativo>true</ativo>
+    <tipo>SE</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>REDE DE ALIMENTACAO DOS POCOS DA MINA DO AZUL</nome>
+    <numero_se>MN0002</numero_se>
+    <data_abertura>2013-10-01T11:10:03-03:00</data_abertura>
+    <responsavel_tecnico>RANOR LEMOS</responsavel_tecnico>
+    <area_responsavel>DIFN-GEDEN-GAAZN</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>45</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f5181a0f4de</r_object_id>
+    <object_name>SE-GAAZN002 - BRITAGEM PRIMARIA ( LINHA I E III )</object_name>
+    <ativo>true</ativo>
+    <tipo>SE</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>BRITAGEM PRIMARIA ( LINHA I E III )</nome>
+    <numero_se>GAAZN002</numero_se>
+    <responsavel_tecnico>RANOR LEMOS</responsavel_tecnico>
+    <area_responsavel>DIFN/ GEDEN/ GAAZN</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>46</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f5181a0f525</r_object_id>
+    <object_name>SE-GAAZN001 - DEMANDAS DIVERSAS GAAZN</object_name>
+    <ativo>true</ativo>
+    <tipo>SE</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>DEMANDAS DIVERSAS GAAZN</nome>
+    <numero_se>GAAZN001</numero_se>
+    <responsavel_tecnico>RANOR LEMOS</responsavel_tecnico>
+    <area_responsavel>DIFN/ GEDEN/ GAAZN</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>47</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f5181a0f527</r_object_id>
+    <object_name>SE-GAAZN003 - USINA DE PRODUTO (LINHA I E II DE PENEIRAMENTO, BOMBAS EM GERAL, SILOS, TRANSPORTADORES, CALHAS, CAIXA DAGUA INDUSTRIAL E AR COMPRIMIDO)</object_name>
+    <ativo>true</ativo>
+    <tipo>SE</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>USINA DE PRODUTO (LINHA I E II DE PENEIRAMENTO, BOMBAS EM GERAL, SILOS, TRANSPORTADORES, CALHAS, CAIXA DAGUA INDUSTRIAL E AR COMPRIMIDO)</nome>
+    <numero_se>GAAZN003</numero_se>
+    <responsavel_tecnico>RANOR LEMOS</responsavel_tecnico>
+    <area_responsavel>DIFN/ GEDEN/ GAAZN</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>48</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f5181a0fa62</r_object_id>
+    <object_name>SE-GAAZN005 - BARRAGEM DE REJEITO</object_name>
+    <ativo>true</ativo>
+    <tipo>SE</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>BARRAGEM DE REJEITO</nome>
+    <numero_se>GAAZN005</numero_se>
+    <responsavel_tecnico>RANOR LEMOS</responsavel_tecnico>
+    <area_responsavel>DIFN/ GEDEN/ GAAZN</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>49</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f5181a0fac3</r_object_id>
+    <object_name>SE-GAAZN006 - OFICINA DE EQUIPAMENTO MOVEIS</object_name>
+    <ativo>true</ativo>
+    <tipo>SE</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>OFICINA DE EQUIPAMENTO MOVEIS</nome>
+    <numero_se>GAAZN006</numero_se>
+    <responsavel_tecnico>RANOR LEMOS</responsavel_tecnico>
+    <area_responsavel>DIFN/ GEDEN/ GAAZN</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>50</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f51827ba7d8</r_object_id>
+    <object_name>SE-GACIN239 - CLASSIFICACAO DE AREA EM ATMOSFERAS EXPLOSIVAS DOS POSTOS DE COMBUSTIVEL DE SERRA NORTE E LESTE</object_name>
+    <ativo>true</ativo>
+    <tipo>SE</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>CLASSIFICACAO DE AREA EM ATMOSFERAS EXPLOSIVAS DOS POSTOS DE COMBUSTIVEL DE SERRA NORTE E LESTE</nome>
+    <numero_se>GACIN239</numero_se>
+    <data_abertura>2016-10-13T15:00:21-03:00</data_abertura>
+    <responsavel_tecnico>MARCELO VALANDRO</responsavel_tecnico>
+    <area_responsavel>DIFN-GECON-GACIN</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>51</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f518288e7b9</r_object_id>
+    <object_name>SE-5900025468-01 - INVESTIGACAO GEOTECNICA E INSTALACAO DE INSTRUMENTACAO DA BARRAGEM DO AZUL</object_name>
+    <ativo>true</ativo>
+    <tipo>SE</tipo>
+    <codigo_site>KM</codigo_site>
+    <nome>INVESTIGACAO GEOTECNICA E INSTALACAO DE INSTRUMENTACAO DA BARRAGEM DO AZUL</nome>
+    <numero_se>5900025468-01</numero_se>
+    <data_abertura>2016-10-17T14:53:56-02:00</data_abertura>
+    <responsavel_tecnico>LESSANDRO FRANCO</responsavel_tecnico>
+    <area_responsavel>DIIC - GEEIC - GAPCF</area_responsavel>
   </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
   <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
     <Item>1</Item>

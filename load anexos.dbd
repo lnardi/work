@@ -176,6 +176,20 @@
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
+                <xs:element name="i_antecedent_id" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="i_chronicle_id" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
                 <xs:element name="object_name" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -198,7 +212,13 @@
                   </xs:simpleType>
                 </xs:element>
                 <xs:element name="numero_referencia" type="xs:short" minOccurs="0" />
-                <xs:element name="revisao_doc_principal" type="xs:boolean" minOccurs="0" />
+                <xs:element name="revisao_doc_principal" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
                 <xs:element name="a_content_type" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -213,6 +233,8 @@
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
+                <xs:element name="i_has_folder" type="xs:boolean" minOccurs="0" />
+                <xs:element name="r_creation_date" type="xs:dateTime" minOccurs="0" />
                 <xs:element name="file_path" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -255,24 +277,182 @@
   </_x0036_836e55e-ede3-4915-a605-f9e3244ca8ee>
   <bb499749-de3d-4c9a-8903-f1286a40334f>
     <Item>1</Item>
-    <r_object_id>09035f518107e5e7</r_object_id>
-    <object_name>RL-5000IA-N-00853_REF1.XLS</object_name>
-    <numero_vale_doc_principal>RL-5000IA-N-00853</numero_vale_doc_principal>
+    <r_object_id>09035f5180985a34</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f5180985a34</i_chronicle_id>
+    <object_name>RL-5830KM-W-10012_REF01.XLSX</object_name>
+    <numero_vale_doc_principal>RL-5830KM-W-10012</numero_vale_doc_principal>
     <numero_referencia>1</numero_referencia>
-    <revisao_doc_principal>false</revisao_doc_principal>
-    <a_content_type>excel8book</a_content_type>
-    <codigo_site>IA</codigo_site>
-    <file_path>/1_RL-5000IA-N-00853_REF1.XLS</file_path>
+    <revisao_doc_principal>2</revisao_doc_principal>
+    <a_content_type>excel12book</a_content_type>
+    <codigo_site>KM</codigo_site>
+    <i_has_folder>false</i_has_folder>
+    <r_creation_date>2012-06-11T17:21:42-03:00</r_creation_date>
+    <file_path>/1_RL-5830KM-W-10012_REF01.XLSX</file_path>
   </bb499749-de3d-4c9a-8903-f1286a40334f>
   <bb499749-de3d-4c9a-8903-f1286a40334f>
     <Item>2</Item>
-    <r_object_id>09035f518107e5e8</r_object_id>
-    <object_name>RL-5000IA-N-00853_REF2.XLSX</object_name>
-    <numero_vale_doc_principal>RL-5000IA-N-00853</numero_vale_doc_principal>
+    <r_object_id>09035f5180cb741c</r_object_id>
+    <i_antecedent_id>09035f5180985a34</i_antecedent_id>
+    <i_chronicle_id>09035f5180985a34</i_chronicle_id>
+    <object_name>RL-5830KM-W-10012_REF1.ZIP</object_name>
+    <numero_vale_doc_principal>RL-5830KM-W-10012</numero_vale_doc_principal>
+    <numero_referencia>1</numero_referencia>
+    <revisao_doc_principal>A</revisao_doc_principal>
+    <a_content_type>zip</a_content_type>
+    <codigo_site>KM</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2013-01-14T11:15:27-02:00</r_creation_date>
+    <file_path>/2_RL-5830KM-W-10012_REF1.ZIP</file_path>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>3</Item>
+    <r_object_id>09035f5180985a35</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f5180985a35</i_chronicle_id>
+    <object_name>RL-5830KM-W-10012_REF02.XLSX</object_name>
+    <numero_vale_doc_principal>RL-5830KM-W-10012</numero_vale_doc_principal>
     <numero_referencia>2</numero_referencia>
-    <revisao_doc_principal>false</revisao_doc_principal>
+    <revisao_doc_principal>2</revisao_doc_principal>
     <a_content_type>excel12book</a_content_type>
-    <codigo_site>IA</codigo_site>
-    <file_path>/2_RL-5000IA-N-00853_REF2.XLSX</file_path>
+    <codigo_site>KM</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2012-06-11T17:21:42-03:00</r_creation_date>
+    <file_path>/3_RL-5830KM-W-10012_REF02.XLSX</file_path>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>4</Item>
+    <r_object_id>09035f5180985a36</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f5180985a36</i_chronicle_id>
+    <object_name>RL-5830KM-W-10012_REF03.XLSX</object_name>
+    <numero_vale_doc_principal>RL-5830KM-W-10012</numero_vale_doc_principal>
+    <numero_referencia>3</numero_referencia>
+    <revisao_doc_principal>2</revisao_doc_principal>
+    <a_content_type>excel12book</a_content_type>
+    <codigo_site>KM</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2012-06-11T17:21:43-03:00</r_creation_date>
+    <file_path>/4_RL-5830KM-W-10012_REF03.XLSX</file_path>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>5</Item>
+    <r_object_id>09035f5180985a37</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f5180985a37</i_chronicle_id>
+    <object_name>RL-5830KM-W-10012_REF04.XLSX</object_name>
+    <numero_vale_doc_principal>RL-5830KM-W-10012</numero_vale_doc_principal>
+    <numero_referencia>4</numero_referencia>
+    <revisao_doc_principal>2</revisao_doc_principal>
+    <a_content_type>excel12book</a_content_type>
+    <codigo_site>KM</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2012-06-11T17:21:43-03:00</r_creation_date>
+    <file_path>/5_RL-5830KM-W-10012_REF04.XLSX</file_path>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>6</Item>
+    <r_object_id>09035f5180985a38</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f5180985a38</i_chronicle_id>
+    <object_name>RL-5830KM-W-10012_REF05.XLSX</object_name>
+    <numero_vale_doc_principal>RL-5830KM-W-10012</numero_vale_doc_principal>
+    <numero_referencia>5</numero_referencia>
+    <revisao_doc_principal>2</revisao_doc_principal>
+    <a_content_type>excel12book</a_content_type>
+    <codigo_site>KM</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2012-06-11T17:21:43-03:00</r_creation_date>
+    <file_path>/6_RL-5830KM-W-10012_REF05.XLSX</file_path>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>7</Item>
+    <r_object_id>09035f5180985a39</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f5180985a39</i_chronicle_id>
+    <object_name>RL-5830KM-W-10012_REF06.XLS</object_name>
+    <numero_vale_doc_principal>RL-5830KM-W-10012</numero_vale_doc_principal>
+    <numero_referencia>6</numero_referencia>
+    <revisao_doc_principal>2</revisao_doc_principal>
+    <a_content_type>excel8book</a_content_type>
+    <codigo_site>KM</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2012-06-11T17:21:44-03:00</r_creation_date>
+    <file_path>/7_RL-5830KM-W-10012_REF06.XLS</file_path>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>8</Item>
+    <r_object_id>09035f5180985a3a</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f5180985a3a</i_chronicle_id>
+    <object_name>RL-5830KM-W-10012_REF07.XLS</object_name>
+    <numero_vale_doc_principal>RL-5830KM-W-10012</numero_vale_doc_principal>
+    <numero_referencia>7</numero_referencia>
+    <revisao_doc_principal>2</revisao_doc_principal>
+    <a_content_type>excel8book</a_content_type>
+    <codigo_site>KM</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2012-06-11T17:21:45-03:00</r_creation_date>
+    <file_path>/8_RL-5830KM-W-10012_REF07.XLS</file_path>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>9</Item>
+    <r_object_id>09035f5180985a3b</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f5180985a3b</i_chronicle_id>
+    <object_name>RL-5830KM-W-10012_REF08.XLS</object_name>
+    <numero_vale_doc_principal>RL-5830KM-W-10012</numero_vale_doc_principal>
+    <numero_referencia>8</numero_referencia>
+    <revisao_doc_principal>2</revisao_doc_principal>
+    <a_content_type>excel8book</a_content_type>
+    <codigo_site>KM</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2012-06-11T17:21:45-03:00</r_creation_date>
+    <file_path>/9_RL-5830KM-W-10012_REF08.XLS</file_path>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>10</Item>
+    <r_object_id>09035f5180985ad2</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f5180985ad2</i_chronicle_id>
+    <object_name>RL-5830KM-W-10012_REF09.XLS</object_name>
+    <numero_vale_doc_principal>RL-5830KM-W-10012</numero_vale_doc_principal>
+    <numero_referencia>9</numero_referencia>
+    <revisao_doc_principal>2</revisao_doc_principal>
+    <a_content_type>excel8book</a_content_type>
+    <codigo_site>KM</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2012-06-11T17:21:46-03:00</r_creation_date>
+    <file_path>/10_RL-5830KM-W-10012_REF09.XLS</file_path>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>11</Item>
+    <r_object_id>09035f5180985ad3</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f5180985ad3</i_chronicle_id>
+    <object_name>RL-5830KM-W-10012_REF10.RAR</object_name>
+    <numero_vale_doc_principal>RL-5830KM-W-10012</numero_vale_doc_principal>
+    <numero_referencia>10</numero_referencia>
+    <revisao_doc_principal>2</revisao_doc_principal>
+    <a_content_type>unknown</a_content_type>
+    <codigo_site>KM</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2012-06-11T17:21:47-03:00</r_creation_date>
+    <file_path>/11_RL-5830KM-W-10012_REF10.RAR</file_path>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>12</Item>
+    <r_object_id>09035f5180985ad4</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f5180985ad4</i_chronicle_id>
+    <object_name>RL-5830KM-W-10012_REF11.RAR</object_name>
+    <numero_vale_doc_principal>RL-5830KM-W-10012</numero_vale_doc_principal>
+    <numero_referencia>11</numero_referencia>
+    <revisao_doc_principal>2</revisao_doc_principal>
+    <a_content_type>unknown</a_content_type>
+    <codigo_site>KM</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2012-06-11T17:21:48-03:00</r_creation_date>
+    <file_path>/12_RL-5830KM-W-10012_REF11.RAR</file_path>
   </bb499749-de3d-4c9a-8903-f1286a40334f>
 </NewDataSet>
