@@ -267,7 +267,7 @@
                 <xs:element name="object_name" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
-                      <xs:maxLength value="100" />
+                      <xs:maxLength value="250" />
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
@@ -282,7 +282,7 @@
                 <xs:element name="nome" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
-                      <xs:maxLength value="100" />
+                      <xs:maxLength value="250" />
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
@@ -318,7 +318,7 @@
                 <xs:element name="nome" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
-                      <xs:maxLength value="100" />
+                      <xs:maxLength value="200" />
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
@@ -521,6 +521,11 @@
     <object_name>KM - MANGANES DO AZUL - PA</object_name>
     <vale_site>KM</vale_site>
   </d2fd3351-44f6-48f5-8732-8159add7385a>
+  <d2fd3351-44f6-48f5-8732-8159add7385a>
+    <r_object_id>090003e980060abd</r_object_id>
+    <object_name>OP - ONCA PUMA - PA</object_name>
+    <vale_site>OP</vale_site>
+  </d2fd3351-44f6-48f5-8732-8159add7385a>
   <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
     <r_object_id>090003e98004fe9f</r_object_id>
     <vale_site>KM</vale_site>
@@ -597,6 +602,31 @@
     <vale_area>54</vale_area>
   </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
   <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e9800583cd</r_object_id>
+    <vale_site>IA</vale_site>
+    <vale_area>55</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e9800583ce</r_object_id>
+    <vale_site>IA</vale_site>
+    <vale_area>56</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e9800583cf</r_object_id>
+    <vale_site>IA</vale_site>
+    <vale_area>57</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e9800583d0</r_object_id>
+    <vale_site>IA</vale_site>
+    <vale_area>58</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e9800583d1</r_object_id>
+    <vale_site>IA</vale_site>
+    <vale_area>59</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
     <r_object_id>090003e98005a1b5</r_object_id>
     <vale_site>KK</vale_site>
     <vale_area>00</vale_area>
@@ -667,29 +697,84 @@
     <vale_area>53</vale_area>
   </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
   <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
-    <r_object_id>090003e9800583d1</r_object_id>
-    <vale_site>IA</vale_site>
-    <vale_area>59</vale_area>
+    <r_object_id>090003e98005d510</r_object_id>
+    <vale_site>KK</vale_site>
+    <vale_area>99</vale_area>
   </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
   <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
-    <r_object_id>090003e9800583d0</r_object_id>
-    <vale_site>IA</vale_site>
-    <vale_area>58</vale_area>
+    <r_object_id>090003e980060fa8</r_object_id>
+    <vale_site>OP</vale_site>
+    <vale_area>1</vale_area>
   </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
   <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
-    <r_object_id>090003e9800583cf</r_object_id>
-    <vale_site>IA</vale_site>
-    <vale_area>57</vale_area>
+    <r_object_id>090003e980060fa9</r_object_id>
+    <vale_site>OP</vale_site>
+    <vale_area>2</vale_area>
   </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
   <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
-    <r_object_id>090003e9800583ce</r_object_id>
-    <vale_site>IA</vale_site>
-    <vale_area>56</vale_area>
+    <r_object_id>090003e980060faa</r_object_id>
+    <vale_site>OP</vale_site>
+    <vale_area>15</vale_area>
   </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
   <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
-    <r_object_id>090003e9800583cd</r_object_id>
-    <vale_site>IA</vale_site>
-    <vale_area>55</vale_area>
+    <r_object_id>090003e980060fab</r_object_id>
+    <vale_site>OP</vale_site>
+    <vale_area>3</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980060fcb</r_object_id>
+    <vale_site>OP</vale_site>
+    <vale_area>4</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980060fcc</r_object_id>
+    <vale_site>OP</vale_site>
+    <vale_area>5</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980060fcd</r_object_id>
+    <vale_site>OP</vale_site>
+    <vale_area>6</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980060fce</r_object_id>
+    <vale_site>OP</vale_site>
+    <vale_area>7</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980060fcf</r_object_id>
+    <vale_site>OP</vale_site>
+    <vale_area>8</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980060fd0</r_object_id>
+    <vale_site>OP</vale_site>
+    <vale_area>9</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980060fd1</r_object_id>
+    <vale_site>OP</vale_site>
+    <vale_area>10</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980060fd2</r_object_id>
+    <vale_site>OP</vale_site>
+    <vale_area>11</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980060fd3</r_object_id>
+    <vale_site>OP</vale_site>
+    <vale_area>12</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980060fd4</r_object_id>
+    <vale_site>OP</vale_site>
+    <vale_area>13</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980060fd5</r_object_id>
+    <vale_site>OP</vale_site>
+    <vale_area>14</vale_area>
   </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
   <c2bc9a35-aaf8-4c50-9678-4c9757dde781>
     <tipo>proj</tipo>
@@ -1058,495 +1143,474 @@
   </_x0034_f5dc7c7-5ae8-45fa-ad84-81df02058e4e>
   <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>1</Item>
-    <r_object_id>08035f51803be19b</r_object_id>
-    <object_name>00 - GRD - MANGANES DO AZUL</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>0</codigo>
-    <nome>GRD - MANGANES DO AZUL</nome>
+    <r_object_id>08035f5180c5b6ec</r_object_id>
+    <object_name>01 - PROJETO GERAL</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>1</codigo>
+    <nome>PROJETO GERAL</nome>
   </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
   <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>2</Item>
-    <r_object_id>08035f5180595b52</r_object_id>
-    <object_name>51 - INSTALACOES DE APOIO A LAVRA</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>51</codigo>
-    <nome>INSTALACOES DE APOIO A LAVRA</nome>
-  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-    <Item>3</Item>
-    <r_object_id>08035f51807304d8</r_object_id>
-    <object_name>54 - RECUPERACAO DE SOLIDOS</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>54</codigo>
-    <nome>RECUPERACAO DE SOLIDOS</nome>
-  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-    <Item>4</Item>
-    <r_object_id>08035f5180595b53</r_object_id>
-    <object_name>52 - BRITAGEM</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>52</codigo>
-    <nome>BRITAGEM</nome>
-  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-    <Item>5</Item>
-    <r_object_id>08035f5180595b90</r_object_id>
-    <object_name>55 - ESTOCAGEM E CARREGAMENTO</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>55</codigo>
-    <nome>ESTOCAGEM E CARREGAMENTO</nome>
-  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-    <Item>6</Item>
-    <r_object_id>08035f5180595b92</r_object_id>
-    <object_name>57 - INSTALACOES ADMINISTRATIVAS</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>57</codigo>
-    <nome>INSTALACOES ADMINISTRATIVAS</nome>
-  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-    <Item>7</Item>
-    <r_object_id>08035f5180595b93</r_object_id>
-    <object_name>58 - UTILIDADES</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>58</codigo>
-    <nome>UTILIDADES</nome>
-  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-    <Item>8</Item>
-    <r_object_id>08035f5180595b94</r_object_id>
-    <object_name>59 - INTERCONEXOES E INTERFERENCIAS</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>59</codigo>
-    <nome>INTERCONEXOES E INTERFERENCIAS</nome>
-  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-    <Item>9</Item>
-    <r_object_id>08035f518039967a</r_object_id>
-    <object_name>50 - MINA</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>50</codigo>
+    <r_object_id>08035f5180c5b6ed</r_object_id>
+    <object_name>02 - MINA</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>2</codigo>
     <nome>MINA</nome>
   </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
   <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-    <Item>10</Item>
-    <r_object_id>08035f5180595aea</r_object_id>
-    <object_name>56 - INSTALACOES DE APOIO INDUSTRIAL</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>56</codigo>
-    <nome>INSTALACOES DE APOIO INDUSTRIAL</nome>
-  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-    <Item>11</Item>
-    <r_object_id>08035f5180a5cfcd</r_object_id>
-    <object_name>10 - CARAJAS</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>10</codigo>
-    <nome>CARAJAS</nome>
-  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-    <Item>12</Item>
-    <r_object_id>08035f5180397ce3</r_object_id>
-    <object_name>53 - USINA DE PRODUTOS</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>53</codigo>
-    <nome>USINA DE PRODUTOS</nome>
-  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>1</Item>
-    <r_object_id>08035f51803be3c8</r_object_id>
-    <object_name>0000 - GRD - MANGANES DO AZUL/GERAL</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>0</codigo>
-    <nome>GERAL</nome>
-    <codigo_area>0</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>2</Item>
-    <r_object_id>08035f518039967b</r_object_id>
-    <object_name>5000 - MINA/GERAL</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>0</codigo>
-    <nome>GERAL</nome>
-    <codigo_area>50</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
     <Item>3</Item>
-    <r_object_id>08035f5180595b95</r_object_id>
-    <object_name>5100 - INSTALACOES DE APOIO A LAVRA/GERAL</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>0</codigo>
-    <nome>GERAL</nome>
-    <codigo_area>51</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <r_object_id>08035f5180c5b7ef</r_object_id>
+    <object_name>15 - CENTRO DE COLETA DE MATERIAL</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>15</codigo>
+    <nome>CENTRO DE COLETA DE MATERIAL</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>4</Item>
-    <r_object_id>08035f5180595b96</r_object_id>
-    <object_name>5110 - INSTALACOES DE APOIO A LAVRA/OPERACAO DA LAVRA</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>10</codigo>
-    <nome>OPERACAO DA LAVRA</nome>
-    <codigo_area>51</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <r_object_id>08035f5180c5b6ee</r_object_id>
+    <object_name>03 - PREPARACAO DE MINERIO</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>3</codigo>
+    <nome>PREPARACAO DE MINERIO</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>5</Item>
-    <r_object_id>08035f5180595b97</r_object_id>
-    <object_name>5120 - INSTALACOES DE APOIO A LAVRA/REDE DE DISTRIBUICAO DE ENERGIA</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>20</codigo>
-    <nome>REDE DE DISTRIBUICAO DE ENERGIA</nome>
-    <codigo_area>51</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <r_object_id>08035f5180c5b6ef</r_object_id>
+    <object_name>04 - SECAGEM DE MINERIO</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>4</codigo>
+    <nome>SECAGEM DE MINERIO</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>6</Item>
-    <r_object_id>08035f5180595b98</r_object_id>
-    <object_name>5140 - INSTALACOES DE APOIO A LAVRA/POSTO DE ABASTECIMENTO E INSPECAO DE CAMINHOES DE N4 E N5</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>40</codigo>
-    <nome>POSTO DE ABASTECIMENTO E INSPECAO DE CAMINHOES DE N4 E N5</nome>
-    <codigo_area>51</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <r_object_id>08035f5180c5b6f0</r_object_id>
+    <object_name>05 - PREPARACAO DO CARVAO</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>5</codigo>
+    <nome>PREPARACAO DO CARVAO</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>7</Item>
-    <r_object_id>08035f5180595b99</r_object_id>
-    <object_name>5200 - BRITAGEM/GERAL</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>0</codigo>
-    <nome>GERAL</nome>
-    <codigo_area>52</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <r_object_id>08035f5180c5b6f1</r_object_id>
+    <object_name>06 - CALCINACAO</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>6</codigo>
+    <nome>CALCINACAO</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>8</Item>
-    <r_object_id>08035f5180595bc6</r_object_id>
-    <object_name>5210 - BRITAGEM/BRITAGEM PRIMARIA</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>10</codigo>
-    <nome>BRITAGEM PRIMARIA</nome>
-    <codigo_area>52</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <r_object_id>08035f5180c5b6f2</r_object_id>
+    <object_name>07 - AGLOMERACAO DE POEIRA</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>7</codigo>
+    <nome>AGLOMERACAO DE POEIRA</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>9</Item>
-    <r_object_id>08035f5180595bc7</r_object_id>
-    <object_name>5310 - USINA DE PRODUTOS/MANGANES METALURGICO</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>10</codigo>
-    <nome>MANGANES METALURGICO</nome>
-    <codigo_area>53</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <r_object_id>08035f5180c5b6f3</r_object_id>
+    <object_name>08 - REDUCAO</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>8</codigo>
+    <nome>REDUCAO</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>10</Item>
-    <r_object_id>08035f5180397ce4</r_object_id>
-    <object_name>5300 - USINA DE PRODUTOS/GERAL</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>0</codigo>
-    <nome>GERAL</nome>
-    <codigo_area>53</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <r_object_id>08035f5180c5b6f4</r_object_id>
+    <object_name>09 - REFINO</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>9</codigo>
+    <nome>REFINO</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>11</Item>
-    <r_object_id>08035f5180595bcc</r_object_id>
-    <object_name>5520 - ESTOCAGEM E CARREGAMENTO/ESTACAO DE CARREGAMENTO</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>20</codigo>
-    <nome>ESTACAO DE CARREGAMENTO</nome>
-    <codigo_area>55</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <r_object_id>08035f5180c5b7ea</r_object_id>
+    <object_name>10 - INSTALACOES AUXILIARES</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>10</codigo>
+    <nome>INSTALACOES AUXILIARES</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>12</Item>
-    <r_object_id>08035f5180595d97</r_object_id>
-    <object_name>5860 - UTILIDADES/CENTRAL DE AR COMPRIMIDO</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>60</codigo>
-    <nome>CENTRAL DE AR COMPRIMIDO</nome>
-    <codigo_area>58</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <r_object_id>08035f5180c5b7eb</r_object_id>
+    <object_name>11 - INSTALACOES ADMINISTRATIVAS</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>11</codigo>
+    <nome>INSTALACOES ADMINISTRATIVAS</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>13</Item>
-    <r_object_id>08035f5180595d98</r_object_id>
-    <object_name>5900 - INTERCONEXOES E INTERFERENCIAS/GERAL</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>0</codigo>
-    <nome>GERAL</nome>
-    <codigo_area>59</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <r_object_id>08035f5180c5b7ec</r_object_id>
+    <object_name>12 - UTILIDADES</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>12</codigo>
+    <nome>UTILIDADES</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>14</Item>
-    <r_object_id>08035f5180595d99</r_object_id>
-    <object_name>5910 - INTERCONEXOES E INTERFERENCIAS/DISTRIBUICAO DE ENERGIA</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>10</codigo>
-    <nome>DISTRIBUICAO DE ENERGIA</nome>
-    <codigo_area>59</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <r_object_id>08035f5180c5b7ed</r_object_id>
+    <object_name>13 - INFRAESTRUTURA DA PLANTA</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>13</codigo>
+    <nome>INFRAESTRUTURA DA PLANTA</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>15</Item>
-    <r_object_id>08035f5180595d9a</r_object_id>
-    <object_name>5920 - INTERCONEXOES E INTERFERENCIAS/DISTRIBUICAO DE AGUA, POLPA E AR COMPRIMIDO</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>20</codigo>
-    <nome>DISTRIBUICAO DE AGUA, POLPA E AR COMPRIMIDO</nome>
-    <codigo_area>59</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <r_object_id>08035f5180c5b7ee</r_object_id>
+    <object_name>14 - INSTITUCIONAL DA VALE</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>14</codigo>
+    <nome>INSTITUCIONAL DA VALE</nome>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
   <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>16</Item>
-    <r_object_id>08035f5180595d9b</r_object_id>
-    <object_name>5960 - INTERCONEXOES E INTERFERENCIAS/REDE DE COLETA DE ESGOTO</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>60</codigo>
-    <nome>REDE DE COLETA DE ESGOTO</nome>
-    <codigo_area>59</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>17</Item>
-    <r_object_id>08035f5180595bc8</r_object_id>
-    <object_name>5340 - USINA DE PRODUTOS/BIOXIDO DO MANGANES (SECAGEM)</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>40</codigo>
-    <nome>BIOXIDO DO MANGANES (SECAGEM)</nome>
-    <codigo_area>53</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>18</Item>
-    <r_object_id>08035f5180595bc9</r_object_id>
-    <object_name>5350 - USINA DE PRODUTOS/MANGANES QUIMICO</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>50</codigo>
-    <nome>MANGANES QUIMICO</nome>
-    <codigo_area>53</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>19</Item>
-    <r_object_id>08035f5180595c85</r_object_id>
-    <object_name>5660 - INSTALACOES DE APOIO INDUSTRIAL/OFICINA DE MANUTENCAO - USINA DE MOAGEM E SECAGEM</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>60</codigo>
-    <nome>OFICINA DE MANUTENCAO - USINA DE MOAGEM E SECAGEM</nome>
-    <codigo_area>56</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>20</Item>
-    <r_object_id>08035f5180595c88</r_object_id>
-    <object_name>5700 - INSTALACOES ADMINISTRATIVAS/GERAL</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>0</codigo>
-    <nome>GERAL</nome>
-    <codigo_area>57</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>21</Item>
-    <r_object_id>08035f5180595d09</r_object_id>
-    <object_name>5710 - INSTALACOES ADMINISTRATIVAS/ESCRITORIO CENTRAL / RESTAURANTE / VESTIARIO</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>10</codigo>
-    <nome>ESCRITORIO CENTRAL / RESTAURANTE / VESTIARIO</nome>
-    <codigo_area>57</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>22</Item>
-    <r_object_id>08035f5180595d0b</r_object_id>
-    <object_name>5800 - UTILIDADES/GERAL</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>0</codigo>
-    <nome>GERAL</nome>
-    <codigo_area>58</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>23</Item>
-    <r_object_id>08035f5180595bcd</r_object_id>
-    <object_name>5600 - INSTALACOES DE APOIO INDUSTRIAL/GERAL</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>0</codigo>
-    <nome>GERAL</nome>
-    <codigo_area>56</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>24</Item>
-    <r_object_id>08035f5180595d9c</r_object_id>
-    <object_name>5990 - INTERCONEXOES E INTERFERENCIAS/INSTALACOES PROVISORIAS</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>90</codigo>
-    <nome>INSTALACOES PROVISORIAS</nome>
-    <codigo_area>59</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>25</Item>
-    <r_object_id>08035f5180595bca</r_object_id>
-    <object_name>5510 - ESTOCAGEM E CARREGAMENTO/PATIO DE ESTOCAGEM</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>10</codigo>
-    <nome>PATIO DE ESTOCAGEM</nome>
-    <codigo_area>55</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>26</Item>
-    <r_object_id>08035f5180595c84</r_object_id>
-    <object_name>5650 - INSTALACOES DE APOIO INDUSTRIAL/OFICINA DE MANUTENCAO DA USINA DE MANGANES</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>50</codigo>
-    <nome>OFICINA DE MANUTENCAO DA USINA DE MANGANES</nome>
-    <codigo_area>56</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>27</Item>
-    <r_object_id>08035f5180595d0c</r_object_id>
-    <object_name>5810 - UTILIDADES/SUBESTACAO PRINCIPAL</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>10</codigo>
-    <nome>SUBESTACAO PRINCIPAL</nome>
-    <codigo_area>58</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>28</Item>
-    <r_object_id>08035f5180595d0e</r_object_id>
-    <object_name>5820 - UTILIDADES/BARRAGEM DE CAPTACAO E ADUCAO</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>20</codigo>
-    <nome>BARRAGEM DE CAPTACAO E ADUCAO</nome>
-    <codigo_area>58</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>29</Item>
-    <r_object_id>08035f5180595c82</r_object_id>
-    <object_name>5620 - INSTALACOES DE APOIO INDUSTRIAL/POSTO DE LAVAGEM / LUBRIFICACAO / BORRACHARIA</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>20</codigo>
-    <nome>POSTO DE LAVAGEM / LUBRIFICACAO / BORRACHARIA</nome>
-    <codigo_area>56</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>30</Item>
-    <r_object_id>08035f5180595d0f</r_object_id>
-    <object_name>5830 - UTILIDADES/BARRAGEM DE REJEITO</object_name>
-    <codigo_site>KM</codigo_site>
+    <Item>151</Item>
+    <r_object_id>08035f5180c5dd94</r_object_id>
+    <object_name>1230 - UTILIDADES/CENTRAL DE AR COMPRIMIDO</object_name>
+    <codigo_site>OP</codigo_site>
     <codigo>30</codigo>
-    <nome>BARRAGEM DE REJEITO</nome>
-    <codigo_area>58</codigo_area>
+    <nome>CENTRAL DE AR COMPRIMIDO</nome>
+    <codigo_area>12</codigo_area>
   </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
   <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>31</Item>
-    <r_object_id>08035f518071d42a</r_object_id>
-    <object_name>5760 - INSTALACOES ADMINISTRATIVAS/TERMINAL RODOVIARIO</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>60</codigo>
-    <nome>TERMINAL RODOVIARIO</nome>
-    <codigo_area>57</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>32</Item>
-    <r_object_id>08035f518073054a</r_object_id>
-    <object_name>5400 - RECUPERACAO DE SOLIDOS/GERAL</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>0</codigo>
-    <nome>GERAL</nome>
-    <codigo_area>54</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>33</Item>
-    <r_object_id>08035f51807304de</r_object_id>
-    <object_name>5680 - INSTALACOES DE APOIO INDUSTRIAL/LABORATORIO</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>80</codigo>
-    <nome>LABORATORIO</nome>
-    <codigo_area>56</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>34</Item>
-    <r_object_id>08035f51807304dd</r_object_id>
-    <object_name>5640 - INSTALACOES DE APOIO INDUSTRIAL/POSTO DE ABASTECIMENTO DE COMBUSTIVEL</object_name>
-    <codigo_site>KM</codigo_site>
+    <Item>152</Item>
+    <r_object_id>08035f5180c5dd95</r_object_id>
+    <object_name>1240 - UTILIDADES/TRATAMENTO DE EFLUENTE</object_name>
+    <codigo_site>OP</codigo_site>
     <codigo>40</codigo>
-    <nome>POSTO DE ABASTECIMENTO DE COMBUSTIVEL</nome>
-    <codigo_area>56</codigo_area>
+    <nome>TRATAMENTO DE EFLUENTE</nome>
+    <codigo_area>12</codigo_area>
   </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
   <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>35</Item>
-    <r_object_id>08035f5180730546</r_object_id>
-    <object_name>5500 - ESTOCAGEM E CARREGAMENTO/GERAL</object_name>
-    <codigo_site>KM</codigo_site>
+    <Item>153</Item>
+    <r_object_id>08035f5180c5dd96</r_object_id>
+    <object_name>1241 - UTILIDADES/TRATAMENTO E COLETA DE ESGOTO DA PLANTA</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>41</codigo>
+    <nome>TRATAMENTO E COLETA DE ESGOTO DA PLANTA</nome>
+    <codigo_area>12</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>154</Item>
+    <r_object_id>08035f5180c5dd97</r_object_id>
+    <object_name>1242 - UTILIDADES/TRATAMENTO DE AGUAS RESIDUAIS DA PLANTA</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>42</codigo>
+    <nome>TRATAMENTO DE AGUAS RESIDUAIS DA PLANTA</nome>
+    <codigo_area>12</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>155</Item>
+    <r_object_id>08035f5180c5de44</r_object_id>
+    <object_name>1243 - UTILIDADES/TRATAMENTO DE AGUA DE CHUVA</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>43</codigo>
+    <nome>TRATAMENTO DE AGUA DE CHUVA</nome>
+    <codigo_area>12</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>156</Item>
+    <r_object_id>08035f5180c5de47</r_object_id>
+    <object_name>1250 - UTILIDADES/FORNECIMENTO DE OXIGENIO / NITROGENIO</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>50</codigo>
+    <nome>FORNECIMENTO DE OXIGENIO / NITROGENIO</nome>
+    <codigo_area>12</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>157</Item>
+    <r_object_id>08035f5180c5de4b</r_object_id>
+    <object_name>1261 - UTILIDADES/ARMAZENAMENTO E DISTRIBUICAO DE DIESEL</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>61</codigo>
+    <nome>ARMAZENAMENTO E DISTRIBUICAO DE DIESEL</nome>
+    <codigo_area>12</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>158</Item>
+    <r_object_id>08035f5180c5dfa8</r_object_id>
+    <object_name>1350 - INFRAESTRUTURA DA PLANTA/SISTEMA DE COLETA DE LIXO</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>50</codigo>
+    <nome>SISTEMA DE COLETA DE LIXO</nome>
+    <codigo_area>13</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>159</Item>
+    <r_object_id>08035f5180c5dfa9</r_object_id>
+    <object_name>1360 - INFRAESTRUTURA DA PLANTA/EQUIPAMENTOS MOVEIS</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>60</codigo>
+    <nome>EQUIPAMENTOS MOVEIS</nome>
+    <codigo_area>13</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>160</Item>
+    <r_object_id>08035f5180c5dfaa</r_object_id>
+    <object_name>1370 - INFRAESTRUTURA DA PLANTA/ESTACAO CLIMATICA</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>70</codigo>
+    <nome>ESTACAO CLIMATICA</nome>
+    <codigo_area>13</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>161</Item>
+    <r_object_id>08035f5180c5dfab</r_object_id>
+    <object_name>1380 - INFRAESTRUTURA DA PLANTA/TELECOMUNICACAO</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>80</codigo>
+    <nome>TELECOMUNICACAO</nome>
+    <codigo_area>13</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>162</Item>
+    <r_object_id>08035f5180c5dfac</r_object_id>
+    <object_name>1400 - INSTITUCIONAL DA VALE/INSTITUCIONAL DA VALE GERAL</object_name>
+    <codigo_site>OP</codigo_site>
     <codigo>0</codigo>
-    <nome>GERAL</nome>
-    <codigo_area>55</codigo_area>
+    <nome>INSTITUCIONAL DA VALE GERAL</nome>
+    <codigo_area>14</codigo_area>
   </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
   <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>36</Item>
-    <r_object_id>08035f51807304d9</r_object_id>
-    <object_name>5190 - INSTALACOES DE APOIO A LAVRA/PILHA DE ESTERIL</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>90</codigo>
-    <nome>PILHA DE ESTERIL</nome>
-    <codigo_area>51</codigo_area>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>37</Item>
-    <r_object_id>08035f51807304db</r_object_id>
-    <object_name>5610 - INSTALACOES DE APOIO INDUSTRIAL/OFICINA CENTRAL DE MANUTENCAO</object_name>
-    <codigo_site>KM</codigo_site>
+    <Item>163</Item>
+    <r_object_id>08035f5180c5dfad</r_object_id>
+    <object_name>1410 - INSTITUCIONAL DA VALE/RECUPERACAO DO AEROPORTO DA CIDADE DE OURILANDIA DO NORTE</object_name>
+    <codigo_site>OP</codigo_site>
     <codigo>10</codigo>
-    <nome>OFICINA CENTRAL DE MANUTENCAO</nome>
-    <codigo_area>56</codigo_area>
+    <nome>RECUPERACAO DO AEROPORTO DA CIDADE DE OURILANDIA DO NORTE</nome>
+    <codigo_area>14</codigo_area>
   </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
   <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>38</Item>
-    <r_object_id>08035f5180a5cfce</r_object_id>
-    <object_name>1000 - CARAJAS/GERAL</object_name>
-    <codigo_site>KM</codigo_site>
+    <Item>164</Item>
+    <r_object_id>08035f5180c5dfae</r_object_id>
+    <object_name>1500 - CENTRO DE COLETA DE MATERIAL/CENTRO DE COLETA DE MATERIAL GERAL</object_name>
+    <codigo_site>OP</codigo_site>
     <codigo>0</codigo>
-    <nome>GERAL</nome>
+    <nome>CENTRO DE COLETA DE MATERIAL GERAL</nome>
+    <codigo_area>15</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>165</Item>
+    <r_object_id>08035f5180c5dfee</r_object_id>
+    <object_name>1510 - CENTRO DE COLETA DE MATERIAL/CMD - CENTRO DE MATERIAIS DESCARTAVEIS</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>10</codigo>
+    <nome>CMD - CENTRO DE MATERIAIS DESCARTAVEIS</nome>
+    <codigo_area>15</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>166</Item>
+    <r_object_id>08035f5180d61da4</r_object_id>
+    <object_name>0110 - PROJETO GERAL/CONSTRUCAO DE INSTALACOES TEMPORARIAS</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>10</codigo>
+    <nome>CONSTRUCAO DE INSTALACOES TEMPORARIAS</nome>
+    <codigo_area>1</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>167</Item>
+    <r_object_id>08035f5180c5de48</r_object_id>
+    <object_name>1251 - UTILIDADES/ARMAZENAMENTO E DISTRIBUICAO DE OXIGENIO</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>51</codigo>
+    <nome>ARMAZENAMENTO E DISTRIBUICAO DE OXIGENIO</nome>
+    <codigo_area>12</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>168</Item>
+    <r_object_id>08035f5180c5d05a</r_object_id>
+    <object_name>1064 - INSTALACOES AUXILIARES/SE CARVAO</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>64</codigo>
+    <nome>SE CARVAO</nome>
     <codigo_area>10</codigo_area>
   </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
   <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>39</Item>
-    <r_object_id>08035f518115c081</r_object_id>
-    <object_name>5320 - USINA DE PRODUTOS/CONCENTRACAO POR ESPIRAIS</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>20</codigo>
-    <nome>CONCENTRACAO POR ESPIRAIS</nome>
-    <codigo_area>53</codigo_area>
+    <Item>169</Item>
+    <r_object_id>08035f5180c5d05b</r_object_id>
+    <object_name>1070 - INSTALACOES AUXILIARES/UNIDADES DE SUBESTACOES - RADIAL</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>70</codigo>
+    <nome>UNIDADES DE SUBESTACOES - RADIAL</nome>
+    <codigo_area>10</codigo_area>
   </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
   <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>40</Item>
-    <r_object_id>08035f518115c161</r_object_id>
-    <object_name>5330 - USINA DE PRODUTOS/ESPESSADORES</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>30</codigo>
-    <nome>ESPESSADORES</nome>
-    <codigo_area>53</codigo_area>
+    <Item>170</Item>
+    <r_object_id>08035f5180c5d05d</r_object_id>
+    <object_name>1071 - INSTALACOES AUXILIARES/SE PREDIOS ADMINISTRATIVOS E CAPTACAO DE AGUA</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>71</codigo>
+    <nome>SE PREDIOS ADMINISTRATIVOS E CAPTACAO DE AGUA</nome>
+    <codigo_area>10</codigo_area>
   </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
   <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>41</Item>
-    <r_object_id>08035f518115c162</r_object_id>
-    <object_name>5360 - USINA DE PRODUTOS/FILTRAGEM PELLET FEED</object_name>
-    <codigo_site>KM</codigo_site>
-    <codigo>60</codigo>
-    <nome>FILTRAGEM PELLET FEED</nome>
-    <codigo_area>53</codigo_area>
+    <Item>171</Item>
+    <r_object_id>08035f5180c5d33d</r_object_id>
+    <object_name>1075 - INSTALACOES AUXILIARES/SE PILHA DE ESTOQUE</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>75</codigo>
+    <nome>SE PILHA DE ESTOQUE</nome>
+    <codigo_area>10</codigo_area>
   </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
   <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>42</Item>
-    <r_object_id>08035f518142a800</r_object_id>
-    <object_name>5380 - USINA DE PRODUTOS/CICLONAGEM / CLASSIFICACAO</object_name>
-    <codigo_site>KM</codigo_site>
+    <Item>172</Item>
+    <r_object_id>08035f5180c5d624</r_object_id>
+    <object_name>1080 - INSTALACOES AUXILIARES/OFICINA DE MANUTENCAO E ALMOXARIFADO DA MINA</object_name>
+    <codigo_site>OP</codigo_site>
     <codigo>80</codigo>
-    <nome>CICLONAGEM / CLASSIFICACAO</nome>
-    <codigo_area>53</codigo_area>
+    <nome>OFICINA DE MANUTENCAO E ALMOXARIFADO DA MINA</nome>
+    <codigo_area>10</codigo_area>
   </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
   <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>43</Item>
-    <r_object_id>08035f518142a801</r_object_id>
-    <object_name>5390 - USINA DE PRODUTOS/ESPESSAMENTO</object_name>
-    <codigo_site>KM</codigo_site>
+    <Item>173</Item>
+    <r_object_id>08035f5180c5d69f</r_object_id>
+    <object_name>1090 - INSTALACOES AUXILIARES/ALMOXARIFADO DE CONSUMIVEIS DA PLANTA</object_name>
+    <codigo_site>OP</codigo_site>
     <codigo>90</codigo>
-    <nome>ESPESSAMENTO</nome>
-    <codigo_area>53</codigo_area>
+    <nome>ALMOXARIFADO DE CONSUMIVEIS DA PLANTA</nome>
+    <codigo_area>10</codigo_area>
   </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
   <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>44</Item>
-    <r_object_id>08035f518142a802</r_object_id>
-    <object_name>5890 - UTILIDADES/PLANTA DE REAGENTES</object_name>
-    <codigo_site>KM</codigo_site>
+    <Item>174</Item>
+    <r_object_id>08035f5180c5d6a1</r_object_id>
+    <object_name>1100 - INSTALACOES ADMINISTRATIVAS/INSTALACOES ADMINISTRATIVAS GERAL</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>0</codigo>
+    <nome>INSTALACOES ADMINISTRATIVAS GERAL</nome>
+    <codigo_area>11</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>175</Item>
+    <r_object_id>08035f5180c5de49</r_object_id>
+    <object_name>1252 - UTILIDADES/ARMAZENAMENTO E DISTRIBUICAO DE NITROGENIO</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>52</codigo>
+    <nome>ARMAZENAMENTO E DISTRIBUICAO DE NITROGENIO</nome>
+    <codigo_area>12</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>176</Item>
+    <r_object_id>08035f5180c5d231</r_object_id>
+    <object_name>1072 - INSTALACOES AUXILIARES/SE INSTALACAO DE OXIGENIO E ARMAZENAMENTO DE NITROGENIO</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>72</codigo>
+    <nome>SE INSTALACAO DE OXIGENIO E ARMAZENAMENTO DE NITROGENIO</nome>
+    <codigo_area>10</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>177</Item>
+    <r_object_id>08035f5180c5d38a</r_object_id>
+    <object_name>1074 - INSTALACOES AUXILIARES/SE BRITADOR PRIMARIO</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>74</codigo>
+    <nome>SE BRITADOR PRIMARIO</nome>
+    <codigo_area>10</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>178</Item>
+    <r_object_id>08035f5180c5d33b</r_object_id>
+    <object_name>1076 - INSTALACOES AUXILIARES/SE ARMAZENAGEM DE DIESEL</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>76</codigo>
+    <nome>SE ARMAZENAGEM DE DIESEL</nome>
+    <codigo_area>10</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>179</Item>
+    <r_object_id>08035f5180c5d33c</r_object_id>
+    <object_name>1077 - INSTALACOES AUXILIARES/SE CAPTACAO DE AGUA</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>77</codigo>
+    <nome>SE CAPTACAO DE AGUA</nome>
+    <codigo_area>10</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>180</Item>
+    <r_object_id>08035f5180c5d385</r_object_id>
+    <object_name>1073 - INSTALACOES AUXILIARES/SE RESTAURANTE, VESTIARIO, PRIMEIROS SOCORROS, BOMBEIROS, ARMAZEM DE AMOSTRAS, LABORATORIO METALURGICO, OFICINA DE EQUIPAMENTOS MOVEIS, OFICINA DE MANUTENCAO E ALMOXARIFADO</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>73</codigo>
+    <nome>SE RESTAURANTE, VESTIARIO, PRIMEIROS SOCORROS, BOMBEIROS, ARMAZEM DE AMOSTRAS, LABORATORIO METALURGICO, OFICINA DE EQUIPAMENTOS MOVEIS, OFICINA DE MANUTENCAO E ALMOXARIFADO</nome>
+    <codigo_area>10</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>181</Item>
+    <r_object_id>08035f5180c5de4c</r_object_id>
+    <object_name>1262 - UTILIDADES/SISTEMAS DE LGP</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>62</codigo>
+    <nome>SISTEMAS DE LGP</nome>
+    <codigo_area>12</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>182</Item>
+    <r_object_id>08035f5180c5de4d</r_object_id>
+    <object_name>1263 - UTILIDADES/OLEO COMBUSTIVEL</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>63</codigo>
+    <nome>OLEO COMBUSTIVEL</nome>
+    <codigo_area>12</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>183</Item>
+    <r_object_id>08035f5180c5df78</r_object_id>
+    <object_name>1300 - INFRAESTRUTURA DA PLANTA/INFRAESTRUTURA DA PLANTA GERAL</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>0</codigo>
+    <nome>INFRAESTRUTURA DA PLANTA GERAL</nome>
+    <codigo_area>13</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>184</Item>
+    <r_object_id>08035f5180c5df80</r_object_id>
+    <object_name>1310 - INFRAESTRUTURA DA PLANTA/DISTRIBUICAO DE ENERGIA</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>10</codigo>
+    <nome>DISTRIBUICAO DE ENERGIA</nome>
+    <codigo_area>13</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>185</Item>
+    <r_object_id>08035f5180c5df81</r_object_id>
+    <object_name>1320 - INFRAESTRUTURA DA PLANTA/SISTEMA DE CONTROLE (DCS)</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>20</codigo>
+    <nome>SISTEMA DE CONTROLE (DCS)</nome>
+    <codigo_area>13</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>186</Item>
+    <r_object_id>08035f5180c5dfa6</r_object_id>
+    <object_name>1330 - INFRAESTRUTURA DA PLANTA/SISTEMA IT</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>30</codigo>
+    <nome>SISTEMA IT</nome>
+    <codigo_area>13</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>187</Item>
+    <r_object_id>08035f5180c5dfa7</r_object_id>
+    <object_name>1340 - INFRAESTRUTURA DA PLANTA/PIPE-RACKS</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>40</codigo>
+    <nome>PIPE-RACKS</nome>
+    <codigo_area>13</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>188</Item>
+    <r_object_id>08035f5180c5de4a</r_object_id>
+    <object_name>1260 - UTILIDADES/FONTES DE COMBUSTIVEL</object_name>
+    <codigo_site>OP</codigo_site>
+    <codigo>60</codigo>
+    <nome>FONTES DE COMBUSTIVEL</nome>
+    <codigo_area>12</codigo_area>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>189</Item>
+    <r_object_id>08035f5180c5db12</r_object_id>
+    <object_name>1190 - INSTALACOES ADMINISTRATIVAS/SALA DE TREINAMENTO</object_name>
+    <codigo_site>OP</codigo_site>
     <codigo>90</codigo>
-    <nome>PLANTA DE REAGENTES</nome>
-    <codigo_area>58</codigo_area>
+    <nome>SALA DE TREINAMENTO</nome>
+    <codigo_area>11</codigo_area>
   </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
   <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
     <Item>31</Item>

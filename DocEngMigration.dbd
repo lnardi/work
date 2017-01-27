@@ -290,7 +290,13 @@
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
-                <xs:element name="i_antecedent_id" type="xs:short" minOccurs="0" />
+                <xs:element name="i_antecedent_id" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
                 <xs:element name="i_chronicle_id" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -314,7 +320,7 @@
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
-                <xs:element name="r_link_cnt" type="xs:boolean" minOccurs="0" />
+                <xs:element name="r_link_cnt" type="xs:short" minOccurs="0" />
                 <xs:element name="object_name" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -332,14 +338,14 @@
                 <xs:element name="subject" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
-                      <xs:maxLength value="250" />
+                      <xs:maxLength value="50" />
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
                 <xs:element name="title" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
-                      <xs:maxLength value="250" />
+                      <xs:maxLength value="150" />
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
@@ -408,7 +414,13 @@
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
-                <xs:element name="revisao" type="xs:boolean" minOccurs="0" />
+                <xs:element name="revisao" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
                 <xs:element name="sigla_idioma" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -481,13 +493,7 @@
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
-                <xs:element name="data_emissao_prevista" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="50" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
+                <xs:element name="data_emissao_prevista" type="xs:dateTime" minOccurs="0" />
                 <xs:element name="data_emissao_reprog" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -495,7 +501,13 @@
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
-                <xs:element name="data_emissao_realiz" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="data_emissao_realiz" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
                 <xs:element name="avanco_fisico" type="xs:short" minOccurs="0" />
                 <xs:element name="codigo_atividade" minOccurs="0">
                   <xs:simpleType>
@@ -540,7 +552,13 @@
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
-                <xs:element name="data_reuniao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="data_reuniao" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
                 <xs:element name="localidade" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -6095,489 +6113,1195 @@
     <nome_fantasia>CONATEX</nome_fantasia>
   </_x0034_57f1543-2418-4ea6-9773-a6f4da9748b7>
   <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-    <Item>1</Item>
-    <r_object_id>09035f518138a8f8</r_object_id>
-    <i_antecedent_id>0</i_antecedent_id>
-    <i_chronicle_id>09035f518138a8f8</i_chronicle_id>
-    <r_version_label>1.0|CURRENT</r_version_label>
-    <r_creation_date>2013-10-16T15:04:26-03:00</r_creation_date>
-    <i_has_folder>true</i_has_folder>
-    <a_content_type>msw8</a_content_type>
-    <r_link_cnt>false</r_link_cnt>
-    <object_name>AR-5000KM-G-00418_REV_0.DOC</object_name>
-    <numero_vale>AR-5000KM-G-00418</numero_vale>
-    <subject>CADASTRARFICHAINCLUIR</subject>
-    <title>PROJETO CONCEITUAL COMUM   PREMISSAS PARA O DESENVOLVIMENTO DO PROJETO, A PARTIR DAS OBSERVACOES DA VISISTA DE CAMPO   ATA DE REUNIAO</title>
-    <r_object_type>engdo_ar</r_object_type>
+    <Item>31</Item>
+    <r_object_id>09035f51813aa222</r_object_id>
+    <i_antecedent_id>09035f51813a97f3</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f3</i_chronicle_id>
+    <r_version_label>2.0</r_version_label>
+    <r_creation_date>2013-10-21T15:02:17-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-P-00292_REV_A.DWG</object_name>
+    <numero_vale>5000KM-P-00292</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL  GERA  FLUXOGRAMA DE PROCESSO COM BALANCO DE MASSAS  CLASSIFICACAO/ ESPESSAMENTO DE REJEITOS</title>
+    <r_object_type>engdo_bm</r_object_type>
     <codigo_site>KM</codigo_site>
     <fase>FEL2</fase>
     <id_projeto>08035f518132c317</id_projeto>
-    <id_empresa_projeto>08035f518132d651</id_empresa_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
     <id_subarea>08035f518039967b</id_subarea>
-    <codigo_disciplina>G</codigo_disciplina>
+    <codigo_disciplina>P</codigo_disciplina>
     <r_is_virtual_doc>false</r_is_virtual_doc>
     <documento_fornecedor>false</documento_fornecedor>
-    <revisao>false</revisao>
-    <numero_paginas>5</numero_paginas>
-    <nome_formato>A4</nome_formato>
-    <sigla_tipo_emissao>C</sigla_tipo_emissao>
+    <revisao>A</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A0</nome_formato>
+    <sigla_finalidade_devolucao>APC</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>B</sigla_tipo_emissao>
     <confidencial>false</confidencial>
-    <data_emissao_prevista>nulldate</data_emissao_prevista>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
     <data_emissao_reprog>nulldate</data_emissao_reprog>
-    <data_emissao_realiz>2013-10-16T15:04:20-03:00</data_emissao_realiz>
-    <avanco_fisico>0</avanco_fisico>
+    <data_emissao_realiz>21/10/2013 15:01:40</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>PRO010</codigo_atividade>
+    <item_contrato>MARCO 02</item_contrato>
     <padronizado>false</padronizado>
-    <data_reuniao>2013-10-09T00:00:00-03:00</data_reuniao>
-    <file_path>/1_AR-5000KM-G-00418_REV_0.DOC</file_path>
+    <file_path>/31_5000KM-P-00292_REV_A.DWG</file_path>
   </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
   <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-    <Item>2</Item>
-    <r_object_id>09035f518138abe3</r_object_id>
-    <i_antecedent_id>0</i_antecedent_id>
-    <i_chronicle_id>09035f518138abe3</i_chronicle_id>
-    <r_version_label>CURRENT|1.0</r_version_label>
-    <r_creation_date>2013-10-16T15:12:48-03:00</r_creation_date>
-    <i_has_folder>true</i_has_folder>
-    <a_content_type>pdf</a_content_type>
-    <r_link_cnt>false</r_link_cnt>
-    <object_name>AR-5000KM-G-00419_REV_0.PDF</object_name>
-    <numero_vale>AR-5000KM-G-00419</numero_vale>
-    <subject>CADASTRARFICHAINCLUIR</subject>
-    <title>PROJETO CONCEITUAL   REUNIAO DE PROCESSOS - ECM - CONSOLIDACAO DE BM DAS TOPOLOGIAS/CIRCUITOS PRE-CLASSIFICACAO/TAMANHOS DO ESPESSADOR DE REJEITO E CLASSIFICADOR ESPIRAL  ATA DE REUNIAO</title>
-    <r_object_type>engdo_ar</r_object_type>
+    <Item>32</Item>
+    <r_object_id>09035f51814269c8</r_object_id>
+    <i_antecedent_id>09035f51813aa222</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f3</i_chronicle_id>
+    <r_version_label>2.1</r_version_label>
+    <r_creation_date>2013-11-07T15:22:27-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-P-00292_REV_B.DWG</object_name>
+    <numero_vale>5000KM-P-00292</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL  GERA  FLUXOGRAMA DE PROCESSO COM BALANCO DE MASSAS  CLASSIFICACAO/ ESPESSAMENTO DE REJEITOS</title>
+    <r_object_type>engdo_bm</r_object_type>
     <codigo_site>KM</codigo_site>
     <fase>FEL2</fase>
     <id_projeto>08035f518132c317</id_projeto>
-    <id_empresa_projeto>08035f518132d651</id_empresa_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>P</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>B</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A0</nome_formato>
+    <sigla_finalidade_devolucao>APC</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>B</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>07/11/2013 15:21:34</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>PRO010</codigo_atividade>
+    <item_contrato>MARCO 02</item_contrato>
+    <padronizado>false</padronizado>
+    <file_path>/32_5000KM-P-00292_REV_B.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>33</Item>
+    <r_object_id>09035f518144e126</r_object_id>
+    <i_antecedent_id>09035f51814269c8</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f3</i_chronicle_id>
+    <r_version_label>2.2</r_version_label>
+    <r_creation_date>2013-11-14T14:57:44-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-P-00292_REV_C.DWG</object_name>
+    <numero_vale>5000KM-P-00292</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL  GERA  FLUXOGRAMA DE PROCESSO COM BALANCO DE MASSAS  CLASSIFICACAO/ ESPESSAMENTO DE REJEITOS</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>P</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>C</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A0</nome_formato>
+    <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>B</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>14/11/2013 14:57:17</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>PRO010</codigo_atividade>
+    <item_contrato>MARCO 02</item_contrato>
+    <padronizado>false</padronizado>
+    <file_path>/33_5000KM-P-00292_REV_C.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>34</Item>
+    <r_object_id>09035f5181479c6d</r_object_id>
+    <i_antecedent_id>09035f518144e126</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f3</i_chronicle_id>
+    <r_version_label>3.0</r_version_label>
+    <r_creation_date>2013-11-21T11:51:08-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-P-00292_REV_0.DWG</object_name>
+    <numero_vale>5000KM-P-00292</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL  GERA  FLUXOGRAMA DE PROCESSO COM BALANCO DE MASSAS  CLASSIFICACAO/ ESPESSAMENTO DE REJEITOS</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>P</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>0</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A0</nome_formato>
+    <sigla_finalidade_devolucao>APC</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>C</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
+    <data_emissao_reprog>14/11/2013 14:57:17</data_emissao_reprog>
+    <data_emissao_realiz>21/11/2013 11:50:39</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>PRO010</codigo_atividade>
+    <item_contrato>MARCO 02</item_contrato>
+    <padronizado>false</padronizado>
+    <file_path>/34_5000KM-P-00292_REV_0.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>35</Item>
+    <r_object_id>09035f51814db917</r_object_id>
+    <i_antecedent_id>09035f5181479c6d</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f3</i_chronicle_id>
+    <r_version_label>3.1</r_version_label>
+    <r_creation_date>2013-12-09T17:25:18-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-P-00292_REV_1.DWG</object_name>
+    <numero_vale>5000KM-P-00292</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL  GERA  FLUXOGRAMA DE PROCESSO COM BALANCO DE MASSAS  CLASSIFICACAO/ ESPESSAMENTO DE REJEITOS</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>P</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>1</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A0</nome_formato>
+    <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>B</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
+    <data_emissao_reprog>14/11/2013 14:57:17</data_emissao_reprog>
+    <data_emissao_realiz>09/12/2013 17:24:32</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>PRO010</codigo_atividade>
+    <item_contrato>MARCO 02</item_contrato>
+    <padronizado>false</padronizado>
+    <file_path>/35_5000KM-P-00292_REV_1.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>36</Item>
+    <r_object_id>09035f518150c886</r_object_id>
+    <i_antecedent_id>09035f51814db917</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f3</i_chronicle_id>
+    <r_version_label>3.2</r_version_label>
+    <r_creation_date>2013-12-17T17:47:55-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-P-00292_REV_2.DWG</object_name>
+    <numero_vale>5000KM-P-00292</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL GERA FLUXOGRAMA DE PROCESSO COM BALANCO DE MASSAS CLASSIFICACAO/ ESPESSAMENTO DE REJEITOS</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>P</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>2</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A0</nome_formato>
+    <sigla_finalidade_devolucao>APC</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>C</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>17/12/2013 17:47:21</data_emissao_realiz>
+    <avanco_fisico>100</avanco_fisico>
+    <codigo_atividade>PRO010</codigo_atividade>
+    <item_contrato>MARCO 02</item_contrato>
+    <padronizado>false</padronizado>
+    <file_path>/36_5000KM-P-00292_REV_2.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>37</Item>
+    <r_object_id>09035f518152b7ab</r_object_id>
+    <i_antecedent_id>09035f518150c886</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f3</i_chronicle_id>
+    <r_version_label>3.3</r_version_label>
+    <r_creation_date>2013-12-26T09:56:06-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-P-00292_REV_3.DWG</object_name>
+    <numero_vale>5000KM-P-00292</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL GERA FLUXOGRAMA DE PROCESSO COM BALANCO DE MASSAS CLASSIFICACAO/ ESPESSAMENTO DE REJEITOS</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>P</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>3</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A0</nome_formato>
+    <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>B</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>26/12/2013 09:55:07</data_emissao_realiz>
+    <avanco_fisico>100</avanco_fisico>
+    <codigo_atividade>PRO010</codigo_atividade>
+    <item_contrato>MARCO 02</item_contrato>
+    <padronizado>false</padronizado>
+    <file_path>/37_5000KM-P-00292_REV_3.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>38</Item>
+    <r_object_id>09035f5181560c8d</r_object_id>
+    <i_antecedent_id>09035f518152b7ab</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f3</i_chronicle_id>
+    <r_version_label>3.4|CURRENT</r_version_label>
+    <r_creation_date>2014-01-09T12:04:23-02:00</r_creation_date>
+    <i_has_folder>true</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-P-00292_REV_4.DWG</object_name>
+    <numero_vale>5000KM-P-00292</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL GERA FLUXOGRAMA DE PROCESSO COM BALANCO DE MASSAS CLASSIFICACAO/ ESPESSAMENTO DE REJEITOS</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>P</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>4</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A0</nome_formato>
+    <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>C</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>09/01/2014 12:03:23</data_emissao_realiz>
+    <avanco_fisico>100</avanco_fisico>
+    <codigo_atividade>PRO010</codigo_atividade>
+    <item_contrato>MARCO 02</item_contrato>
+    <padronizado>false</padronizado>
+    <file_path>/38_5000KM-P-00292_REV_4.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>39</Item>
+    <r_object_id>09035f51813a97f4</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f4</i_chronicle_id>
+    <r_version_label>1.0</r_version_label>
+    <r_creation_date>2013-10-21T14:32:15-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-P-00293</object_name>
+    <numero_vale>5000KM-P-00293</numero_vale>
+    <subject>CARGALD</subject>
+    <title>PROJETO CONCEITUAL GERAL FLUXOGRAMA DE PROCESSO COM BALANCO DE MASSAS FLOCULANTE</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>P</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>-1</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A0</nome_formato>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>nulldate</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>PRO010</codigo_atividade>
+    <item_contrato>MARCO 02</item_contrato>
+    <padronizado>false</padronizado>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>40</Item>
+    <r_object_id>09035f51813aa225</r_object_id>
+    <i_antecedent_id>09035f51813a97f4</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f4</i_chronicle_id>
+    <r_version_label>2.0</r_version_label>
+    <r_creation_date>2013-10-21T15:02:20-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-P-00293_REV_A.DWG</object_name>
+    <numero_vale>5000KM-P-00293</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL  GERAL  FLUXOGRAMA DE PROCESSO COM BALANCO DE MASSAS  FLOCULANTE</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>P</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>A</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A0</nome_formato>
+    <sigla_finalidade_devolucao>APC</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>B</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>21/10/2013 15:01:41</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>PRO010</codigo_atividade>
+    <item_contrato>MARCO 02</item_contrato>
+    <padronizado>false</padronizado>
+    <file_path>/40_5000KM-P-00293_REV_A.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>41</Item>
+    <r_object_id>09035f51814269d0</r_object_id>
+    <i_antecedent_id>09035f51813aa225</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f4</i_chronicle_id>
+    <r_version_label>2.1</r_version_label>
+    <r_creation_date>2013-11-07T15:22:30-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-P-00293_REV_B.DWG</object_name>
+    <numero_vale>5000KM-P-00293</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL  GERAL  FLUXOGRAMA DE PROCESSO COM BALANCO DE MASSAS  FLOCULANTE</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>P</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>B</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A0</nome_formato>
+    <sigla_finalidade_devolucao>APC</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>B</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>07/11/2013 15:21:34</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>PRO010</codigo_atividade>
+    <item_contrato>MARCO 02</item_contrato>
+    <padronizado>false</padronizado>
+    <file_path>/41_5000KM-P-00293_REV_B.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>42</Item>
+    <r_object_id>09035f518144e1b8</r_object_id>
+    <i_antecedent_id>09035f51814269d0</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f4</i_chronicle_id>
+    <r_version_label>2.2</r_version_label>
+    <r_creation_date>2013-11-14T15:00:13-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-P-00293_REV_C.DWG</object_name>
+    <numero_vale>5000KM-P-00293</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL  GERAL  FLUXOGRAMA DE PROCESSO COM BALANCO DE MASSAS  FLOCULANTE</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>P</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>C</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A0</nome_formato>
+    <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>B</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>14/11/2013 14:59:47</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>PRO010</codigo_atividade>
+    <item_contrato>MARCO 02</item_contrato>
+    <padronizado>false</padronizado>
+    <file_path>/42_5000KM-P-00293_REV_C.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>43</Item>
+    <r_object_id>09035f5181479c72</r_object_id>
+    <i_antecedent_id>09035f518144e1b8</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f4</i_chronicle_id>
+    <r_version_label>3.0</r_version_label>
+    <r_creation_date>2013-11-21T11:51:11-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-P-00293_REV_0.DWG</object_name>
+    <numero_vale>5000KM-P-00293</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL  GERAL  FLUXOGRAMA DE PROCESSO COM BALANCO DE MASSAS  FLOCULANTE</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>P</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>0</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A0</nome_formato>
+    <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>C</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
+    <data_emissao_reprog>14/11/2013 14:59:47</data_emissao_reprog>
+    <data_emissao_realiz>21/11/2013 11:50:39</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>PRO010</codigo_atividade>
+    <item_contrato>MARCO 02</item_contrato>
+    <padronizado>false</padronizado>
+    <file_path>/43_5000KM-P-00293_REV_0.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>44</Item>
+    <r_object_id>09035f518152b7ae</r_object_id>
+    <i_antecedent_id>09035f5181479c72</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f4</i_chronicle_id>
+    <r_version_label>3.1</r_version_label>
+    <r_creation_date>2013-12-26T09:56:10-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-P-00293_REV_1.DWG</object_name>
+    <numero_vale>5000KM-P-00293</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL GERAL FLUXOGRAMA DE PROCESSO COM BALANCO DE MASSAS FLOCULANTE</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>P</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>1</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A0</nome_formato>
+    <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>B</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
+    <data_emissao_reprog>14/11/2013 09:55:07</data_emissao_reprog>
+    <data_emissao_realiz>26/12/2013 09:55:07</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>PRO010</codigo_atividade>
+    <item_contrato>MARCO 02</item_contrato>
+    <padronizado>false</padronizado>
+    <file_path>/44_5000KM-P-00293_REV_1.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>45</Item>
+    <r_object_id>09035f5181560c94</r_object_id>
+    <i_antecedent_id>09035f518152b7ae</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f4</i_chronicle_id>
+    <r_version_label>CURRENT|3.2</r_version_label>
+    <r_creation_date>2014-01-09T12:04:27-02:00</r_creation_date>
+    <i_has_folder>true</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-P-00293_REV_2.DWG</object_name>
+    <numero_vale>5000KM-P-00293</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL GERAL FLUXOGRAMA DE PROCESSO COM BALANCO DE MASSAS FLOCULANTE</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>P</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>2</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A0</nome_formato>
+    <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>C</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
+    <data_emissao_reprog>14/11/2013 12:03:24</data_emissao_reprog>
+    <data_emissao_realiz>09/01/2014 12:03:24</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>PRO010</codigo_atividade>
+    <item_contrato>MARCO 02</item_contrato>
+    <padronizado>false</padronizado>
+    <file_path>/45_5000KM-P-00293_REV_2.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>46</Item>
+    <r_object_id>09035f51813a97f7</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f7</i_chronicle_id>
+    <r_version_label>1.0</r_version_label>
+    <r_creation_date>2013-10-21T14:32:18-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>CP-5000KM-T-00290</object_name>
+    <numero_vale>CP-5000KM-T-00290</numero_vale>
+    <subject>CARGALD</subject>
+    <title>PROJETO CONCEITUAL GERAL DADOS BASICOS E CRITERIOS DE PROJETO DE SISTEMAS</title>
+    <r_object_type>engdo_cp</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>T</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>-1</revisao>
+    <numero_paginas>10</numero_paginas>
+    <nome_formato>A4</nome_formato>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-31T00:00:00-02:00</data_emissao_prevista>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>nulldate</data_emissao_realiz>
+    <avanco_fisico>0</avanco_fisico>
+    <codigo_atividade>SIS005</codigo_atividade>
+    <padronizado>false</padronizado>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>47</Item>
+    <r_object_id>09035f51813de9f5</r_object_id>
+    <i_antecedent_id>09035f51813a97f7</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f7</i_chronicle_id>
+    <r_version_label>2.0</r_version_label>
+    <r_creation_date>2013-10-29T14:33:45-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>msw8</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>CP-5000KM-T-00290_REV_A.DOC</object_name>
+    <numero_vale>CP-5000KM-T-00290</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL  GERAL  DADOS BASICOS E CRITERIOS DE PROJETO DE SISTEMAS</title>
+    <r_object_type>engdo_cp</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>T</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>A</revisao>
+    <numero_paginas>10</numero_paginas>
+    <nome_formato>A4</nome_formato>
+    <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>B</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-31T00:00:00-02:00</data_emissao_prevista>
+    <data_emissao_reprog>29/11/2013 00:00:00</data_emissao_reprog>
+    <data_emissao_realiz>29/10/2013 14:33:15</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>SIS005</codigo_atividade>
+    <padronizado>false</padronizado>
+    <file_path>/47_CP-5000KM-T-00290_REV_A.DOC</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>48</Item>
+    <r_object_id>09035f5181499915</r_object_id>
+    <i_antecedent_id>09035f51813de9f5</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f7</i_chronicle_id>
+    <r_version_label>3.0|CURRENT</r_version_label>
+    <r_creation_date>2013-11-27T12:46:22-02:00</r_creation_date>
+    <i_has_folder>true</i_has_folder>
+    <a_content_type>msw8</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>CP-5000KM-T-00290_REV_0.DOC</object_name>
+    <numero_vale>CP-5000KM-T-00290</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL  GERAL  DADOS BASICOS E CRITERIOS DE PROJETO DE SISTEMAS</title>
+    <r_object_type>engdo_cp</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>T</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>0</revisao>
+    <numero_paginas>10</numero_paginas>
+    <nome_formato>A4</nome_formato>
+    <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>B</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-31T00:00:00-02:00</data_emissao_prevista>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>27/11/2013 12:45:59</data_emissao_realiz>
+    <avanco_fisico>100</avanco_fisico>
+    <codigo_atividade>SIS005</codigo_atividade>
+    <padronizado>false</padronizado>
+    <file_path>/48_CP-5000KM-T-00290_REV_0.DOC</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>49</Item>
+    <r_object_id>09035f51813a97f9</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f9</i_chronicle_id>
+    <r_version_label>1.0</r_version_label>
+    <r_creation_date>2013-10-21T14:32:20-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-T-00290</object_name>
+    <numero_vale>5000KM-T-00290</numero_vale>
+    <subject>CARGALD</subject>
+    <title>PROJETO CONCEITUAL GERAL DIAGRAMA DE BLOCOS COM BALANCO DE AGUA</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>T</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>-1</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A1</nome_formato>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-28T00:00:00-02:00</data_emissao_prevista>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>nulldate</data_emissao_realiz>
+    <avanco_fisico>0</avanco_fisico>
+    <codigo_atividade>SIS005</codigo_atividade>
+    <padronizado>false</padronizado>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>50</Item>
+    <r_object_id>09035f51813ee53e</r_object_id>
+    <i_antecedent_id>09035f51813a97f9</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f9</i_chronicle_id>
+    <r_version_label>2.0</r_version_label>
+    <r_creation_date>2013-10-30T16:01:48-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-T-00290_REV_A.DWG</object_name>
+    <numero_vale>5000KM-T-00290</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL  GERAL  DIAGRAMA DE BLOCOS COM BALANCO DE AGUA</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>T</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>A</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A1</nome_formato>
+    <sigla_finalidade_devolucao>APC</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>B</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-28T00:00:00-02:00</data_emissao_prevista>
+    <data_emissao_reprog>29/11/2013 00:00:00</data_emissao_reprog>
+    <data_emissao_realiz>30/10/2013 16:01:26</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>SIS015</codigo_atividade>
+    <padronizado>false</padronizado>
+    <file_path>/50_5000KM-T-00290_REV_A.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>51</Item>
+    <r_object_id>09035f51814db790</r_object_id>
+    <i_antecedent_id>09035f51813ee53e</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f9</i_chronicle_id>
+    <r_version_label>2.1</r_version_label>
+    <r_creation_date>2013-12-09T17:20:55-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-T-00290_REV_B.DWG</object_name>
+    <numero_vale>5000KM-T-00290</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL  GERAL  DIAGRAMA DE BLOCOS COM BALANCO DE AGUA</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>T</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>B</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A1</nome_formato>
+    <sigla_finalidade_devolucao>APC</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>B</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-28T00:00:00-02:00</data_emissao_prevista>
+    <data_emissao_reprog>29/11/2013 00:00:00</data_emissao_reprog>
+    <data_emissao_realiz>09/12/2013 17:20:30</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>SIS015</codigo_atividade>
+    <padronizado>false</padronizado>
+    <file_path>/51_5000KM-T-00290_REV_B.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>52</Item>
+    <r_object_id>09035f51814fd997</r_object_id>
+    <i_antecedent_id>09035f51814db790</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f9</i_chronicle_id>
+    <r_version_label>2.2</r_version_label>
+    <r_creation_date>2013-12-16T10:20:45-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-T-00290_REV_C.DWG</object_name>
+    <numero_vale>5000KM-T-00290</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL  GERAL  DIAGRAMA DE BLOCOS COM BALANCO DE AGUA</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>T</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>C</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A1</nome_formato>
+    <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>B</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-28T00:00:00-02:00</data_emissao_prevista>
+    <data_emissao_reprog>29/11/2013 00:00:00</data_emissao_reprog>
+    <data_emissao_realiz>16/12/2013 10:20:13</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>SIS015</codigo_atividade>
+    <padronizado>false</padronizado>
+    <file_path>/52_5000KM-T-00290_REV_C.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>53</Item>
+    <r_object_id>09035f518150c89f</r_object_id>
+    <i_antecedent_id>09035f51814fd997</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f9</i_chronicle_id>
+    <r_version_label>3.0</r_version_label>
+    <r_creation_date>2013-12-17T17:50:26-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-T-00290_REV_0.DWG</object_name>
+    <numero_vale>5000KM-T-00290</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL    GERAL    DIAGRAMA DE BLOCOS COM BALANCO DE AGUA</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>T</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>0</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A1</nome_formato>
+    <sigla_finalidade_devolucao>APC</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>C</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-28T00:00:00-02:00</data_emissao_prevista>
+    <data_emissao_reprog>22/12/2013 00:00:00</data_emissao_reprog>
+    <data_emissao_realiz>17/12/2013 17:50:00</data_emissao_realiz>
+    <avanco_fisico>100</avanco_fisico>
+    <codigo_atividade>SIS015</codigo_atividade>
+    <padronizado>false</padronizado>
+    <file_path>/53_5000KM-T-00290_REV_0.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>54</Item>
+    <r_object_id>09035f518152b7a7</r_object_id>
+    <i_antecedent_id>09035f518150c89f</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f9</i_chronicle_id>
+    <r_version_label>3.1</r_version_label>
+    <r_creation_date>2013-12-26T09:55:59-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-T-00290_REV_1.DWG</object_name>
+    <numero_vale>5000KM-T-00290</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL   GERAL   DIAGRAMA DE BLOCOS COM BALANCO DE AGUA</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>T</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>1</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A1</nome_formato>
+    <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>B</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-28T00:00:00-02:00</data_emissao_prevista>
+    <data_emissao_reprog>22/12/2013 09:55:06</data_emissao_reprog>
+    <data_emissao_realiz>26/12/2013 09:55:06</data_emissao_realiz>
+    <avanco_fisico>100</avanco_fisico>
+    <codigo_atividade>SIS015</codigo_atividade>
+    <padronizado>false</padronizado>
+    <file_path>/54_5000KM-T-00290_REV_1.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>55</Item>
+    <r_object_id>09035f51815720a2</r_object_id>
+    <i_antecedent_id>09035f518152b7a7</i_antecedent_id>
+    <i_chronicle_id>09035f51813a97f9</i_chronicle_id>
+    <r_version_label>CURRENT|3.2</r_version_label>
+    <r_creation_date>2014-01-13T15:43:41-02:00</r_creation_date>
+    <i_has_folder>true</i_has_folder>
+    <a_content_type>acad</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>5000KM-T-00290_REV_2.DWG</object_name>
+    <numero_vale>5000KM-T-00290</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL    GERAL    DIAGRAMA DE BLOCOS COM BALANCO DE AGUA</title>
+    <r_object_type>engdo_bm</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>T</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>2</revisao>
+    <numero_paginas>1</numero_paginas>
+    <nome_formato>A1</nome_formato>
+    <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>C</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-28T00:00:00-02:00</data_emissao_prevista>
+    <data_emissao_reprog>22/12/2013 09:55:06</data_emissao_reprog>
+    <data_emissao_realiz>13/01/2014 15:43:07</data_emissao_realiz>
+    <avanco_fisico>100</avanco_fisico>
+    <codigo_atividade>SIS015</codigo_atividade>
+    <padronizado>false</padronizado>
+    <file_path>/55_5000KM-T-00290_REV_2.DWG</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>56</Item>
+    <r_object_id>09035f51813ac1a0</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f51813ac1a0</i_chronicle_id>
+    <r_version_label>1.0</r_version_label>
+    <r_creation_date>2013-10-21T16:38:04-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>RL-5000KM-G-00291</object_name>
+    <numero_vale>RL-5000KM-G-00291</numero_vale>
+    <subject>CARGALD</subject>
+    <title>PROJETO CONCEITUAL GERAL RELATORIO DA VISITA DE CAMPO RELATORIO TECNICO</title>
+    <r_object_type>engdo_rl</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
     <id_subarea>08035f518039967b</id_subarea>
     <codigo_disciplina>G</codigo_disciplina>
     <r_is_virtual_doc>false</r_is_virtual_doc>
     <documento_fornecedor>false</documento_fornecedor>
-    <revisao>false</revisao>
+    <revisao>-1</revisao>
     <numero_paginas>13</numero_paginas>
     <nome_formato>A4</nome_formato>
-    <sigla_tipo_emissao>C</sigla_tipo_emissao>
     <confidencial>false</confidencial>
-    <data_emissao_prevista>nulldate</data_emissao_prevista>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
     <data_emissao_reprog>nulldate</data_emissao_reprog>
-    <data_emissao_realiz>2013-10-16T15:12:42-03:00</data_emissao_realiz>
-    <avanco_fisico>0</avanco_fisico>
+    <data_emissao_realiz>nulldate</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>COO035</codigo_atividade>
+    <item_contrato>MARCO 04</item_contrato>
     <padronizado>false</padronizado>
-    <data_reuniao>2013-10-15T00:00:00-03:00</data_reuniao>
-    <file_path>/2_AR-5000KM-G-00419_REV_0.PDF</file_path>
   </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
   <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-    <Item>3</Item>
-    <r_object_id>09035f5181462afd</r_object_id>
-    <i_antecedent_id>0</i_antecedent_id>
-    <i_chronicle_id>09035f5181462afd</i_chronicle_id>
-    <r_version_label>CURRENT|1.0</r_version_label>
-    <r_creation_date>2013-11-19T17:48:19-02:00</r_creation_date>
-    <i_has_folder>true</i_has_folder>
-    <a_content_type>pdf</a_content_type>
-    <r_link_cnt>false</r_link_cnt>
-    <object_name>AR-5000KM-G-00424_REV_0.PDF</object_name>
-    <numero_vale>AR-5000KM-G-00424</numero_vale>
-    <subject>CADASTRARFICHAINCLUIR</subject>
-    <title>PROJETO CONCEITUAL  GERAL  ATA DE REUNIAO</title>
-    <r_object_type>engdo_ar</r_object_type>
+    <Item>57</Item>
+    <r_object_id>09035f51813ac2fc</r_object_id>
+    <i_antecedent_id>09035f51813ac1a0</i_antecedent_id>
+    <i_chronicle_id>09035f51813ac1a0</i_chronicle_id>
+    <r_version_label>2.0</r_version_label>
+    <r_creation_date>2013-10-21T16:41:24-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>msw8</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>RL-5000KM-G-00291_REV_A.DOC</object_name>
+    <numero_vale>RL-5000KM-G-00291</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL  GERAL  RELATORIO DA VISITA DE CAMPO  RELATORIO TECNICO</title>
+    <r_object_type>engdo_rl</r_object_type>
     <codigo_site>KM</codigo_site>
     <fase>FEL2</fase>
     <id_projeto>08035f518132c317</id_projeto>
-    <id_empresa_projeto>08035f518132d651</id_empresa_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
     <id_subarea>08035f518039967b</id_subarea>
     <codigo_disciplina>G</codigo_disciplina>
     <r_is_virtual_doc>false</r_is_virtual_doc>
     <documento_fornecedor>false</documento_fornecedor>
-    <revisao>false</revisao>
-    <numero_paginas>1</numero_paginas>
+    <revisao>A</revisao>
+    <numero_paginas>13</numero_paginas>
     <nome_formato>A4</nome_formato>
-    <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
-    <sigla_tipo_emissao>C</sigla_tipo_emissao>
+    <sigla_finalidade_devolucao>APC</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>B</sigla_tipo_emissao>
     <confidencial>false</confidencial>
-    <data_emissao_prevista>nulldate</data_emissao_prevista>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
     <data_emissao_reprog>nulldate</data_emissao_reprog>
-    <data_emissao_realiz>2013-11-19T17:48:16-02:00</data_emissao_realiz>
-    <avanco_fisico>0</avanco_fisico>
+    <data_emissao_realiz>21/10/2013 16:40:47</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>COO035</codigo_atividade>
+    <item_contrato>MARCO 04</item_contrato>
     <padronizado>false</padronizado>
-    <data_reuniao>2013-11-06T10:00:00-02:00</data_reuniao>
-    <localidade>ECM</localidade>
-    <file_path>/3_AR-5000KM-G-00424_REV_0.PDF</file_path>
+    <file_path>/57_RL-5000KM-G-00291_REV_A.DOC</file_path>
   </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
   <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-    <Item>4</Item>
-    <r_object_id>09035f5181489d48</r_object_id>
-    <i_antecedent_id>0</i_antecedent_id>
-    <i_chronicle_id>09035f5181489d48</i_chronicle_id>
-    <r_version_label>CURRENT|1.0</r_version_label>
-    <r_creation_date>2013-11-25T15:16:08-02:00</r_creation_date>
+    <Item>58</Item>
+    <r_object_id>09035f51814374cf</r_object_id>
+    <i_antecedent_id>09035f51813ac2fc</i_antecedent_id>
+    <i_chronicle_id>09035f51813ac1a0</i_chronicle_id>
+    <r_version_label>2.1</r_version_label>
+    <r_creation_date>2013-11-11T10:55:43-02:00</r_creation_date>
+    <i_has_folder>false</i_has_folder>
+    <a_content_type>msw8</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>RL-5000KM-G-00291_REV_B.DOC</object_name>
+    <numero_vale>RL-5000KM-G-00291</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL  GERAL  RELATORIO DA VISITA DE CAMPO  RELATORIO TECNICO</title>
+    <r_object_type>engdo_rl</r_object_type>
+    <codigo_site>KM</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f518132c317</id_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
+    <id_subarea>08035f518039967b</id_subarea>
+    <codigo_disciplina>G</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <revisao>B</revisao>
+    <numero_paginas>13</numero_paginas>
+    <nome_formato>A4</nome_formato>
+    <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
+    <sigla_tipo_emissao>B</sigla_tipo_emissao>
+    <confidencial>false</confidencial>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>11/11/2013 10:54:58</data_emissao_realiz>
+    <avanco_fisico>80</avanco_fisico>
+    <codigo_atividade>COO035</codigo_atividade>
+    <item_contrato>MARCO 04</item_contrato>
+    <padronizado>false</padronizado>
+    <file_path>/58_RL-5000KM-G-00291_REV_B.DOC</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>59</Item>
+    <r_object_id>09035f518146ffef</r_object_id>
+    <i_antecedent_id>09035f51814374cf</i_antecedent_id>
+    <i_chronicle_id>09035f51813ac1a0</i_chronicle_id>
+    <r_version_label>CURRENT|3.0</r_version_label>
+    <r_creation_date>2013-11-20T10:34:57-02:00</r_creation_date>
     <i_has_folder>true</i_has_folder>
     <a_content_type>msw8</a_content_type>
-    <r_link_cnt>false</r_link_cnt>
-    <object_name>AR-5000KM-G-00421_REV_0.DOC</object_name>
-    <numero_vale>AR-5000KM-G-00421</numero_vale>
-    <subject>CADASTRARFICHAINCLUIR</subject>
-    <title>ATA DE REUNIAO - COMENTARIOS NOS FLUXOGRAMAS DE PROCESSSO E DADOS BASICOS E CRITERIOS DE PROCESSO</title>
-    <r_object_type>engdo_ar</r_object_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>RL-5000KM-G-00291_REV_0.DOC</object_name>
+    <numero_vale>RL-5000KM-G-00291</numero_vale>
+    <subject>CADASTRARFICHAIMPORTAR</subject>
+    <title>PROJETO CONCEITUAL  GERAL  RELATORIO DA VISITA DE CAMPO  RELATORIO TECNICO</title>
+    <r_object_type>engdo_rl</r_object_type>
     <codigo_site>KM</codigo_site>
     <fase>FEL2</fase>
     <id_projeto>08035f518132c317</id_projeto>
-    <id_empresa_projeto>08035f518132d651</id_empresa_projeto>
+    <id_empresa_projeto>08035f518132c54f</id_empresa_projeto>
     <id_subarea>08035f518039967b</id_subarea>
     <codigo_disciplina>G</codigo_disciplina>
     <r_is_virtual_doc>false</r_is_virtual_doc>
     <documento_fornecedor>false</documento_fornecedor>
-    <area_funcional>GAQEF</area_funcional>
-    <revisao>false</revisao>
-    <numero_paginas>2</numero_paginas>
-    <nome_formato>A4</nome_formato>
-    <sigla_tipo_emissao>C</sigla_tipo_emissao>
-    <confidencial>false</confidencial>
-    <data_emissao_prevista>nulldate</data_emissao_prevista>
-    <data_emissao_reprog>nulldate</data_emissao_reprog>
-    <data_emissao_realiz>2013-11-25T15:16:03-02:00</data_emissao_realiz>
-    <avanco_fisico>0</avanco_fisico>
-    <padronizado>false</padronizado>
-    <data_reuniao>2013-10-22T10:00:00-02:00</data_reuniao>
-    <file_path>/4_AR-5000KM-G-00421_REV_0.DOC</file_path>
-  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-    <Item>5</Item>
-    <r_object_id>09035f5181489e4d</r_object_id>
-    <i_antecedent_id>0</i_antecedent_id>
-    <i_chronicle_id>09035f5181489e4d</i_chronicle_id>
-    <r_version_label>1.0|CURRENT</r_version_label>
-    <r_creation_date>2013-11-25T15:23:23-02:00</r_creation_date>
-    <i_has_folder>true</i_has_folder>
-    <a_content_type>pdf</a_content_type>
-    <r_link_cnt>false</r_link_cnt>
-    <object_name>AR-5000KM-G-00422_REV_0.PDF</object_name>
-    <numero_vale>AR-5000KM-G-00422</numero_vale>
-    <subject>CADASTRARFICHAINCLUIR</subject>
-    <title>ATA DE REUNIAO - COMENTARIOS NOS FLUXOGRAMAS DE PROCESSSO E DADOS BASICOS E CRITERIOS DE PROCESSO</title>
-    <r_object_type>engdo_ar</r_object_type>
-    <codigo_site>KM</codigo_site>
-    <fase>FEL2</fase>
-    <id_projeto>08035f518132c317</id_projeto>
-    <id_empresa_projeto>08035f518132d651</id_empresa_projeto>
-    <id_subarea>08035f518039967b</id_subarea>
-    <codigo_disciplina>G</codigo_disciplina>
-    <r_is_virtual_doc>false</r_is_virtual_doc>
-    <documento_fornecedor>false</documento_fornecedor>
-    <area_funcional>GAQEF</area_funcional>
-    <revisao>false</revisao>
-    <numero_paginas>2</numero_paginas>
-    <nome_formato>A4</nome_formato>
-    <sigla_tipo_emissao>C</sigla_tipo_emissao>
-    <confidencial>false</confidencial>
-    <data_emissao_prevista>nulldate</data_emissao_prevista>
-    <data_emissao_reprog>nulldate</data_emissao_reprog>
-    <data_emissao_realiz>2013-11-25T15:23:19-02:00</data_emissao_realiz>
-    <avanco_fisico>0</avanco_fisico>
-    <padronizado>false</padronizado>
-    <data_reuniao>2013-10-23T10:00:00-02:00</data_reuniao>
-    <file_path>/5_AR-5000KM-G-00422_REV_0.PDF</file_path>
-  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-    <Item>6</Item>
-    <r_object_id>09035f5181489fcc</r_object_id>
-    <i_antecedent_id>0</i_antecedent_id>
-    <i_chronicle_id>09035f5181489fcc</i_chronicle_id>
-    <r_version_label>CURRENT|1.0</r_version_label>
-    <r_creation_date>2013-11-25T15:27:11-02:00</r_creation_date>
-    <i_has_folder>true</i_has_folder>
-    <a_content_type>pdf</a_content_type>
-    <r_link_cnt>false</r_link_cnt>
-    <object_name>AR-5000KM-G-00423_REV_0.PDF</object_name>
-    <numero_vale>AR-5000KM-G-00423</numero_vale>
-    <subject>CADASTRARFICHAINCLUIR</subject>
-    <title>ATA DE REUNIAO - COMENTARIOS NOS FLUXOGRAMAS DE PROCESSOS</title>
-    <r_object_type>engdo_ar</r_object_type>
-    <codigo_site>KM</codigo_site>
-    <fase>FEL2</fase>
-    <id_projeto>08035f518132c317</id_projeto>
-    <id_empresa_projeto>08035f518132d651</id_empresa_projeto>
-    <id_subarea>08035f518039967b</id_subarea>
-    <codigo_disciplina>G</codigo_disciplina>
-    <r_is_virtual_doc>false</r_is_virtual_doc>
-    <documento_fornecedor>false</documento_fornecedor>
-    <revisao>false</revisao>
-    <numero_paginas>5</numero_paginas>
-    <nome_formato>A4</nome_formato>
-    <sigla_tipo_emissao>C</sigla_tipo_emissao>
-    <confidencial>false</confidencial>
-    <data_emissao_prevista>nulldate</data_emissao_prevista>
-    <data_emissao_reprog>nulldate</data_emissao_reprog>
-    <data_emissao_realiz>2013-11-25T15:27:08-02:00</data_emissao_realiz>
-    <avanco_fisico>0</avanco_fisico>
-    <padronizado>false</padronizado>
-    <data_reuniao>2013-10-31T10:00:00-02:00</data_reuniao>
-    <file_path>/6_AR-5000KM-G-00423_REV_0.PDF</file_path>
-  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-    <Item>7</Item>
-    <r_object_id>09035f518187164a</r_object_id>
-    <i_antecedent_id>0</i_antecedent_id>
-    <i_chronicle_id>09035f518187164a</i_chronicle_id>
-    <r_version_label>CURRENT|1.0</r_version_label>
-    <r_creation_date>2014-06-06T15:48:50-03:00</r_creation_date>
-    <i_has_folder>true</i_has_folder>
-    <a_content_type>pdf</a_content_type>
-    <r_link_cnt>false</r_link_cnt>
-    <object_name>AR-5190KM-G-20000_REV_0.PDF</object_name>
-    <numero_vale>AR-5190KM-G-20000</numero_vale>
-    <subject>CADASTRARFICHAINCLUIR</subject>
-    <title>PROJETO DETALHADO  BARRAGENS  ACOMPANHAMENTO DO PROJETO E DOCUMENTOS DE COORDENACAO  ATA DE REUNIAO</title>
-    <r_object_type>engdo_ar</r_object_type>
-    <codigo_site>KM</codigo_site>
-    <fase>CONS</fase>
-    <id_projeto>08035f5181734e06</id_projeto>
-    <id_empresa_projeto>08035f518186fdf1</id_empresa_projeto>
-    <id_subarea>08035f51807304d9</id_subarea>
-    <codigo_disciplina>G</codigo_disciplina>
-    <r_is_virtual_doc>false</r_is_virtual_doc>
-    <documento_fornecedor>false</documento_fornecedor>
-    <revisao>false</revisao>
-    <numero_paginas>18</numero_paginas>
-    <nome_formato>A4</nome_formato>
-    <sigla_tipo_emissao>C</sigla_tipo_emissao>
-    <confidencial>false</confidencial>
-    <data_emissao_prevista>nulldate</data_emissao_prevista>
-    <data_emissao_reprog>nulldate</data_emissao_reprog>
-    <data_emissao_realiz>2014-06-06T15:48:46-03:00</data_emissao_realiz>
-    <avanco_fisico>0</avanco_fisico>
-    <padronizado>false</padronizado>
-    <data_reuniao>2014-06-05T00:00:00-03:00</data_reuniao>
-    <file_path>/7_AR-5190KM-G-20000_REV_0.PDF</file_path>
-  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-    <Item>8</Item>
-    <r_object_id>09035f518190029e</r_object_id>
-    <i_antecedent_id>0</i_antecedent_id>
-    <i_chronicle_id>09035f518190029e</i_chronicle_id>
-    <r_version_label>1.0|CURRENT</r_version_label>
-    <r_creation_date>2014-07-10T10:28:52-03:00</r_creation_date>
-    <i_has_folder>true</i_has_folder>
-    <a_content_type>pdf</a_content_type>
-    <r_link_cnt>false</r_link_cnt>
-    <object_name>AR-5190KM-G-20001_REV_0.PDF</object_name>
-    <numero_vale>AR-5190KM-G-20001</numero_vale>
-    <subject>CADASTRARFICHAINCLUIR</subject>
-    <title>PROJETO DETALHADO  BARRAGENS  ACOMPANHAMENTO DE PROJETO E DOCUMENTOS DE COORDENACAO  ATA DE REUNIAO</title>
-    <r_object_type>engdo_ar</r_object_type>
-    <codigo_site>KM</codigo_site>
-    <fase>CONS</fase>
-    <id_projeto>08035f5181734e06</id_projeto>
-    <id_empresa_projeto>08035f518186fdf1</id_empresa_projeto>
-    <id_subarea>08035f51807304d9</id_subarea>
-    <codigo_disciplina>G</codigo_disciplina>
-    <r_is_virtual_doc>false</r_is_virtual_doc>
-    <documento_fornecedor>false</documento_fornecedor>
-    <revisao>false</revisao>
-    <numero_paginas>16</numero_paginas>
-    <nome_formato>A4</nome_formato>
-    <sigla_tipo_emissao>C</sigla_tipo_emissao>
-    <confidencial>false</confidencial>
-    <data_emissao_prevista>nulldate</data_emissao_prevista>
-    <data_emissao_reprog>nulldate</data_emissao_reprog>
-    <data_emissao_realiz>2014-07-10T10:28:48-03:00</data_emissao_realiz>
-    <avanco_fisico>0</avanco_fisico>
-    <padronizado>false</padronizado>
-    <data_reuniao>2014-07-07T00:00:00-03:00</data_reuniao>
-    <file_path>/8_AR-5190KM-G-20001_REV_0.PDF</file_path>
-  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-    <Item>9</Item>
-    <r_object_id>09035f5181997bb4</r_object_id>
-    <i_antecedent_id>0</i_antecedent_id>
-    <i_chronicle_id>09035f5181997bb4</i_chronicle_id>
-    <r_version_label>CURRENT|1.0</r_version_label>
-    <r_creation_date>2014-08-08T10:33:21-03:00</r_creation_date>
-    <i_has_folder>true</i_has_folder>
-    <a_content_type>pdf</a_content_type>
-    <r_link_cnt>false</r_link_cnt>
-    <object_name>AR-5190KM-G-20002_REV_0.PDF</object_name>
-    <numero_vale>AR-5190KM-G-20002</numero_vale>
-    <subject>CADASTRARFICHAINCLUIR</subject>
-    <title>PROJETO DETALHADO  ACOMPANHAMENTO DO PROJETO E DOCUMENTOS DE COORDENACAO  ATA DE REUNIAO</title>
-    <r_object_type>engdo_ar</r_object_type>
-    <codigo_site>KM</codigo_site>
-    <fase>CONS</fase>
-    <id_projeto>08035f5181734e06</id_projeto>
-    <id_empresa_projeto>08035f518186fdf1</id_empresa_projeto>
-    <id_subarea>08035f51807304d9</id_subarea>
-    <codigo_disciplina>G</codigo_disciplina>
-    <r_is_virtual_doc>false</r_is_virtual_doc>
-    <documento_fornecedor>false</documento_fornecedor>
-    <revisao>false</revisao>
-    <numero_paginas>16</numero_paginas>
-    <nome_formato>A4</nome_formato>
-    <sigla_tipo_emissao>C</sigla_tipo_emissao>
-    <confidencial>false</confidencial>
-    <data_emissao_prevista>nulldate</data_emissao_prevista>
-    <data_emissao_reprog>nulldate</data_emissao_reprog>
-    <data_emissao_realiz>2014-08-08T10:33:17-03:00</data_emissao_realiz>
-    <avanco_fisico>0</avanco_fisico>
-    <padronizado>false</padronizado>
-    <data_reuniao>2014-08-06T00:00:00-03:00</data_reuniao>
-    <file_path>/9_AR-5190KM-G-20002_REV_0.PDF</file_path>
-  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-    <Item>10</Item>
-    <r_object_id>09035f5181a39dd5</r_object_id>
-    <i_antecedent_id>0</i_antecedent_id>
-    <i_chronicle_id>09035f5181a39dd5</i_chronicle_id>
-    <r_version_label>1.0|CURRENT</r_version_label>
-    <r_creation_date>2014-09-09T09:35:26-03:00</r_creation_date>
-    <i_has_folder>true</i_has_folder>
-    <a_content_type>pdf</a_content_type>
-    <r_link_cnt>false</r_link_cnt>
-    <object_name>AR-5190KM-G-20003_REV_0.PDF</object_name>
-    <numero_vale>AR-5190KM-G-20003</numero_vale>
-    <subject>CADASTRARFICHAINCLUIR</subject>
-    <title>PROJETO DETALHADO  BARRAGENS  ACOMPANHAMENTO DO PROJETO E DOCUMENTOS DE COORDENACAO  ATA DE REUNIAO</title>
-    <r_object_type>engdo_ar</r_object_type>
-    <codigo_site>KM</codigo_site>
-    <fase>CONS</fase>
-    <id_projeto>08035f5181734e06</id_projeto>
-    <id_empresa_projeto>08035f518186fdf1</id_empresa_projeto>
-    <id_subarea>08035f51807304d9</id_subarea>
-    <codigo_disciplina>G</codigo_disciplina>
-    <r_is_virtual_doc>false</r_is_virtual_doc>
-    <documento_fornecedor>false</documento_fornecedor>
-    <revisao>false</revisao>
-    <numero_paginas>18</numero_paginas>
-    <nome_formato>A4</nome_formato>
-    <sigla_tipo_emissao>C</sigla_tipo_emissao>
-    <confidencial>false</confidencial>
-    <data_emissao_prevista>nulldate</data_emissao_prevista>
-    <data_emissao_reprog>nulldate</data_emissao_reprog>
-    <data_emissao_realiz>2014-09-09T09:35:24-03:00</data_emissao_realiz>
-    <avanco_fisico>0</avanco_fisico>
-    <padronizado>false</padronizado>
-    <data_reuniao>2014-09-05T00:00:00-03:00</data_reuniao>
-    <file_path>/10_AR-5190KM-G-20003_REV_0.PDF</file_path>
-  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-    <Item>11</Item>
-    <r_object_id>09035f5181ae1642</r_object_id>
-    <i_antecedent_id>0</i_antecedent_id>
-    <i_chronicle_id>09035f5181ae1642</i_chronicle_id>
-    <r_version_label>CURRENT|1.0</r_version_label>
-    <r_creation_date>2014-10-09T15:06:43-03:00</r_creation_date>
-    <i_has_folder>true</i_has_folder>
-    <a_content_type>pdf</a_content_type>
-    <r_link_cnt>false</r_link_cnt>
-    <object_name>AR-5190KM-G-20020_REV_0.PDF</object_name>
-    <numero_vale>AR-5190KM-G-20020</numero_vale>
-    <subject>CADASTRARFICHAINCLUIR</subject>
-    <title>PROJETO DETALHADO  PILHA DE ESTERIL  ATA DE REUNIAO</title>
-    <r_object_type>engdo_ar</r_object_type>
-    <codigo_site>KM</codigo_site>
-    <fase>CONS</fase>
-    <id_projeto>08035f5181734e06</id_projeto>
-    <id_empresa_projeto>08035f518186fdf1</id_empresa_projeto>
-    <id_subarea>08035f51807304d9</id_subarea>
-    <codigo_disciplina>G</codigo_disciplina>
-    <r_is_virtual_doc>false</r_is_virtual_doc>
-    <documento_fornecedor>false</documento_fornecedor>
-    <revisao>false</revisao>
-    <numero_paginas>4</numero_paginas>
+    <revisao>0</revisao>
+    <numero_paginas>13</numero_paginas>
     <nome_formato>A4</nome_formato>
     <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
     <sigla_tipo_emissao>C</sigla_tipo_emissao>
     <confidencial>false</confidencial>
-    <data_emissao_prevista>nulldate</data_emissao_prevista>
-    <data_emissao_reprog>nulldate</data_emissao_reprog>
-    <data_emissao_realiz>2014-10-09T15:06:41-03:00</data_emissao_realiz>
-    <avanco_fisico>0</avanco_fisico>
+    <data_emissao_prevista>2013-10-18T00:00:00-03:00</data_emissao_prevista>
+    <data_emissao_reprog>20/11/2013 10:33:55</data_emissao_reprog>
+    <data_emissao_realiz>20/11/2013 10:33:55</data_emissao_realiz>
+    <avanco_fisico>100</avanco_fisico>
+    <codigo_atividade>COO035</codigo_atividade>
+    <item_contrato>MARCO 04</item_contrato>
     <padronizado>false</padronizado>
-    <data_reuniao>2014-08-21T00:00:00-03:00</data_reuniao>
-    <file_path>/11_AR-5190KM-G-20020_REV_0.PDF</file_path>
-  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-    <Item>12</Item>
-    <r_object_id>09035f5181ae4fc4</r_object_id>
-    <i_antecedent_id>0</i_antecedent_id>
-    <i_chronicle_id>09035f5181ae4fc4</i_chronicle_id>
-    <r_version_label>1.0|CURRENT</r_version_label>
-    <r_creation_date>2014-10-10T10:24:35-03:00</r_creation_date>
-    <i_has_folder>true</i_has_folder>
-    <a_content_type>pdf</a_content_type>
-    <r_link_cnt>false</r_link_cnt>
-    <object_name>AR-5190KM-G-20004_REV_0.PDF</object_name>
-    <numero_vale>AR-5190KM-G-20004</numero_vale>
-    <subject>CADASTRARFICHAINCLUIR</subject>
-    <title>PROJETO DETALHADO  BARRAGENS  ACOMPANHAMENTO DO PROJETO E DOCUMENTOS DE COORDENACAO  ATA DE REUNIAO</title>
-    <r_object_type>engdo_ar</r_object_type>
-    <codigo_site>KM</codigo_site>
-    <fase>CONS</fase>
-    <id_projeto>08035f5181734e06</id_projeto>
-    <id_empresa_projeto>08035f518186fdf1</id_empresa_projeto>
-    <id_subarea>08035f51807304d9</id_subarea>
-    <codigo_disciplina>G</codigo_disciplina>
-    <r_is_virtual_doc>false</r_is_virtual_doc>
-    <documento_fornecedor>false</documento_fornecedor>
-    <revisao>false</revisao>
-    <numero_paginas>30</numero_paginas>
-    <nome_formato>A4</nome_formato>
-    <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
-    <sigla_tipo_emissao>C</sigla_tipo_emissao>
-    <confidencial>false</confidencial>
-    <data_emissao_prevista>nulldate</data_emissao_prevista>
-    <data_emissao_reprog>nulldate</data_emissao_reprog>
-    <data_emissao_realiz>2014-10-10T10:24:31-03:00</data_emissao_realiz>
-    <avanco_fisico>0</avanco_fisico>
-    <padronizado>false</padronizado>
-    <data_reuniao>2014-10-07T00:00:00-03:00</data_reuniao>
-    <file_path>/12_AR-5190KM-G-20004_REV_0.PDF</file_path>
+    <file_path>/59_RL-5000KM-G-00291_REV_0.DOC</file_path>
   </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
   <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
-    <r_object_id>090003e980060148</r_object_id>
+    <r_object_id>090003e9800604ef</r_object_id>
     <queue_name>d2c_mass_create_queue</queue_name>
   </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
   <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
-    <r_object_id>090003e980060149</r_object_id>
+    <r_object_id>090003e9800604f4</r_object_id>
     <queue_name>d2c_mass_create_queue</queue_name>
   </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
   <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
-    <r_object_id>090003e98006014a</r_object_id>
+    <r_object_id>090003e9800604f6</r_object_id>
     <queue_name>d2c_mass_create_queue</queue_name>
   </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
   <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
-    <r_object_id>090003e9800602d3</r_object_id>
+    <r_object_id>090003e980060503</r_object_id>
     <queue_name>d2c_mass_create_queue</queue_name>
   </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
   <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
-    <r_object_id>090003e9800602d4</r_object_id>
+    <r_object_id>090003e980060522</r_object_id>
     <queue_name>d2c_mass_create_queue</queue_name>
   </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
   <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
-    <r_object_id>090003e9800602d5</r_object_id>
+    <r_object_id>090003e980060524</r_object_id>
     <queue_name>d2c_mass_create_queue</queue_name>
   </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
   <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
-    <r_object_id>090003e9800602d6</r_object_id>
+    <r_object_id>090003e980060527</r_object_id>
     <queue_name>d2c_mass_create_queue</queue_name>
   </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
   <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
-    <r_object_id>090003e9800602d7</r_object_id>
+    <r_object_id>090003e98006052a</r_object_id>
     <queue_name>d2c_mass_create_queue</queue_name>
   </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
   <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
-    <r_object_id>090003e9800602d8</r_object_id>
+    <r_object_id>090003e98006052b</r_object_id>
     <queue_name>d2c_mass_create_queue</queue_name>
   </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
   <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
-    <r_object_id>090003e9800602d9</r_object_id>
+    <r_object_id>090003e980060537</r_object_id>
     <queue_name>d2c_mass_create_queue</queue_name>
   </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
   <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
-    <r_object_id>090003e9800602da</r_object_id>
+    <r_object_id>090003e980060539</r_object_id>
     <queue_name>d2c_mass_create_queue</queue_name>
   </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
   <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
-    <r_object_id>090003e9800602db</r_object_id>
+    <r_object_id>090003e98006053c</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e980060540</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e980060542</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e980060545</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98006052c</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e980060549</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98006054b</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98006052d</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98006054e</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e980060550</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e980060552</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e980060554</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e980060557</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e980060559</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98006052e</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98006055b</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98006055d</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98006055f</r_object_id>
     <queue_name>d2c_mass_create_queue</queue_name>
   </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
 </NewDataSet>
