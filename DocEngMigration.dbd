@@ -345,7 +345,7 @@
                 <xs:element name="title" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
-                      <xs:maxLength value="150" />
+                      <xs:maxLength value="255" />
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
@@ -489,7 +489,7 @@
                 <xs:element name="observacoes" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
-                      <xs:maxLength value="50" />
+                      <xs:maxLength value="1024" />
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
@@ -3099,6 +3099,678 @@
     <object_name>B25-F3</object_name>
     <vale_fase>fel3</vale_fase>
     <a_status>Completed</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063132</r_object_id>
+    <vale_legacy_objectid />
+    <vale_legacy_lookup />
+    <object_name>SE-SE-00001-12 - LEGADO</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Draft</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063134</r_object_id>
+    <vale_legacy_objectid />
+    <vale_legacy_lookup />
+    <object_name>SE-0001-12 - LEGADO</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063135</r_object_id>
+    <vale_legacy_objectid />
+    <vale_legacy_lookup />
+    <object_name>SE-00001-12 - LEGADO</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063138</r_object_id>
+    <vale_legacy_objectid />
+    <vale_legacy_lookup />
+    <object_name>SE-0062-EG - USINA 1N</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063139</r_object_id>
+    <vale_legacy_objectid />
+    <vale_legacy_lookup />
+    <object_name>SE-0063-EG - USINA 1N</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063567</r_object_id>
+    <vale_legacy_objectid>08035f5180c5e26f</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5180c5e26f-CONS</vale_legacy_lookup>
+    <object_name>B1030-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063568</r_object_id>
+    <vale_legacy_objectid>08035f5180eeaf01</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5180eeaf01-CONS</vale_legacy_lookup>
+    <object_name>B269-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063569</r_object_id>
+    <vale_legacy_objectid>08035f5181a26c5e</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181a26c5e-CONS</vale_legacy_lookup>
+    <object_name>B123-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006356a</r_object_id>
+    <vale_legacy_objectid>08035f5181bc9d93</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181bc9d93-CONS</vale_legacy_lookup>
+    <object_name>B1423-7-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006356b</r_object_id>
+    <vale_legacy_objectid>08035f5181dac9c8</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181dac9c8-CONS</vale_legacy_lookup>
+    <object_name>B1323-19-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006356c</r_object_id>
+    <vale_legacy_objectid>08035f5181f331e6</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181f331e6-CONS</vale_legacy_lookup>
+    <object_name>B10-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006356d</r_object_id>
+    <vale_legacy_objectid>08035f5181f3ecc3</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181f3ecc3-CONS</vale_legacy_lookup>
+    <object_name>B11-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006356e</r_object_id>
+    <vale_legacy_objectid>08035f5181f5bb24</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181f5bb24-CONS</vale_legacy_lookup>
+    <object_name>B12-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006356f</r_object_id>
+    <vale_legacy_objectid>08035f5182091015</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5182091015-CONS</vale_legacy_lookup>
+    <object_name>B13-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063570</r_object_id>
+    <vale_legacy_objectid>08035f5182091018</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5182091018-CONS</vale_legacy_lookup>
+    <object_name>B14-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063571</r_object_id>
+    <vale_legacy_objectid>08035f51822c9b51</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51822c9b51-CONS</vale_legacy_lookup>
+    <object_name>B15-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063572</r_object_id>
+    <vale_legacy_objectid>08035f51822cfa7c</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51822cfa7c-CONS</vale_legacy_lookup>
+    <object_name>B16-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063573</r_object_id>
+    <vale_legacy_objectid>08035f518233ef84</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518233ef84-CONS</vale_legacy_lookup>
+    <object_name>B17-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063574</r_object_id>
+    <vale_legacy_objectid>08035f518236ea5a</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518236ea5a-CONS</vale_legacy_lookup>
+    <object_name>N1154-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063575</r_object_id>
+    <vale_legacy_objectid>08035f51823d3986</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51823d3986-CONS</vale_legacy_lookup>
+    <object_name>B18-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063576</r_object_id>
+    <vale_legacy_objectid>08035f51823f666c</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51823f666c-CONS</vale_legacy_lookup>
+    <object_name>B19-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063577</r_object_id>
+    <vale_legacy_objectid>08035f518244e5e2</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518244e5e2-CONS</vale_legacy_lookup>
+    <object_name>B20-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063578</r_object_id>
+    <vale_legacy_objectid>08035f518244e9a0</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518244e9a0-CONS</vale_legacy_lookup>
+    <object_name>B21-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063579</r_object_id>
+    <vale_legacy_objectid>08035f518244e9a2</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518244e9a2-CONS</vale_legacy_lookup>
+    <object_name>B22-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006357a</r_object_id>
+    <vale_legacy_objectid>08035f518244ece5</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518244ece5-CONS</vale_legacy_lookup>
+    <object_name>B23-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006357b</r_object_id>
+    <vale_legacy_objectid>08035f518244ece9</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518244ece9-CONS</vale_legacy_lookup>
+    <object_name>B24-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006357c</r_object_id>
+    <vale_legacy_objectid>08035f518244edd5</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518244edd5-CONS</vale_legacy_lookup>
+    <object_name>B25-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006357d</r_object_id>
+    <vale_legacy_objectid>08035f5182460242</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5182460242-CONS</vale_legacy_lookup>
+    <object_name>B26-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006357e</r_object_id>
+    <vale_legacy_objectid>08035f518247bf44</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518247bf44-CONS</vale_legacy_lookup>
+    <object_name>B27-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006357f</r_object_id>
+    <vale_legacy_objectid>08035f51824cf8fb</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51824cf8fb-CONS</vale_legacy_lookup>
+    <object_name>B29-F4</object_name>
+    <vale_fase>cons</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063580</r_object_id>
+    <vale_legacy_objectid>08035f5180c5e26f</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5180c5e26f-FEL1</vale_legacy_lookup>
+    <object_name>B1030-F1</object_name>
+    <vale_fase>fel1</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063581</r_object_id>
+    <vale_legacy_objectid>08035f5180c5e26f</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5180c5e26f-FEL2</vale_legacy_lookup>
+    <object_name>B1030-F2</object_name>
+    <vale_fase>fel2</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063582</r_object_id>
+    <vale_legacy_objectid>08035f5181dac9c8</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181dac9c8-FEL2</vale_legacy_lookup>
+    <object_name>B1323-19-F2</object_name>
+    <vale_fase>fel2</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063583</r_object_id>
+    <vale_legacy_objectid>08035f5181f5bb24</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181f5bb24-FEL2</vale_legacy_lookup>
+    <object_name>B12-F2</object_name>
+    <vale_fase>fel2</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063584</r_object_id>
+    <vale_legacy_objectid>08035f518236ea5a</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518236ea5a-FEL2</vale_legacy_lookup>
+    <object_name>N1154-F2</object_name>
+    <vale_fase>fel2</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063585</r_object_id>
+    <vale_legacy_objectid>08035f518244ece9</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518244ece9-FEL2</vale_legacy_lookup>
+    <object_name>B24-F2</object_name>
+    <vale_fase>fel2</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063586</r_object_id>
+    <vale_legacy_objectid>08035f51824cf708</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51824cf708-FEL2</vale_legacy_lookup>
+    <object_name>B28-F2</object_name>
+    <vale_fase>fel2</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063587</r_object_id>
+    <vale_legacy_objectid>08035f5180c5dff0</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5180c5dff0-FEL3</vale_legacy_lookup>
+    <object_name>B248-F3</object_name>
+    <vale_fase>fel3</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063588</r_object_id>
+    <vale_legacy_objectid>08035f5180c5e26f</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5180c5e26f-FEL3</vale_legacy_lookup>
+    <object_name>B1030-F3</object_name>
+    <vale_fase>fel3</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063589</r_object_id>
+    <vale_legacy_objectid>08035f5180eeaf01</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5180eeaf01-FEL3</vale_legacy_lookup>
+    <object_name>B269-F3</object_name>
+    <vale_fase>fel3</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006358a</r_object_id>
+    <vale_legacy_objectid>08035f51819fbf9e</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51819fbf9e-FEL3</vale_legacy_lookup>
+    <object_name>B1429-62-F3</object_name>
+    <vale_fase>fel3</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006358b</r_object_id>
+    <vale_legacy_objectid>08035f5181a10609</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181a10609-FEL3</vale_legacy_lookup>
+    <object_name>B1425-68-F3</object_name>
+    <vale_fase>fel3</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006358c</r_object_id>
+    <vale_legacy_objectid>08035f5181a1954c</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181a1954c-FEL3</vale_legacy_lookup>
+    <object_name>B1423-36-F3</object_name>
+    <vale_fase>fel3</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006358d</r_object_id>
+    <vale_legacy_objectid>08035f5181a26c5e</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181a26c5e-FEL3</vale_legacy_lookup>
+    <object_name>B123-F3</object_name>
+    <vale_fase>fel3</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006358e</r_object_id>
+    <vale_legacy_objectid>08035f5181bc9d93</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181bc9d93-FEL3</vale_legacy_lookup>
+    <object_name>B1423-7-F3</object_name>
+    <vale_fase>fel3</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006358f</r_object_id>
+    <vale_legacy_objectid>08035f5181dac9c8</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181dac9c8-FEL3</vale_legacy_lookup>
+    <object_name>B1323-19-F3</object_name>
+    <vale_fase>fel3</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063590</r_object_id>
+    <vale_legacy_objectid>08035f5181f5bb24</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181f5bb24-FEL3</vale_legacy_lookup>
+    <object_name>B12-F3</object_name>
+    <vale_fase>fel3</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063591</r_object_id>
+    <vale_legacy_objectid>08035f51822cfa7c</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51822cfa7c-FEL3</vale_legacy_lookup>
+    <object_name>B16-F3</object_name>
+    <vale_fase>fel3</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063592</r_object_id>
+    <vale_legacy_objectid>08035f5180c5e26f</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5180c5e26f</vale_legacy_lookup>
+    <object_name>SE-1030-UNIDADE OPERACIONAL ONCA PUMA</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063593</r_object_id>
+    <vale_legacy_objectid>08035f51819c0f9e</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51819c0f9e</vale_legacy_lookup>
+    <object_name>SE-3-GESTAO DE CONTRATOS</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063594</r_object_id>
+    <vale_legacy_objectid>08035f5181bc9d93</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181bc9d93</vale_legacy_lookup>
+    <object_name>SE-1423-7-C142307.01.05-1 - NOVO SISTEMA DE ENCHIMENTO DE BAGS</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063595</r_object_id>
+    <vale_legacy_objectid>08035f5181bd05ed</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181bd05ed</vale_legacy_lookup>
+    <object_name>SE-1423-32-INFRA OFICINA ELETRICA E CABINE DE PINTURA</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063596</r_object_id>
+    <vale_legacy_objectid>08035f5182460242</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5182460242</vale_legacy_lookup>
+    <object_name>SE-26-MELHORIAS CCQ - DISPOSITIVO PARA TYRE HANDER</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063597</r_object_id>
+    <vale_legacy_objectid>08035f5181ad9f06</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181ad9f06-oper</vale_legacy_lookup>
+    <object_name>SE-001-AVALIACAO ESTRUTURAL - AREA DE CONVIVENCIA</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063598</r_object_id>
+    <vale_legacy_objectid>08035f5181ae838d</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181ae838d-oper</vale_legacy_lookup>
+    <object_name>SE-002-CAIXA DE CONTENCAO</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636b1</r_object_id>
+    <vale_legacy_objectid>08035f5181c29eda</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181c29eda-oper</vale_legacy_lookup>
+    <object_name>SE-003-SISTEMA DE TRANSFERENCIA DE CALCINADO (CTS 2)</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636b2</r_object_id>
+    <vale_legacy_objectid>08035f5181c73b31</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181c73b31-oper</vale_legacy_lookup>
+    <object_name>SE-004-NOVO SISTEMA DE CAPTACAO PARA ENCHIMENTO DE CAMINHAO PIPA</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636b3</r_object_id>
+    <vale_legacy_objectid>08035f5181c88133</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181c88133-oper</vale_legacy_lookup>
+    <object_name>SE-005-AVALIACAO DAS CASAS DO RESIDENCIAL VIVER BEM</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636b4</r_object_id>
+    <vale_legacy_objectid>08035f5181c8d690</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5181c8d690-oper</vale_legacy_lookup>
+    <object_name>SE-006-REDUCAO PART. P. CARVAO SLS/PARAUAPEBAS</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636b5</r_object_id>
+    <vale_legacy_objectid>08035f518206e583</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518206e583-oper</vale_legacy_lookup>
+    <object_name>SE-011-C002124.05 - REVITALIZALIZACAO DOS FILTROS DE MANGAS FORNO E REFINO</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636b6</r_object_id>
+    <vale_legacy_objectid>08035f518206e723</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518206e723-oper</vale_legacy_lookup>
+    <object_name>SE-012-BRITAGEM DE ESCORIA DA REDUCAO</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636b7</r_object_id>
+    <vale_legacy_objectid>08035f51825572cf</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51825572cf-oper</vale_legacy_lookup>
+    <object_name>SE-013-C14333-INFRA OFICINA ELETRICA-LABORATORIO DE TESTES</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636b8</r_object_id>
+    <vale_legacy_objectid>08035f51825573c9</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51825573c9-oper</vale_legacy_lookup>
+    <object_name>SE-014-C139891- ADEQUACAO SISTEMA DE PROTECAO E COMBATE A INCENDIO</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636b9</r_object_id>
+    <vale_legacy_objectid>08035f518255de53</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518255de53-oper</vale_legacy_lookup>
+    <object_name>SE-015-C002246-MELHORIA DA MANUTENABILIDADE DA PLANTA</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636ba</r_object_id>
+    <vale_legacy_objectid>08035f51825604da</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51825604da-oper</vale_legacy_lookup>
+    <object_name>SE-016-DIQUE DE CONTENCAO DE SEDIMENTOS DP-04</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636f7</r_object_id>
+    <vale_legacy_objectid>08035f5182566161</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5182566161-oper</vale_legacy_lookup>
+    <object_name>SE-017-ADEQUACAO DO PISO DA EXPEDICAO</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636f8</r_object_id>
+    <vale_legacy_objectid>08035f51825a4465</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51825a4465-oper</vale_legacy_lookup>
+    <object_name>SE-019-C001731.01 - MELHORIA MURO DE ARRIMO - MOEGA CARVAO</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636f9</r_object_id>
+    <vale_legacy_objectid>08035f51825b997c</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51825b997c-oper</vale_legacy_lookup>
+    <object_name>SE-020-C001731 - ADEQUACAO AOS REQUISITOS LEGAIS - ADEQUACAO DOS TRANSPORTADORES A NR-12</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636fa</r_object_id>
+    <vale_legacy_objectid>08035f51825db4af</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51825db4af-oper</vale_legacy_lookup>
+    <object_name>SE-018-C002296-ONCA PUMA - ENGINEERING SERVICES</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636fb</r_object_id>
+    <vale_legacy_objectid>08035f518260e64f</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518260e64f-oper</vale_legacy_lookup>
+    <object_name>SE-021-C139843 - MONITORAMENTO ONLINE DE EMISSOES ATMOSFERICAS</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636fc</r_object_id>
+    <vale_legacy_objectid>08035f51826bf7d1</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51826bf7d1-oper</vale_legacy_lookup>
+    <object_name>SE-022-C000334 - ARMAZENAMENTO DE AGUA POTAVEL - RESIDENCIAL VIVER BEM</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636fd</r_object_id>
+    <vale_legacy_objectid>08035f51826d74b3</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51826d74b3-oper</vale_legacy_lookup>
+    <object_name>SE-023-C002295.01 - SISTEMA DE GERENCIAMENTO DE COMBUSTIVEL</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636fe</r_object_id>
+    <vale_legacy_objectid>08035f518275686d</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518275686d-oper</vale_legacy_lookup>
+    <object_name>SE-024-MONITORAMENTO DAS LINHAS DE NITROGENIO DA PLANTA</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e9800636ff</r_object_id>
+    <vale_legacy_objectid>08035f518280afcf</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518280afcf-oper</vale_legacy_lookup>
+    <object_name>SE-027-C000334 - ETE - RESIDENCIAL VIVER BEM</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063700</r_object_id>
+    <vale_legacy_objectid>08035f5182810e2c</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5182810e2c-oper</vale_legacy_lookup>
+    <object_name>SE-028-C002266 - PROJETO ACESSO E PASSARELAS - OPERACAO PLANTA</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063734</r_object_id>
+    <vale_legacy_objectid>08035f518284e37e</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518284e37e-oper</vale_legacy_lookup>
+    <object_name>SE-029-C139895 - AQUECEDOR DE PANELAS HORIZONTAL</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063735</r_object_id>
+    <vale_legacy_objectid>08035f5182858f5f</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5182858f5f-oper</vale_legacy_lookup>
+    <object_name>SE-030-C000468 - SISTEMA DE LUBRIFICACAO - ILHAS</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063736</r_object_id>
+    <vale_legacy_objectid>08035f5182859154</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5182859154-oper</vale_legacy_lookup>
+    <object_name>SE-031-C000174 - LAVADOR DE VEICULOS PESADOS</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063737</r_object_id>
+    <vale_legacy_objectid>08035f51828594f6</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51828594f6-oper</vale_legacy_lookup>
+    <object_name>SE-032-C0002125 - MELHORIAS INFRA SITE</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063738</r_object_id>
+    <vale_legacy_objectid>08035f51828594fc</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51828594fc-oper</vale_legacy_lookup>
+    <object_name>SE-033-C139967 - ADEQUACAO DA SEGURANCA DA OFICINA CENTRAL</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e980063739</r_object_id>
+    <vale_legacy_objectid>08035f51828598f3</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51828598f3-oper</vale_legacy_lookup>
+    <object_name>SE-034-C000372 - ENCLAUSURAMENTO E RELOCACAO DE COMPRESSORES</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006373a</r_object_id>
+    <vale_legacy_objectid>08035f5182860733</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5182860733-oper</vale_legacy_lookup>
+    <object_name>SE-035-C002905 - RESFRIAMENTO DO BUNKER</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006373b</r_object_id>
+    <vale_legacy_objectid>08035f5182860a97</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f5182860a97-oper</vale_legacy_lookup>
+    <object_name>SE-036-C142307 - ENCHIMENTO DE BIG BAGS</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98006373c</r_object_id>
+    <vale_legacy_objectid>08035f518286270b</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f518286270b-oper</vale_legacy_lookup>
+    <object_name>SE-037-C142962 - ENCLAUSURAMENTO CLIMATIZACAO DAS SALAS FORNO 1</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
   </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
   <bb2e0ec5-ecec-4e1b-a694-bf19706df3ca>
     <r_object_id>090003e9800530c7</r_object_id>
@@ -8776,6 +9448,1238 @@
     <vale_ct_brava_completo>vale_op_security_view_full_internal,vale_op_security_view_full_restrict</vale_ct_brava_completo>
     <vale_ct_brava_basico>vale_op_security_view_basic_internal,vale_op_security_view_basic_restrict</vale_ct_brava_basico>
   </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800633a5</r_object_id>
+    <object_name>op-B1030-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1030-f4_security_write_restrict,vale_op_b1030-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1030-f4_security_delete_restrict,vale_op_b1030-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1030-f4_security_down_restrict,vale_op_b1030-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1030-f4_security_pdf_restrict,vale_op_b1030-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1030-f4_security_view_full_restrict,vale_op_b1030-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1030-f4_security_view_basic_restrict,vale_op_b1030-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800633a6</r_object_id>
+    <object_name>op-B1030-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1030-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1030-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1030-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1030-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1030-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1030-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800635d2</r_object_id>
+    <object_name>op-B269-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b269-f4_security_write_restrict,vale_op_b269-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b269-f4_security_delete_restrict,vale_op_b269-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b269-f4_security_down_restrict,vale_op_b269-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b269-f4_security_pdf_restrict,vale_op_b269-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b269-f4_security_view_full_restrict,vale_op_b269-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b269-f4_security_view_basic_restrict,vale_op_b269-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800635d3</r_object_id>
+    <object_name>op-B269-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b269-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b269-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b269-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b269-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b269-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b269-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800635d4</r_object_id>
+    <object_name>op-B123-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b123-f4_security_write_restrict,vale_op_b123-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b123-f4_security_delete_restrict,vale_op_b123-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b123-f4_security_down_restrict,vale_op_b123-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b123-f4_security_pdf_restrict,vale_op_b123-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b123-f4_security_view_full_restrict,vale_op_b123-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b123-f4_security_view_basic_restrict,vale_op_b123-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800635d5</r_object_id>
+    <object_name>op-B123-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b123-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b123-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b123-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b123-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b123-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b123-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800635d6</r_object_id>
+    <object_name>op-B1423-7-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1423-7-f4_security_write_restrict,vale_op_b1423-7-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1423-7-f4_security_delete_restrict,vale_op_b1423-7-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1423-7-f4_security_down_restrict,vale_op_b1423-7-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1423-7-f4_security_pdf_restrict,vale_op_b1423-7-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1423-7-f4_security_view_full_restrict,vale_op_b1423-7-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1423-7-f4_security_view_basic_restrict,vale_op_b1423-7-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800635d7</r_object_id>
+    <object_name>op-B1423-7-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1423-7-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1423-7-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1423-7-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1423-7-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1423-7-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1423-7-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800635d8</r_object_id>
+    <object_name>op-B1323-19-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1323-19-f4_security_write_restrict,vale_op_b1323-19-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1323-19-f4_security_delete_restrict,vale_op_b1323-19-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1323-19-f4_security_down_restrict,vale_op_b1323-19-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1323-19-f4_security_pdf_restrict,vale_op_b1323-19-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1323-19-f4_security_view_full_restrict,vale_op_b1323-19-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1323-19-f4_security_view_basic_restrict,vale_op_b1323-19-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800635d9</r_object_id>
+    <object_name>op-B1323-19-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1323-19-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1323-19-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1323-19-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1323-19-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1323-19-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1323-19-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800635da</r_object_id>
+    <object_name>op-B10-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b10-f4_security_write_restrict,vale_op_b10-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b10-f4_security_delete_restrict,vale_op_b10-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b10-f4_security_down_restrict,vale_op_b10-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b10-f4_security_pdf_restrict,vale_op_b10-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b10-f4_security_view_full_restrict,vale_op_b10-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b10-f4_security_view_basic_restrict,vale_op_b10-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800635db</r_object_id>
+    <object_name>op-B10-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b10-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b10-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b10-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b10-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b10-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b10-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98006367d</r_object_id>
+    <object_name>op-B11-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b11-f4_security_write_restrict,vale_op_b11-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b11-f4_security_delete_restrict,vale_op_b11-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b11-f4_security_down_restrict,vale_op_b11-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b11-f4_security_pdf_restrict,vale_op_b11-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b11-f4_security_view_full_restrict,vale_op_b11-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b11-f4_security_view_basic_restrict,vale_op_b11-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98006367e</r_object_id>
+    <object_name>op-B11-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b11-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b11-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b11-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b11-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b11-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b11-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98006367f</r_object_id>
+    <object_name>op-B12-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b12-f4_security_write_restrict,vale_op_b12-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b12-f4_security_delete_restrict,vale_op_b12-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b12-f4_security_down_restrict,vale_op_b12-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b12-f4_security_pdf_restrict,vale_op_b12-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b12-f4_security_view_full_restrict,vale_op_b12-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b12-f4_security_view_basic_restrict,vale_op_b12-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063680</r_object_id>
+    <object_name>op-B12-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b12-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b12-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b12-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b12-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b12-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b12-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063681</r_object_id>
+    <object_name>op-B13-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b13-f4_security_write_restrict,vale_op_b13-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b13-f4_security_delete_restrict,vale_op_b13-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b13-f4_security_down_restrict,vale_op_b13-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b13-f4_security_pdf_restrict,vale_op_b13-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b13-f4_security_view_full_restrict,vale_op_b13-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b13-f4_security_view_basic_restrict,vale_op_b13-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063682</r_object_id>
+    <object_name>op-B13-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b13-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b13-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b13-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b13-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b13-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b13-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063683</r_object_id>
+    <object_name>op-B14-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b14-f4_security_write_restrict,vale_op_b14-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b14-f4_security_delete_restrict,vale_op_b14-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b14-f4_security_down_restrict,vale_op_b14-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b14-f4_security_pdf_restrict,vale_op_b14-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b14-f4_security_view_full_restrict,vale_op_b14-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b14-f4_security_view_basic_restrict,vale_op_b14-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063684</r_object_id>
+    <object_name>op-B14-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b14-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b14-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b14-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b14-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b14-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b14-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063685</r_object_id>
+    <object_name>op-B15-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b15-f4_security_write_restrict,vale_op_b15-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b15-f4_security_delete_restrict,vale_op_b15-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b15-f4_security_down_restrict,vale_op_b15-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b15-f4_security_pdf_restrict,vale_op_b15-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b15-f4_security_view_full_restrict,vale_op_b15-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b15-f4_security_view_basic_restrict,vale_op_b15-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063686</r_object_id>
+    <object_name>op-B15-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b15-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b15-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b15-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b15-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b15-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b15-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063745</r_object_id>
+    <object_name>op-B16-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b16-f4_security_write_restrict,vale_op_b16-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b16-f4_security_delete_restrict,vale_op_b16-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b16-f4_security_down_restrict,vale_op_b16-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b16-f4_security_pdf_restrict,vale_op_b16-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b16-f4_security_view_full_restrict,vale_op_b16-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b16-f4_security_view_basic_restrict,vale_op_b16-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063746</r_object_id>
+    <object_name>op-B16-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b16-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b16-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b16-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b16-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b16-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b16-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063747</r_object_id>
+    <object_name>op-B17-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b17-f4_security_write_restrict,vale_op_b17-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b17-f4_security_delete_restrict,vale_op_b17-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b17-f4_security_down_restrict,vale_op_b17-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b17-f4_security_pdf_restrict,vale_op_b17-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b17-f4_security_view_full_restrict,vale_op_b17-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b17-f4_security_view_basic_restrict,vale_op_b17-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063748</r_object_id>
+    <object_name>op-B17-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b17-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b17-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b17-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b17-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b17-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b17-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063749</r_object_id>
+    <object_name>op-N1154-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_n1154-f4_security_write_restrict,vale_op_n1154-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_n1154-f4_security_delete_restrict,vale_op_n1154-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_n1154-f4_security_down_restrict,vale_op_n1154-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_n1154-f4_security_pdf_restrict,vale_op_n1154-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_n1154-f4_security_view_full_restrict,vale_op_n1154-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_n1154-f4_security_view_basic_restrict,vale_op_n1154-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98006374a</r_object_id>
+    <object_name>op-N1154-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_n1154-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_n1154-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_n1154-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_n1154-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_n1154-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_n1154-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98006374b</r_object_id>
+    <object_name>op-B18-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b18-f4_security_write_restrict,vale_op_b18-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b18-f4_security_delete_restrict,vale_op_b18-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b18-f4_security_down_restrict,vale_op_b18-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b18-f4_security_pdf_restrict,vale_op_b18-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b18-f4_security_view_full_restrict,vale_op_b18-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b18-f4_security_view_basic_restrict,vale_op_b18-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98006374c</r_object_id>
+    <object_name>op-B18-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b18-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b18-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b18-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b18-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b18-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b18-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98006374d</r_object_id>
+    <object_name>op-B19-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b19-f4_security_write_restrict,vale_op_b19-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b19-f4_security_delete_restrict,vale_op_b19-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b19-f4_security_down_restrict,vale_op_b19-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b19-f4_security_pdf_restrict,vale_op_b19-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b19-f4_security_view_full_restrict,vale_op_b19-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b19-f4_security_view_basic_restrict,vale_op_b19-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98006374e</r_object_id>
+    <object_name>op-B19-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b19-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b19-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b19-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b19-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b19-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b19-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800637ef</r_object_id>
+    <object_name>op-B20-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b20-f4_security_write_restrict,vale_op_b20-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b20-f4_security_delete_restrict,vale_op_b20-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b20-f4_security_down_restrict,vale_op_b20-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b20-f4_security_pdf_restrict,vale_op_b20-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b20-f4_security_view_full_restrict,vale_op_b20-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b20-f4_security_view_basic_restrict,vale_op_b20-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800637f0</r_object_id>
+    <object_name>op-B20-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b20-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b20-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b20-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b20-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b20-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b20-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800637f1</r_object_id>
+    <object_name>op-B21-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b21-f4_security_write_restrict,vale_op_b21-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b21-f4_security_delete_restrict,vale_op_b21-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b21-f4_security_down_restrict,vale_op_b21-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b21-f4_security_pdf_restrict,vale_op_b21-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b21-f4_security_view_full_restrict,vale_op_b21-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b21-f4_security_view_basic_restrict,vale_op_b21-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800637f2</r_object_id>
+    <object_name>op-B21-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b21-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b21-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b21-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b21-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b21-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b21-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800637f3</r_object_id>
+    <object_name>op-B22-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b22-f4_security_write_restrict,vale_op_b22-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b22-f4_security_delete_restrict,vale_op_b22-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b22-f4_security_down_restrict,vale_op_b22-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b22-f4_security_pdf_restrict,vale_op_b22-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b22-f4_security_view_full_restrict,vale_op_b22-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b22-f4_security_view_basic_restrict,vale_op_b22-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800637f4</r_object_id>
+    <object_name>op-B22-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b22-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b22-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b22-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b22-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b22-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b22-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800637f5</r_object_id>
+    <object_name>op-B23-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b23-f4_security_write_restrict,vale_op_b23-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b23-f4_security_delete_restrict,vale_op_b23-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b23-f4_security_down_restrict,vale_op_b23-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b23-f4_security_pdf_restrict,vale_op_b23-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b23-f4_security_view_full_restrict,vale_op_b23-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b23-f4_security_view_basic_restrict,vale_op_b23-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800637f6</r_object_id>
+    <object_name>op-B23-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b23-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b23-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b23-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b23-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b23-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b23-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800637f7</r_object_id>
+    <object_name>op-B24-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b24-f4_security_write_restrict,vale_op_b24-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b24-f4_security_delete_restrict,vale_op_b24-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b24-f4_security_down_restrict,vale_op_b24-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b24-f4_security_pdf_restrict,vale_op_b24-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b24-f4_security_view_full_restrict,vale_op_b24-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b24-f4_security_view_basic_restrict,vale_op_b24-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800637f8</r_object_id>
+    <object_name>op-B24-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b24-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b24-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b24-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b24-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b24-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b24-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063899</r_object_id>
+    <object_name>op-B25-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b25-f4_security_write_restrict,vale_op_b25-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b25-f4_security_delete_restrict,vale_op_b25-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b25-f4_security_down_restrict,vale_op_b25-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b25-f4_security_pdf_restrict,vale_op_b25-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b25-f4_security_view_full_restrict,vale_op_b25-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b25-f4_security_view_basic_restrict,vale_op_b25-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98006389a</r_object_id>
+    <object_name>op-B25-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b25-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b25-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b25-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b25-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b25-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b25-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98006389b</r_object_id>
+    <object_name>op-B26-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b26-f4_security_write_restrict,vale_op_b26-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b26-f4_security_delete_restrict,vale_op_b26-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b26-f4_security_down_restrict,vale_op_b26-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b26-f4_security_pdf_restrict,vale_op_b26-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b26-f4_security_view_full_restrict,vale_op_b26-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b26-f4_security_view_basic_restrict,vale_op_b26-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98006389c</r_object_id>
+    <object_name>op-B26-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b26-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b26-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b26-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b26-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b26-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b26-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98006389d</r_object_id>
+    <object_name>op-B27-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b27-f4_security_write_restrict,vale_op_b27-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b27-f4_security_delete_restrict,vale_op_b27-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b27-f4_security_down_restrict,vale_op_b27-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b27-f4_security_pdf_restrict,vale_op_b27-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b27-f4_security_view_full_restrict,vale_op_b27-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b27-f4_security_view_basic_restrict,vale_op_b27-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98006389e</r_object_id>
+    <object_name>op-B27-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b27-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b27-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b27-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b27-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b27-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b27-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98006389f</r_object_id>
+    <object_name>op-B29-F4-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b29-f4_security_write_restrict,vale_op_b29-f4_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b29-f4_security_delete_restrict,vale_op_b29-f4_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b29-f4_security_down_restrict,vale_op_b29-f4_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b29-f4_security_pdf_restrict,vale_op_b29-f4_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b29-f4_security_view_full_restrict,vale_op_b29-f4_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b29-f4_security_view_basic_restrict,vale_op_b29-f4_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800638a0</r_object_id>
+    <object_name>op-B29-F4-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b29-f4_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b29-f4_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b29-f4_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b29-f4_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b29-f4_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b29-f4_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800638a1</r_object_id>
+    <object_name>op-B1030-F1-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1030-f1_security_write_restrict,vale_op_b1030-f1_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1030-f1_security_delete_restrict,vale_op_b1030-f1_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1030-f1_security_down_restrict,vale_op_b1030-f1_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1030-f1_security_pdf_restrict,vale_op_b1030-f1_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1030-f1_security_view_full_restrict,vale_op_b1030-f1_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1030-f1_security_view_basic_restrict,vale_op_b1030-f1_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800638a2</r_object_id>
+    <object_name>op-B1030-F1-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1030-f1_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1030-f1_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1030-f1_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1030-f1_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1030-f1_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1030-f1_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063944</r_object_id>
+    <object_name>op-B1030-F2-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1030-f2_security_write_restrict,vale_op_b1030-f2_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1030-f2_security_delete_restrict,vale_op_b1030-f2_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1030-f2_security_down_restrict,vale_op_b1030-f2_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1030-f2_security_pdf_restrict,vale_op_b1030-f2_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1030-f2_security_view_full_restrict,vale_op_b1030-f2_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1030-f2_security_view_basic_restrict,vale_op_b1030-f2_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063945</r_object_id>
+    <object_name>op-B1030-F2-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1030-f2_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1030-f2_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1030-f2_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1030-f2_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1030-f2_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1030-f2_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063946</r_object_id>
+    <object_name>op-B1323-19-F2-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1323-19-f2_security_write_restrict,vale_op_b1323-19-f2_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1323-19-f2_security_delete_restrict,vale_op_b1323-19-f2_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1323-19-f2_security_down_restrict,vale_op_b1323-19-f2_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1323-19-f2_security_pdf_restrict,vale_op_b1323-19-f2_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1323-19-f2_security_view_full_restrict,vale_op_b1323-19-f2_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1323-19-f2_security_view_basic_restrict,vale_op_b1323-19-f2_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063947</r_object_id>
+    <object_name>op-B1323-19-F2-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1323-19-f2_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1323-19-f2_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1323-19-f2_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1323-19-f2_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1323-19-f2_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1323-19-f2_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063948</r_object_id>
+    <object_name>op-B12-F2-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b12-f2_security_write_restrict,vale_op_b12-f2_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b12-f2_security_delete_restrict,vale_op_b12-f2_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b12-f2_security_down_restrict,vale_op_b12-f2_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b12-f2_security_pdf_restrict,vale_op_b12-f2_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b12-f2_security_view_full_restrict,vale_op_b12-f2_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b12-f2_security_view_basic_restrict,vale_op_b12-f2_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063949</r_object_id>
+    <object_name>op-B12-F2-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b12-f2_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b12-f2_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b12-f2_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b12-f2_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b12-f2_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b12-f2_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98006394a</r_object_id>
+    <object_name>op-N1154-F2-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_n1154-f2_security_write_restrict,vale_op_n1154-f2_security_write_internal,vale_op_n1154-f2_security_write_restrict,vale_op_n1154-f2_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_n1154-f2_security_delete_restrict,vale_op_n1154-f2_security_delete_internal,vale_op_n1154-f2_security_delete_restrict,vale_op_n1154-f2_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_n1154-f2_security_down_restrict,vale_op_n1154-f2_security_down_internal,vale_op_n1154-f2_security_down_restrict,vale_op_n1154-f2_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_n1154-f2_security_pdf_restrict,vale_op_n1154-f2_security_pdf_internal,vale_op_n1154-f2_security_pdf_restrict,vale_op_n1154-f2_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_n1154-f2_security_view_full_restrict,vale_op_n1154-f2_security_view_full_internal,vale_op_n1154-f2_security_view_full_restrict,vale_op_n1154-f2_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_n1154-f2_security_view_basic_restrict,vale_op_n1154-f2_security_view_basic_internal,vale_op_n1154-f2_security_view_basic_restrict,vale_op_n1154-f2_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98006394b</r_object_id>
+    <object_name>op-N1154-F2-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_n1154-f2_security_write_restrict,vale_op_n1154-f2_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_n1154-f2_security_delete_restrict,vale_op_n1154-f2_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_n1154-f2_security_down_restrict,vale_op_n1154-f2_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_n1154-f2_security_pdf_restrict,vale_op_n1154-f2_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_n1154-f2_security_view_full_restrict,vale_op_n1154-f2_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_n1154-f2_security_view_basic_restrict,vale_op_n1154-f2_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98006394c</r_object_id>
+    <object_name>op-B24-F2-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b24-f2_security_write_restrict,vale_op_b24-f2_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b24-f2_security_delete_restrict,vale_op_b24-f2_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b24-f2_security_down_restrict,vale_op_b24-f2_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b24-f2_security_pdf_restrict,vale_op_b24-f2_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b24-f2_security_view_full_restrict,vale_op_b24-f2_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b24-f2_security_view_basic_restrict,vale_op_b24-f2_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98006394d</r_object_id>
+    <object_name>op-B24-F2-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b24-f2_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b24-f2_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b24-f2_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b24-f2_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b24-f2_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b24-f2_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800639f1</r_object_id>
+    <object_name>op-B28-F2-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b28-f2_security_write_restrict,vale_op_b28-f2_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b28-f2_security_delete_restrict,vale_op_b28-f2_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b28-f2_security_down_restrict,vale_op_b28-f2_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b28-f2_security_pdf_restrict,vale_op_b28-f2_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b28-f2_security_view_full_restrict,vale_op_b28-f2_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b28-f2_security_view_basic_restrict,vale_op_b28-f2_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800639f2</r_object_id>
+    <object_name>op-B28-F2-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b28-f2_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b28-f2_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b28-f2_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b28-f2_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b28-f2_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b28-f2_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800639f3</r_object_id>
+    <object_name>op-B248-F3-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b248-f3_security_write_restrict,vale_op_b248-f3_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b248-f3_security_delete_restrict,vale_op_b248-f3_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b248-f3_security_down_restrict,vale_op_b248-f3_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b248-f3_security_pdf_restrict,vale_op_b248-f3_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b248-f3_security_view_full_restrict,vale_op_b248-f3_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b248-f3_security_view_basic_restrict,vale_op_b248-f3_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800639f4</r_object_id>
+    <object_name>op-B248-F3-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b248-f3_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b248-f3_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b248-f3_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b248-f3_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b248-f3_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b248-f3_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800639f5</r_object_id>
+    <object_name>op-B1030-F3-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1030-f3_security_write_restrict,vale_op_b1030-f3_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1030-f3_security_delete_restrict,vale_op_b1030-f3_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1030-f3_security_down_restrict,vale_op_b1030-f3_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1030-f3_security_pdf_restrict,vale_op_b1030-f3_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1030-f3_security_view_full_restrict,vale_op_b1030-f3_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1030-f3_security_view_basic_restrict,vale_op_b1030-f3_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800639f6</r_object_id>
+    <object_name>op-B1030-F3-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1030-f3_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1030-f3_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1030-f3_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1030-f3_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1030-f3_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1030-f3_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800639f7</r_object_id>
+    <object_name>op-B269-F3-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b269-f3_security_write_restrict,vale_op_b269-f3_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b269-f3_security_delete_restrict,vale_op_b269-f3_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b269-f3_security_down_restrict,vale_op_b269-f3_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b269-f3_security_pdf_restrict,vale_op_b269-f3_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b269-f3_security_view_full_restrict,vale_op_b269-f3_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b269-f3_security_view_basic_restrict,vale_op_b269-f3_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800639f8</r_object_id>
+    <object_name>op-B269-F3-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b269-f3_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b269-f3_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b269-f3_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b269-f3_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b269-f3_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b269-f3_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800639f9</r_object_id>
+    <object_name>op-B1429-62-F3-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1429-62-f3_security_write_restrict,vale_op_b1429-62-f3_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1429-62-f3_security_delete_restrict,vale_op_b1429-62-f3_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1429-62-f3_security_down_restrict,vale_op_b1429-62-f3_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1429-62-f3_security_pdf_restrict,vale_op_b1429-62-f3_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1429-62-f3_security_view_full_restrict,vale_op_b1429-62-f3_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1429-62-f3_security_view_basic_restrict,vale_op_b1429-62-f3_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e9800639fa</r_object_id>
+    <object_name>op-B1429-62-F3-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1429-62-f3_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1429-62-f3_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1429-62-f3_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1429-62-f3_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1429-62-f3_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1429-62-f3_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063a9b</r_object_id>
+    <object_name>op-B1425-68-F3-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1425-68-f3_security_write_restrict,vale_op_b1425-68-f3_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1425-68-f3_security_delete_restrict,vale_op_b1425-68-f3_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1425-68-f3_security_down_restrict,vale_op_b1425-68-f3_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1425-68-f3_security_pdf_restrict,vale_op_b1425-68-f3_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1425-68-f3_security_view_full_restrict,vale_op_b1425-68-f3_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1425-68-f3_security_view_basic_restrict,vale_op_b1425-68-f3_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063a9c</r_object_id>
+    <object_name>op-B1425-68-F3-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1425-68-f3_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1425-68-f3_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1425-68-f3_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1425-68-f3_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1425-68-f3_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1425-68-f3_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063a9d</r_object_id>
+    <object_name>op-B1423-36-F3-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1423-36-f3_security_write_restrict,vale_op_b1423-36-f3_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1423-36-f3_security_delete_restrict,vale_op_b1423-36-f3_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1423-36-f3_security_down_restrict,vale_op_b1423-36-f3_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1423-36-f3_security_pdf_restrict,vale_op_b1423-36-f3_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1423-36-f3_security_view_full_restrict,vale_op_b1423-36-f3_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1423-36-f3_security_view_basic_restrict,vale_op_b1423-36-f3_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063a9e</r_object_id>
+    <object_name>op-B1423-36-F3-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1423-36-f3_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1423-36-f3_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1423-36-f3_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1423-36-f3_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1423-36-f3_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1423-36-f3_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063a9f</r_object_id>
+    <object_name>op-B123-F3-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b123-f3_security_write_restrict,vale_op_b123-f3_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b123-f3_security_delete_restrict,vale_op_b123-f3_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b123-f3_security_down_restrict,vale_op_b123-f3_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b123-f3_security_pdf_restrict,vale_op_b123-f3_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b123-f3_security_view_full_restrict,vale_op_b123-f3_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b123-f3_security_view_basic_restrict,vale_op_b123-f3_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063aa0</r_object_id>
+    <object_name>op-B123-F3-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b123-f3_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b123-f3_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b123-f3_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b123-f3_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b123-f3_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b123-f3_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063aa1</r_object_id>
+    <object_name>op-B1423-7-F3-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1423-7-f3_security_write_restrict,vale_op_b1423-7-f3_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1423-7-f3_security_delete_restrict,vale_op_b1423-7-f3_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1423-7-f3_security_down_restrict,vale_op_b1423-7-f3_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1423-7-f3_security_pdf_restrict,vale_op_b1423-7-f3_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1423-7-f3_security_view_full_restrict,vale_op_b1423-7-f3_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1423-7-f3_security_view_basic_restrict,vale_op_b1423-7-f3_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063aa2</r_object_id>
+    <object_name>op-B1423-7-F3-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1423-7-f3_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1423-7-f3_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1423-7-f3_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1423-7-f3_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1423-7-f3_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1423-7-f3_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063aa3</r_object_id>
+    <object_name>op-B1323-19-F3-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1323-19-f3_security_write_restrict,vale_op_b1323-19-f3_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1323-19-f3_security_delete_restrict,vale_op_b1323-19-f3_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1323-19-f3_security_down_restrict,vale_op_b1323-19-f3_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1323-19-f3_security_pdf_restrict,vale_op_b1323-19-f3_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1323-19-f3_security_view_full_restrict,vale_op_b1323-19-f3_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1323-19-f3_security_view_basic_restrict,vale_op_b1323-19-f3_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063aa4</r_object_id>
+    <object_name>op-B1323-19-F3-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b1323-19-f3_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b1323-19-f3_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b1323-19-f3_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b1323-19-f3_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b1323-19-f3_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b1323-19-f3_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063b45</r_object_id>
+    <object_name>op-B12-F3-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b12-f3_security_write_restrict,vale_op_b12-f3_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b12-f3_security_delete_restrict,vale_op_b12-f3_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b12-f3_security_down_restrict,vale_op_b12-f3_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b12-f3_security_pdf_restrict,vale_op_b12-f3_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b12-f3_security_view_full_restrict,vale_op_b12-f3_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b12-f3_security_view_basic_restrict,vale_op_b12-f3_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063b46</r_object_id>
+    <object_name>op-B12-F3-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b12-f3_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b12-f3_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b12-f3_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b12-f3_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b12-f3_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b12-f3_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063b47</r_object_id>
+    <object_name>op-B16-F3-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b16-f3_security_write_restrict,vale_op_b16-f3_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b16-f3_security_delete_restrict,vale_op_b16-f3_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b16-f3_security_down_restrict,vale_op_b16-f3_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b16-f3_security_pdf_restrict,vale_op_b16-f3_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b16-f3_security_view_full_restrict,vale_op_b16-f3_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b16-f3_security_view_basic_restrict,vale_op_b16-f3_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063b48</r_object_id>
+    <object_name>op-B16-F3-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_b16-f3_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_b16-f3_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_b16-f3_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_b16-f3_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_b16-f3_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_b16-f3_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063b49</r_object_id>
+    <object_name>op-N1154-F2-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_op_n1154-f2_security_write_restrict,vale_op_n1154-f2_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_n1154-f2_security_delete_restrict,vale_op_n1154-f2_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_n1154-f2_security_down_restrict,vale_op_n1154-f2_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_n1154-f2_security_pdf_restrict,vale_op_n1154-f2_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_n1154-f2_security_view_full_restrict,vale_op_n1154-f2_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_n1154-f2_security_view_basic_restrict,vale_op_n1154-f2_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e980063b4a</r_object_id>
+    <object_name>op-N1154-F2-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_op_n1154-f2_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_op_n1154-f2_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_revisao />
+    <vale_ct_download_basico />
+    <vale_ct_download_completo>vale_op_n1154-f2_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_op_n1154-f2_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_pdf_medio />
+    <vale_ct_pdf_basico />
+    <vale_ct_brava_completo>vale_op_n1154-f2_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_op_n1154-f2_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
   <_x0034_5cc4ca5-288d-4607-b611-23af74c72ede>
     <revisao>-1</revisao>
     <a_status>Placeholder</a_status>
@@ -10725,41 +12629,273 @@
   </_x0034_57f1543-2418-4ea6-9773-a6f4da9748b7>
   <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
     <Item>1</Item>
-    <r_object_id>09035f518253a13d</r_object_id>
+    <r_object_id>09035f51825af80d</r_object_id>
     <i_antecedent_id>0000000000000000</i_antecedent_id>
-    <i_chronicle_id>09035f518253a13d</i_chronicle_id>
+    <i_chronicle_id>09035f51825af80d</i_chronicle_id>
     <r_version_label>1.0|CURRENT</r_version_label>
-    <r_creation_date>2016-02-23T14:32:37-03:00</r_creation_date>
+    <r_creation_date>2016-04-08T10:59:55-03:00</r_creation_date>
     <i_has_folder>true</i_has_folder>
-    <a_content_type>msw8</a_content_type>
-    <r_link_cnt>0</r_link_cnt>
-    <object_name>MC-0600OP-M-80335_REV_0.DOC</object_name>
-    <numero_vale>MC-0600OP-M-80335</numero_vale>
-    <subject>CADASTRARFICHAINCLUIR</subject>
-    <title>PROJETO DETALHADO ENCLAUSURAMENTO DE COMPRESSORES MEMORIAL DE CALCULO - VENTILACAO - SALA DOS COMPRESSORES</title>
-    <r_object_type>engdo_mc</r_object_type>
+    <a_content_type>excel8book</a_content_type>
+    <r_link_cnt>5</r_link_cnt>
+    <object_name>GR-0100OP-G-00043/2016</object_name>
+    <numero_vale>GR-0100OP-G-00043/2016</numero_vale>
+    <r_object_type>engdo_gr</r_object_type>
     <codigo_site>OP</codigo_site>
-    <fase>FEL3</fase>
-    <id_projeto>08035f518244edd5</id_projeto>
-    <id_empresa_projeto>08035f518244edd6</id_empresa_projeto>
-    <id_subarea>08035f5180c5bddb</id_subarea>
-    <codigo_disciplina>M</codigo_disciplina>
+    <fase>CONS</fase>
+    <id_projeto>08035f5181f5bb24</id_projeto>
+    <id_empresa_projeto>08035f5181f5bb25</id_empresa_projeto>
+    <id_subarea>08035f5180c5b7f0</id_subarea>
+    <codigo_disciplina>G</codigo_disciplina>
     <r_is_virtual_doc>false</r_is_virtual_doc>
     <documento_fornecedor>false</documento_fornecedor>
-    <revisao>0</revisao>
-    <numero_paginas>10</numero_paginas>
+    <numero_paginas>0</numero_paginas>
     <nome_formato>A4</nome_formato>
-    <sigla_finalidade_devolucao>NPR</sigla_finalidade_devolucao>
-    <sigla_tipo_emissao>C</sigla_tipo_emissao>
     <confidencial>false</confidencial>
     <data_emissao_reprog>nulldate</data_emissao_reprog>
-    <data_emissao_realiz>23/02/2016 14:32:32</data_emissao_realiz>
+    <data_emissao_realiz>nulldate</data_emissao_realiz>
     <avanco_fisico>0</avanco_fisico>
     <padronizado>false</padronizado>
-    <file_path>/op_projeto_08035f518244edd5_docs/1_MC-0600OP-M-80335_REV_0.DOC</file_path>
+    <file_path>/op_projeto_grs/1_GR-0100OP-G-00043 2016.xls</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>2</Item>
+    <r_object_id>09035f51825e40dc</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f51825e40dc</i_chronicle_id>
+    <r_version_label>CURRENT|1.0</r_version_label>
+    <r_creation_date>2016-05-02T14:59:51-03:00</r_creation_date>
+    <i_has_folder>true</i_has_folder>
+    <a_content_type>excel8book</a_content_type>
+    <r_link_cnt>5</r_link_cnt>
+    <object_name>GR-0100OP-G-00080/2016</object_name>
+    <numero_vale>GR-0100OP-G-00080/2016</numero_vale>
+    <r_object_type>engdo_gr</r_object_type>
+    <codigo_site>OP</codigo_site>
+    <fase>CONS</fase>
+    <id_projeto>08035f5181f5bb24</id_projeto>
+    <id_empresa_projeto>08035f5181f5bb25</id_empresa_projeto>
+    <id_subarea>08035f5180c5b7f0</id_subarea>
+    <codigo_disciplina>G</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <numero_paginas>0</numero_paginas>
+    <confidencial>false</confidencial>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>nulldate</data_emissao_realiz>
+    <avanco_fisico>0</avanco_fisico>
+    <padronizado>false</padronizado>
+    <file_path>/op_projeto_grs/2_GR-0100OP-G-00080 2016.xls</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>3</Item>
+    <r_object_id>09035f51825e47c7</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f51825e47c7</i_chronicle_id>
+    <r_version_label>1.0|CURRENT</r_version_label>
+    <r_creation_date>2016-05-02T15:28:55-03:00</r_creation_date>
+    <i_has_folder>true</i_has_folder>
+    <a_content_type>excel8book</a_content_type>
+    <r_link_cnt>2</r_link_cnt>
+    <object_name>GR-0100OP-G-00082/2016</object_name>
+    <numero_vale>GR-0100OP-G-00082/2016</numero_vale>
+    <r_object_type>engdo_gr</r_object_type>
+    <codigo_site>OP</codigo_site>
+    <fase>CONS</fase>
+    <id_projeto>08035f5181f5bb24</id_projeto>
+    <id_empresa_projeto>08035f5181f5bb25</id_empresa_projeto>
+    <id_subarea>08035f5180c5b7f0</id_subarea>
+    <codigo_disciplina>G</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <numero_paginas>0</numero_paginas>
+    <nome_formato>A4</nome_formato>
+    <confidencial>false</confidencial>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>nulldate</data_emissao_realiz>
+    <avanco_fisico>0</avanco_fisico>
+    <padronizado>false</padronizado>
+    <file_path>/op_projeto_grs/3_GR-0100OP-G-00082 2016.xls</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>4</Item>
+    <r_object_id>09035f51825e4f8c</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f51825e4f8c</i_chronicle_id>
+    <r_version_label>CURRENT|1.0</r_version_label>
+    <r_creation_date>2016-05-02T16:17:57-03:00</r_creation_date>
+    <i_has_folder>true</i_has_folder>
+    <a_content_type>excel8book</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>GR-0100OP-G-00084/2016</object_name>
+    <numero_vale>GR-0100OP-G-00084/2016</numero_vale>
+    <r_object_type>engdo_gr</r_object_type>
+    <codigo_site>OP</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f5181f5bb24</id_projeto>
+    <id_empresa_projeto>08035f5181f5bb25</id_empresa_projeto>
+    <id_subarea>08035f5180c5b7f0</id_subarea>
+    <codigo_disciplina>G</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <numero_paginas>0</numero_paginas>
+    <nome_formato>A4</nome_formato>
+    <confidencial>false</confidencial>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>nulldate</data_emissao_realiz>
+    <avanco_fisico>0</avanco_fisico>
+    <padronizado>false</padronizado>
+    <file_path>/op_projeto_grs/4_GR-0100OP-G-00084 2016.xls</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>5</Item>
+    <r_object_id>09035f51825e514f</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f51825e514f</i_chronicle_id>
+    <r_version_label>CURRENT|1.0</r_version_label>
+    <r_creation_date>2016-05-02T16:38:00-03:00</r_creation_date>
+    <i_has_folder>true</i_has_folder>
+    <a_content_type>excel8book</a_content_type>
+    <r_link_cnt>3</r_link_cnt>
+    <object_name>GR-0100OP-G-00085/2016</object_name>
+    <numero_vale>GR-0100OP-G-00085/2016</numero_vale>
+    <r_object_type>engdo_gr</r_object_type>
+    <codigo_site>OP</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f5181f5bb24</id_projeto>
+    <id_empresa_projeto>08035f5181f5bb25</id_empresa_projeto>
+    <id_subarea>08035f5180c5b7f0</id_subarea>
+    <codigo_disciplina>G</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <numero_paginas>0</numero_paginas>
+    <nome_formato>A4</nome_formato>
+    <confidencial>false</confidencial>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>nulldate</data_emissao_realiz>
+    <avanco_fisico>0</avanco_fisico>
+    <padronizado>false</padronizado>
+    <file_path>/op_projeto_grs/5_GR-0100OP-G-00085 2016.xls</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>6</Item>
+    <r_object_id>09035f51825e52d4</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f51825e52d4</i_chronicle_id>
+    <r_version_label>1.0|CURRENT</r_version_label>
+    <r_creation_date>2016-05-02T17:11:37-03:00</r_creation_date>
+    <i_has_folder>true</i_has_folder>
+    <a_content_type>excel8book</a_content_type>
+    <r_link_cnt>0</r_link_cnt>
+    <object_name>GR-0100OP-G-00086/2016</object_name>
+    <numero_vale>GR-0100OP-G-00086/2016</numero_vale>
+    <r_object_type>engdo_gr</r_object_type>
+    <codigo_site>OP</codigo_site>
+    <fase>FEL2</fase>
+    <id_projeto>08035f5181f5bb24</id_projeto>
+    <id_empresa_projeto>08035f5181f5bb25</id_empresa_projeto>
+    <id_subarea>08035f5180c5b7f0</id_subarea>
+    <codigo_disciplina>G</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <numero_paginas>0</numero_paginas>
+    <nome_formato>A4</nome_formato>
+    <confidencial>false</confidencial>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>nulldate</data_emissao_realiz>
+    <avanco_fisico>0</avanco_fisico>
+    <padronizado>false</padronizado>
+    <file_path>/op_projeto_grs/6_GR-0100OP-G-00086 2016.xls</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>7</Item>
+    <r_object_id>09035f51825e6914</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f51825e6914</i_chronicle_id>
+    <r_version_label>CURRENT|1.0</r_version_label>
+    <r_creation_date>2016-05-03T11:48:04-03:00</r_creation_date>
+    <i_has_folder>true</i_has_folder>
+    <a_content_type>excel8book</a_content_type>
+    <r_link_cnt>4</r_link_cnt>
+    <object_name>GR-0100OP-G-00088/2016</object_name>
+    <numero_vale>GR-0100OP-G-00088/2016</numero_vale>
+    <r_object_type>engdo_gr</r_object_type>
+    <codigo_site>OP</codigo_site>
+    <fase>CONS</fase>
+    <id_projeto>08035f5181f5bb24</id_projeto>
+    <id_empresa_projeto>08035f5181f5bb25</id_empresa_projeto>
+    <id_subarea>08035f5180c5b7f0</id_subarea>
+    <codigo_disciplina>G</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <numero_paginas>0</numero_paginas>
+    <nome_formato>A4</nome_formato>
+    <confidencial>false</confidencial>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>nulldate</data_emissao_realiz>
+    <avanco_fisico>0</avanco_fisico>
+    <padronizado>false</padronizado>
+    <file_path>/op_projeto_grs/7_GR-0100OP-G-00088 2016.xls</file_path>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>8</Item>
+    <r_object_id>09035f51825f9866</r_object_id>
+    <i_antecedent_id>0000000000000000</i_antecedent_id>
+    <i_chronicle_id>09035f51825f9866</i_chronicle_id>
+    <r_version_label>CURRENT|1.0</r_version_label>
+    <r_creation_date>2016-05-11T11:23:17-03:00</r_creation_date>
+    <i_has_folder>true</i_has_folder>
+    <a_content_type>excel8book</a_content_type>
+    <r_link_cnt>4</r_link_cnt>
+    <object_name>GR-0100OP-G-00094/2016</object_name>
+    <numero_vale>GR-0100OP-G-00094/2016</numero_vale>
+    <r_object_type>engdo_gr</r_object_type>
+    <codigo_site>OP</codigo_site>
+    <fase>FEL3</fase>
+    <id_projeto>08035f5181f5bb24</id_projeto>
+    <id_empresa_projeto>08035f5181f5bb25</id_empresa_projeto>
+    <id_subarea>08035f5180c5b7f0</id_subarea>
+    <codigo_disciplina>G</codigo_disciplina>
+    <r_is_virtual_doc>false</r_is_virtual_doc>
+    <documento_fornecedor>false</documento_fornecedor>
+    <numero_paginas>0</numero_paginas>
+    <nome_formato>A4</nome_formato>
+    <confidencial>false</confidencial>
+    <data_emissao_reprog>nulldate</data_emissao_reprog>
+    <data_emissao_realiz>nulldate</data_emissao_realiz>
+    <avanco_fisico>0</avanco_fisico>
+    <padronizado>false</padronizado>
+    <file_path>/op_projeto_grs/8_GR-0100OP-G-00094 2016.xls</file_path>
   </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
   <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
-    <r_object_id>090003e9800623b1</r_object_id>
+    <r_object_id>090003e98006437f</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e980064380</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e980064387</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e980064388</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e980064389</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98006438a</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98006438b</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98006438c</r_object_id>
     <queue_name>d2c_mass_create_queue</queue_name>
   </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
 </NewDataSet>

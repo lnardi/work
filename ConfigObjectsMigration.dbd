@@ -2788,6 +2788,30 @@
     <codigo_area>11</codigo_area>
   </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
   <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>1</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f5180c5e26f</r_object_id>
+    <object_name>B1030 - UNIDADE OPERACIONAL ONCA PUMA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>1030</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>UNIDADE OPERACIONAL ONCA PUMA</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>2</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f5180eeaf01</r_object_id>
+    <object_name>B0269 - ADEQUACAO DO SISTEMA DE PROTECAO E COMBATE A INCENDIO - ESTACAO DE BOMBEAMENTO E REDE DE HIDRANTES - NORMA NFPA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>269</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>ADEQUACAO DO SISTEMA DE PROTECAO E COMBATE A INCENDIO - ESTACAO DE BOMBEAMENTO E REDE DE HIDRANTES - NORMA NFPA</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
     <Item>3</Item>
     <fase>CONS</fase>
     <r_object_id>08035f51810d73e2</r_object_id>
@@ -2800,6 +2824,508 @@
     <nome>DOCUMENTACAO FISICA - ENGENHARIA</nome>
   </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
   <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>4</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f5181a26c5e</r_object_id>
+    <object_name>B0123 - CENTRAL DE LAVAGEM DE VEICULOS PESADOS</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>123</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>CENTRAL DE LAVAGEM DE VEICULOS PESADOS</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>5</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f5181bc9d93</r_object_id>
+    <object_name>B1423-07 - C142307.01.05-1 - NOVO SISTEMA DE ENCHIMENTO DE BAGS</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>1423</numero_projeto>
+    <numero_sequencial>7</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C142307.01.05-1 - NOVO SISTEMA DE ENCHIMENTO DE BAGS</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>6</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f5181dac9c8</r_object_id>
+    <object_name>B1323-19 - REVISAO NO PROJETO DO DIQUE DP-01 E CONSULTORIA DE IMPLANTACAO</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>1323</numero_projeto>
+    <numero_sequencial>19</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>REVISAO NO PROJETO DO DIQUE DP-01 E CONSULTORIA DE IMPLANTACAO</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>7</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f5181f331e6</r_object_id>
+    <object_name>B0010 - C139891- ADEQUACAO SISTEMA DE PROTECAO E COMBATE A INCENDIO</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>10</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C139891- ADEQUACAO SISTEMA DE PROTECAO E COMBATE A INCENDIO</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>8</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f5181f3ecc3</r_object_id>
+    <object_name>B0011 - C000332.01 - PROJETO DE INTERLIGACAO DO SKID METROVAL</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>11</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C000332.01 - PROJETO DE INTERLIGACAO DO SKID METROVAL</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>9</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f5181f5bb24</r_object_id>
+    <object_name>B0012 - C139965.01.01 - PLATAFORMA PARA TORRE DE RESFRIAMENTO</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>12</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C139965.01.01 - PLATAFORMA PARA TORRE DE RESFRIAMENTO</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>10</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f5182091015</r_object_id>
+    <object_name>B0013 - C000352.01 - ADEQUACAO DOS TRANSPORTADORES DE CORREIA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>13</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C000352.01 - ADEQUACAO DOS TRANSPORTADORES DE CORREIA</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>11</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f5182091018</r_object_id>
+    <object_name>B0014 - C139906 - SALA DE MANUTENCAO DA VALVULA GAVETA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>14</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C139906 - SALA DE MANUTENCAO DA VALVULA GAVETA</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>12</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f51822c9b51</r_object_id>
+    <object_name>B0015 - C139911.01.01 - COBERTURA DOS BIG BAGS</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>15</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C139911.01.01 - COBERTURA DOS BIG BAGS</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>13</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f51822cfa7c</r_object_id>
+    <object_name>B0016 - C000352.01 - ADEQUACAO A REQUISITOS LEGAIS - EXAUSTORES</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>16</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C000352.01 - ADEQUACAO A REQUISITOS LEGAIS - EXAUSTORES</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>14</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f518233ef84</r_object_id>
+    <object_name>B0017 - C139910 - COBERTURA DOS PRECIPITADORES ELETROSTATICOS</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>17</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C139910 - COBERTURA DOS PRECIPITADORES ELETROSTATICOS</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>15</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f518236ea5a</r_object_id>
+    <object_name>N1154 - PROJETO MINERACAO ONCA PUMA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>N</sigla_segmento_negocio>
+    <numero_projeto>1154</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>PROJETO MINERACAO ONCA PUMA</nome>
+    <area_responsavel>DIIC - GEEIC - GAPCF</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>16</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f51823d3986</r_object_id>
+    <object_name>B0018 - C133956 - REMOBILIZACAO DO PAA DO PUMA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>18</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C133956 - REMOBILIZACAO DO PAA DO PUMA</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>17</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f51823f666c</r_object_id>
+    <object_name>B0019 - C000401 - OFICINA DE CAMINHOES COMBOIO</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>19</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C000401 - OFICINA DE CAMINHOES COMBOIO</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>18</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f518244e5e2</r_object_id>
+    <object_name>B0020 - C001729 - REFORMA/MELHORIA DA ESTRUTURA DO SKULL PIT - KRESS</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>20</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C001729 - REFORMA/MELHORIA DA ESTRUTURA DO SKULL PIT - KRESS</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>19</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f518244e9a0</r_object_id>
+    <object_name>B0021 - C001731 - RECUPERACAO NA REGIAO DA MOEGA DE ALIMENTACAO DE CARVAO</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>21</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C001731 - RECUPERACAO NA REGIAO DA MOEGA DE ALIMENTACAO DE CARVAO</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>20</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f518244e9a2</r_object_id>
+    <object_name>B0022 - C142334 - AQUISICAO DE GERADOR DE EMERGENCIA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>22</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C142334 - AQUISICAO DE GERADOR DE EMERGENCIA</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>21</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f518244ece5</r_object_id>
+    <object_name>B0023 - C001734 - RELOCACAO DAS SALAS DE CONTROLE</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>23</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C001734 - RELOCACAO DAS SALAS DE CONTROLE</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>22</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f518244ece9</r_object_id>
+    <object_name>B0024 - C001737 - MELHORIAS DA CALHA DE ESCORIA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>24</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C001737 - MELHORIAS DA CALHA DE ESCORIA</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>23</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f518244edd5</r_object_id>
+    <object_name>B0025 - C000372 - ENCLAUSURAMENTO DE COMPRESSORES</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>25</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C000372 - ENCLAUSURAMENTO DE COMPRESSORES</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>24</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f5182460242</r_object_id>
+    <object_name>B0026 - MELHORIAS CCQ - DISPOSITIVO PARA TYRE HANDER</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>26</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>MELHORIAS CCQ - DISPOSITIVO PARA TYRE HANDER</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>25</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f518247bf44</r_object_id>
+    <object_name>B0027 - PROTECAO CONTRA INCENDIO - VIVEIRO DE MUDAS</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>27</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>PROTECAO CONTRA INCENDIO - VIVEIRO DE MUDAS</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>26</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f51824cf8fb</r_object_id>
+    <object_name>B0029 - C002313 - BALANCA BICA DE METAL</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>29</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C002313 - BALANCA BICA DE METAL</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>27</Item>
+    <fase>FEL1</fase>
+    <r_object_id>08035f5180c5e26f</r_object_id>
+    <object_name>B1030 - UNIDADE OPERACIONAL ONCA PUMA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>1030</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>UNIDADE OPERACIONAL ONCA PUMA</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>28</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f5180c5e26f</r_object_id>
+    <object_name>B1030 - UNIDADE OPERACIONAL ONCA PUMA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>1030</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>UNIDADE OPERACIONAL ONCA PUMA</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>29</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f5181dac9c8</r_object_id>
+    <object_name>B1323-19 - REVISAO NO PROJETO DO DIQUE DP-01 E CONSULTORIA DE IMPLANTACAO</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>1323</numero_projeto>
+    <numero_sequencial>19</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>REVISAO NO PROJETO DO DIQUE DP-01 E CONSULTORIA DE IMPLANTACAO</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>30</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f5181f5bb24</r_object_id>
+    <object_name>B0012 - C139965.01.01 - PLATAFORMA PARA TORRE DE RESFRIAMENTO</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>12</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C139965.01.01 - PLATAFORMA PARA TORRE DE RESFRIAMENTO</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>31</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f518236ea5a</r_object_id>
+    <object_name>N1154 - PROJETO MINERACAO ONCA PUMA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>N</sigla_segmento_negocio>
+    <numero_projeto>1154</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>PROJETO MINERACAO ONCA PUMA</nome>
+    <area_responsavel>DIIC - GEEIC - GAPCF</area_responsavel>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>32</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f518244ece9</r_object_id>
+    <object_name>B0024 - C001737 - MELHORIAS DA CALHA DE ESCORIA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>24</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C001737 - MELHORIAS DA CALHA DE ESCORIA</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>33</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f51824cf708</r_object_id>
+    <object_name>B0028 - 1350123 - ESTUDO MELHORIAS SISTEMA DE TRANSFERENCIA DE CALCINACAO</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>28</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>1350123 - ESTUDO MELHORIAS SISTEMA DE TRANSFERENCIA DE CALCINACAO</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>34</Item>
+    <fase>FEL3</fase>
+    <r_object_id>08035f5180c5dff0</r_object_id>
+    <object_name>B0248 - REMOBILIZACAO PAA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>248</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>REMOBILIZACAO PAA</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>35</Item>
+    <fase>FEL3</fase>
+    <r_object_id>08035f5180c5e26f</r_object_id>
+    <object_name>B1030 - UNIDADE OPERACIONAL ONCA PUMA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>1030</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>UNIDADE OPERACIONAL ONCA PUMA</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>36</Item>
+    <fase>FEL3</fase>
+    <r_object_id>08035f5180eeaf01</r_object_id>
+    <object_name>B0269 - ADEQUACAO DO SISTEMA DE PROTECAO E COMBATE A INCENDIO - ESTACAO DE BOMBEAMENTO E REDE DE HIDRANTES - NORMA NFPA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>269</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>ADEQUACAO DO SISTEMA DE PROTECAO E COMBATE A INCENDIO - ESTACAO DE BOMBEAMENTO E REDE DE HIDRANTES - NORMA NFPA</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>37</Item>
+    <fase>FEL3</fase>
+    <r_object_id>08035f51819fbf9e</r_object_id>
+    <object_name>B1429-62 - ENCLAUSURAMENTO / CLIMATIZACAO UNIDADES HIDRAULICAS E SALA TRAFOS</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>1429</numero_projeto>
+    <numero_sequencial>62</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>ENCLAUSURAMENTO / CLIMATIZACAO UNIDADES HIDRAULICAS E SALA TRAFOS</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>38</Item>
+    <fase>FEL3</fase>
+    <r_object_id>08035f5181a10609</r_object_id>
+    <object_name>B1425-68 - OFICINA DE CAMPO</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>1425</numero_projeto>
+    <numero_sequencial>68</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>OFICINA DE CAMPO</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>39</Item>
+    <fase>FEL3</fase>
+    <r_object_id>08035f5181a1954c</r_object_id>
+    <object_name>B1423-36 - TAPAMENTO PREDIO AGLOMERACAO</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>1423</numero_projeto>
+    <numero_sequencial>36</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>TAPAMENTO PREDIO AGLOMERACAO</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>40</Item>
+    <fase>FEL3</fase>
+    <r_object_id>08035f5181a26c5e</r_object_id>
+    <object_name>B0123 - CENTRAL DE LAVAGEM DE VEICULOS PESADOS</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>123</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>CENTRAL DE LAVAGEM DE VEICULOS PESADOS</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>41</Item>
+    <fase>FEL3</fase>
+    <r_object_id>08035f5181bc9d93</r_object_id>
+    <object_name>B1423-07 - C142307.01.05-1 - NOVO SISTEMA DE ENCHIMENTO DE BAGS</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>1423</numero_projeto>
+    <numero_sequencial>7</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C142307.01.05-1 - NOVO SISTEMA DE ENCHIMENTO DE BAGS</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>42</Item>
+    <fase>FEL3</fase>
+    <r_object_id>08035f5181dac9c8</r_object_id>
+    <object_name>B1323-19 - REVISAO NO PROJETO DO DIQUE DP-01 E CONSULTORIA DE IMPLANTACAO</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>1323</numero_projeto>
+    <numero_sequencial>19</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>REVISAO NO PROJETO DO DIQUE DP-01 E CONSULTORIA DE IMPLANTACAO</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>43</Item>
+    <fase>FEL3</fase>
+    <r_object_id>08035f5181f5bb24</r_object_id>
+    <object_name>B0012 - C139965.01.01 - PLATAFORMA PARA TORRE DE RESFRIAMENTO</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>12</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C139965.01.01 - PLATAFORMA PARA TORRE DE RESFRIAMENTO</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>44</Item>
+    <fase>FEL3</fase>
+    <r_object_id>08035f51822cfa7c</r_object_id>
+    <object_name>B0016 - C000352.01 - ADEQUACAO A REQUISITOS LEGAIS - EXAUSTORES</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>16</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C000352.01 - ADEQUACAO A REQUISITOS LEGAIS - EXAUSTORES</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
     <Item>45</Item>
     <fase>FEL3</fase>
     <r_object_id>08035f518244edd5</r_object_id>
@@ -2810,6 +3336,68 @@
     <tipo>PR</tipo>
     <codigo_site>OP</codigo_site>
     <nome>C000372 - ENCLAUSURAMENTO DE COMPRESSORES</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>46</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f5180c5e26f</r_object_id>
+    <object_name>B1030 - UNIDADE OPERACIONAL ONCA PUMA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>1030</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>UNIDADE OPERACIONAL ONCA PUMA</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>47</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f51819c0f9e</r_object_id>
+    <object_name>B0003 - GESTAO DE CONTRATOS</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>3</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>GESTAO DE CONTRATOS</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>48</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f5181bc9d93</r_object_id>
+    <object_name>B1423-07 - C142307.01.05-1 - NOVO SISTEMA DE ENCHIMENTO DE BAGS</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>1423</numero_projeto>
+    <numero_sequencial>7</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>C142307.01.05-1 - NOVO SISTEMA DE ENCHIMENTO DE BAGS</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>49</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f5181bd05ed</r_object_id>
+    <object_name>B1423-32 - INFRA OFICINA ELETRICA E CABINE DE PINTURA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>1423</numero_projeto>
+    <numero_sequencial>32</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>INFRA OFICINA ELETRICA E CABINE DE PINTURA</nome>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>50</Item>
+    <fase>OPER</fase>
+    <r_object_id>08035f5182460242</r_object_id>
+    <object_name>B0026 - MELHORIAS CCQ - DISPOSITIVO PARA TYRE HANDER</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>B</sigla_segmento_negocio>
+    <numero_projeto>26</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>OP</codigo_site>
+    <nome>MELHORIAS CCQ - DISPOSITIVO PARA TYRE HANDER</nome>
   </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
   <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
     <Item>251</Item>
