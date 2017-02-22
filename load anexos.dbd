@@ -176,13 +176,7 @@
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
-                <xs:element name="i_antecedent_id" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="50" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
+                <xs:element name="i_antecedent_id" type="xs:short" minOccurs="0" />
                 <xs:element name="i_chronicle_id" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -193,7 +187,7 @@
                 <xs:element name="object_name" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
-                      <xs:maxLength value="255" />
+                      <xs:maxLength value="50" />
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
@@ -207,18 +201,12 @@
                 <xs:element name="title" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
-                      <xs:maxLength value="255" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-                <xs:element name="numero_referencia" type="xs:short" minOccurs="0" />
-                <xs:element name="revisao_doc_principal" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
                       <xs:maxLength value="50" />
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
+                <xs:element name="numero_referencia" type="xs:short" minOccurs="0" />
+                <xs:element name="revisao_doc_principal" type="xs:boolean" minOccurs="0" />
                 <xs:element name="a_content_type" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -235,6 +223,21 @@
                 </xs:element>
                 <xs:element name="i_has_folder" type="xs:boolean" minOccurs="0" />
                 <xs:element name="r_creation_date" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="server_path" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Filename" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0034_e4bb10f-68e4-437d-8959-6e02cc9b1427">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="line" type="xs:short" minOccurs="0" />
                 <xs:element name="file_path" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -242,10 +245,10 @@
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
-                <xs:element name="error" minOccurs="0">
+                <xs:element name="Import_flag" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
-                      <xs:maxLength value="50" />
+                      <xs:maxLength value="255" />
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
@@ -277,47 +280,215 @@
   </_x0036_836e55e-ede3-4915-a605-f9e3244ca8ee>
   <bb499749-de3d-4c9a-8903-f1286a40334f>
     <Item>1</Item>
-    <r_object_id>09035f51823012b2</r_object_id>
-    <i_antecedent_id>0000000000000000</i_antecedent_id>
-    <i_chronicle_id>09035f51823012b2</i_chronicle_id>
-    <object_name>EF-8922PZ-E-11000_REF2.DWG</object_name>
-    <numero_vale_doc_principal>EF-8922PZ-E-11000</numero_vale_doc_principal>
+    <r_object_id>09035f51828edd84</r_object_id>
+    <i_antecedent_id>0</i_antecedent_id>
+    <i_chronicle_id>09035f51828edd84</i_chronicle_id>
+    <object_name>EF-8000PZ-W-00003_REF2.DWG</object_name>
+    <numero_vale_doc_principal>EF-8000PZ-W-00003</numero_vale_doc_principal>
     <numero_referencia>2</numero_referencia>
-    <revisao_doc_principal>0</revisao_doc_principal>
+    <revisao_doc_principal>false</revisao_doc_principal>
     <a_content_type>acad</a_content_type>
     <codigo_site>PZ</codigo_site>
     <i_has_folder>true</i_has_folder>
-    <r_creation_date>2015-08-27T08:43:47-03:00</r_creation_date>
-    <file_path>/pz_anexos_SE-P2021-DE/1_EF-8922PZ-E-11000_REF2.DWG</file_path>
+    <r_creation_date>2017-02-20T09:34:36-03:00</r_creation_date>
+    <server_path>/usr/software/documentum/fs_ged_engenharia_01/00035f51/80/bd/0e/95.dwg</server_path>
+    <Filename>CONTENT_CADERNO_TEST2_1.csv</Filename>
   </bb499749-de3d-4c9a-8903-f1286a40334f>
   <bb499749-de3d-4c9a-8903-f1286a40334f>
     <Item>2</Item>
-    <r_object_id>09035f51823012b3</r_object_id>
-    <i_antecedent_id>0000000000000000</i_antecedent_id>
-    <i_chronicle_id>09035f51823012b3</i_chronicle_id>
-    <object_name>EF-8922PZ-E-11000_REF3.DWG</object_name>
-    <numero_vale_doc_principal>EF-8922PZ-E-11000</numero_vale_doc_principal>
+    <r_object_id>09035f51828edd85</r_object_id>
+    <i_antecedent_id>0</i_antecedent_id>
+    <i_chronicle_id>09035f51828edd85</i_chronicle_id>
+    <object_name>EF-8000PZ-W-00003_REF3.DWG</object_name>
+    <numero_vale_doc_principal>EF-8000PZ-W-00003</numero_vale_doc_principal>
     <numero_referencia>3</numero_referencia>
-    <revisao_doc_principal>0</revisao_doc_principal>
+    <revisao_doc_principal>false</revisao_doc_principal>
     <a_content_type>acad</a_content_type>
     <codigo_site>PZ</codigo_site>
     <i_has_folder>true</i_has_folder>
-    <r_creation_date>2015-08-27T08:43:47-03:00</r_creation_date>
-    <file_path>/pz_anexos_SE-P2021-DE/2_EF-8922PZ-E-11000_REF3.DWG</file_path>
+    <r_creation_date>2017-02-20T09:34:40-03:00</r_creation_date>
+    <server_path>/usr/software/documentum/fs_ged_engenharia_01/00035f51/80/bd/0e/96.dwg</server_path>
+    <Filename>CONTENT_CADERNO_TEST2_1.csv</Filename>
   </bb499749-de3d-4c9a-8903-f1286a40334f>
   <bb499749-de3d-4c9a-8903-f1286a40334f>
     <Item>3</Item>
-    <r_object_id>09035f51823012b4</r_object_id>
-    <i_antecedent_id>0000000000000000</i_antecedent_id>
-    <i_chronicle_id>09035f51823012b4</i_chronicle_id>
-    <object_name>EF-8922PZ-E-11000_REF4.DWG</object_name>
-    <numero_vale_doc_principal>EF-8922PZ-E-11000</numero_vale_doc_principal>
+    <r_object_id>09035f51828edd86</r_object_id>
+    <i_antecedent_id>0</i_antecedent_id>
+    <i_chronicle_id>09035f51828edd86</i_chronicle_id>
+    <object_name>EF-8000PZ-W-00003_REF4.DWG</object_name>
+    <numero_vale_doc_principal>EF-8000PZ-W-00003</numero_vale_doc_principal>
     <numero_referencia>4</numero_referencia>
-    <revisao_doc_principal>0</revisao_doc_principal>
+    <revisao_doc_principal>false</revisao_doc_principal>
     <a_content_type>acad</a_content_type>
     <codigo_site>PZ</codigo_site>
     <i_has_folder>true</i_has_folder>
-    <r_creation_date>2015-08-27T08:43:48-03:00</r_creation_date>
-    <file_path>/pz_anexos_SE-P2021-DE/3_EF-8922PZ-E-11000_REF4.DWG</file_path>
+    <r_creation_date>2017-02-20T09:34:43-03:00</r_creation_date>
+    <server_path>/usr/software/documentum/fs_ged_engenharia_01/00035f51/80/bd/0e/97.dwg</server_path>
+    <Filename>CONTENT_CADERNO_TEST2_1.csv</Filename>
   </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>4</Item>
+    <r_object_id>09035f51828edd87</r_object_id>
+    <i_antecedent_id>0</i_antecedent_id>
+    <i_chronicle_id>09035f51828edd87</i_chronicle_id>
+    <object_name>EF-8000PZ-W-00003_REF5.DWG</object_name>
+    <numero_vale_doc_principal>EF-8000PZ-W-00003</numero_vale_doc_principal>
+    <numero_referencia>5</numero_referencia>
+    <revisao_doc_principal>false</revisao_doc_principal>
+    <a_content_type>acad</a_content_type>
+    <codigo_site>PZ</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2017-02-20T09:34:46-03:00</r_creation_date>
+    <server_path>/usr/software/documentum/fs_ged_engenharia_01/00035f51/80/bd/0e/98.dwg</server_path>
+    <Filename>CONTENT_CADERNO_TEST2_1.csv</Filename>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>5</Item>
+    <r_object_id>09035f51828edd88</r_object_id>
+    <i_antecedent_id>0</i_antecedent_id>
+    <i_chronicle_id>09035f51828edd88</i_chronicle_id>
+    <object_name>EF-8000PZ-W-00003_REF6.DWG</object_name>
+    <numero_vale_doc_principal>EF-8000PZ-W-00003</numero_vale_doc_principal>
+    <numero_referencia>6</numero_referencia>
+    <revisao_doc_principal>false</revisao_doc_principal>
+    <a_content_type>acad</a_content_type>
+    <codigo_site>PZ</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2017-02-20T09:34:50-03:00</r_creation_date>
+    <server_path>/usr/software/documentum/fs_ged_engenharia_01/00035f51/80/bd/0e/99.dwg</server_path>
+    <Filename>CONTENT_CADERNO_TEST2_1.csv</Filename>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>6</Item>
+    <r_object_id>09035f51828edddc</r_object_id>
+    <i_antecedent_id>0</i_antecedent_id>
+    <i_chronicle_id>09035f51828edddc</i_chronicle_id>
+    <object_name>DI-8000PZ-W-00004_REF2.TXT</object_name>
+    <numero_vale_doc_principal>DI-8000PZ-W-00004</numero_vale_doc_principal>
+    <numero_referencia>2</numero_referencia>
+    <revisao_doc_principal>false</revisao_doc_principal>
+    <a_content_type>crtext</a_content_type>
+    <codigo_site>PZ</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2017-02-20T09:34:56-03:00</r_creation_date>
+    <server_path>/usr/software/documentum/fs_ged_engenharia_01/00035f51/80/bd/0e/9c.txt</server_path>
+    <Filename>CONTENT_CADERNO_TEST2_1.csv</Filename>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>7</Item>
+    <r_object_id>09035f51828edddd</r_object_id>
+    <i_antecedent_id>0</i_antecedent_id>
+    <i_chronicle_id>09035f51828edddd</i_chronicle_id>
+    <object_name>DI-8000PZ-W-00004_REF3.TXT</object_name>
+    <numero_vale_doc_principal>DI-8000PZ-W-00004</numero_vale_doc_principal>
+    <numero_referencia>3</numero_referencia>
+    <revisao_doc_principal>false</revisao_doc_principal>
+    <a_content_type>crtext</a_content_type>
+    <codigo_site>PZ</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2017-02-20T09:34:59-03:00</r_creation_date>
+    <server_path>/usr/software/documentum/fs_ged_engenharia_01/00035f51/80/bd/0e/9d.txt</server_path>
+    <Filename>CONTENT_CADERNO_TEST2_1.csv</Filename>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>8</Item>
+    <r_object_id>09035f51828eddde</r_object_id>
+    <i_antecedent_id>0</i_antecedent_id>
+    <i_chronicle_id>09035f51828eddde</i_chronicle_id>
+    <object_name>DI-8000PZ-W-00004_REF4.TXT</object_name>
+    <numero_vale_doc_principal>DI-8000PZ-W-00004</numero_vale_doc_principal>
+    <numero_referencia>4</numero_referencia>
+    <revisao_doc_principal>false</revisao_doc_principal>
+    <a_content_type>crtext</a_content_type>
+    <codigo_site>PZ</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2017-02-20T09:35:02-03:00</r_creation_date>
+    <server_path>/usr/software/documentum/fs_ged_engenharia_01/00035f51/80/bd/0e/9e.txt</server_path>
+    <Filename>CONTENT_CADERNO_TEST2_1.csv</Filename>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>9</Item>
+    <r_object_id>09035f51828edddf</r_object_id>
+    <i_antecedent_id>0</i_antecedent_id>
+    <i_chronicle_id>09035f51828edddf</i_chronicle_id>
+    <object_name>DI-8000PZ-W-00004_REF5.TXT</object_name>
+    <numero_vale_doc_principal>DI-8000PZ-W-00004</numero_vale_doc_principal>
+    <numero_referencia>5</numero_referencia>
+    <revisao_doc_principal>false</revisao_doc_principal>
+    <a_content_type>crtext</a_content_type>
+    <codigo_site>PZ</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2017-02-20T09:35:05-03:00</r_creation_date>
+    <server_path>/usr/software/documentum/fs_ged_engenharia_01/00035f51/80/bd/0e/9f.txt</server_path>
+    <Filename>CONTENT_CADERNO_TEST2_1.csv</Filename>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>10</Item>
+    <r_object_id>09035f51828edde0</r_object_id>
+    <i_antecedent_id>0</i_antecedent_id>
+    <i_chronicle_id>09035f51828edde0</i_chronicle_id>
+    <object_name>DI-8000PZ-W-00004_REF6.TXT</object_name>
+    <numero_vale_doc_principal>DI-8000PZ-W-00004</numero_vale_doc_principal>
+    <numero_referencia>6</numero_referencia>
+    <revisao_doc_principal>false</revisao_doc_principal>
+    <a_content_type>crtext</a_content_type>
+    <codigo_site>PZ</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2017-02-20T09:35:08-03:00</r_creation_date>
+    <server_path>/usr/software/documentum/fs_ged_engenharia_01/00035f51/80/bd/0e/a0.txt</server_path>
+    <Filename>CONTENT_CADERNO_TEST2_1.csv</Filename>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>11</Item>
+    <r_object_id>09035f51828edde1</r_object_id>
+    <i_antecedent_id>0</i_antecedent_id>
+    <i_chronicle_id>09035f51828edde1</i_chronicle_id>
+    <object_name>DI-8000PZ-W-00004_REF7.TXT</object_name>
+    <numero_vale_doc_principal>DI-8000PZ-W-00004</numero_vale_doc_principal>
+    <numero_referencia>7</numero_referencia>
+    <revisao_doc_principal>false</revisao_doc_principal>
+    <a_content_type>crtext</a_content_type>
+    <codigo_site>PZ</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2017-02-20T09:35:11-03:00</r_creation_date>
+    <server_path>/usr/software/documentum/fs_ged_engenharia_01/00035f51/80/bd/0e/a1.txt</server_path>
+    <Filename>CONTENT_CADERNO_TEST2_1.csv</Filename>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>12</Item>
+    <r_object_id>09035f51828edde2</r_object_id>
+    <i_antecedent_id>0</i_antecedent_id>
+    <i_chronicle_id>09035f51828edde2</i_chronicle_id>
+    <object_name>DI-8000PZ-W-00004_REF8.TXT</object_name>
+    <numero_vale_doc_principal>DI-8000PZ-W-00004</numero_vale_doc_principal>
+    <numero_referencia>8</numero_referencia>
+    <revisao_doc_principal>false</revisao_doc_principal>
+    <a_content_type>crtext</a_content_type>
+    <codigo_site>PZ</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2017-02-20T09:35:14-03:00</r_creation_date>
+    <server_path>/usr/software/documentum/fs_ged_engenharia_01/00035f51/80/bd/0e/a2.txt</server_path>
+    <Filename>CONTENT_CADERNO_TEST2_1.csv</Filename>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <bb499749-de3d-4c9a-8903-f1286a40334f>
+    <Item>13</Item>
+    <r_object_id>09035f51828edde3</r_object_id>
+    <i_antecedent_id>0</i_antecedent_id>
+    <i_chronicle_id>09035f51828edde3</i_chronicle_id>
+    <object_name>DI-8000PZ-W-00004_REF9.TXT</object_name>
+    <numero_vale_doc_principal>DI-8000PZ-W-00004</numero_vale_doc_principal>
+    <numero_referencia>9</numero_referencia>
+    <revisao_doc_principal>false</revisao_doc_principal>
+    <a_content_type>crtext</a_content_type>
+    <codigo_site>PZ</codigo_site>
+    <i_has_folder>true</i_has_folder>
+    <r_creation_date>2017-02-20T09:35:17-03:00</r_creation_date>
+    <server_path>/usr/software/documentum/fs_ged_engenharia_01/00035f51/80/bd/0e/a3.txt</server_path>
+    <Filename>CONTENT_CADERNO_TEST2_1.csv</Filename>
+  </bb499749-de3d-4c9a-8903-f1286a40334f>
+  <_x0034_e4bb10f-68e4-437d-8959-6e02cc9b1427>
+    <line>1</line>
+    <file_path>C:\Users\C0475434\Desktop\MIgration\SITES\PZ\TEST2\contents</file_path>
+    <Import_flag>Migração GED 1.0</Import_flag>
+  </_x0034_e4bb10f-68e4-437d-8959-6e02cc9b1427>
 </NewDataSet>

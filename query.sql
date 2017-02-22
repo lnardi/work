@@ -1,18 +1,18 @@
-
 /////////////////////////////////////////////////////PILOTOS//////////////////////////////////////
-KA	USINA DE PELOTIZACAO - SAO LUIS (MA)
-KK	SISTEMA NORTE - GERAL - PA - MA
-KL	CARAJAS SERRA LESTE - PA
-KM	MANGANES DO AZUL - PA
-LL	ALEGRIA - MG
-OP	ONCA PUMA - PA
-SA	SALOBO - PA
-SS	SOSSEGO - PA
- 
+======SITE======================================NÚM DOCS===========TAM GB========
+KA	USINA DE PELOTIZACAO - SAO LUIS (MA)							16,3
+KK	SISTEMA NORTE - GERAL - PA - MA 								10,8
+KL	CARAJAS SERRA LESTE - PA 										32,6
+KM	MANGANES DO AZUL - PA 											10,5
+LL	ALEGRIA - MG 								38536				42,3
+OP	ONCA PUMA - PA 													77,2
+SA	SALOBO - PA 													109,59
+SS	SOSSEGO - PA 													35,7	
+ 																334,99
 
 PZ - Teste
 select count(*) from engdo_documento_engenharia where codigo_site = 'PZ'
-select (sum(full_content_size)/1048576.0) from engdo_documento_engenharia,dmr_content where codigo_site = 'PZ'
+select (sum(full_content_size)/1048576.0) from engdo_documento_engenharia where codigo_site = 'PZ'
 
 //////////////////////////////////////////////////////////////////Dados do Site///////////////////////////////////////////////////////////////////////////
 
@@ -38,7 +38,7 @@ order by emp.object_name
 //////////////////////////////////////////////////////////////////engso_empresa_projeto////////////////////////////////////////////////////////////////////
 
 //Objeto que faz associação entre doc e empresa, para isso criei um objteto só para fazer o de-para no 2.0
-select ep.r_object_id, ep.id_empresa, emp.nome_fantasia, ep.codigo_site
+select ep.id_empresa, ep.r_object_id, emp.nome_fantasia, ep.codigo_site
 from engso_empresa_projeto ep, engso_empresa emp 
 where ep.id_empresa = emp.r_object_id and ep.codigo_site = 'PZ'
 
@@ -84,16 +84,16 @@ Status dos projetos no 2.0
 
 select r_object_id,i_antecedent_id, i_chronicle_id, r_version_label, r_creation_date, i_has_folder, a_content_type, r_link_cnt, data_emissao_gr, situacao_aprovacao, se_finalizada, codigo_material, numero_gr_contratada, object_name, numero_vale, subject, title, r_object_type, codigo_site, fase, id_projeto, id_empresa_projeto, id_subarea, codigo_disciplina, r_is_virtual_doc, documento_fornecedor, numero_documento_base, area_funcional, revisao, sigla_idioma, numero_paginas, nome_formato,  sigla_finalidade_devolucao, id_tag, tag_antigo, numero_ld, localizacao_acervo, sigla_tipo_emissao, confidencial, numero_vale_antigo, observacoes, data_emissao_prevista, data_emissao_reprog, data_emissao_realiz, avanco_fisico, codigo_atividade, item_contrato, medicao, coringa, substituto, padronizado, livre, numero_contratada, '' as data_reuniao,'' as localidade,'' as data_envio,'' as nome_remetente,'' as nome_destinatario,'' as sigla_fluido,'' as sigla_especificacao,'' as sequencial_linha,'' as equipamento,'' as rc_referencia,'' as rp_referencia,'' as rt_referencia,'' as numero_contrato,'' as id_empresa_contratada 
 from engdo_documento_engenharia (all) 
-where id_projeto = '08035f518244edd5'
+where id_projeto = '08035f5180c490ad'
 order by i_chronicle_id, i_has_folder, r_creation_date
 
 
 
-select distinct (eng.fase), prj.r_object_id, prj.object_name, prj.ativo, prj.sigla_segmento_negocio, prj.numero_projeto, prj.numero_sequencial, prj.tipo, prj.codigo_site, prj.nome, prj.numero_se, prj.data_abertura, prj.responsavel_tecnico, prj.area_responsavel  
+select distinct (eng.fase), prj.r_object_id, prj.object_name, prj.ativo, prj.sigla_segmento_negocio, prj.numero_projeto, prj.numero_sequencial, prj.tipo, prj.codigo_site, prj.nome, prj.numero_se, prj.data_abertura, prj.responsavel_tecnico, prj.area_responsavel, prj.a_status  
 from engdo_documento_engenharia eng, engso_projeto prj  
 where eng.id_projeto = prj.r_object_id and prj.tipo = 'PR' and prj.codigo_site = 'OP' 
 UNION
-select 'OPER' as fase, prj.r_object_id, prj.object_name, prj.ativo, prj.sigla_segmento_negocio, prj.numero_projeto, prj.numero_sequencial, prj.tipo, prj.codigo_site, prj.nome, prj.numero_se, prj.data_abertura, prj.responsavel_tecnico, prj.area_responsavel  
+select 'OPER' as fase, prj.r_object_id, prj.object_name, prj.ativo, prj.sigla_segmento_negocio, prj.numero_projeto, prj.numero_sequencial, prj.tipo, prj.codigo_site, prj.nome, prj.numero_se, prj.data_abertura, prj.responsavel_tecnico, prj.area_responsavel, prj.a_status  
 from engso_projeto prj  
 where prj.tipo = 'SE' and codigo_site = 'OP'
 ////////////////////////////////////////////////////////////////////////engso_tag///////////////////////////////////////////////////////////////////////////
@@ -108,18 +108,16 @@ select ENG.r_object_id, ENG.object_name, ENG.codigo_site, SUB.codigo, SUB.codigo
 //Pegar tags antigos de sites //Não foi possível pegar a área e o site pois a mesma tag é utilziada em vários
 select distinct(tag_antigo), codigo_site from engdo_documento_engenharia (all) where codigo_site = 'OP'
 
-
+select distinct(tag_antigo), codigo_site from engdo_documento_engenharia (all) where codigo_site = 'PZ' and id_projeto in ('08035f51828eaa53', '08035f51828eaa54', '08035f51828eaa55', '08035f51828eaa56') order by tag_antigo
 
 //////////////////////////////////////////////////engdo_documento_engenharia////////////////////////////////////////////////////////////////////////
 //Verifica quantidades de documentos por tipo
 select r_object_type, count(*) as total
 from engdo_documento_engenharia
-where codigo_site = 'OP'
+where codigo_site = 'OP' and
+r_object_type not in ('engdo_gr')
 group by r_object_type
 order by 2
-
-
-
 
 
 //Todos os tipos exceto os expecificados abaixo, pegando todas as versões
@@ -230,7 +228,7 @@ order by i_chronicle_id, i_has_folder, r_creation_date
 select r_object_id,i_antecedent_id, i_chronicle_id, r_version_label, r_creation_date, i_has_folder, a_content_type, r_link_cnt, data_emissao_gr, situacao_aprovacao, se_finalizada, codigo_material, numero_gr_contratada, object_name, numero_vale, subject, title, r_object_type, codigo_site, fase, id_projeto, id_empresa_projeto, id_subarea, codigo_disciplina, r_is_virtual_doc, documento_fornecedor, numero_documento_base, area_funcional, revisao, sigla_idioma, numero_paginas, nome_formato,  sigla_finalidade_devolucao, id_tag, tag_antigo, numero_ld, localizacao_acervo, sigla_tipo_emissao, confidencial, numero_vale_antigo, observacoes, data_emissao_prevista, data_emissao_reprog, data_emissao_realiz, avanco_fisico, codigo_atividade, item_contrato, medicao, coringa, substituto, padronizado, livre, numero_contratada, '' as data_reuniao,'' as localidade,'' as data_envio,'' as nome_remetente,'' as nome_destinatario,'' as sigla_fluido,'' as sigla_especificacao,'' as sequencial_linha,'' as equipamento,'' as rc_referencia,'' as rp_referencia,'' as rt_referencia,'' as numero_contrato,'' as id_empresa_contratada 
 from engdo_documento_engenharia (all) 
 where codigo_site = 'KM' 
-and r_object_type not in ('engdo_ca','engdo_dc','engdo_pt','engdo_rp','engdo_mm','engdo_rd','engdo_pc','engdo_mo','engdo_ri', 'engdo_ar', 'engdo_is', 'engdo_ct')
+and r_object_type not in ('engdo_gr', 'engdo_ca','engdo_dc','engdo_pt','engdo_rp','engdo_mm','engdo_rd','engdo_pc','engdo_mo','engdo_ri', 'engdo_ar', 'engdo_is', 'engdo_ct')
 and numero_vale in ('RL-0124OP-G-81301') 
 order by i_chronicle_id, i_has_folder, r_creation_date
 
@@ -238,7 +236,7 @@ order by i_chronicle_id, i_has_folder, r_creation_date
 select r_object_id,i_antecedent_id, i_chronicle_id, r_version_label, r_creation_date, i_has_folder, a_content_type, r_link_cnt, data_emissao_gr, situacao_aprovacao, se_finalizada, codigo_material, numero_gr_contratada, object_name, numero_vale, subject, title, r_object_type, codigo_site, fase, id_projeto, id_empresa_projeto, id_subarea, codigo_disciplina, r_is_virtual_doc, documento_fornecedor, numero_documento_base, area_funcional, revisao, sigla_idioma, numero_paginas, nome_formato,  sigla_finalidade_devolucao, id_tag, tag_antigo, numero_ld, localizacao_acervo, sigla_tipo_emissao, confidencial, numero_vale_antigo, observacoes, data_emissao_prevista, data_emissao_reprog, data_emissao_realiz, avanco_fisico, codigo_atividade, item_contrato, medicao, coringa, substituto, padronizado, livre, numero_contratada, '' as data_reuniao,'' as localidade,'' as data_envio,'' as nome_remetente,'' as nome_destinatario,'' as sigla_fluido,'' as sigla_especificacao,'' as sequencial_linha,'' as equipamento,'' as rc_referencia,'' as rp_referencia,'' as rt_referencia,'' as numero_contrato,'' as id_empresa_contratada 
 from engdo_documento_engenharia (all) 
 where codigo_site = 'KM' 
-and r_object_type not in ('engdo_ca','engdo_dc','engdo_pt','engdo_rp','engdo_mm','engdo_rd','engdo_pc','engdo_mo','engdo_ri', 'engdo_ar', 'engdo_is', 'engdo_ct')
+and r_object_type not in ('engdo_gr', 'engdo_ca','engdo_dc','engdo_pt','engdo_rp','engdo_mm','engdo_rd','engdo_pc','engdo_mo','engdo_ri', 'engdo_ar', 'engdo_is', 'engdo_ct')
 and r_object_id = '09035f51827794da'
 order by i_chronicle_id, i_has_folder, r_creation_date
 
@@ -247,9 +245,9 @@ order by i_chronicle_id, i_has_folder, r_creation_date
 
 select r_object_id,i_antecedent_id, i_chronicle_id, r_version_label, r_creation_date, i_has_folder, a_content_type, r_link_cnt, data_emissao_gr, situacao_aprovacao, se_finalizada, codigo_material, numero_gr_contratada, object_name, numero_vale, subject, title, r_object_type, codigo_site, fase, id_projeto, id_empresa_projeto, id_subarea, codigo_disciplina, r_is_virtual_doc, documento_fornecedor, numero_documento_base, area_funcional, revisao, sigla_idioma, numero_paginas, nome_formato,  sigla_finalidade_devolucao, id_tag, tag_antigo, numero_ld, localizacao_acervo, sigla_tipo_emissao, confidencial, numero_vale_antigo, observacoes, data_emissao_prevista, data_emissao_reprog, data_emissao_realiz, avanco_fisico, codigo_atividade, item_contrato, medicao, coringa, substituto, padronizado, livre, numero_contratada, '' as data_reuniao,'' as localidade,'' as data_envio,'' as nome_remetente,'' as nome_destinatario,'' as sigla_fluido,'' as sigla_especificacao,'' as sequencial_linha,'' as equipamento,'' as rc_referencia,'' as rp_referencia,'' as rt_referencia,'' as numero_contrato,'' as id_empresa_contratada 
 from engdo_documento_engenharia (all) 
-where codigo_site = 'OP' 
-and id_projeto = '08035f51820be007'
-and r_object_type not in ('engdo_ca','engdo_dc','engdo_pt','engdo_rp','engdo_mm','engdo_rd','engdo_pc','engdo_mo','engdo_ri', 'engdo_ar', 'engdo_is', 'engdo_ct')
+where codigo_site = 'PZ' 
+and id_projeto = '08035f51828eaa54'
+and r_object_type not in ('engdo_gr', 'engdo_ca','engdo_dc','engdo_pt','engdo_rp','engdo_mm','engdo_rd','engdo_pc','engdo_mo','engdo_ri', 'engdo_ar', 'engdo_is', 'engdo_ct')
 order by i_chronicle_id, i_has_folder, r_creation_date
 
 select count(*)
@@ -258,6 +256,13 @@ where codigo_site = 'PZ'
 and id_projeto = '08035f51820be007'
 order by 1
 738
+
+id_projeto 		  Totais 	Totais Eng 	Totais GR
+08035f51828eaa53 -	163 	- 	67 		- 	xx
+08035f51828eaa54 - 	170 	- 	74		-	
+08035f51828eaa55 - 	136 	- 	40		-	
+08035f51828eaa56 - 	136 	- 	40		-	
+
 
 	
 ///////////////////////////////////////////////////engdo_anexo//////////////////////////////////////////////////////////////////////////////////////
