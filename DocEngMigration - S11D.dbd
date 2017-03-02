@@ -772,6 +772,26 @@
               </xs:sequence>
             </xs:complexType>
           </xs:element>
+          <xs:element name="_x0039_dfe85a5-0cde-4341-8064-68918c84df3d">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Value" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
         </xs:choice>
       </xs:complexType>
     </xs:element>
@@ -31032,4 +31052,24 @@
     <r_object_id>090003e9800711d8</r_object_id>
     <queue_name>d2c_mass_create_queue</queue_name>
   </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <_x0039_dfe85a5-0cde-4341-8064-68918c84df3d>
+    <Name>log_level</Name>
+    <Value>0</Value>
+  </_x0039_dfe85a5-0cde-4341-8064-68918c84df3d>
+  <_x0039_dfe85a5-0cde-4341-8064-68918c84df3d>
+    <Name>RENDITION_PATH_SEPERATOR</Name>
+    <Value>;</Value>
+  </_x0039_dfe85a5-0cde-4341-8064-68918c84df3d>
+  <_x0039_dfe85a5-0cde-4341-8064-68918c84df3d>
+    <Name>FLAT_EXPORT</Name>
+    <Value>false</Value>
+  </_x0039_dfe85a5-0cde-4341-8064-68918c84df3d>
+  <_x0039_dfe85a5-0cde-4341-8064-68918c84df3d>
+    <Name>REPEATING_ATTRIBUTE_DELIMETER_ESCAPE</Name>
+    <Value>;</Value>
+  </_x0039_dfe85a5-0cde-4341-8064-68918c84df3d>
+  <_x0039_dfe85a5-0cde-4341-8064-68918c84df3d>
+    <Name>REPEATING_ATTRIBUTE_DELIMETER</Name>
+    <Value>|</Value>
+  </_x0039_dfe85a5-0cde-4341-8064-68918c84df3d>
 </NewDataSet>

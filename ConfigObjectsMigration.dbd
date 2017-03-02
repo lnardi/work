@@ -492,6 +492,26 @@
               </xs:sequence>
             </xs:complexType>
           </xs:element>
+          <xs:element name="_x0032_efa29bb-0d66-497e-9de3-5d9500bdeae3">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Value" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
         </xs:choice>
       </xs:complexType>
     </xs:element>
@@ -7377,4 +7397,24 @@
     <Item>48</Item>
     <codigo_site>PZ</codigo_site>
   </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0032_efa29bb-0d66-497e-9de3-5d9500bdeae3>
+    <Name>log_level</Name>
+    <Value>0</Value>
+  </_x0032_efa29bb-0d66-497e-9de3-5d9500bdeae3>
+  <_x0032_efa29bb-0d66-497e-9de3-5d9500bdeae3>
+    <Name>RENDITION_PATH_SEPERATOR</Name>
+    <Value>;</Value>
+  </_x0032_efa29bb-0d66-497e-9de3-5d9500bdeae3>
+  <_x0032_efa29bb-0d66-497e-9de3-5d9500bdeae3>
+    <Name>FLAT_EXPORT</Name>
+    <Value>false</Value>
+  </_x0032_efa29bb-0d66-497e-9de3-5d9500bdeae3>
+  <_x0032_efa29bb-0d66-497e-9de3-5d9500bdeae3>
+    <Name>REPEATING_ATTRIBUTE_DELIMETER_ESCAPE</Name>
+    <Value>;</Value>
+  </_x0032_efa29bb-0d66-497e-9de3-5d9500bdeae3>
+  <_x0032_efa29bb-0d66-497e-9de3-5d9500bdeae3>
+    <Name>REPEATING_ATTRIBUTE_DELIMETER</Name>
+    <Value>|</Value>
+  </_x0032_efa29bb-0d66-497e-9de3-5d9500bdeae3>
 </NewDataSet>
