@@ -165,6 +165,27 @@
               </xs:sequence>
             </xs:complexType>
           </xs:element>
+          <xs:element name="_x0034_e4bb10f-68e4-437d-8959-6e02cc9b1427">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="line" type="xs:short" minOccurs="0" />
+                <xs:element name="file_path" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Import_flag" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
           <xs:element name="bb499749-de3d-4c9a-8903-f1286a40334f">
             <xs:complexType>
               <xs:sequence>
@@ -206,7 +227,13 @@
                   </xs:simpleType>
                 </xs:element>
                 <xs:element name="numero_referencia" type="xs:short" minOccurs="0" />
-                <xs:element name="revisao_doc_principal" type="xs:boolean" minOccurs="0" />
+                <xs:element name="revisao_doc_principal" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
                 <xs:element name="a_content_type" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -234,27 +261,6 @@
               </xs:sequence>
             </xs:complexType>
           </xs:element>
-          <xs:element name="_x0034_e4bb10f-68e4-437d-8959-6e02cc9b1427">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="line" type="xs:short" minOccurs="0" />
-                <xs:element name="file_path" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="255" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-                <xs:element name="Import_flag" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="255" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
         </xs:choice>
       </xs:complexType>
     </xs:element>
@@ -278,6 +284,11 @@
     <delimiter_character>|</delimiter_character>
     <domain>vale_eng</domain>
   </_x0036_836e55e-ede3-4915-a605-f9e3244ca8ee>
+  <_x0034_e4bb10f-68e4-437d-8959-6e02cc9b1427>
+    <line>1</line>
+    <file_path>C:\Users\C0475434\Desktop\MIgration\SITES\PZ\TEST2\contents</file_path>
+    <Import_flag>Migração GED 1.0</Import_flag>
+  </_x0034_e4bb10f-68e4-437d-8959-6e02cc9b1427>
   <bb499749-de3d-4c9a-8903-f1286a40334f>
     <Item>1</Item>
     <r_object_id>09035f51828edd84</r_object_id>
@@ -286,7 +297,7 @@
     <object_name>EF-8000PZ-W-00003_REF2.DWG</object_name>
     <numero_vale_doc_principal>EF-8000PZ-W-00003</numero_vale_doc_principal>
     <numero_referencia>2</numero_referencia>
-    <revisao_doc_principal>false</revisao_doc_principal>
+    <revisao_doc_principal>0</revisao_doc_principal>
     <a_content_type>acad</a_content_type>
     <codigo_site>PZ</codigo_site>
     <i_has_folder>true</i_has_folder>
@@ -302,7 +313,7 @@
     <object_name>EF-8000PZ-W-00003_REF3.DWG</object_name>
     <numero_vale_doc_principal>EF-8000PZ-W-00003</numero_vale_doc_principal>
     <numero_referencia>3</numero_referencia>
-    <revisao_doc_principal>false</revisao_doc_principal>
+    <revisao_doc_principal>0</revisao_doc_principal>
     <a_content_type>acad</a_content_type>
     <codigo_site>PZ</codigo_site>
     <i_has_folder>true</i_has_folder>
@@ -318,7 +329,7 @@
     <object_name>EF-8000PZ-W-00003_REF4.DWG</object_name>
     <numero_vale_doc_principal>EF-8000PZ-W-00003</numero_vale_doc_principal>
     <numero_referencia>4</numero_referencia>
-    <revisao_doc_principal>false</revisao_doc_principal>
+    <revisao_doc_principal>0</revisao_doc_principal>
     <a_content_type>acad</a_content_type>
     <codigo_site>PZ</codigo_site>
     <i_has_folder>true</i_has_folder>
@@ -334,7 +345,7 @@
     <object_name>EF-8000PZ-W-00003_REF5.DWG</object_name>
     <numero_vale_doc_principal>EF-8000PZ-W-00003</numero_vale_doc_principal>
     <numero_referencia>5</numero_referencia>
-    <revisao_doc_principal>false</revisao_doc_principal>
+    <revisao_doc_principal>0</revisao_doc_principal>
     <a_content_type>acad</a_content_type>
     <codigo_site>PZ</codigo_site>
     <i_has_folder>true</i_has_folder>
@@ -350,7 +361,7 @@
     <object_name>EF-8000PZ-W-00003_REF6.DWG</object_name>
     <numero_vale_doc_principal>EF-8000PZ-W-00003</numero_vale_doc_principal>
     <numero_referencia>6</numero_referencia>
-    <revisao_doc_principal>false</revisao_doc_principal>
+    <revisao_doc_principal>0</revisao_doc_principal>
     <a_content_type>acad</a_content_type>
     <codigo_site>PZ</codigo_site>
     <i_has_folder>true</i_has_folder>
@@ -366,7 +377,7 @@
     <object_name>DI-8000PZ-W-00004_REF2.TXT</object_name>
     <numero_vale_doc_principal>DI-8000PZ-W-00004</numero_vale_doc_principal>
     <numero_referencia>2</numero_referencia>
-    <revisao_doc_principal>false</revisao_doc_principal>
+    <revisao_doc_principal>0</revisao_doc_principal>
     <a_content_type>crtext</a_content_type>
     <codigo_site>PZ</codigo_site>
     <i_has_folder>true</i_has_folder>
@@ -382,7 +393,7 @@
     <object_name>DI-8000PZ-W-00004_REF3.TXT</object_name>
     <numero_vale_doc_principal>DI-8000PZ-W-00004</numero_vale_doc_principal>
     <numero_referencia>3</numero_referencia>
-    <revisao_doc_principal>false</revisao_doc_principal>
+    <revisao_doc_principal>0</revisao_doc_principal>
     <a_content_type>crtext</a_content_type>
     <codigo_site>PZ</codigo_site>
     <i_has_folder>true</i_has_folder>
@@ -398,7 +409,7 @@
     <object_name>DI-8000PZ-W-00004_REF4.TXT</object_name>
     <numero_vale_doc_principal>DI-8000PZ-W-00004</numero_vale_doc_principal>
     <numero_referencia>4</numero_referencia>
-    <revisao_doc_principal>false</revisao_doc_principal>
+    <revisao_doc_principal>0</revisao_doc_principal>
     <a_content_type>crtext</a_content_type>
     <codigo_site>PZ</codigo_site>
     <i_has_folder>true</i_has_folder>
@@ -414,7 +425,7 @@
     <object_name>DI-8000PZ-W-00004_REF5.TXT</object_name>
     <numero_vale_doc_principal>DI-8000PZ-W-00004</numero_vale_doc_principal>
     <numero_referencia>5</numero_referencia>
-    <revisao_doc_principal>false</revisao_doc_principal>
+    <revisao_doc_principal>0</revisao_doc_principal>
     <a_content_type>crtext</a_content_type>
     <codigo_site>PZ</codigo_site>
     <i_has_folder>true</i_has_folder>
@@ -430,7 +441,7 @@
     <object_name>DI-8000PZ-W-00004_REF6.TXT</object_name>
     <numero_vale_doc_principal>DI-8000PZ-W-00004</numero_vale_doc_principal>
     <numero_referencia>6</numero_referencia>
-    <revisao_doc_principal>false</revisao_doc_principal>
+    <revisao_doc_principal>0</revisao_doc_principal>
     <a_content_type>crtext</a_content_type>
     <codigo_site>PZ</codigo_site>
     <i_has_folder>true</i_has_folder>
@@ -446,7 +457,7 @@
     <object_name>DI-8000PZ-W-00004_REF7.TXT</object_name>
     <numero_vale_doc_principal>DI-8000PZ-W-00004</numero_vale_doc_principal>
     <numero_referencia>7</numero_referencia>
-    <revisao_doc_principal>false</revisao_doc_principal>
+    <revisao_doc_principal>0</revisao_doc_principal>
     <a_content_type>crtext</a_content_type>
     <codigo_site>PZ</codigo_site>
     <i_has_folder>true</i_has_folder>
@@ -462,7 +473,7 @@
     <object_name>DI-8000PZ-W-00004_REF8.TXT</object_name>
     <numero_vale_doc_principal>DI-8000PZ-W-00004</numero_vale_doc_principal>
     <numero_referencia>8</numero_referencia>
-    <revisao_doc_principal>false</revisao_doc_principal>
+    <revisao_doc_principal>0</revisao_doc_principal>
     <a_content_type>crtext</a_content_type>
     <codigo_site>PZ</codigo_site>
     <i_has_folder>true</i_has_folder>
@@ -478,7 +489,7 @@
     <object_name>DI-8000PZ-W-00004_REF9.TXT</object_name>
     <numero_vale_doc_principal>DI-8000PZ-W-00004</numero_vale_doc_principal>
     <numero_referencia>9</numero_referencia>
-    <revisao_doc_principal>false</revisao_doc_principal>
+    <revisao_doc_principal>0</revisao_doc_principal>
     <a_content_type>crtext</a_content_type>
     <codigo_site>PZ</codigo_site>
     <i_has_folder>true</i_has_folder>
@@ -486,9 +497,4 @@
     <server_path>/usr/software/documentum/fs_ged_engenharia_01/00035f51/80/bd/0e/a3.txt</server_path>
     <Filename>CONTENT_CADERNO_TEST2_1.csv</Filename>
   </bb499749-de3d-4c9a-8903-f1286a40334f>
-  <_x0034_e4bb10f-68e4-437d-8959-6e02cc9b1427>
-    <line>1</line>
-    <file_path>C:\Users\C0475434\Desktop\MIgration\SITES\PZ\TEST2\contents</file_path>
-    <Import_flag>Migração GED 1.0</Import_flag>
-  </_x0034_e4bb10f-68e4-437d-8959-6e02cc9b1427>
 </NewDataSet>
