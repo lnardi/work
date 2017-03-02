@@ -722,8 +722,32 @@
               </xs:sequence>
             </xs:complexType>
           </xs:element>
+          <xs:element name="d8b9f68e-fb73-4ce2-9934-0f529282ed56">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Value" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
         </xs:choice>
       </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//d8b9f68e-fb73-4ce2-9934-0f529282ed56" />
+        <xs:field xpath="Name" />
+      </xs:unique>
     </xs:element>
   </xs:schema>
   <_x0038_374c885-150d-43e5-99e2-9e2d53e8a530>
@@ -8031,7 +8055,7 @@
     <r_object_id>090003e98005f8ef</r_object_id>
     <vale_legacy_objectid>08035f51808d9ca6</vale_legacy_objectid>
     <vale_legacy_lookup>08035f51808d9ca6</vale_legacy_lookup>
-    <object_name>SE-133482-ESTUDOS PARA LICENCIAMENTO E TECNOLOGIA AMBIENTAL - RESIDUOS{&amp;comma} PASSIVOS AMBIENTAIS{&amp;comma} RECURSOS HIDRICOS E RISCOS AMBIENTAIS.</object_name>
+    <object_name>SE-133482-ESTUDOS PARA LICENCIAMENTO E TECNOLOGIA AMBIENTAL - RESIDUOS, PASSIVOS AMBIENTAIS, RECURSOS HIDRICOS E RISCOS AMBIENTAIS.</object_name>
     <vale_fase>oper</vale_fase>
     <a_status>Approved</a_status>
   </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
@@ -8079,7 +8103,7 @@
     <r_object_id>090003e98005f8f5</r_object_id>
     <vale_legacy_objectid>08035f5181a0f527</vale_legacy_objectid>
     <vale_legacy_lookup>08035f5181a0f527</vale_legacy_lookup>
-    <object_name>SE-GAAZN003-USINA DE PRODUTO (LINHA I E II DE PENEIRAMENTO{&amp;comma} BOMBAS EM GERAL{&amp;comma} SILOS{&amp;comma} TRANSPORTADORES{&amp;comma} CALHAS{&amp;comma} CAIXA DAGUA INDUSTRIAL E AR COMPRIMIDO)</object_name>
+    <object_name>SE-GAAZN003-USINA DE PRODUTO (LINHA I E II DE PENEIRAMENTO, BOMBAS EM GERAL, SILOS, TRANSPORTADORES, CALHAS, CAIXA DAGUA INDUSTRIAL E AR COMPRIMIDO)</object_name>
     <vale_fase>oper</vale_fase>
     <a_status>Approved</a_status>
   </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
@@ -8935,7 +8959,7 @@
     <r_object_id>090003e98006faf0</r_object_id>
     <vale_legacy_objectid>08035f5180c490ad</vale_legacy_objectid>
     <vale_legacy_lookup>08035f5180c490ad</vale_legacy_lookup>
-    <object_name>SE-1908075-SERVICOS DE ENGENHARIA PARA ELABORACAO DE ESTUDOS DE CURTO-CIRCUITO SELETIVIDADE COM COORDENACAO DA PROTECAO ENERGIA INCIDENTE TREINAMENTO E IMPLEMENTACAO DO SOFTWARE PARA SISTEMA ELETRICO DE TIMBOPEBA{&amp;comma} FABRICA NOVA{&amp;comma} AGUA LIMPA E GONGO SOCO</object_name>
+    <object_name>SE-1908075-SERVICOS DE ENGENHARIA PARA ELABORACAO DE ESTUDOS DE CURTO-CIRCUITO SELETIVIDADE COM COORDENACAO DA PROTECAO ENERGIA INCIDENTE TREINAMENTO E IMPLEMENTACAO DO SOFTWARE PARA SISTEMA ELETRICO DE TIMBOPEBA, FABRICA NOVA, AGUA LIMPA E GONGO SOCO</object_name>
     <vale_fase>oper</vale_fase>
     <a_status>Completed</a_status>
   </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
@@ -29176,4 +29200,24 @@
     <r_object_id>090003e980073c1b</r_object_id>
     <queue_name>d2c_mass_create_queue</queue_name>
   </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <d8b9f68e-fb73-4ce2-9934-0f529282ed56>
+    <Name>log_level</Name>
+    <Value>0</Value>
+  </d8b9f68e-fb73-4ce2-9934-0f529282ed56>
+  <d8b9f68e-fb73-4ce2-9934-0f529282ed56>
+    <Name>RENDITION_PATH_SEPERATOR</Name>
+    <Value>;</Value>
+  </d8b9f68e-fb73-4ce2-9934-0f529282ed56>
+  <d8b9f68e-fb73-4ce2-9934-0f529282ed56>
+    <Name>FLAT_EXPORT</Name>
+    <Value>false</Value>
+  </d8b9f68e-fb73-4ce2-9934-0f529282ed56>
+  <d8b9f68e-fb73-4ce2-9934-0f529282ed56>
+    <Name>REPEATING_ATTRIBUTE_DELIMETER_ESCAPE</Name>
+    <Value>;</Value>
+  </d8b9f68e-fb73-4ce2-9934-0f529282ed56>
+  <d8b9f68e-fb73-4ce2-9934-0f529282ed56>
+    <Name>REPEATING_ATTRIBUTE_DELIMETER</Name>
+    <Value>|</Value>
+  </d8b9f68e-fb73-4ce2-9934-0f529282ed56>
 </NewDataSet>
