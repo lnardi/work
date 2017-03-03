@@ -78,20 +78,6 @@
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
-                <xs:element name="content_size_threshold" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="255" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-                <xs:element name="content_size_column" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="255" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
                 <xs:element name="use_override" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -293,6 +279,26 @@
                 <xs:element name="r_object_id" type="xs:string" minOccurs="0" />
                 <xs:element name="id_empproj" type="xs:string" minOccurs="0" />
                 <xs:element name="nome_fantasia" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="d8b9f68e-fb73-4ce2-9934-0f529282ed56">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Value" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
               </xs:sequence>
             </xs:complexType>
           </xs:element>
@@ -722,26 +728,6 @@
               </xs:sequence>
             </xs:complexType>
           </xs:element>
-          <xs:element name="d8b9f68e-fb73-4ce2-9934-0f529282ed56">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Name">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="255" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-                <xs:element name="Value" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="255" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
         </xs:choice>
       </xs:complexType>
       <xs:unique name="Constraint1" msdata:PrimaryKey="true">
@@ -762,8 +748,6 @@
     <version_policy>Major</version_policy>
     <create_cabinet>true</create_cabinet>
     <use_transcation_processing>true</use_transcation_processing>
-    <content_size_threshold>100000</content_size_threshold>
-    <content_size_column>r_full_contenr_full_content_size</content_size_column>
     <use_override>false</use_override>
     <resolve_extension_to_format>true</resolve_extension_to_format>
     <delimiter_character>|</delimiter_character>
@@ -26743,6 +26727,26 @@
     <id_empproj>08035f51828edcb2</id_empproj>
     <nome_fantasia>VALE</nome_fantasia>
   </_x0034_57f1543-2418-4ea6-9773-a6f4da9748b7>
+  <d8b9f68e-fb73-4ce2-9934-0f529282ed56>
+    <Name>log_level</Name>
+    <Value>0</Value>
+  </d8b9f68e-fb73-4ce2-9934-0f529282ed56>
+  <d8b9f68e-fb73-4ce2-9934-0f529282ed56>
+    <Name>RENDITION_PATH_SEPERATOR</Name>
+    <Value>;</Value>
+  </d8b9f68e-fb73-4ce2-9934-0f529282ed56>
+  <d8b9f68e-fb73-4ce2-9934-0f529282ed56>
+    <Name>FLAT_EXPORT</Name>
+    <Value>false</Value>
+  </d8b9f68e-fb73-4ce2-9934-0f529282ed56>
+  <d8b9f68e-fb73-4ce2-9934-0f529282ed56>
+    <Name>REPEATING_ATTRIBUTE_DELIMETER_ESCAPE</Name>
+    <Value>;</Value>
+  </d8b9f68e-fb73-4ce2-9934-0f529282ed56>
+  <d8b9f68e-fb73-4ce2-9934-0f529282ed56>
+    <Name>REPEATING_ATTRIBUTE_DELIMETER</Name>
+    <Value>|</Value>
+  </d8b9f68e-fb73-4ce2-9934-0f529282ed56>
   <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
     <Item>1</Item>
     <r_object_id>09035f51828edd80</r_object_id>
@@ -29200,24 +29204,4 @@
     <r_object_id>090003e980073c1b</r_object_id>
     <queue_name>d2c_mass_create_queue</queue_name>
   </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
-  <d8b9f68e-fb73-4ce2-9934-0f529282ed56>
-    <Name>log_level</Name>
-    <Value>0</Value>
-  </d8b9f68e-fb73-4ce2-9934-0f529282ed56>
-  <d8b9f68e-fb73-4ce2-9934-0f529282ed56>
-    <Name>RENDITION_PATH_SEPERATOR</Name>
-    <Value>;</Value>
-  </d8b9f68e-fb73-4ce2-9934-0f529282ed56>
-  <d8b9f68e-fb73-4ce2-9934-0f529282ed56>
-    <Name>FLAT_EXPORT</Name>
-    <Value>false</Value>
-  </d8b9f68e-fb73-4ce2-9934-0f529282ed56>
-  <d8b9f68e-fb73-4ce2-9934-0f529282ed56>
-    <Name>REPEATING_ATTRIBUTE_DELIMETER_ESCAPE</Name>
-    <Value>;</Value>
-  </d8b9f68e-fb73-4ce2-9934-0f529282ed56>
-  <d8b9f68e-fb73-4ce2-9934-0f529282ed56>
-    <Name>REPEATING_ATTRIBUTE_DELIMETER</Name>
-    <Value>|</Value>
-  </d8b9f68e-fb73-4ce2-9934-0f529282ed56>
 </NewDataSet>
