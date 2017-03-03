@@ -362,6 +362,14 @@ where codigo_site = 'PZ'
 and id_projeto in ('08035f51828eaa53','08035f51828eaa54','08035f51828eaa55','08035f51828eaa56')
 order by i_chronicle_id, i_has_folder, r_creation_date
 
+select doc.r_object_id as id_gr , doc.numero_vale as numero_vale_gr, doc2.r_object_id as id_doc, doc2.numero_vale as numero_vale_doc
+from engso_documento_gr (all) gr, engdo_gr (all) doc, engdo_documento_engenharia(all) doc2
+where 
+gr.id_guia_remessa = doc.r_object_id and 
+doc.codigo_site = 'PZ' and
+gr.id_documento_engenharia = doc2.r_object_id 
+and doc.id_projeto in ('08035f51828eaa53','08035f51828eaa54','08035f51828eaa55','08035f51828eaa56')
+
 
 ////////////////////////////////////////////////////////////////////////content file path///////////////////////////////////////////////////////////////////
 //Pega o caminho de um arquivo

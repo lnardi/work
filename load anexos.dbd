@@ -78,20 +78,6 @@
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
-                <xs:element name="content_size_threshold" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="255" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-                <xs:element name="content_size_column" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="255" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
                 <xs:element name="use_override" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -277,8 +263,6 @@
     <version_policy>Major</version_policy>
     <create_cabinet>true</create_cabinet>
     <use_transcation_processing>true</use_transcation_processing>
-    <content_size_threshold>100000</content_size_threshold>
-    <content_size_column>r_full|_content_size</content_size_column>
     <use_override>false</use_override>
     <resolve_extension_to_format>true</resolve_extension_to_format>
     <delimiter_character>|</delimiter_character>

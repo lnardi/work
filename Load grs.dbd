@@ -216,6 +216,26 @@
               </xs:sequence>
             </xs:complexType>
           </xs:element>
+          <xs:element name="b582b266-9ada-4197-93a8-800f6cf66d9c">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Value" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
           <xs:element name="bb499749-de3d-4c9a-8903-f1286a40334f">
             <xs:complexType>
               <xs:sequence>
@@ -359,26 +379,6 @@
                   </xs:simpleType>
                 </xs:element>
                 <xs:element name="queue_name" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="255" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-          <xs:element name="b582b266-9ada-4197-93a8-800f6cf66d9c">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Name" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="255" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-                <xs:element name="Value" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
                       <xs:maxLength value="255" />
@@ -8003,6 +8003,26 @@
     <object_name>LL - ALEGRIA - MG</object_name>
     <vale_site>ll</vale_site>
   </_x0036_5ca40d3-1c07-440b-bc08-c4109e6bf41c>
+  <b582b266-9ada-4197-93a8-800f6cf66d9c>
+    <Name>log_level</Name>
+    <Value>0</Value>
+  </b582b266-9ada-4197-93a8-800f6cf66d9c>
+  <b582b266-9ada-4197-93a8-800f6cf66d9c>
+    <Name>RENDITION_PATH_SEPERATOR</Name>
+    <Value>;</Value>
+  </b582b266-9ada-4197-93a8-800f6cf66d9c>
+  <b582b266-9ada-4197-93a8-800f6cf66d9c>
+    <Name>FLAT_EXPORT</Name>
+    <Value>false</Value>
+  </b582b266-9ada-4197-93a8-800f6cf66d9c>
+  <b582b266-9ada-4197-93a8-800f6cf66d9c>
+    <Name>REPEATING_ATTRIBUTE_DELIMETER_ESCAPE</Name>
+    <Value>;</Value>
+  </b582b266-9ada-4197-93a8-800f6cf66d9c>
+  <b582b266-9ada-4197-93a8-800f6cf66d9c>
+    <Name>REPEATING_ATTRIBUTE_DELIMETER</Name>
+    <Value>|</Value>
+  </b582b266-9ada-4197-93a8-800f6cf66d9c>
   <bb499749-de3d-4c9a-8903-f1286a40334f>
     <Item>351</Item>
     <r_object_id>09035f51828f1d58</r_object_id>
@@ -8955,24 +8975,4 @@
     <r_object_id>090003e980074aad</r_object_id>
     <queue_name>d2c_mass_create_queue</queue_name>
   </_x0037_8dbeb03-4522-4cec-a5d6-fb7501e57d40>
-  <b582b266-9ada-4197-93a8-800f6cf66d9c>
-    <Name>log_level</Name>
-    <Value>0</Value>
-  </b582b266-9ada-4197-93a8-800f6cf66d9c>
-  <b582b266-9ada-4197-93a8-800f6cf66d9c>
-    <Name>RENDITION_PATH_SEPERATOR</Name>
-    <Value>;</Value>
-  </b582b266-9ada-4197-93a8-800f6cf66d9c>
-  <b582b266-9ada-4197-93a8-800f6cf66d9c>
-    <Name>FLAT_EXPORT</Name>
-    <Value>false</Value>
-  </b582b266-9ada-4197-93a8-800f6cf66d9c>
-  <b582b266-9ada-4197-93a8-800f6cf66d9c>
-    <Name>REPEATING_ATTRIBUTE_DELIMETER_ESCAPE</Name>
-    <Value>;</Value>
-  </b582b266-9ada-4197-93a8-800f6cf66d9c>
-  <b582b266-9ada-4197-93a8-800f6cf66d9c>
-    <Name>REPEATING_ATTRIBUTE_DELIMETER</Name>
-    <Value>|</Value>
-  </b582b266-9ada-4197-93a8-800f6cf66d9c>
 </NewDataSet>
