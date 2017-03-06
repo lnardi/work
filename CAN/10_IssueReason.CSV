@@ -1,0 +1,38 @@
+IssueReason_Code;IssueReason_Label
+Approved;Approved
+As Built;As Built
+Cancelled;Cancelled
+Certified;Certified
+Certified Final;Certified Final
+Deferred;Deferred
+Final;Final
+Handover;Handover
+Incorrect;Incorrect
+Information;Information
+Internal Review;Internal Review
+Issued for Action;Issued for Action
+Issued for Client Review;Issued for Client Review
+Issued for Construction;Issued for Construction
+Issued for Construction - with Holds;Issued for Construction - with Holds
+Issued for Detail Design;Issued for Detail Design
+Issued for HAZOP;Issued for HAZOP
+Issued for Permitting;Issued for Permitting
+Issued for Purchase;Issued for Purchase
+Issued for Purchase - with Holds;Issued for Purchase - with Holds
+Issued for Quotation;Issued for Quotation
+Issued for Review;Issued for Review
+Issued for Tender;Issued for Tender
+Issued for Use;Issued for Use
+Not Approved;Not Approved
+Not Started;Not Started
+Pending;Pending
+Pending Collator Update;Pending Collator Update
+Phase 1;Phase 1
+Phase 2;Phase 2
+Preliminary;Preliminary
+Pricing Update;Pricing Update
+Rejected;Rejected
+Signature Approval;Signature Approval
+Squad Check;Squad Check
+Superseded;Superseded
+Void;Void

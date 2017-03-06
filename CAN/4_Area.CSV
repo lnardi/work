@@ -1,0 +1,82 @@
+Area_Code;Area_Label
+010;010 - GENERAL
+211;211 - CON or LIMESTONE STORAGE
+212;212 - CRUSH and GRIND or LIME KILN
+213;213 - WHARF or MARINE
+214;214 - PORT GENERAL
+221;221 - PRESSURE LEACH and UTILITY
+222;222 - LRT or CCD
+223;223 - NEUTRALIZATION
+224;224 - SOLVENT EXTRACTION
+226;226 - NI and CO EW
+227;227 - COPPER EW
+228;228 - WATER TREATMENT
+229;229 - PROCESS PLANT GENERAL
+231;231 - CADMIUM REMOVAL
+241;241 - OXYGEN PLANT
+242;242 - COOLING WATER
+243;243 - SEWAGE TREATMENT
+251;251 - PORT WAREHOUSE (EXISTING )
+252;252 - PORT ADMINISTRATION
+253;253 - WHARF SECURITY KIOSK
+254;254 - MAIN SITE SECURITY
+261;261 - ADMINISTRATION
+262;262 - CHANGE HOUSE
+263;263 - WAREHOUSE or WORKSHOP
+264;264 - CCR or LABORATORY
+271;271 - SANDY POND PUMPHOUSE
+272;272 - RATTLING BROOK PUMPHOUSE
+281;281 - EXTERNAL PIPERACKS PLANT
+282;282 - EXTERNAL PIPERACKS PORT
+311;311 - WATER SUPPLY PIPELINE
+312;312 - SANDY POND PIPELINE
+313;313 - PORT TO PLANT PIPELINE
+411;411 - PORT SITE DEVELOPMENT
+412;412 - PLANT SITE DEVELOPMENT
+413;413 - OFFSITE DEVELOPMENT
+511;511 - 230KV TRANSMISSION LINE
+512;512 - 230KV SUBSTATION
+521;521 - HIGH VOLTAGE POWER ROUTING
+800;800 - Integrated Management System
+801;801 - General Management
+802;802 - Engineering and Project Management
+803;803 - Reliability and Maintenance
+804;804 - Request For Action
+805;805 - Risk Management
+810;810 - Responsible Care Star Point
+811;811 - Emergency Response Planning  for (ERP and HAZMAT)
+812;812 - IH
+813;813 - Safety
+814;814 - Environmental
+815;815 - SafeProduction
+816;816 - JHA
+817;817 - Monthy Safety Meeting
+818;818 - Emergency Response
+819;819 - Process Safety Management
+820;820 - SHEMS
+830;830 - Asset Care Star Point
+831;831 - Training and Progression
+850;850 - Personnel Star Point General
+851;851 - Time off with and without pay
+852;852 - Learning and Development
+853;853 - Communication
+854;854 - Workplace Behaviour
+855;855 - Pay Related Items
+870;870 - Process Star Point
+871;871 - Metals Accounting
+872;872 - KPI's or Dashboards or PI Tags
+873;873 - Sampling
+874;874 - Quality
+875;875 - SOPs
+876;876 - Operations Logs or Reports
+877;877 - Operations Routines
+878;878 - DCS.PCN
+879;879 - Production Planning
+880;880 - Continuous Improvement
+881;881 - Training or CBT
+882;882 - Research
+890;890 - Ops Planning Star Point
+891;891 - Procurement
+892;892 - Cost Management
+893;893 - Document Management
+895;895 - Quality
