@@ -8009,7 +8009,7 @@
   </b582b266-9ada-4197-93a8-800f6cf66d9c>
   <b582b266-9ada-4197-93a8-800f6cf66d9c>
     <Name>RENDITION_PATH_SEPERATOR</Name>
-    <Value>;</Value>
+    <Value>|</Value>
   </b582b266-9ada-4197-93a8-800f6cf66d9c>
   <b582b266-9ada-4197-93a8-800f6cf66d9c>
     <Name>FLAT_EXPORT</Name>
@@ -8017,7 +8017,7 @@
   </b582b266-9ada-4197-93a8-800f6cf66d9c>
   <b582b266-9ada-4197-93a8-800f6cf66d9c>
     <Name>REPEATING_ATTRIBUTE_DELIMETER_ESCAPE</Name>
-    <Value>;</Value>
+    <Value>|</Value>
   </b582b266-9ada-4197-93a8-800f6cf66d9c>
   <b582b266-9ada-4197-93a8-800f6cf66d9c>
     <Name>REPEATING_ATTRIBUTE_DELIMETER</Name>
