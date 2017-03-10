@@ -6,11 +6,6 @@
         <DataType>System.Int16</DataType>
       </Column>
       <Column>
-        <Name>r_object_id</Name>
-        <DataType>System.String</DataType>
-        <Length>50</Length>
-      </Column>
-      <Column>
         <Name>object_name</Name>
         <DataType>System.String</DataType>
         <Length>255</Length>
@@ -186,7 +181,7 @@
       <Column>
         <Name>vale_ca_notes</Name>
         <DataType>System.String</DataType>
-        <Length>4</Length>
+        <Length>512</Length>
       </Column>
       <Column>
         <Name>ao_po_number</Name>
