@@ -256,7 +256,7 @@
           <xs:element name="_x0032_efa29bb-0d66-497e-9de3-5d9500bdeae3">
             <xs:complexType>
               <xs:sequence>
-                <xs:element name="Name" minOccurs="0">
+                <xs:element name="Name">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
                       <xs:maxLength value="255" />
@@ -298,7 +298,13 @@
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
-                <xs:element name="codigo" type="xs:short" minOccurs="0" />
+                <xs:element name="codigo" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
                 <xs:element name="nome" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -335,7 +341,13 @@
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
-                <xs:element name="codigo" type="xs:short" minOccurs="0" />
+                <xs:element name="codigo" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
                 <xs:element name="nome" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -412,7 +424,7 @@
                 <xs:element name="nome" minOccurs="0">
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
-                      <xs:maxLength value="50" />
+                      <xs:maxLength value="250" />
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:element>
@@ -519,6 +531,10 @@
           </xs:element>
         </xs:choice>
       </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//_x0032_efa29bb-0d66-497e-9de3-5d9500bdeae3" />
+        <xs:field xpath="Name" />
+      </xs:unique>
     </xs:element>
   </xs:schema>
   <_x0038_24ed719-554e-4b91-9041-2718dfb0a3a0>
@@ -574,6 +590,11 @@
     <r_object_id>090003e98006edba</r_object_id>
     <object_name>LL - ALEGRIA - MG</object_name>
     <vale_site>LL</vale_site>
+  </d2fd3351-44f6-48f5-8732-8159add7385a>
+  <d2fd3351-44f6-48f5-8732-8159add7385a>
+    <r_object_id>090003e980076ef3</r_object_id>
+    <object_name>KS - CARAJAS SERRA SUL - PA</object_name>
+    <vale_site>KS</vale_site>
   </d2fd3351-44f6-48f5-8732-8159add7385a>
   <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
     <vale_area>50</vale_area>
@@ -6725,6 +6746,106 @@
     <vale_site>LL</vale_site>
     <vale_area>0</vale_area>
   </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980077241</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>10</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980077242</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>20</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980077243</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>60</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980077244</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>70</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980077245</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>40</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980077246</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>80</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980077247</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>00</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980077248</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>30</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980077249</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>50</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98007724a</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>04</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98007724c</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>05</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98007724d</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>08</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98007724e</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>35</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e98007724f</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>91</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980077250</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>92</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980077251</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>93</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980077252</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>94</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980077253</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>95</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980077254</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>98</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+  <_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
+    <r_object_id>090003e980077255</r_object_id>
+    <vale_site>KS</vale_site>
+    <vale_area>99</vale_area>
+  </_x0031_51d8148-86a9-4c0f-a112-cfcdb8a2b78f>
   <c2bc9a35-aaf8-4c50-9678-4c9757dde781>
     <tipo>proj</tipo>
     <tipo_legado>PR</tipo_legado>
@@ -6803,712 +6924,965 @@
   </_x0032_efa29bb-0d66-497e-9de3-5d9500bdeae3>
   <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>1</Item>
-    <r_object_id>08035f51800938c2</r_object_id>
-    <object_name>12 - BRITAGEM</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>12</codigo>
-    <nome>BRITAGEM</nome>
-    <Filename>ll_areas.csv</Filename>
+    <r_object_id>08035f5180003219</r_object_id>
+    <object_name>10 - MINA</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>10</codigo>
+    <nome>MINA</nome>
+    <Filename>KS_AREA.csv</Filename>
   </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
   <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>2</Item>
-    <r_object_id>08035f5180093a14</r_object_id>
-    <object_name>14 - CONCENTRACAO DE MINERIOS</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>14</codigo>
-    <nome>CONCENTRACAO DE MINERIOS</nome>
-    <Filename>ll_areas.csv</Filename>
+    <r_object_id>08035f518000325c</r_object_id>
+    <object_name>20 - USINA DE BENEFICIAMENTO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>20</codigo>
+    <nome>USINA DE BENEFICIAMENTO</nome>
+    <Filename>KS_AREA.csv</Filename>
   </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
   <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>3</Item>
-    <r_object_id>08035f5180093a2c</r_object_id>
-    <object_name>15 - ESTOCAGEM E CARREGAMENTO</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>15</codigo>
-    <nome>ESTOCAGEM E CARREGAMENTO</nome>
-    <Filename>ll_areas.csv</Filename>
+    <r_object_id>08035f5180003550</r_object_id>
+    <object_name>60 - ENERGIA / AUTOMACAO / TI</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>60</codigo>
+    <nome>ENERGIA / AUTOMACAO / TI</nome>
+    <Filename>KS_AREA.csv</Filename>
   </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
   <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>4</Item>
-    <r_object_id>08035f5180093a31</r_object_id>
-    <object_name>16 - INTALACOES DE APOIO INDUSTRIAL</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>16</codigo>
-    <nome>INTALACOES DE APOIO INDUSTRIAL</nome>
-    <Filename>ll_areas.csv</Filename>
+    <r_object_id>08035f5180003596</r_object_id>
+    <object_name>70 - INSTALACAO DE APOIO INDUSTRIAL</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>70</codigo>
+    <nome>INSTALACAO DE APOIO INDUSTRIAL</nome>
+    <Filename>KS_AREA.csv</Filename>
   </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
   <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>5</Item>
-    <r_object_id>08035f51800933ef</r_object_id>
-    <object_name>10 - MINA DE ALEGRIA</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>10</codigo>
-    <nome>MINA DE ALEGRIA</nome>
-    <Filename>ll_areas.csv</Filename>
-  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-    <Item>6</Item>
-    <r_object_id>08035f51800933f1</r_object_id>
-    <object_name>11 - INSTALACOES DE APOIO A LAVRA</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>11</codigo>
-    <nome>INSTALACOES DE APOIO A LAVRA</nome>
-    <Filename>ll_areas.csv</Filename>
-  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-    <Item>7</Item>
-    <r_object_id>08035f51800939f5</r_object_id>
-    <object_name>13 - PENEIRAMENTO / CLASSIFICACAO</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>13</codigo>
-    <nome>PENEIRAMENTO / CLASSIFICACAO</nome>
-    <Filename>ll_areas.csv</Filename>
-  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-    <Item>8</Item>
-    <r_object_id>08035f5180093a43</r_object_id>
-    <object_name>17 - INSTALACAO ADMINISTRATIVAS</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>17</codigo>
-    <nome>INSTALACAO ADMINISTRATIVAS</nome>
-    <Filename>ll_areas.csv</Filename>
-  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-    <Item>9</Item>
-    <r_object_id>08035f5180093a58</r_object_id>
-    <object_name>18 - UTILIDADES</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>18</codigo>
+    <r_object_id>08035f5180003298</r_object_id>
+    <object_name>40 - UTILIDADES</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>40</codigo>
     <nome>UTILIDADES</nome>
-    <Filename>ll_areas.csv</Filename>
+    <Filename>KS_AREA.csv</Filename>
   </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
   <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-    <Item>10</Item>
-    <r_object_id>08035f5180093a71</r_object_id>
-    <object_name>19 - INTERCONEXOES E INTERFERENCIAS</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>19</codigo>
-    <nome>INTERCONEXOES E INTERFERENCIAS</nome>
-    <Filename>ll_areas.csv</Filename>
-  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-    <Item>11</Item>
-    <r_object_id>08035f518023f299</r_object_id>
-    <object_name>00 - COMUM</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>0</codigo>
-    <nome>COMUM</nome>
-    <Filename>ll_areas.csv</Filename>
-  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>101</Item>
-    <r_object_id>08035f5180a4b8c9</r_object_id>
-    <object_name>1451 - CONCENTRACAO DE MINERIOS/MOAGEM SECUNDARIA</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>51</codigo>
-    <nome>MOAGEM SECUNDARIA</nome>
-    <codigo_area>14</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>102</Item>
-    <r_object_id>08035f5180a4b8c8</r_object_id>
-    <object_name>1421 - CONCENTRACAO DE MINERIOS/ADENSAMENTO DE REJEITO</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>21</codigo>
-    <nome>ADENSAMENTO DE REJEITO</nome>
-    <codigo_area>14</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>103</Item>
-    <r_object_id>08035f5180a4b8c6</r_object_id>
-    <object_name>1310 - PENEIRAMENTO / CLASSIFICACAO/PENEIRAMENTO</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>10</codigo>
-    <nome>PENEIRAMENTO</nome>
-    <codigo_area>13</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>104</Item>
-    <r_object_id>08035f5180a4b8cb</r_object_id>
-    <object_name>1481 - CONCENTRACAO DE MINERIOS/FILTRAGEM DE PELLET FEED</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>81</codigo>
-    <nome>FILTRAGEM DE PELLET FEED</nome>
-    <codigo_area>14</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>105</Item>
-    <r_object_id>08035f5180a4b8ca</r_object_id>
-    <object_name>1471 - CONCENTRACAO DE MINERIOS/FILTRAGEM DE REJEITO</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>71</codigo>
-    <nome>FILTRAGEM DE REJEITO</nome>
-    <codigo_area>14</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>106</Item>
-    <r_object_id>08035f51818ced04</r_object_id>
-    <object_name>1211 - BRITAGEM/INSTALACAO BRITAGEM PRIMARIA E SECUNDARIA</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>11</codigo>
-    <nome>INSTALACAO BRITAGEM PRIMARIA E SECUNDARIA</nome>
-    <codigo_area>12</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>107</Item>
-    <r_object_id>08035f51818cedd6</r_object_id>
-    <object_name>1454 - CONCENTRACAO DE MINERIOS/MOAGEM VERTICAL</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>54</codigo>
-    <nome>MOAGEM VERTICAL</nome>
-    <codigo_area>14</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>108</Item>
-    <r_object_id>08035f51818ced74</r_object_id>
-    <object_name>1452 - CONCENTRACAO DE MINERIOS/DESLAMAGEM</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>52</codigo>
-    <nome>DESLAMAGEM</nome>
-    <codigo_area>14</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>109</Item>
-    <r_object_id>08035f51818cedd4</r_object_id>
-    <object_name>1453 - CONCENTRACAO DE MINERIOS/FLOTACAO I</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>53</codigo>
-    <nome>FLOTACAO I</nome>
-    <codigo_area>14</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>110</Item>
-    <r_object_id>08035f51818cedd8</r_object_id>
-    <object_name>1625 - INTALACOES DE APOIO INDUSTRIAL/SE LABORATORIO</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>25</codigo>
-    <nome>SE LABORATORIO</nome>
-    <codigo_area>16</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>111</Item>
-    <r_object_id>08035f51818ced07</r_object_id>
-    <object_name>1271 - BRITAGEM/INSTALACAO BRITAGEM TERCIARIA E PENEIRAMENTO TERCIARIO</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>71</codigo>
-    <nome>INSTALACAO BRITAGEM TERCIARIA E PENEIRAMENTO TERCIARIO</nome>
-    <codigo_area>12</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>112</Item>
-    <r_object_id>08035f51818cee8d</r_object_id>
-    <object_name>1822 - UTILIDADES/RESERVATORIO DE DISTRIBUICAO / MANUSEIO / ETA</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>22</codigo>
-    <nome>RESERVATORIO DE DISTRIBUICAO / MANUSEIO / ETA</nome>
-    <codigo_area>18</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>113</Item>
-    <r_object_id>08035f51818ced03</r_object_id>
-    <object_name>1205 - BRITAGEM/SE BRITAGEM (GERAL)</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>5</codigo>
-    <nome>SE BRITAGEM (GERAL)</nome>
-    <codigo_area>12</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>114</Item>
-    <r_object_id>08035f51818cedd9</r_object_id>
-    <object_name>1655 - INTALACOES DE APOIO INDUSTRIAL/SE POSTO DE MANUTENCAO MECANICA</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>55</codigo>
-    <nome>SE POSTO DE MANUTENCAO MECANICA</nome>
-    <codigo_area>16</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>115</Item>
-    <r_object_id>08035f51818ced6f</r_object_id>
-    <object_name>1405 - CONCENTRACAO DE MINERIOS/SE CONCENTTRACAO DE MINERIOS (GERAL)</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>5</codigo>
-    <nome>SE CONCENTTRACAO DE MINERIOS (GERAL)</nome>
-    <codigo_area>14</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>116</Item>
-    <r_object_id>08035f51818ced70</r_object_id>
-    <object_name>1414 - CONCENTRACAO DE MINERIOS/ESPESSADOR DE LAMAS</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>14</codigo>
-    <nome>ESPESSADOR DE LAMAS</nome>
-    <codigo_area>14</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>117</Item>
-    <r_object_id>08035f51818ced71</r_object_id>
-    <object_name>1415 - CONCENTRACAO DE MINERIOS/ESPESSADOR DE REJEITOS</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>15</codigo>
-    <nome>ESPESSADOR DE REJEITOS</nome>
-    <codigo_area>14</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>118</Item>
-    <r_object_id>08035f51818ced72</r_object_id>
-    <object_name>1416 - CONCENTRACAO DE MINERIOS/ESPESSADOR DE CONCENTRADO</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>16</codigo>
-    <nome>ESPESSADOR DE CONCENTRADO</nome>
-    <codigo_area>14</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>119</Item>
-    <r_object_id>08035f51818ced73</r_object_id>
-    <object_name>1422 - CONCENTRACAO DE MINERIOS/PATIO DE REGULARIZACAO DA MOAGEM</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>22</codigo>
-    <nome>PATIO DE REGULARIZACAO DA MOAGEM</nome>
-    <codigo_area>14</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>120</Item>
-    <r_object_id>08035f51818cee8e</r_object_id>
-    <object_name>1855 - UTILIDADES/SE CAPTACAO BARRAGEM DO BRUMADO</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>55</codigo>
-    <nome>SE CAPTACAO BARRAGEM DO BRUMADO</nome>
-    <codigo_area>18</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>121</Item>
-    <r_object_id>08035f51818cee90</r_object_id>
-    <object_name>1896 - UTILIDADES/SISTEMA DE CAPTACAO DE AGUA RIO PIRACICABA</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>96</codigo>
-    <nome>SISTEMA DE CAPTACAO DE AGUA RIO PIRACICABA</nome>
-    <codigo_area>18</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>122</Item>
-    <r_object_id>08035f51818cee91</r_object_id>
-    <object_name>1897 - UTILIDADES/SE CAPTACAO DE AGUA RIO PIRACICABA</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>97</codigo>
-    <nome>SE CAPTACAO DE AGUA RIO PIRACICABA</nome>
-    <codigo_area>18</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>123</Item>
-    <r_object_id>08035f51818e6f73</r_object_id>
-    <object_name>1661 - INTALACOES DE APOIO INDUSTRIAL/SALA DE CONTROLE IBIII</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>61</codigo>
-    <nome>SALA DE CONTROLE IBIII</nome>
-    <codigo_area>16</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-    <Item>124</Item>
-    <r_object_id>08035f518252441d</r_object_id>
-    <object_name>1885 - UTILIDADES/SUBESTACAO DO SISTEMA REJEITOS</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>85</codigo>
-    <nome>SUBESTACAO DO SISTEMA REJEITOS</nome>
-    <codigo_area>18</codigo_area>
-    <Filename>ll_subareas_3.csv</Filename>
-  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>1</Item>
-    <fase>OPER</fase>
-    <r_object_id>08035f51828eaa53</r_object_id>
-    <object_name>SE-TESTE-MIG/001 - SE- ANDAMENTO - TESTE MIGRACAO</object_name>
-    <ativo>true</ativo>
-    <tipo>SE</tipo>
-    <codigo_site>PZ</codigo_site>
-    <nome>SE- ANDAMENTO - TESTE MIGRACAO</nome>
-    <numero_se>TESTE-MIG/001</numero_se>
-    <data_abertura>2017-02-17T13:19:55-02:00</data_abertura>
-    <responsavel_tecnico>CDE</responsavel_tecnico>
-    <a_status>1</a_status>
-    <Filename>PZ_PROJECT_TEST_2.csv</Filename>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>2</Item>
-    <fase>OPER</fase>
-    <r_object_id>08035f51828eaa54</r_object_id>
-    <object_name>SE-TESTE-MIG/002 - SE- ENCERRADA - TESTE MIGRACAO</object_name>
-    <ativo>true</ativo>
-    <tipo>SE</tipo>
-    <codigo_site>PZ</codigo_site>
-    <nome>SE- ENCERRADA - TESTE MIGRACAO</nome>
-    <numero_se>TESTE-MIG/002</numero_se>
-    <data_abertura>2017-02-17T13:22:15-02:00</data_abertura>
-    <responsavel_tecnico>CDE</responsavel_tecnico>
-    <a_status>2</a_status>
-    <Filename>PZ_PROJECT_TEST_2.csv</Filename>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>3</Item>
-    <fase>OPER</fase>
-    <r_object_id>08035f51828eaa55</r_object_id>
-    <object_name>SE-TESTE-MIG/003 - SE- PARALISADA - TESTE MIGRACAO</object_name>
-    <ativo>true</ativo>
-    <tipo>SE</tipo>
-    <codigo_site>PZ</codigo_site>
-    <nome>SE- PARALISADA - TESTE MIGRACAO</nome>
-    <numero_se>TESTE-MIG/003</numero_se>
-    <data_abertura>2017-02-17T13:23:39-02:00</data_abertura>
-    <responsavel_tecnico>CDE</responsavel_tecnico>
-    <a_status>3</a_status>
-    <Filename>PZ_PROJECT_TEST_2.csv</Filename>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>4</Item>
-    <fase>OPER</fase>
-    <r_object_id>08035f51828eaa56</r_object_id>
-    <object_name>SE-TESTE-MIG/004 - SE- CANCELADA - TESTE MIGRACAO</object_name>
-    <ativo>true</ativo>
-    <tipo>SE</tipo>
-    <codigo_site>PZ</codigo_site>
-    <nome>SE- CANCELADA - TESTE MIGRACAO</nome>
-    <numero_se>TESTE-MIG/004</numero_se>
-    <data_abertura>2017-02-17T13:25:07-02:00</data_abertura>
-    <responsavel_tecnico>CDE</responsavel_tecnico>
-    <a_status>4</a_status>
-    <Filename>PZ_PROJECT_TEST_2.csv</Filename>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
-    <Item>1</Item>
-    <r_object_id>08035f51803ac369</r_object_id>
-    <object_name>QD-1630LL-03</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>30</codigo>
-    <codigo_area>16</codigo_area>
-    <sigla>QD</sigla>
-    <identificacao>3</identificacao>
-    <titulo>QUADRO DE DISTRIBUICAO DE FORCA 480V</titulo>
-    <Filename>ll_tags.csv</Filename>
-  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
-  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
-    <Item>2</Item>
-    <r_object_id>08035f518040438e</r_object_id>
-    <object_name>BP-1630LL-13</object_name>
-    <codigo_site>LL</codigo_site>
-    <codigo>30</codigo>
-    <codigo_area>16</codigo_area>
-    <sigla>BP</sigla>
-    <identificacao>13</identificacao>
-    <titulo>BOMBA DE POLPA</titulo>
-    <Filename>ll_tags.csv</Filename>
-  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-    <Item>1</Item>
-    <tag_antigo>16PP10</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-    <Item>2</Item>
-    <tag_antigo>16PP11</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-    <Item>3</Item>
-    <tag_antigo>16PP12</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-    <Item>4</Item>
-    <tag_antigo>16PP13</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-    <Item>5</Item>
-    <tag_antigo>16PP14</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
     <Item>6</Item>
-    <tag_antigo>16PP15</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <r_object_id>08035f5180003d10</r_object_id>
+    <object_name>80 - INSTALACOES DE SUPORTE A OPERACAO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>80</codigo>
+    <nome>INSTALACOES DE SUPORTE A OPERACAO</nome>
+    <Filename>KS_AREA.csv</Filename>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>7</Item>
-    <tag_antigo>16PP16</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <r_object_id>08035f5180002ac2</r_object_id>
+    <object_name>00 - PROJETO FERRO CARAJAS S11D - GERAL</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>00</codigo>
+    <nome>PROJETO FERRO CARAJAS S11D - GERAL</nome>
+    <Filename>KS_AREA.csv</Filename>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>8</Item>
-    <tag_antigo>16PP17</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <r_object_id>08035f5180003286</r_object_id>
+    <object_name>30 - INFRA-ESTRUTURA</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>30</codigo>
+    <nome>INFRA-ESTRUTURA</nome>
+    <Filename>KS_AREA.csv</Filename>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>9</Item>
-    <tag_antigo>16PP18</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <r_object_id>08035f51800033db</r_object_id>
+    <object_name>50 - SISTEMA DE CONTROLE AMBIENTAL</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>50</codigo>
+    <nome>SISTEMA DE CONTROLE AMBIENTAL</nome>
+    <Filename>KS_AREA.csv</Filename>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>10</Item>
-    <tag_antigo>16PP19</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <r_object_id>08035f518120b9fa</r_object_id>
+    <object_name>04 - PLANTAS DE APOIO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>04</codigo>
+    <nome>PLANTAS DE APOIO</nome>
+    <Filename>KS_AREA.csv</Filename>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>11</Item>
-    <tag_antigo>16PP20</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <r_object_id>08035f518120bd9e</r_object_id>
+    <object_name>05 - SUPORTE A COMUNIDADES LOCAIS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>05</codigo>
+    <nome>SUPORTE A COMUNIDADES LOCAIS</nome>
+    <Filename>KS_AREA.csv</Filename>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>12</Item>
-    <tag_antigo>16PP21</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <r_object_id>08035f518120bda8</r_object_id>
+    <object_name>08 - TRABALHOS DE RESTAURACAO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>08</codigo>
+    <nome>TRABALHOS DE RESTAURACAO</nome>
+    <Filename>KS_AREA.csv</Filename>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>13</Item>
-    <tag_antigo>16PP22</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <r_object_id>08035f518120be1b</r_object_id>
+    <object_name>35 - CANTEIRO - SUDESTE DO PARA</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>35</codigo>
+    <nome>CANTEIRO - SUDESTE DO PARA</nome>
+    <Filename>KS_AREA.csv</Filename>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>14</Item>
-    <tag_antigo>16PP23</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <r_object_id>08035f518120bea3</r_object_id>
+    <object_name>91 - SERVICOS DE GERENCIAMENTO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>91</codigo>
+    <nome>SERVICOS DE GERENCIAMENTO</nome>
+    <Filename>KS_AREA.csv</Filename>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>15</Item>
-    <tag_antigo>16PP24</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <r_object_id>08035f518120becc</r_object_id>
+    <object_name>92 - CONTAS DE DISTRIBUICAO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>92</codigo>
+    <nome>CONTAS DE DISTRIBUICAO</nome>
+    <Filename>KS_AREA.csv</Filename>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>16</Item>
-    <tag_antigo>16PP25</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <r_object_id>08035f518120bedb</r_object_id>
+    <object_name>93 - IMPOSTOS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>93</codigo>
+    <nome>IMPOSTOS</nome>
+    <Filename>KS_AREA.csv</Filename>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>17</Item>
-    <tag_antigo>16PP26</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <r_object_id>08035f518120bee2</r_object_id>
+    <object_name>94 - CUSTOS ESPECIAIS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>94</codigo>
+    <nome>CUSTOS ESPECIAIS</nome>
+    <Filename>KS_AREA.csv</Filename>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>18</Item>
-    <tag_antigo>16PP27</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <r_object_id>08035f518120bee6</r_object_id>
+    <object_name>95 - CUSTOS DE STARTUP</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>95</codigo>
+    <nome>CUSTOS DE STARTUP</nome>
+    <Filename>KS_AREA.csv</Filename>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>19</Item>
-    <tag_antigo>16PP28</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <r_object_id>08035f518120befe</r_object_id>
+    <object_name>98 - CUSTOS DA VALE</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>98</codigo>
+    <nome>CUSTOS DA VALE</nome>
+    <Filename>KS_AREA.csv</Filename>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
     <Item>20</Item>
-    <tag_antigo>16PP29</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-    <Item>21</Item>
-    <tag_antigo>16PP30</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-    <Item>22</Item>
-    <tag_antigo>16PP31</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-    <Item>23</Item>
-    <tag_antigo>16PP32</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-    <Item>24</Item>
-    <tag_antigo>16PP33</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-    <Item>25</Item>
-    <tag_antigo>16PP34</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-    <Item>26</Item>
-    <tag_antigo>16PP35</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-    <Item>27</Item>
-    <tag_antigo>16PP36</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-    <Item>28</Item>
-    <tag_antigo>16PP37</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-    <Item>29</Item>
-    <tag_antigo>16PP38</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-    <Item>30</Item>
-    <tag_antigo>16PP39</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
-    <Item>31</Item>
-    <tag_antigo>16PP40</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
-  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <r_object_id>08035f518120bf0c</r_object_id>
+    <object_name>99 - CONTINGENCIA</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>99</codigo>
+    <nome>CONTINGENCIA</nome>
+    <Filename>KS_AREA.csv</Filename>
+  </_x0038_ee65cb6-6eac-4f3f-b2ce-640865a970ff>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>151</Item>
+    <r_object_id>08035f518120be11</r_object_id>
+    <object_name>3024 - INFRA-ESTRUTURA/MELHORIAS DA ESTRADA DE SOSSEGO ATE A USINA</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>24</codigo>
+    <nome>MELHORIAS DA ESTRADA DE SOSSEGO ATE A USINA</nome>
+    <codigo_area>30</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>152</Item>
+    <r_object_id>08035f518120be14</r_object_id>
+    <object_name>3041 - INFRA-ESTRUTURA/ESTRADAS DE ACESSO VILA FEITOSA/CEDERE III/SOSSEGO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>41</codigo>
+    <nome>ESTRADAS DE ACESSO VILA FEITOSA/CEDERE III/SOSSEGO</nome>
+    <codigo_area>30</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>153</Item>
+    <r_object_id>08035f518120be16</r_object_id>
+    <object_name>3042 - INFRA-ESTRUTURA/RODOVIA DE ACESSO NORTE</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>42</codigo>
+    <nome>RODOVIA DE ACESSO NORTE</nome>
+    <codigo_area>30</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>154</Item>
+    <r_object_id>08035f518120be18</r_object_id>
+    <object_name>3043 - INFRA-ESTRUTURA/ACESSO PA150 A CANAA DOS CARAJAS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>43</codigo>
+    <nome>ACESSO PA150 A CANAA DOS CARAJAS</nome>
+    <codigo_area>30</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>155</Item>
+    <r_object_id>08035f518120be1d</r_object_id>
+    <object_name>3510 - CANTEIRO - SUDESTE DO PARA/ESCRITORIOS DE GERENCIAMENTO DE CONSTRUCAO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>10</codigo>
+    <nome>ESCRITORIOS DE GERENCIAMENTO DE CONSTRUCAO</nome>
+    <codigo_area>35</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>156</Item>
+    <r_object_id>08035f518120be1f</r_object_id>
+    <object_name>3520 - CANTEIRO - SUDESTE DO PARA/INFRAESTRUTURA PROVISORIA DE GERENCIAMENTO DE CONSTRUCAO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>20</codigo>
+    <nome>INFRAESTRUTURA PROVISORIA DE GERENCIAMENTO DE CONSTRUCAO</nome>
+    <codigo_area>35</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>157</Item>
+    <r_object_id>08035f518120be24</r_object_id>
+    <object_name>3530 - CANTEIRO - SUDESTE DO PARA/CONSTRUCOES PROVISORIAS PARA A PLANTA DE BENEFICIACAO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>30</codigo>
+    <nome>CONSTRUCOES PROVISORIAS PARA A PLANTA DE BENEFICIACAO</nome>
+    <codigo_area>35</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>158</Item>
+    <r_object_id>08035f518120be26</r_object_id>
+    <object_name>3540 - CANTEIRO - SUDESTE DO PARA/CONSTRUCOES PROVISORIAS PARA AREA PRE-MONTAGEM</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>40</codigo>
+    <nome>CONSTRUCOES PROVISORIAS PARA AREA PRE-MONTAGEM</nome>
+    <codigo_area>35</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>159</Item>
+    <r_object_id>08035f518120be28</r_object_id>
+    <object_name>3550 - CANTEIRO - SUDESTE DO PARA/AREA DE PRE-MONTAGEM</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>50</codigo>
+    <nome>AREA DE PRE-MONTAGEM</nome>
+    <codigo_area>35</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>160</Item>
+    <r_object_id>08035f518120be2a</r_object_id>
+    <object_name>3560 - CANTEIRO - SUDESTE DO PARA/INFRAESTRUTURA PARA TRANSPORTE DOS MODULOS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>60</codigo>
+    <nome>INFRAESTRUTURA PARA TRANSPORTE DOS MODULOS</nome>
+    <codigo_area>35</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>161</Item>
+    <r_object_id>08035f518120be2c</r_object_id>
+    <object_name>3570 - CANTEIRO - SUDESTE DO PARA/PORTARIA DO CANTEIRO SUDESTE DO PARA</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>70</codigo>
+    <nome>PORTARIA DO CANTEIRO SUDESTE DO PARA</nome>
+    <codigo_area>35</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>162</Item>
+    <r_object_id>08035f518120be2f</r_object_id>
+    <object_name>3580 - CANTEIRO - SUDESTE DO PARA/CMD, ETEQ E ATERRO SANITARIO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>80</codigo>
+    <nome>CMD, ETEQ E ATERRO SANITARIO</nome>
+    <codigo_area>35</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>163</Item>
+    <r_object_id>08035f518120be71</r_object_id>
+    <object_name>5090 - SISTEMA DE CONTROLE AMBIENTAL/APOIO ADMINISTRATIVO DO CMD</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>90</codigo>
+    <nome>APOIO ADMINISTRATIVO DO CMD</nome>
+    <codigo_area>50</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>164</Item>
+    <r_object_id>08035f518120be73</r_object_id>
+    <object_name>5095 - SISTEMA DE CONTROLE AMBIENTAL/AREAS EXTERNAS DO CMD</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>95</codigo>
+    <nome>AREAS EXTERNAS DO CMD</nome>
+    <codigo_area>50</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>165</Item>
+    <r_object_id>08035f518120be78</r_object_id>
+    <object_name>6011 - ENERGIA / AUTOMACAO / TI/LINHA DE TRANSMISSAO PARA MINA - TRUCKLESS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>11</codigo>
+    <nome>LINHA DE TRANSMISSAO PARA MINA - TRUCKLESS</nome>
+    <codigo_area>60</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>166</Item>
+    <r_object_id>08035f518120be7b</r_object_id>
+    <object_name>6021 - ENERGIA / AUTOMACAO / TI/SUBESTACAO PRINCIPAL PARA MINA - TRUCKLESS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>21</codigo>
+    <nome>SUBESTACAO PRINCIPAL PARA MINA - TRUCKLESS</nome>
+    <codigo_area>60</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>167</Item>
+    <r_object_id>08035f518120be8a</r_object_id>
+    <object_name>6041 - ENERGIA / AUTOMACAO / TI/SISTEMA DE DISTRIBUICAO DE ENERGIA PARA MINA - TRUCKLESS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>41</codigo>
+    <nome>SISTEMA DE DISTRIBUICAO DE ENERGIA PARA MINA - TRUCKLESS</nome>
+    <codigo_area>60</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>168</Item>
+    <r_object_id>08035f518120bea6</r_object_id>
+    <object_name>9110 - SERVICOS DE GERENCIAMENTO/GERENCIAMENTO &amp; ADMINISTRACAO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>10</codigo>
+    <nome>GERENCIAMENTO &amp; ADMINISTRACAO</nome>
+    <codigo_area>91</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>169</Item>
+    <r_object_id>08035f518120bea8</r_object_id>
+    <object_name>9120 - SERVICOS DE GERENCIAMENTO/CONTROLE DE PROJETO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>20</codigo>
+    <nome>CONTROLE DE PROJETO</nome>
+    <codigo_area>91</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>170</Item>
+    <r_object_id>08035f518120beaa</r_object_id>
+    <object_name>9130 - SERVICOS DE GERENCIAMENTO/ENGENHARIA</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>30</codigo>
+    <nome>ENGENHARIA</nome>
+    <codigo_area>91</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>171</Item>
+    <r_object_id>08035f518120beb6</r_object_id>
+    <object_name>9140 - SERVICOS DE GERENCIAMENTO/SUPRIMENTO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>40</codigo>
+    <nome>SUPRIMENTO</nome>
+    <codigo_area>91</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>172</Item>
+    <r_object_id>08035f518120beb8</r_object_id>
+    <object_name>9150 - SERVICOS DE GERENCIAMENTO/GERENCIAMENTO CONSTRUCAO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>50</codigo>
+    <nome>GERENCIAMENTO CONSTRUCAO</nome>
+    <codigo_area>91</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>173</Item>
+    <r_object_id>08035f518120beba</r_object_id>
+    <object_name>9160 - SERVICOS DE GERENCIAMENTO/PRE-COMISSIONAMENTO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>60</codigo>
+    <nome>PRE-COMISSIONAMENTO</nome>
+    <codigo_area>91</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>174</Item>
+    <r_object_id>08035f518120bebc</r_object_id>
+    <object_name>9170 - SERVICOS DE GERENCIAMENTO/OUTROS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>70</codigo>
+    <nome>OUTROS</nome>
+    <codigo_area>91</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>175</Item>
+    <r_object_id>08035f518120bebe</r_object_id>
+    <object_name>9180 - SERVICOS DE GERENCIAMENTO/OUTROS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>80</codigo>
+    <nome>OUTROS</nome>
+    <codigo_area>91</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>176</Item>
+    <r_object_id>08035f518120beca</r_object_id>
+    <object_name>9190 - SERVICOS DE GERENCIAMENTO/DESPESAS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>90</codigo>
+    <nome>DESPESAS</nome>
+    <codigo_area>91</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>177</Item>
+    <r_object_id>08035f518120bece</r_object_id>
+    <object_name>9210 - CONTAS DE DISTRIBUICAO/MOBILIZACAO / DESMOBILIZACAO DE EMPREITEIRAS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>10</codigo>
+    <nome>MOBILIZACAO / DESMOBILIZACAO DE EMPREITEIRAS</nome>
+    <codigo_area>92</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>178</Item>
+    <r_object_id>08035f518120bed0</r_object_id>
+    <object_name>9220 - CONTAS DE DISTRIBUICAO/TRANSPORTE</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>20</codigo>
+    <nome>TRANSPORTE</nome>
+    <codigo_area>92</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>179</Item>
+    <r_object_id>08035f518120bed2</r_object_id>
+    <object_name>9230 - CONTAS DE DISTRIBUICAO/FIANCAS &amp; SEGUROS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>30</codigo>
+    <nome>FIANCAS &amp; SEGUROS</nome>
+    <codigo_area>92</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>180</Item>
+    <r_object_id>08035f518120bed5</r_object_id>
+    <object_name>9240 - CONTAS DE DISTRIBUICAO/LIBERACAO DE ALFANDEGA</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>40</codigo>
+    <nome>LIBERACAO DE ALFANDEGA</nome>
+    <codigo_area>92</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>181</Item>
+    <r_object_id>08035f518120bed7</r_object_id>
+    <object_name>9250 - CONTAS DE DISTRIBUICAO/VARIACOES MONETARIAS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>50</codigo>
+    <nome>VARIACOES MONETARIAS</nome>
+    <codigo_area>92</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>182</Item>
+    <r_object_id>08035f518120bed9</r_object_id>
+    <object_name>9260 - CONTAS DE DISTRIBUICAO/REAJUSTE DE PRECOS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>60</codigo>
+    <nome>REAJUSTE DE PRECOS</nome>
+    <codigo_area>92</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>183</Item>
+    <r_object_id>08035f518120bedd</r_object_id>
+    <object_name>9310 - IMPOSTOS/IMPOSTOS LOCAIS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>10</codigo>
+    <nome>IMPOSTOS LOCAIS</nome>
+    <codigo_area>93</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>184</Item>
+    <r_object_id>08035f518120bee0</r_object_id>
+    <object_name>9320 - IMPOSTOS/IMPOSTOS DE IMPORTACAO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>20</codigo>
+    <nome>IMPOSTOS DE IMPORTACAO</nome>
+    <codigo_area>93</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>185</Item>
+    <r_object_id>08035f518120bee4</r_object_id>
+    <object_name>9410 - CUSTOS ESPECIAIS/CUSTO DE SAUDE E SEGURANCA ALEM DA LEGISLACAO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>10</codigo>
+    <nome>CUSTO DE SAUDE E SEGURANCA ALEM DA LEGISLACAO</nome>
+    <codigo_area>94</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>186</Item>
+    <r_object_id>08035f518120bee8</r_object_id>
+    <object_name>9510 - CUSTOS DE STARTUP/ASSISTENCIA DE VENDEDORES</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>10</codigo>
+    <nome>ASSISTENCIA DE VENDEDORES</nome>
+    <codigo_area>95</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>187</Item>
+    <r_object_id>08035f518120befc</r_object_id>
+    <object_name>9520 - CUSTOS DE STARTUP/PECAS SOBRESSALENTES</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>20</codigo>
+    <nome>PECAS SOBRESSALENTES</nome>
+    <codigo_area>95</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>188</Item>
+    <r_object_id>08035f518120bf00</r_object_id>
+    <object_name>9810 - CUSTOS DA VALE/OVERHEAD DA VALE</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>10</codigo>
+    <nome>OVERHEAD DA VALE</nome>
+    <codigo_area>98</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>189</Item>
+    <r_object_id>08035f518120bf02</r_object_id>
+    <object_name>9820 - CUSTOS DA VALE/SEGUROS DA VALE</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>20</codigo>
+    <nome>SEGUROS DA VALE</nome>
+    <codigo_area>98</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>190</Item>
+    <r_object_id>08035f518120bf04</r_object_id>
+    <object_name>9830 - CUSTOS DA VALE/LICENCIAMENTO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>30</codigo>
+    <nome>LICENCIAMENTO</nome>
+    <codigo_area>98</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>191</Item>
+    <r_object_id>08035f518120bf06</r_object_id>
+    <object_name>9840 - CUSTOS DA VALE/COMPENSACOES SOCIAIS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>40</codigo>
+    <nome>COMPENSACOES SOCIAIS</nome>
+    <codigo_area>98</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>192</Item>
+    <r_object_id>08035f518120bf08</r_object_id>
+    <object_name>9870 - CUSTOS DA VALE/PRE-OPERACAO DA VALE</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>70</codigo>
+    <nome>PRE-OPERACAO DA VALE</nome>
+    <codigo_area>98</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>193</Item>
+    <r_object_id>08035f518120bf0a</r_object_id>
+    <object_name>9880 - CUSTOS DA VALE/AQUISICAO DE TERRAS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>80</codigo>
+    <nome>AQUISICAO DE TERRAS</nome>
+    <codigo_area>98</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>194</Item>
+    <r_object_id>08035f518120bf0e</r_object_id>
+    <object_name>9910 - CONTINGENCIA/CONTINGENCIA</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>10</codigo>
+    <nome>CONTINGENCIA</nome>
+    <codigo_area>99</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>195</Item>
+    <r_object_id>08035f51813b418b</r_object_id>
+    <object_name>3060 - INFRA-ESTRUTURA/RAMAL FERROVIARIO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>60</codigo>
+    <nome>RAMAL FERROVIARIO</nome>
+    <codigo_area>30</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>196</Item>
+    <r_object_id>08035f5181923f31</r_object_id>
+    <object_name>1015 - MINA/TERRAPLENAGEM DE GRANDE PORTE</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>15</codigo>
+    <nome>TERRAPLENAGEM DE GRANDE PORTE</nome>
+    <codigo_area>10</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>197</Item>
+    <r_object_id>08035f518289165a</r_object_id>
+    <object_name>2071 - USINA DE BENEFICIAMENTO/POSTO AVANCADO DE LUBRIFICACAO</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>71</codigo>
+    <nome>POSTO AVANCADO DE LUBRIFICACAO</nome>
+    <codigo_area>20</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+    <Item>198</Item>
+    <r_object_id>08035f51828d1a98</r_object_id>
+    <object_name>1077 - MINA/OFICINA DE AFIACAO DE BITS</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>77</codigo>
+    <nome>OFICINA DE AFIACAO DE BITS</nome>
+    <codigo_area>10</codigo_area>
+    <Filename>KS_SUBAREA_4.csv</Filename>
+  </_x0034_7ba1a45-418a-408a-84ca-c1079d9526bb>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>1</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f5180002a8a</r_object_id>
+    <object_name>N1030-01 - PROJETO FERRO CARAJAS S11D</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>N</sigla_segmento_negocio>
+    <numero_projeto>1030</numero_projeto>
+    <numero_sequencial>01</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>KS</codigo_site>
+    <nome>PROJETO FERRO CARAJAS S11D</nome>
+    <area_responsavel>DISF</area_responsavel>
+    <a_status>1</a_status>
+    <Filename>KS_PROJETOS.csv</Filename>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>2</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f51828d876c</r_object_id>
+    <object_name>N1299 - ADEQUACAO DO RESTAURANTE CENTRAL</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>N</sigla_segmento_negocio>
+    <numero_projeto>1299</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KS</codigo_site>
+    <nome>ADEQUACAO DO RESTAURANTE CENTRAL</nome>
+    <area_responsavel>DIIC/GEEIC</area_responsavel>
+    <a_status>1</a_status>
+    <Filename>KS_PROJETOS.csv</Filename>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>3</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f51828d876e</r_object_id>
+    <object_name>N1303 - LAVADOR RODAS VEICULOS MINA USINA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>N</sigla_segmento_negocio>
+    <numero_projeto>1303</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KS</codigo_site>
+    <nome>LAVADOR RODAS VEICULOS MINA USINA</nome>
+    <area_responsavel>DIIC/GEEIC</area_responsavel>
+    <a_status>1</a_status>
+    <Filename>KS_PROJETOS.csv</Filename>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>4</Item>
+    <fase>FEL3</fase>
+    <r_object_id>08035f5180002a8a</r_object_id>
+    <object_name>N1030-01 - PROJETO FERRO CARAJAS S11D</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>N</sigla_segmento_negocio>
+    <numero_projeto>1030</numero_projeto>
+    <numero_sequencial>01</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>KS</codigo_site>
+    <nome>PROJETO FERRO CARAJAS S11D</nome>
+    <area_responsavel>DISF</area_responsavel>
+    <a_status>1</a_status>
+    <Filename>KS_PROJETOS.csv</Filename>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>5</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f51828d11bb</r_object_id>
+    <object_name>N1306 - OFICINA DE SINALIZACAO</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>N</sigla_segmento_negocio>
+    <numero_projeto>1306</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KS</codigo_site>
+    <nome>OFICINA DE SINALIZACAO</nome>
+    <area_responsavel>DIIC/GEEIC</area_responsavel>
+    <a_status>1</a_status>
+    <Filename>KS_PROJETOS.csv</Filename>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>6</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f5180002a8a</r_object_id>
+    <object_name>N1030-01 - PROJETO FERRO CARAJAS S11D</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>N</sigla_segmento_negocio>
+    <numero_projeto>1030</numero_projeto>
+    <numero_sequencial>01</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>KS</codigo_site>
+    <nome>PROJETO FERRO CARAJAS S11D</nome>
+    <area_responsavel>DISF</area_responsavel>
+    <a_status>1</a_status>
+    <Filename>KS_PROJETOS.csv</Filename>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>7</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f518145e972</r_object_id>
+    <object_name>N1030-03 - ELABORACAO DE ESTUDOS TEORICOS DE VIBRACOES NO ENTORNO DAS LAGOAS DO AMENDOIM E VIOLAO</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>N</sigla_segmento_negocio>
+    <numero_projeto>1030</numero_projeto>
+    <numero_sequencial>03</numero_sequencial>
+    <tipo>PR</tipo>
+    <codigo_site>KS</codigo_site>
+    <nome>ELABORACAO DE ESTUDOS TEORICOS DE VIBRACOES NO ENTORNO DAS LAGOAS DO AMENDOIM E VIOLAO</nome>
+    <area_responsavel>DIPF / GEEGF / GAGFF</area_responsavel>
+    <a_status>1</a_status>
+    <Filename>KS_PROJETOS.csv</Filename>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>8</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f518289165b</r_object_id>
+    <object_name>N1309 - POSTO AVANCADO LUBRIFICACAO DA USINA</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>N</sigla_segmento_negocio>
+    <numero_projeto>1309</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KS</codigo_site>
+    <nome>POSTO AVANCADO LUBRIFICACAO DA USINA</nome>
+    <area_responsavel>DIIC - GEEIC - GAPCF</area_responsavel>
+    <a_status>1</a_status>
+    <Filename>KS_PROJETOS.csv</Filename>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>9</Item>
+    <fase>CONS</fase>
+    <r_object_id>08035f51826c6fad</r_object_id>
+    <object_name>N1032 - S11D-MEDIDAS CORRETIVAS DIQUE 1 E 3 - TGP</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>N</sigla_segmento_negocio>
+    <numero_projeto>1032</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KS</codigo_site>
+    <nome>S11D-MEDIDAS CORRETIVAS DIQUE 1 E 3 - TGP</nome>
+    <area_responsavel>DIPF-GAGFF</area_responsavel>
+    <a_status>1</a_status>
+    <Filename>KS_PROJETOS.csv</Filename>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+    <Item>10</Item>
+    <fase>FEL2</fase>
+    <r_object_id>08035f51828d11b7</r_object_id>
+    <object_name>N1300 - OFICINA DE AFIACAO</object_name>
+    <ativo>true</ativo>
+    <sigla_segmento_negocio>N</sigla_segmento_negocio>
+    <numero_projeto>1300</numero_projeto>
+    <tipo>PR</tipo>
+    <codigo_site>KS</codigo_site>
+    <nome>OFICINA DE AFIACAO</nome>
+    <area_responsavel>DIIC/GEEIC</area_responsavel>
+    <a_status>1</a_status>
+    <Filename>KS_PROJETOS.csv</Filename>
+  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>1</Item>
+    <r_object_id>08035f51822a341a</r_object_id>
+    <object_name>CV-8035KS-02</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>35</codigo>
+    <codigo_area>80</codigo_area>
+    <sigla>CV</sigla>
+    <identificacao>2</identificacao>
+    <titulo>VEICULOS COMBATE INCENDIO</titulo>
+    <Filename>KS_TAGS.csv</Filename>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+  <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
+    <Item>2</Item>
+    <r_object_id>08035f51822a3419</r_object_id>
+    <object_name>CV-8035KS-01</object_name>
+    <codigo_site>KS</codigo_site>
+    <codigo>35</codigo>
+    <codigo_area>80</codigo_area>
+    <sigla>CV</sigla>
+    <identificacao>1</identificacao>
+    <titulo>VEICULOS COMBATE INCENDIO</titulo>
+    <Filename>KS_TAGS.csv</Filename>
+  </_x0039_4281bc2-f472-49f5-bcea-29325253179c>
   <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
     <Item>32</Item>
-    <tag_antigo>16PP41</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
+    <tag_antigo>SISTEMA CARREGAMENTO VAGOES</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
   </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
   <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
     <Item>33</Item>
-    <tag_antigo>16PP42</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
+    <tag_antigo>SISTEMA COMUNICACAO</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
   </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
   <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
     <Item>34</Item>
-    <tag_antigo>16PP43</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
+    <tag_antigo>SISTEMA DE AUTOMACAO</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
   </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
   <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
     <Item>35</Item>
-    <tag_antigo>16PP7</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
+    <tag_antigo>SISTEMA DE CARREGAMENTO DE VAGOES</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
   </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
   <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
     <Item>36</Item>
-    <tag_antigo>16PP8</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
+    <tag_antigo>SISTEMA DE COMUNICACAO</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
   </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
   <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
     <Item>37</Item>
-    <tag_antigo>16PP9</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
+    <tag_antigo>SISTEMA DE EXAUSTAO</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
   </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
   <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
     <Item>38</Item>
-    <tag_antigo>1PP7</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
+    <tag_antigo>SISTEMA MONITORAMENTO</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
   </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
   <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
     <Item>39</Item>
-    <tag_antigo>ALTERADO</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
+    <tag_antigo>SISTEMA TELECOMUNICACOES</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
   </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
   <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
     <Item>40</Item>
-    <tag_antigo>TAGANTIGO001</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
+    <tag_antigo>SUBESTACAO INTEGRADORA</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
   </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
   <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
     <Item>41</Item>
-    <tag_antigo>TAGANTIGO004</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
+    <tag_antigo>SUBESTACAO PRINCIPAL</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
   </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
   <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
     <Item>42</Item>
-    <tag_antigo>TAGANTIGO005</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
+    <tag_antigo>SUBESTACAO PRINCIPAL - TRUCKESS</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
   </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
   <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
     <Item>43</Item>
-    <tag_antigo>TAGANTIGO006</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
+    <tag_antigo>SUBESTACAO PRINCIPAL - TRUCKLES</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
   </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
   <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
     <Item>44</Item>
-    <tag_antigo>TAGANTIGO007</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
+    <tag_antigo>SUBESTACAO PRINCIPAL - TRUCKLESS</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
   </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
   <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
     <Item>45</Item>
-    <tag_antigo>TAGANTIGO008</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
+    <tag_antigo>SUBESTACAO SECUNDARIA</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
   </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
   <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
     <Item>46</Item>
-    <tag_antigo>TAGANTIGO009</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
+    <tag_antigo>TALHA</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
   </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
   <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
     <Item>47</Item>
-    <tag_antigo>TAGANTIGO010</tag_antigo>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
+    <tag_antigo>TRANSPORTADOR</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
   </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
   <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
     <Item>48</Item>
-    <codigo_site>PZ</codigo_site>
-    <Filename>pz_tag_Antigo_1.csv</Filename>
+    <tag_antigo>TRANSPORTADOR DE CORREIA</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>49</Item>
+    <tag_antigo>TRANSPORTADOR MOVEL</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>50</Item>
+    <tag_antigo>TRANSPORTADORES</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>51</Item>
+    <tag_antigo>VALVULAS GUILHOTINA</tag_antigo>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
+  </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+  <_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
+    <Item>52</Item>
+    <codigo_site>KS</codigo_site>
+    <Filename>KS_TAGS_ANTIGOS_2.csv</Filename>
   </_x0033_fa13dbc-4d05-4a82-9014-7bd86f5167e4>
 </NewDataSet>

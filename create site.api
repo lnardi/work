@@ -6,230 +6,229 @@ Script para criação de Site
 ---------------------------------------
 create,c,dm_group
 set,c,l,group_name
-enggr_normativo_site_ll
+enggr_normativo_site_ks
 set,c,l,group_admin
 admingroup
 save,c,l
 
 create,c,dm_group
 set,c,l,group_name
-enggr_membros_site_ll
+enggr_membros_site_ks
 set,c,l,group_admin
 admingroup
 save,c,l
 
 create,c,dm_group
 set,c,l,group_name
-vale_eng_create_ll
+vale_eng_create_ks
 set,c,l,group_admin
-enggr_normativo_site_ll
+enggr_normativo_site_ks
 set,c,l,group_class
 role
 set,c,l,group_source
-ll
+ks
 save,c,l
 
 create,c,dm_group
 set,c,l,group_name
-vale_ll_security_delete_restrict
+vale_ks_security_delete_restrict
 set,c,l,group_admin
-enggr_normativo_site_ll
+enggr_normativo_site_ks
 set,c,l,group_source
-ll
+ks
 save,c,l
 
 create,c,dm_group
 set,c,l,group_name
-vale_ll_security_delete_internal
+vale_ks_security_delete_internal
 set,c,l,group_admin
-enggr_normativo_site_ll
+enggr_normativo_site_ks
 set,c,l,group_source
-ll
+ks
 save,c,l
 
 create,c,dm_group
 set,c,l,group_name
-vale_ll_security_write_restrict
+vale_ks_security_write_restrict
 set,c,l,group_admin
-enggr_normativo_site_ll
+enggr_normativo_site_ks
 set,c,l,group_source
-ll
+ks
 save,c,l
 
 create,c,dm_group
 set,c,l,group_name
-vale_ll_security_write_internal
+vale_ks_security_write_internal
 set,c,l,group_admin
-enggr_normativo_site_ll
+enggr_normativo_site_ks
 set,c,l,group_source
-ll
-save,c,l
-
-
-create,c,dm_group
-set,c,l,group_name
-vale_ll_security_review_restrict
-set,c,l,group_admin
-enggr_normativo_site_ll
-set,c,l,group_source
-ll
-save,c,l
-
-create,c,dm_group
-set,c,l,group_name
-vale_ll_security_review_internal
-set,c,l,group_admin
-enggr_normativo_site_ll
-set,c,l,group_source
-ll
-save,c,l
-
-create,c,dm_group
-set,c,l,group_name
-vale_ll_security_down_full_restrict
-set,c,l,group_admin
-enggr_normativo_site_ll
-set,c,l,group_source
-ll
-save,c,l
-
-create,c,dm_group
-set,c,l,group_name
-vale_ll_security_down_full_internal
-set,c,l,group_admin
-enggr_normativo_site_ll
-set,c,l,group_source
-ll
+ks
 save,c,l
 
 
 create,c,dm_group
 set,c,l,group_name
-vale_ll_security_down_basic_restrict
+vale_ks_security_review_restrict
 set,c,l,group_admin
-enggr_normativo_site_ll
+enggr_normativo_site_ks
 set,c,l,group_source
-ll
+ks
 save,c,l
 
 create,c,dm_group
 set,c,l,group_name
-vale_ll_security_down_basic_internal
+vale_ks_security_review_internal
 set,c,l,group_admin
-enggr_normativo_site_ll
+enggr_normativo_site_ks
 set,c,l,group_source
-ll
-save,c,l
-
-
-create,c,dm_group
-set,c,l,group_name
-vale_ll_security_pdf_full_restrict
-set,c,l,group_admin
-enggr_normativo_site_ll
-set,c,l,group_source
-ll
+ks
 save,c,l
 
 create,c,dm_group
 set,c,l,group_name
-vale_ll_security_pdf_full_internal
+vale_ks_security_down_fuks_restrict
 set,c,l,group_admin
-enggr_normativo_site_ll
+enggr_normativo_site_ks
 set,c,l,group_source
-ll
+ks
 save,c,l
 
 create,c,dm_group
 set,c,l,group_name
-vale_ll_security_pdf_mid_restrict
+vale_ks_security_down_fuks_internal
 set,c,l,group_admin
-enggr_normativo_site_ll
+enggr_normativo_site_ks
 set,c,l,group_source
-ll
-save,c,l
-
-create,c,dm_group
-set,c,l,group_name
-vale_ll_security_pdf_mid_internal
-set,c,l,group_admin
-enggr_normativo_site_ll
-set,c,l,group_source
-ll
+ks
 save,c,l
 
 
 create,c,dm_group
 set,c,l,group_name
-vale_ll_security_pdf_basic_restrict
+vale_ks_security_down_basic_restrict
 set,c,l,group_admin
-enggr_normativo_site_ll
+enggr_normativo_site_ks
 set,c,l,group_source
-ll
+ks
 save,c,l
 
 create,c,dm_group
 set,c,l,group_name
-vale_ll_security_pdf_basic_internal
+vale_ks_security_down_basic_internal
 set,c,l,group_admin
-enggr_normativo_site_ll
+enggr_normativo_site_ks
 set,c,l,group_source
-ll
-save,c,l
-
-
-create,c,dm_group
-set,c,l,group_name
-vale_ll_security_view_full_restrict
-set,c,l,group_admin
-enggr_normativo_site_ll
-set,c,l,group_source
-ll
-save,c,l
-
-create,c,dm_group
-set,c,l,group_name
-vale_ll_security_view_full_internal
-set,c,l,group_admin
-enggr_normativo_site_ll
-set,c,l,group_source
-ll
+ks
 save,c,l
 
 
 create,c,dm_group
 set,c,l,group_name
-vale_ll_security_view_basic_restrict
+vale_ks_security_pdf_fuks_restrict
 set,c,l,group_admin
-enggr_normativo_site_ll
+enggr_normativo_site_ks
 set,c,l,group_source
-ll
+ks
 save,c,l
 
 create,c,dm_group
 set,c,l,group_name
-vale_ll_security_view_basic_internal
+vale_ks_security_pdf_fuks_internal
 set,c,l,group_admin
-enggr_normativo_site_ll
+enggr_normativo_site_ks
 set,c,l,group_source
-ll
+ks
+save,c,l
+
+create,c,dm_group
+set,c,l,group_name
+vale_ks_security_pdf_mid_restrict
+set,c,l,group_admin
+enggr_normativo_site_ks
+set,c,l,group_source
+ks
+save,c,l
+
+create,c,dm_group
+set,c,l,group_name
+vale_ks_security_pdf_mid_internal
+set,c,l,group_admin
+enggr_normativo_site_ks
+set,c,l,group_source
+ks
+save,c,l
+
+
+create,c,dm_group
+set,c,l,group_name
+vale_ks_security_pdf_basic_restrict
+set,c,l,group_admin
+enggr_normativo_site_ks
+set,c,l,group_source
+ks
+save,c,l
+
+create,c,dm_group
+set,c,l,group_name
+vale_ks_security_pdf_basic_internal
+set,c,l,group_admin
+enggr_normativo_site_ks
+set,c,l,group_source
+ks
+save,c,l
+
+
+create,c,dm_group
+set,c,l,group_name
+vale_ks_security_view_fuks_restrict
+set,c,l,group_admin
+enggr_normativo_site_ks
+set,c,l,group_source
+ks
+save,c,l
+
+create,c,dm_group
+set,c,l,group_name
+vale_ks_security_view_fuks_internal
+set,c,l,group_admin
+enggr_normativo_site_ks
+set,c,l,group_source
+ks
+save,c,l
+
+
+create,c,dm_group
+set,c,l,group_name
+vale_ks_security_view_basic_restrict
+set,c,l,group_admin
+enggr_normativo_site_ks
+set,c,l,group_source
+ks
+save,c,l
+
+create,c,dm_group
+set,c,l,group_name
+vale_ks_security_view_basic_internal
+set,c,l,group_admin
+enggr_normativo_site_ks
+set,c,l,group_source
+ks
 save,c,l
 
 ------------------------------------------------------------------------
-ALTER GROUP vale_eng_normativos_site ADD enggr_normativo_site_ll
+ALTER GROUP vale_eng_normativos_site ADD enggr_normativo_site_ks
 GO
-ALTER GROUP vale_eng_membros_site ADD enggr_membros_site_ll
+ALTER GROUP vale_eng_membros_site ADD enggr_membros_site_ks
 GO
-ALTER GROUP vale_eng_create ADD vale_eng_create_ll
+ALTER GROUP vale_eng_create ADD vale_eng_create_ks
 GO
-------------------------------------------------------------------------
-ALTER GROUP enggr_membros_site_ll ADD (SELECT group_name FROM dm_group WHERE group_name like 'vale_ll_security%')
+ALTER GROUP enggr_membros_site_ks ADD (SELECT group_name FROM dm_group WHERE group_name like 'vale_ks_security%')
 ------------------------------------------------------------------------
 create,c,dm_acl
 set,c,l,object_name
-Vale ACL Site LL
+Vale ACL Site KS
 set,c,l,description
-Vale ACL Site LL
+Vale ACL Site KS
 set,c,l,globally_managed
 F
 set,c,l,acl_class
@@ -243,9 +242,9 @@ dm_owner
 set,c,l,r_accessor_name[2]
 admingroup
 set,c,l,r_accessor_name[3]
-enggr_normativo_site_ll
+enggr_normativo_site_ks
 set,c,l,r_accessor_name[4]
-enggr_membros_site_ll
+enggr_membros_site_ks
 set,c,l,r_accessor_name[5]
 enggr_normativo_sistema
 set,c,l,r_accessor_permit[0]
@@ -288,9 +287,9 @@ save,c,l
 --------------------------------------------------------------
 create,c,dm_acl
 set,c,l,object_name
-Vale ACL Object Site LL
+Vale ACL Object Site KS
 set,c,l,description
-Vale ACL Object Site LL - To be applied To Site Object only
+Vale ACL Object Site KS - To be applied To Site Object only
 set,c,l,globally_managed
 F
 set,c,l,acl_class
@@ -302,9 +301,9 @@ dm_world
 set,c,l,r_accessor_name[1]
 dm_owner
 set,c,l,r_accessor_name[2]
-enggr_membros_site_ll
+enggr_membros_site_ks
 set,c,l,r_accessor_name[3]
-enggr_normativo_site_ll
+enggr_normativo_site_ks
 set,c,l,r_accessor_name[4]
 admingroup
 set,c,l,r_accessor_name[5]
@@ -350,9 +349,9 @@ save,c,l
 -----------------------------------------------------------------------------------------------------------------
 create,c,vale_eng_folder
 set,c,l,object_name
-LL - ALEGRIA - MG
+KS - CARAJAS SERRA SUL - PA
 set,c,l,acl_name
-Vale ACL Site LL
+Vale ACL Site KS
 link,c,l,'/Engenharia'
 save,c,l
 
@@ -360,88 +359,88 @@ save,c,l
 
 create,c,vale_eng_site
 set,c,l,object_name
-LL - ALEGRIA - MG
+KS - CARAJAS SERRA SUL - PA
 set,c,l,domain
 vale_eng
 set,c,l,vale_site
-ll
+ks
 set,c,l,vale_site_nome
 MANGANES DO AZUL - PA
 set,c,l,vale_site_normativos
-enggr_normativo_site_ll
+enggr_normativo_site_ks
 set,c,l,vale_site_membros
-enggr_membros_site_ll
+enggr_membros_site_ks
 set,c,l,acl_name
-Vale ACL Object Site LL
+Vale ACL Object Site KS
 link,c,l,'/Administration/SITES'
 save,c,l
 
 --------------------------------------------------------------------------------------------------------------------
 
-ALTER GROUP enggr_normativo_site_ll ADD 'GED User 02'
+ALTER GROUP enggr_normativo_site_ks ADD 'GED User 02'
 GO
-ALTER GROUP enggr_membros_site_ll ADD 'GED User 02'
+ALTER GROUP enggr_membros_site_ks ADD 'GED User 02'
 GO
-ALTER GROUP enggr_membros_site_ll ADD 'GED User 03'
+ALTER GROUP enggr_membros_site_ks ADD 'GED User 03'
 GO
-ALTER GROUP enggr_membros_site_ll ADD 'GED User 04'
+ALTER GROUP enggr_membros_site_ks ADD 'GED User 04'
 GO
-ALTER GROUP enggr_membros_site_ll ADD 'GED User 05'
+ALTER GROUP enggr_membros_site_ks ADD 'GED User 05'
 GO
-ALTER GROUP enggr_membros_site_ll ADD 'GED User 06'
+ALTER GROUP enggr_membros_site_ks ADD 'GED User 06'
 GO
-ALTER GROUP enggr_membros_site_ll ADD 'GED User 07'
+ALTER GROUP enggr_membros_site_ks ADD 'GED User 07'
 GO
-ALTER GROUP enggr_membros_site_ll ADD 'GED User 08'
+ALTER GROUP enggr_membros_site_ks ADD 'GED User 08'
 GO
-ALTER GROUP enggr_membros_site_ll ADD 'GED User 09'
+ALTER GROUP enggr_membros_site_ks ADD 'GED User 09'
 GO
-ALTER GROUP enggr_membros_site_ll ADD 'GED User 10'
+ALTER GROUP enggr_membros_site_ks ADD 'GED User 10'
 GO
-ALTER GROUP enggr_membros_site_ll ADD 'GED User 11'
+ALTER GROUP enggr_membros_site_ks ADD 'GED User 11'
 GO
-ALTER GROUP vale_eng_create_ll ADD 'GED User 01'
+ALTER GROUP vale_eng_create_ks ADD 'GED User 01'
 GO
-ALTER GROUP vale_eng_create_ll ADD 'GED User 02'
+ALTER GROUP vale_eng_create_ks ADD 'GED User 02'
 GO
-ALTER GROUP vale_eng_create_ll ADD 'GED User 03'
+ALTER GROUP vale_eng_create_ks ADD 'GED User 03'
 GO
-ALTER GROUP vale_eng_create_ll ADD 'GED User 04'
+ALTER GROUP vale_eng_create_ks ADD 'GED User 04'
 GO
-ALTER GROUP vale_eng_create_ll ADD 'GED User 05'
+ALTER GROUP vale_eng_create_ks ADD 'GED User 05'
 GO
 
 -------------------------------------------------------------------------------------------
-UPDATE vale_eng_folder OBJECTS SET acl_name = 'Vale ACL Site LL' WHERE Folder('/Engenharia/LL - ALEGRIA - MG', descend) or object_name = 'LL - ALEGRIA - MG'
+UPDATE vale_eng_folder OBJECTS SET acl_name = 'Vale ACL Site KS' WHERE Folder('/Engenharia/KS - CARAJAS SERRA SUL - PA', descend) or object_name = 'KS - CARAJAS SERRA SUL - PA'
 GO
 
 -------------------------------------------------------------------------------------------
 No D2, dentro do data dictionary "vale site", criar uma entrar para o site
-key=ll
-br=LL - ALEGRIA - MG
-ing=LL - ALEGRIA - MG
+key=ks
+br=KS - CARAJAS SERRA SUL - PA
+ing=KS - CARAJAS SERRA SUL - PA
 
 -------------------------------------------------------------------------------------------
 
 create,c,vale_eng_ct_acesso
 set,c,l,object_name
-LL-Restrito
+KS-Restrito
 set,c,l,vale_site
-ll
+ks
 set,c,l,ao_doc_type_classification
 r
 set,c,l,vale_ct_exclusao[0]
-vale_ll_security_delete_restrict
+vale_ks_security_delete_restrict
 set,c,l,vale_ct_cadastro_ficha[0]
-vale_ll_security_write_restrict
+vale_ks_security_write_restrict
 set,c,l,vale_ct_download_completo[0]
-vale_ll_security_down_full_restrict
+vale_ks_security_down_fuks_restrict
 set,c,l,vale_ct_pdf_completo[0]
-vale_ll_security_pdf_full_restrict
+vale_ks_security_pdf_fuks_restrict
 set,c,l,vale_ct_brava_completo[0]
-vale_ll_security_view_full_restrict
+vale_ks_security_view_fuks_restrict
 set,c,l,vale_ct_brava_basico[0]
-vale_ll_security_view_basic_restrict
+vale_ks_security_view_basic_restrict
 save,c,l
 
 
@@ -449,33 +448,33 @@ save,c,l
 
 create,c,vale_eng_ct_acesso 
 set,c,l,object_name
-LL-Uso Interno
+KS-Uso Interno
 set,c,l,vale_site
-ll
+ks
 set,c,l,ao_doc_type_classification
 i
 set,c,l,vale_ct_exclusao[0]
-vale_ll_security_delete_restrict
+vale_ks_security_delete_restrict
 set,c,l,vale_ct_exclusao[1]
-vale_ll_security_delete_internal
+vale_ks_security_delete_internal
 set,c,l,vale_ct_cadastro_ficha[0]	
-vale_ll_security_write_restrict
+vale_ks_security_write_restrict
 set,c,l,vale_ct_cadastro_ficha[1]
-vale_ll_security_write_internal
+vale_ks_security_write_internal
 set,c,l,vale_ct_download_completo[0]
-vale_ll_security_down_full_restrict
+vale_ks_security_down_fuks_restrict
 set,c,l,vale_ct_download_completo[1]
-vale_ll_security_down_full_internal
+vale_ks_security_down_fuks_internal
 set,c,l,vale_ct_pdf_completo[0]
-vale_ll_security_pdf_full_restrict
+vale_ks_security_pdf_fuks_restrict
 set,c,l,vale_ct_pdf_completo[1]
-vale_ll_security_pdf_full_internal
+vale_ks_security_pdf_fuks_internal
 set,c,l,vale_ct_brava_completo[0]
-vale_ll_security_view_full_restrict
+vale_ks_security_view_fuks_restrict
 set,c,l,vale_ct_brava_completo[1]
-vale_ll_security_view_full_internal
+vale_ks_security_view_fuks_internal
 set,c,l,vale_ct_brava_basico[0]
-vale_ll_security_view_basic_restrict
+vale_ks_security_view_basic_restrict
 set,c,l,vale_ct_brava_basico[1]
-vale_ll_security_view_basic_internal
+vale_ks_security_view_basic_internal
 save,c,l
