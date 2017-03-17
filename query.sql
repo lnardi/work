@@ -340,7 +340,7 @@ where
 gr.id_guia_remessa = doc.r_object_id and 
 doc.codigo_site = 'KM' and
 gr.id_documento_engenharia = doc2.r_object_id 
-and doc.numero_vale in ('GR-0000KM-G-00040/2013', 'GR-0000KM-G-00041/2013', 'GR-0000KM-G-00042/2013', 'GR-0000KM-G-00043/2013', 'GR-0000KM-G-00044/2013', 'GR-0000KM-G-00045/2013', 'GR-0000KM-G-00045/2013', 'GR-0000KM-G-00047/2013', 'GR-0000KM-G-00048/2013', 'GR-0000KM-G-00049/2013')
+and doc.numero_vale in ()
 
 select r_object_id,i_antecedent_id, i_chronicle_id, r_version_label, r_creation_date, i_has_folder, a_content_type, r_link_cnt, data_emissao_gr, situacao_aprovacao, se_finalizada, codigo_material, numero_gr_contratada, object_name, numero_vale, subject, title, r_object_type, codigo_site, fase, id_projeto, id_empresa_projeto, id_subarea, codigo_disciplina, r_is_virtual_doc, documento_fornecedor, numero_documento_base, area_funcional, revisao, sigla_idioma, numero_paginas, nome_formato,  sigla_finalidade_devolucao, id_tag, tag_antigo, numero_ld, localizacao_acervo, sigla_tipo_emissao, confidencial, numero_vale_antigo_r, observacoes, data_emissao_prevista, data_emissao_reprog, data_emissao_realiz, avanco_fisico, codigo_atividade, item_contrato, medicao, coringa, substituto, padronizado, livre, numero_contratada, '' as data_reuniao,'' as localidade,'' as data_envio,'' as nome_remetente,'' as nome_destinatario,'' as sigla_fluido,'' as sigla_especificacao,'' as sequencial_linha,'' as equipamento,'' as rc_referencia,'' as rp_referencia,'' as rt_referencia,'' as numero_contrato,'' as id_empresa_contratada 
 from engdo_documento_engenharia (all) 
@@ -351,7 +351,7 @@ order by i_chronicle_id, i_has_folder, r_creation_date
 
 
 CREATE dm_relation OBJECT
-SET relation_name = 'D2_COPY_OF',
+SET relation_name = 'AO Project Package',
 SET child_id = (SELECT r_object_id FROM vale_eng_package(all) WHERE legacy_uid = '09035f5181438c8f'),
 SET parent_id = (SELECT r_object_id FROM vale_eng_document(all) WHERE vale_legacy_objectid = '09035f51813de9f5')
 
@@ -361,6 +361,14 @@ from engdo_gr (all)
 where codigo_site = 'PZ' 
 and id_projeto in ('08035f51828eaa53','08035f51828eaa54','08035f51828eaa55','08035f51828eaa56')
 order by i_chronicle_id, i_has_folder, r_creation_date
+
+select doc.r_object_id as id_gr , doc.numero_vale as numero_vale_gr, doc2.r_object_id as id_doc, doc2.numero_vale as numero_vale_doc
+from engso_documento_gr (all) gr, engdo_gr (all) doc, engdo_documento_engenharia(all) doc2
+where 
+gr.id_guia_remessa = doc.r_object_id and 
+doc.codigo_site = 'PZ' and
+gr.id_documento_engenharia = doc2.r_object_id 
+and doc.id_projeto in ('08035f51828eaa53','08035f51828eaa54','08035f51828eaa55','08035f51828eaa56')
 
 select doc.r_object_id as id_gr , doc.numero_vale as numero_vale_gr, doc2.r_object_id as id_doc, doc2.numero_vale as numero_vale_doc
 from engso_documento_gr (all) gr, engdo_gr (all) doc, engdo_documento_engenharia(all) doc2
