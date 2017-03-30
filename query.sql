@@ -5,14 +5,14 @@ KK	SISTEMA NORTE - GERAL - PA - MA 								10,8
 KL	CARAJAS SERRA LESTE - PA 										32,6
 KM	MANGANES DO AZUL - PA 											10,5
 LL	ALEGRIA - MG 								38536				42,3
-OP	ONCA PUMA - PA 													77,2
+OP	ONCA PUMA - PA 													109,59
 SA	SALOBO - PA 													109,59
 SS	SOSSEGO - PA 													35,7	
  																334,99
 
 PZ - Teste
 select count(*) from engdo_documento_engenharia where codigo_site = 'PZ'
-select (sum(full_content_size)/1048576.0) from engdo_documento_engenharia where codigo_site = 'PZ'
+select (sum(r_content_size)/1048576.0) from engdo_documento_engenharia (all) where codigo_site = 'PZ'
 
 //////////////////////////////////////////////////////////////////Dados do Site///////////////////////////////////////////////////////////////////////////
 
@@ -46,11 +46,6 @@ where ep.id_empresa = emp.r_object_id and ep.codigo_site = 'PZ'
 select id_empresa, id_empproj, nome_fantasia, codigo_site from  migration_empresa_projeto  where codigo_site = 'KM'
 
 
-08035f518222b06f
-08035f518222b071
-08035f518222b073
-
-
 //////////////////////////////////////////////////////////////////engso_area///////////////////////////////////////////////////////////////////////////////
 select r_object_id, object_name,codigo_site,codigo,nome from engso_area where codigo_site = 'OP'
 
@@ -82,7 +77,7 @@ Status dos projetos no 2.0
 08035f51810d73e2 - cons - Já inativado
 
 
-select r_object_id,i_antecedent_id, i_chronicle_id, r_version_label, r_creation_date, i_has_folder, a_content_type, r_link_cnt, data_emissao_gr, situacao_aprovacao, se_finalizada, codigo_material, numero_gr_contratada, object_name, numero_vale, subject, title, r_object_type, codigo_site, fase, id_projeto, id_empresa_projeto, id_subarea, codigo_disciplina, r_is_virtual_doc, documento_fornecedor, numero_documento_base, area_funcional, revisao, sigla_idioma, numero_paginas, nome_formato,  sigla_finalidade_devolucao, id_tag, tag_antigo, numero_ld, localizacao_acervo, sigla_tipo_emissao, confidencial, numero_vale_antigo_r, observacoes, data_emissao_prevista, data_emissao_reprog, data_emissao_realiz, avanco_fisico, codigo_atividade, item_contrato, medicao, coringa, substituto, padronizado, livre, numero_contratada, '' as data_reuniao,'' as localidade,'' as data_envio,'' as nome_remetente,'' as nome_destinatario,'' as sigla_fluido,'' as sigla_especificacao,'' as sequencial_linha,'' as equipamento,'' as rc_referencia,'' as rp_referencia,'' as rt_referencia,'' as numero_contrato,'' as id_empresa_contratada 
+select r_object_id,i_antecedent_id, i_chronicle_id, r_version_label, r_creation_date, i_has_folder, a_content_type, r_link_cnt, data_emissao_gr, situacao_aprovacao, se_finalizada, codigo_material, numero_gr_contratada, object_name, numero_vale, subject, title, r_object_type, codigo_site, fase, id_projeto, id_empresa_projeto, id_subarea, codigo_disciplina, r_is_virtual_doc, documento_fornecedor, numero_documento_base, area_funcional, revisao, sigla_idioma, numero_paginas, nome_formato,  sigla_finalidade_devolucao, id_tag, tag_antigo, numero_ld, localizacao_acervo, sigla_tipo_emissao, confidencial, numero_vale_antigo_r, observacoes, data_emissao_prevista, data_emissao_reprog, data_emissao_realiz, avanco_fisico, codigo_atividade, item_contrato, medicao, coringa, substituto, padronizado, livre, numero_contratada, '' as data_reuniao,'' as localidade,'' as data_envio,'' as nome_remetente,'' as nome_destinatario,'' as sigla_fluido,'' as sigla_especificacao,'' as sequencial_linha,'' as equipamento,'' as rc_referencia,'' as rp_referencia,'' as  referencia,'' as numero_contrato,'' as id_empresa_contratada 
 from engdo_documento_engenharia (all) 
 where id_projeto = '08035f5180c490ad'
 order by i_chronicle_id, i_has_folder, r_creation_date
@@ -245,9 +240,8 @@ order by i_chronicle_id, i_has_folder, r_creation_date
 
 select r_object_id,i_antecedent_id, i_chronicle_id, r_version_label, r_creation_date, i_has_folder, a_content_type, r_link_cnt, data_emissao_gr, situacao_aprovacao, se_finalizada, codigo_material, numero_gr_contratada, object_name, numero_vale, subject, title, r_object_type, codigo_site, fase, id_projeto, id_empresa_projeto, id_subarea, codigo_disciplina, r_is_virtual_doc, documento_fornecedor, numero_documento_base, area_funcional, revisao, sigla_idioma, numero_paginas, nome_formato,  sigla_finalidade_devolucao, id_tag, tag_antigo, numero_ld, localizacao_acervo, sigla_tipo_emissao, confidencial, numero_vale_antigo_r, observacoes, data_emissao_prevista, data_emissao_reprog, data_emissao_realiz, avanco_fisico, codigo_atividade, item_contrato, medicao, coringa, substituto, padronizado, livre, numero_contratada, '' as data_reuniao,'' as localidade,'' as data_envio,'' as nome_remetente,'' as nome_destinatario,'' as sigla_fluido,'' as sigla_especificacao,'' as sequencial_linha,'' as equipamento,'' as rc_referencia,'' as rp_referencia,'' as rt_referencia,'' as numero_contrato,'' as id_empresa_contratada 
 from engdo_documento_engenharia (all) 
-where codigo_site = 'PZ' 
-and id_projeto = '08035f51828eaa54'
-and r_object_type not in ('engdo_gr', 'engdo_ca','engdo_dc','engdo_pt','engdo_rp','engdo_mm','engdo_rd','engdo_pc','engdo_mo','engdo_ri', 'engdo_ar', 'engdo_is', 'engdo_ct')
+where codigo_site = 'SS' 
+and id_projeto in ('08035f51816070ea', '08035f51816258ec', '08035f5181624d9e')
 order by i_chronicle_id, i_has_folder, r_creation_date
 
 select count(*)

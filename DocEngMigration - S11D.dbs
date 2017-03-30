@@ -325,14 +325,6 @@
         <Length>32</Length>
       </Column>
       <Column>
-        <Name>r_creation_date</Name>
-        <DataType>System.DateTime</DataType>
-      </Column>
-      <Column>
-        <Name>r_modify_date</Name>
-        <DataType>System.DateTime</DataType>
-      </Column>
-      <Column>
         <Name>file_path</Name>
         <DataType>System.String</DataType>
         <Length>1024</Length>

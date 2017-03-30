@@ -3,7 +3,7 @@
     <SchemaColumns>
       <Column>
         <Name>Item</Name>
-        <DataType>System.Int16</DataType>
+        <DataType>System.String</DataType>
       </Column>
       <Column>
         <Name>r_object_id</Name>

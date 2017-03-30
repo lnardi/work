@@ -6087,11 +6087,6 @@
     <domain>vale_eng</domain>
   </_x0038_24ed719-554e-4b91-9041-2718dfb0a3a0>
   <d2fd3351-44f6-48f5-8732-8159add7385a>
-    <r_object_id>090003e980011d88</r_object_id>
-    <object_name>KM - MANGANES DO AZUL - PA</object_name>
-    <vale_site>KM</vale_site>
-  </d2fd3351-44f6-48f5-8732-8159add7385a>
-  <d2fd3351-44f6-48f5-8732-8159add7385a>
     <r_object_id>090003e980057790</r_object_id>
     <object_name>IA - IGARAPE BAHIA - PA</object_name>
     <vale_site>IA</vale_site>
@@ -6125,6 +6120,11 @@
     <r_object_id>090003e980076ef3</r_object_id>
     <object_name>KS - CARAJAS SERRA SUL - PA</object_name>
     <vale_site>KS</vale_site>
+  </d2fd3351-44f6-48f5-8732-8159add7385a>
+  <d2fd3351-44f6-48f5-8732-8159add7385a>
+    <r_object_id>090003e980076ef3</r_object_id>
+    <object_name>SS</object_name>
+    <vale_site>SS</vale_site>
   </d2fd3351-44f6-48f5-8732-8159add7385a>
   <_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
     <vale_area>50</vale_area>
@@ -16286,23 +16286,6 @@
     <numero_se>0001-182</numero_se>
     <responsavel_tecnico>ILDACY PAIVA</responsavel_tecnico>
     <area_responsavel>GAENY</area_responsavel>
-    <a_status>2</a_status>
-    <Filename>SS_PROJETOS.csv</Filename>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>214</Item>
-    <fase>OPER</fase>
-    <r_object_id>08035f518039fe1a</r_object_id>
-    <object_name>SE- - SISTEMA NORTE SOSSEGO</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>B</sigla_segmento_negocio>
-    <numero_projeto>5000</numero_projeto>
-    <numero_sequencial>01</numero_sequencial>
-    <tipo>SE</tipo>
-    <codigo_site>SS</codigo_site>
-    <nome>SISTEMA NORTE SOSSEGO</nome>
-    <responsavel_tecnico>JORGE ALDIR</responsavel_tecnico>
-    <area_responsavel>DIMB/GECIM/GACEB</area_responsavel>
     <a_status>2</a_status>
     <Filename>SS_PROJETOS.csv</Filename>
   </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
