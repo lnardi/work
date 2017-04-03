@@ -307,12 +307,45 @@
         <Length>64</Length>
       </Column>
       <Column>
+        <Name>vale_parent_doc</Name>
+        <DataType>System.String</DataType>
+        <Length>64</Length>
+      </Column>
+      <Column>
+        <Name>vale_folha_pagina</Name>
+        <DataType>System.String</DataType>
+        <Length>64</Length>
+      </Column>
+      <Column>
+        <Name>vale_folha_subpagina</Name>
+        <DataType>System.String</DataType>
+        <Length>64</Length>
+      </Column>	  
+      <Column>
         <Name>r_object_id</Name>
         <DataType>System.String</DataType>
         <Length>50</Length>
       </Column>
       <Column>
         <Name>i_chronicle_id</Name>
+        <DataType>System.String</DataType>
+        <Length>50</Length>
+      </Column>	  	  
+      <Column>
+        <Name>r_creation_date</Name>
+		<DataType>System.DateTime</DataType>
+      </Column>
+      <Column>
+        <Name>r_modify_date</Name>
+		<DataType>System.DateTime</DataType>
+      </Column>
+      <Column>
+        <Name>migrar</Name>
+        <DataType>System.String</DataType>
+        <Length>50</Length>
+      </Column>
+      <Column>
+        <Name>vale_fase</Name>
         <DataType>System.String</DataType>
         <Length>50</Length>
       </Column>	  
