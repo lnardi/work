@@ -1,4 +1,4 @@
-﻿;Location_Code;Location_Label;
+﻿;;en;
 0;54;54 Maintenance;
 0;56;56 Business Systems and Engineering;
 0;59;59 Technical Services;
@@ -13,4 +13,3 @@
 1;NIL;Other - Not in List;
 1;VCO;VBN - Corporate;
 1;VPO;VBN - Project Office;
-

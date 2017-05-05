@@ -1,0 +1,28 @@
+Discipline_Code;Discipline_Label
+1;1 - Finance
+a;A - Architectural
+b;B - Concrete
+c;C - Civil  (Engineering)
+d;D - Demolition
+e;E - Electrical  (Engineering)
+f;F - Process (Engineering)
+g;G - General (Multi Discipline)
+h;H - Human Resources
+i;I - Business Systems and Engineering
+j;J - Instruments, Plant Control and Automation
+k;K - Training
+l;L - Environmental
+m;M - Mechanical  (Engineering)
+n;N - Commissioning
+o;O - Operations
+p;P - Piping
+q;Q - Quality Assurance and Quality Control
+r;R - Refractory
+s;S - Structural Steel
+t;T - IT
+u;U - Construction
+v;V - Technical Services
+w;W - Maintenance (General)
+x;X - Health and Safety
+y;Y - Building (Site) Services
+z;Z - Procurement

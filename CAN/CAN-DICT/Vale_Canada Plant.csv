@@ -1,8 +1,8 @@
-﻿;Plant_Code;Plant_Label;XX;
+﻿;;en;XX;
 1;54;54 - Maintenance;54;
 1;56;56 - Business Systems and Engineering;56;
 1;59;59 - Technical Services;59;
-1;64;64 - Legacy;;
+1;64;64 - Legacy;64;
 1;69;69 - LHPP Project;69;
 1;72;72 - Leach Plant;72;
 1;76;76 - Refinery;76;
@@ -11,4 +11,3 @@
 1;84;84 - Site Services;84;
 1;85;85 - Environment Health and Safety;85;
 1;88;88 - LHO General;88;
-

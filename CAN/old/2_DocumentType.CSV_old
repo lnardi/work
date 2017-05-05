@@ -1,0 +1,73 @@
+DocumentType_Code;DocumentType_Label
+ag;AG - Agenda
+al;AL - Alarm List
+ap;AP - Audit Plan and Notification
+ar;AR - Aritcle, Brochure or Pamplet
+at;AT - Agreement
+bc;BC - Bid Claricication
+bd;BD - Block Diagram
+be;BE - Bid Evaluation
+bi;BI - Bid Received
+bl;BL - Bidders List
+bm;BM - Bill of Material
+br;BR - Bid Request
+bw;BW - Boundary Drawing
+ca;CA - Calculations
+ck;CK - Checklist
+cl;CL - Cable List
+cn;CN - Contract or Agreement
+co;CO - Change Order
+cr;CR - Calculation Report
+cs;CS - Cost Summary Report
+ct;CT - Chart or Schematic
+da;DA - Dashboard
+db;DB - Design Brief
+dc;DC - Design Criteria
+ds;DS - Data Sheet
+dt;DT- Detail Drawing
+el;EL - Equipment List
+em;EM - Email or Letter
+eq;EQ - Enquiry Document
+es;ES - Estimate
+ev;EV - Elevation Drawing
+fd;FD - Flow Diagram or Process Map
+fm;FM - Form or Template
+fs;FS - Functional Specification
+ga;GA - General Arrangement
+id;ID - Process and Instrumentation Diagram
+il;IL - Interlock List
+in;IN - Index
+ir;IR - Inspection and Test Report
+is;IS - Isometric Drawing
+it;IT - Installation Detail
+la;LA - Layout Drawing
+lc;LC - License, Certificate or Permit
+li;LI - Load List
+ll;LL - Line List
+lt;LT - General List
+md;MD - Method
+mm;MM - Meeting Minutes
+mn;MN - Manual
+or;OR - Orientation
+pl;PL - Plan
+pm;PM - Permit
+pn;PN - Presentation
+pp;PP - Plot Plan
+pr;PR - Procedure
+py;PY - Policy
+re;RE - Regulation
+rg;RG - Register
+rt;RT - Report
+sc;SC - Schedule
+sd;SD - Standard
+sk;SK-Sketch
+sl;SL - Single Line Diagram
+sm;SM - Schematic Diagram
+sp;SP - Specification
+su;SU - Start Up
+sw;SW - Scope of Work
+td;TD - Technical Deviation Proposal
+tx;TX - Transmittal
+wd;WD - Wiring Diagrams
+wi;WI - Work Instruction
+wp;WP - Work Package
