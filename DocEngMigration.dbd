@@ -266,6 +266,41 @@
               </xs:sequence>
             </xs:complexType>
           </xs:element>
+          <xs:element name="ace3bc81-5ce8-434c-910c-d24ff4181c4d">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Item" type="xs:short" minOccurs="0" />
+                <xs:element name="id_empresa" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="r_object_id" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="nome_fantasia" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="codigo_site" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
           <xs:element name="d8b9f68e-fb73-4ce2-9934-0f529282ed56">
             <xs:complexType>
               <xs:sequence>
@@ -677,6 +712,26 @@
                   </xs:simpleType>
                 </xs:element>
                 <xs:element name="Filename" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ad75cf6d-bd4d-4d76-8814-4b56bb47d97b">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="r_object_id" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="queue_name" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
               </xs:sequence>
             </xs:complexType>
           </xs:element>
@@ -1910,7 +1965,7 @@
     <vale_subarea>52</vale_subarea>
   </_x0035_fc80089-0f67-411b-bd04-fa6bc76b5652>
   <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
-    <r_object_id>090003e98008dfd3</r_object_id>
+    <r_object_id>090003e98008ee64</r_object_id>
     <vale_legacy_objectid>08035f51828f94ba</vale_legacy_objectid>
     <vale_legacy_lookup>08035f51828f94ba-FEL1</vale_legacy_lookup>
     <object_name>N1307-F1</object_name>
@@ -1920,7 +1975,7 @@
     <subject>1</subject>
   </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
   <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
-    <r_object_id>090003e98008dfd4</r_object_id>
+    <r_object_id>090003e98008ee65</r_object_id>
     <vale_legacy_objectid>08035f5180002a8a</vale_legacy_objectid>
     <vale_legacy_lookup>08035f5180002a8a-FEL2</vale_legacy_lookup>
     <object_name>N1030-01-F2</object_name>
@@ -1930,27 +1985,27 @@
     <subject>2</subject>
   </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
   <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
-    <r_object_id>090003e98008dfd5</r_object_id>
+    <r_object_id>090003e98008ee66</r_object_id>
     <vale_legacy_objectid>08035f518145e972</vale_legacy_objectid>
     <vale_legacy_lookup>08035f518145e972-FEL3</vale_legacy_lookup>
     <object_name>N1030-03-F3</object_name>
     <vale_fase>fel3</vale_fase>
-    <a_status>Suspended</a_status>
+    <a_status>Approved</a_status>
     <vale_tipo_se>proj</vale_tipo_se>
     <subject>3</subject>
   </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
   <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
-    <r_object_id>090003e98008dfd6</r_object_id>
+    <r_object_id>090003e98008ee67</r_object_id>
     <vale_legacy_objectid>08035f518289165b</vale_legacy_objectid>
     <vale_legacy_lookup>08035f518289165b-FEL1</vale_legacy_lookup>
     <object_name>N1309-F1</object_name>
     <vale_fase>fel1</vale_fase>
-    <a_status>Canceled</a_status>
+    <a_status>Approved</a_status>
     <vale_tipo_se>proj</vale_tipo_se>
     <subject>4</subject>
   </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
   <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
-    <r_object_id>090003e98008dfd7</r_object_id>
+    <r_object_id>090003e98008ee68</r_object_id>
     <vale_legacy_objectid>08035f51828d11b7</vale_legacy_objectid>
     <vale_legacy_lookup>08035f51828d11b7-FEL2</vale_legacy_lookup>
     <object_name>N1300-F2</object_name>
@@ -1960,7 +2015,7 @@
     <subject>5</subject>
   </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
   <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
-    <r_object_id>090003e98008dfd8</r_object_id>
+    <r_object_id>090003e98008ee69</r_object_id>
     <vale_legacy_objectid>08035f51818c3c73</vale_legacy_objectid>
     <vale_legacy_lookup>08035f51818c3c73</vale_legacy_lookup>
     <object_name>SE-Y1000</object_name>
@@ -1970,7 +2025,7 @@
     <subject>1</subject>
   </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
   <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
-    <r_object_id>090003e98008dfd9</r_object_id>
+    <r_object_id>090003e98008ee6a</r_object_id>
     <vale_legacy_objectid>08035f5181ada3ad</vale_legacy_objectid>
     <vale_legacy_lookup>08035f5181ada3ad</vale_legacy_lookup>
     <object_name>SE-Y1024</object_name>
@@ -1980,7 +2035,7 @@
     <subject>2</subject>
   </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
   <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
-    <r_object_id>090003e98008dfda</r_object_id>
+    <r_object_id>090003e98008ee6b</r_object_id>
     <vale_legacy_objectid>08035f5181ada8b2</vale_legacy_objectid>
     <vale_legacy_lookup>08035f5181ada8b2</vale_legacy_lookup>
     <object_name>SE-Y1023</object_name>
@@ -1990,7 +2045,7 @@
     <subject>3</subject>
   </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
   <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
-    <r_object_id>090003e98008dfdb</r_object_id>
+    <r_object_id>090003e98008ee6c</r_object_id>
     <vale_legacy_objectid>08035f5182097e84</vale_legacy_objectid>
     <vale_legacy_lookup>08035f5182097e84</vale_legacy_lookup>
     <object_name>SE-Y1041</object_name>
@@ -2000,7 +2055,7 @@
     <subject>4</subject>
   </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
   <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
-    <r_object_id>090003e98008dfdc</r_object_id>
+    <r_object_id>090003e98008ee6d</r_object_id>
     <vale_legacy_objectid>08035f5182129d8d</vale_legacy_objectid>
     <vale_legacy_lookup>08035f5182129d8d</vale_legacy_lookup>
     <object_name>SE-Y1049</object_name>
@@ -2008,6 +2063,16 @@
     <a_status>Completed</a_status>
     <vale_tipo_se>oper</vale_tipo_se>
     <subject>5</subject>
+  </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+  <_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
+    <r_object_id>090003e98008fc1c</r_object_id>
+    <vale_legacy_objectid>08035f51828d11bd</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51828d11bd</vale_legacy_lookup>
+    <object_name>SE-1308</object_name>
+    <vale_fase>oper</vale_fase>
+    <a_status>Approved</a_status>
+    <vale_tipo_se>oper</vale_tipo_se>
+    <subject>1</subject>
   </_x0035_b38c6bf-4e99-4670-86ab-fcc36783781c>
   <bb2e0ec5-ecec-4e1b-a694-bf19706df3ca>
     <r_object_id>090003e9800530c7</r_object_id>
@@ -7585,7 +7650,7 @@
     <vale_ct_brava_basico>vale_ks_security_view_basic_internal|vale_ks_security_view_basic_restrict</vale_ct_brava_basico>
   </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
   <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
-    <r_object_id>090003e98008dff8</r_object_id>
+    <r_object_id>090003e98008ee84</r_object_id>
     <object_name>ks-N1307-F1-Uso Interno</object_name>
     <vale_ct_cadastro_ficha>vale_ks_n1307-f1_security_write_restrict|vale_ks_n1307-f1_security_write_internal</vale_ct_cadastro_ficha>
     <vale_ct_exclusao>vale_ks_n1307-f1_security_delete_restrict|vale_ks_n1307-f1_security_delete_internal</vale_ct_exclusao>
@@ -7595,7 +7660,7 @@
     <vale_ct_brava_basico>vale_ks_n1307-f1_security_view_basic_restrict|vale_ks_n1307-f1_security_view_basic_internal</vale_ct_brava_basico>
   </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
   <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
-    <r_object_id>090003e98008dff9</r_object_id>
+    <r_object_id>090003e98008ee85</r_object_id>
     <object_name>ks-N1307-F1-Restrito</object_name>
     <vale_ct_cadastro_ficha>vale_ks_n1307-f1_security_write_restrict</vale_ct_cadastro_ficha>
     <vale_ct_exclusao>vale_ks_n1307-f1_security_delete_restrict</vale_ct_exclusao>
@@ -7603,6 +7668,46 @@
     <vale_ct_pdf_completo>vale_ks_n1307-f1_security_pdf_restrict</vale_ct_pdf_completo>
     <vale_ct_brava_completo>vale_ks_n1307-f1_security_view_full_restrict</vale_ct_brava_completo>
     <vale_ct_brava_basico>vale_ks_n1307-f1_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98008ee86</r_object_id>
+    <object_name>ks-N1030-03-F3-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_ks_n1030-03-f3_security_write_restrict|vale_ks_n1030-03-f3_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_ks_n1030-03-f3_security_delete_restrict|vale_ks_n1030-03-f3_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_download_completo>vale_ks_n1030-03-f3_security_down_restrict|vale_ks_n1030-03-f3_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_ks_n1030-03-f3_security_pdf_restrict|vale_ks_n1030-03-f3_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_brava_completo>vale_ks_n1030-03-f3_security_view_full_restrict|vale_ks_n1030-03-f3_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_ks_n1030-03-f3_security_view_basic_restrict|vale_ks_n1030-03-f3_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98008ee87</r_object_id>
+    <object_name>ks-N1030-03-F3-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_ks_n1030-03-f3_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_ks_n1030-03-f3_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_download_completo>vale_ks_n1030-03-f3_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_ks_n1030-03-f3_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_brava_completo>vale_ks_n1030-03-f3_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_ks_n1030-03-f3_security_view_basic_restrict</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98008ee88</r_object_id>
+    <object_name>ks-N1309-F1-Uso Interno</object_name>
+    <vale_ct_cadastro_ficha>vale_ks_n1309-f1_security_write_restrict|vale_ks_n1309-f1_security_write_internal</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_ks_n1309-f1_security_delete_restrict|vale_ks_n1309-f1_security_delete_internal</vale_ct_exclusao>
+    <vale_ct_download_completo>vale_ks_n1309-f1_security_down_restrict|vale_ks_n1309-f1_security_down_internal</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_ks_n1309-f1_security_pdf_restrict|vale_ks_n1309-f1_security_pdf_internal</vale_ct_pdf_completo>
+    <vale_ct_brava_completo>vale_ks_n1309-f1_security_view_full_restrict|vale_ks_n1309-f1_security_view_full_internal</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_ks_n1309-f1_security_view_basic_restrict|vale_ks_n1309-f1_security_view_basic_internal</vale_ct_brava_basico>
+  </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+  <_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
+    <r_object_id>090003e98008ee89</r_object_id>
+    <object_name>ks-N1309-F1-Restrito</object_name>
+    <vale_ct_cadastro_ficha>vale_ks_n1309-f1_security_write_restrict</vale_ct_cadastro_ficha>
+    <vale_ct_exclusao>vale_ks_n1309-f1_security_delete_restrict</vale_ct_exclusao>
+    <vale_ct_download_completo>vale_ks_n1309-f1_security_down_restrict</vale_ct_download_completo>
+    <vale_ct_pdf_completo>vale_ks_n1309-f1_security_pdf_restrict</vale_ct_pdf_completo>
+    <vale_ct_brava_completo>vale_ks_n1309-f1_security_view_full_restrict</vale_ct_brava_completo>
+    <vale_ct_brava_basico>vale_ks_n1309-f1_security_view_basic_restrict</vale_ct_brava_basico>
   </_x0039_f51630f-8b3d-469b-b9f5-9dd80c7d03dd>
   <_x0034_5cc4ca5-288d-4607-b611-23af74c72ede>
     <revisao>-1</revisao>
@@ -7773,9 +7878,1038 @@
   </_x0034_5cc4ca5-288d-4607-b611-23af74c72ede>
   <_x0036_ae024e4-fbf7-4a8a-b1ae-9fadd1baa557>
     <line>1</line>
-    <file_path>C:\Users\C0475434\Desktop\MIgration\SITES\PZ\TEST2\contents</file_path>
+    <file_path>C:\Users\C0475434\Desktop\MIgration\CAN\dummy</file_path>
     <Import_flag>Migração GED 1.0</Import_flag>
   </_x0036_ae024e4-fbf7-4a8a-b1ae-9fadd1baa557>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>1</Item>
+    <id_empresa>08035f5180019a2f</id_empresa>
+    <r_object_id>08035f518271c506</r_object_id>
+    <nome_fantasia>BRANDT - MEIO AMBIENTE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>2</Item>
+    <id_empresa>08035f5180019a2f</id_empresa>
+    <r_object_id>08035f51827462e1</r_object_id>
+    <nome_fantasia>BRANDT - MEIO AMBIENTE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>3</Item>
+    <id_empresa>08035f5180019a2f</id_empresa>
+    <r_object_id>08035f51818e3ce7</r_object_id>
+    <nome_fantasia>BRANDT - MEIO AMBIENTE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>4</Item>
+    <id_empresa>08035f518001a0f1</id_empresa>
+    <r_object_id>08035f51812c2874</r_object_id>
+    <nome_fantasia>ONOMA ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>5</Item>
+    <id_empresa>08035f518002b921</id_empresa>
+    <r_object_id>08035f518134859d</r_object_id>
+    <nome_fantasia>MCA ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>6</Item>
+    <id_empresa>08035f5180003412</id_empresa>
+    <r_object_id>08035f5180003595</r_object_id>
+    <nome_fantasia>MINERCONSULT ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>7</Item>
+    <id_empresa>08035f5180004244</id_empresa>
+    <r_object_id>08035f5180004292</r_object_id>
+    <nome_fantasia>TOPGEO TOPOGRAFIA E SERVICOS LTDA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>8</Item>
+    <id_empresa>08035f5180005d2f</id_empresa>
+    <r_object_id>08035f51812c26d6</r_object_id>
+    <nome_fantasia>HEC - HANDLING ENGENHARIA E CONSULTORIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>9</Item>
+    <id_empresa>08035f51800043ef</id_empresa>
+    <r_object_id>08035f5180004f5e</r_object_id>
+    <nome_fantasia>THYSSENKRUPP</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>10</Item>
+    <id_empresa>08035f5180005d52</id_empresa>
+    <r_object_id>08035f518005c293</r_object_id>
+    <nome_fantasia>SENIOR ENGENHARIA E SERVICOS</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>11</Item>
+    <id_empresa>08035f51800059f5</id_empresa>
+    <r_object_id>08035f51803ab89f</r_object_id>
+    <nome_fantasia>DALBEN CONSULTORIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>12</Item>
+    <id_empresa>08035f518000bc8b</id_empresa>
+    <r_object_id>08035f518135155b</r_object_id>
+    <nome_fantasia>BAUMA EQUIPAMENTOS INDUSTRIAIS</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>13</Item>
+    <id_empresa>08035f518000bc95</id_empresa>
+    <r_object_id>08035f518139274a</r_object_id>
+    <nome_fantasia>CODEME ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>14</Item>
+    <id_empresa>08035f518000bca4</id_empresa>
+    <r_object_id>08035f5181359af6</r_object_id>
+    <nome_fantasia>EMALTO INDUSTRIA MECANICA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>15</Item>
+    <id_empresa>08035f518000bca6</id_empresa>
+    <r_object_id>08035f5181359af7</r_object_id>
+    <nome_fantasia>EMERSON PROCESS MANAGEMENT</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>16</Item>
+    <id_empresa>08035f5180002bf9</id_empresa>
+    <r_object_id>08035f5182971fda</r_object_id>
+    <nome_fantasia>VALE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>17</Item>
+    <id_empresa>08035f5180002bf9</id_empresa>
+    <r_object_id>08035f518299e58b</r_object_id>
+    <nome_fantasia>VALE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>18</Item>
+    <id_empresa>08035f5180002bf9</id_empresa>
+    <r_object_id>08035f51829a7f0e</r_object_id>
+    <nome_fantasia>VALE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>19</Item>
+    <id_empresa>08035f5180002bf9</id_empresa>
+    <r_object_id>08035f518290bdf5</r_object_id>
+    <nome_fantasia>VALE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>20</Item>
+    <id_empresa>08035f5180002bf9</id_empresa>
+    <r_object_id>08035f51828d11bc</r_object_id>
+    <nome_fantasia>VALE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>21</Item>
+    <id_empresa>08035f5180002bf9</id_empresa>
+    <r_object_id>08035f51828d1a0d</r_object_id>
+    <nome_fantasia>VALE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>22</Item>
+    <id_empresa>08035f5180002bf9</id_empresa>
+    <r_object_id>08035f5182891867</r_object_id>
+    <nome_fantasia>VALE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>23</Item>
+    <id_empresa>08035f5180002bf9</id_empresa>
+    <r_object_id>08035f51828d11b9</r_object_id>
+    <nome_fantasia>VALE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>24</Item>
+    <id_empresa>08035f5180002bf9</id_empresa>
+    <r_object_id>08035f51828d1a0e</r_object_id>
+    <nome_fantasia>VALE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>25</Item>
+    <id_empresa>08035f5180002bf9</id_empresa>
+    <r_object_id>08035f518292d825</r_object_id>
+    <nome_fantasia>VALE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>26</Item>
+    <id_empresa>08035f5180002bf9</id_empresa>
+    <r_object_id>08035f518292d826</r_object_id>
+    <nome_fantasia>VALE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>27</Item>
+    <id_empresa>08035f5180002bf9</id_empresa>
+    <r_object_id>08035f5180002bfa</r_object_id>
+    <nome_fantasia>VALE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>28</Item>
+    <id_empresa>08035f51800042f6</id_empresa>
+    <r_object_id>08035f51828d8a1b</r_object_id>
+    <nome_fantasia>EPC ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>29</Item>
+    <id_empresa>08035f51800042f6</id_empresa>
+    <r_object_id>08035f518299e58a</r_object_id>
+    <nome_fantasia>EPC ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>30</Item>
+    <id_empresa>08035f51800042f6</id_empresa>
+    <r_object_id>08035f51828d8775</r_object_id>
+    <nome_fantasia>EPC ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>31</Item>
+    <id_empresa>08035f51800042f6</id_empresa>
+    <r_object_id>08035f51828d876d</r_object_id>
+    <nome_fantasia>EPC ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>32</Item>
+    <id_empresa>08035f51800042f6</id_empresa>
+    <r_object_id>08035f51828d876f</r_object_id>
+    <nome_fantasia>EPC ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>33</Item>
+    <id_empresa>08035f51800042f6</id_empresa>
+    <r_object_id>08035f51828d9fd1</r_object_id>
+    <nome_fantasia>EPC ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>34</Item>
+    <id_empresa>08035f51800042f6</id_empresa>
+    <r_object_id>08035f51828f4845</r_object_id>
+    <nome_fantasia>EPC ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>35</Item>
+    <id_empresa>08035f51800042f6</id_empresa>
+    <r_object_id>08035f51829157a3</r_object_id>
+    <nome_fantasia>EPC ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>36</Item>
+    <id_empresa>08035f5180005d32</id_empresa>
+    <r_object_id>08035f51828f94bb</r_object_id>
+    <nome_fantasia>PROGEN - PROJETOS GERENCIAMENTO ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>37</Item>
+    <id_empresa>08035f5180005d32</id_empresa>
+    <r_object_id>08035f518005c286</r_object_id>
+    <nome_fantasia>PROGEN - PROJETOS GERENCIAMENTO ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>38</Item>
+    <id_empresa>08035f5180005d36</id_empresa>
+    <r_object_id>08035f518134859c</r_object_id>
+    <nome_fantasia>RETA ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>39</Item>
+    <id_empresa>08035f5180004245</id_empresa>
+    <r_object_id>08035f51800042a2</r_object_id>
+    <nome_fantasia>SINCLAIR KNIGHT MERZ</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>40</Item>
+    <id_empresa>08035f5180004246</id_empresa>
+    <r_object_id>08035f5180004293</r_object_id>
+    <nome_fantasia>WORLEYPARSONS CANADA SERVICES LTD</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>41</Item>
+    <id_empresa>08035f5180004247</id_empresa>
+    <r_object_id>08035f5180004294</r_object_id>
+    <nome_fantasia>ESTEIO ENGENHARIA E AEROLEVANTAMENTO S/A</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>42</Item>
+    <id_empresa>08035f5180004248</id_empresa>
+    <r_object_id>08035f51800042ec</r_object_id>
+    <nome_fantasia>EGT ENGENHARIA LTDA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>43</Item>
+    <id_empresa>08035f5180004249</id_empresa>
+    <r_object_id>08035f51800042ed</r_object_id>
+    <nome_fantasia>TAKRAF DO BRASIL SOLUCOES TECNOLOGICAS LTDA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>44</Item>
+    <id_empresa>08035f5180005d37</id_empresa>
+    <r_object_id>08035f51818e3cea</r_object_id>
+    <nome_fantasia>VOGBR RECURSOS HIDRICOS E GEOTECNIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>45</Item>
+    <id_empresa>08035f5180008fa8</id_empresa>
+    <r_object_id>08035f51818b2c22</r_object_id>
+    <nome_fantasia>INTEGRAL ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>46</Item>
+    <id_empresa>08035f5180005c0d</id_empresa>
+    <r_object_id>08035f518005c299</r_object_id>
+    <nome_fantasia>SRK CONSULTORES DO BRASIL</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>47</Item>
+    <id_empresa>08035f5180005c10</id_empresa>
+    <r_object_id>08035f518139185d</r_object_id>
+    <nome_fantasia>VENTURE CONSULTORIA E SERVICOS DE INFORMATICA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>48</Item>
+    <id_empresa>08035f518000bcb6</id_empresa>
+    <r_object_id>08035f5181305da3</r_object_id>
+    <nome_fantasia>GRANEISA EQUIPAMENTOS</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>49</Item>
+    <id_empresa>08035f518000bcb8</id_empresa>
+    <r_object_id>08035f51812f8785</r_object_id>
+    <nome_fantasia>HAVER &amp; BOECKER LATINOAMERICANA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>50</Item>
+    <id_empresa>08035f518000bcca</id_empresa>
+    <r_object_id>08035f5181392762</r_object_id>
+    <nome_fantasia>MCA AUDITORIA E GERENCIAMENTO</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>51</Item>
+    <id_empresa>08035f5180005c0b</id_empresa>
+    <r_object_id>08035f5181348356</r_object_id>
+    <nome_fantasia>SNOWDEN MINING INDUSTRY CONSULTANTS</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>52</Item>
+    <id_empresa>08035f5180005d33</id_empresa>
+    <r_object_id>08035f518005c291</r_object_id>
+    <nome_fantasia>PROGEO GEOTECNIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>53</Item>
+    <id_empresa>08035f518000bcd6</id_empresa>
+    <r_object_id>08035f518138cb1e</r_object_id>
+    <nome_fantasia>NET SERVICE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>54</Item>
+    <id_empresa>08035f518000bce6</id_empresa>
+    <r_object_id>08035f51812fec85</r_object_id>
+    <nome_fantasia>SANDVIK MGS</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>55</Item>
+    <id_empresa>08035f518000bce8</id_empresa>
+    <r_object_id>08035f51812fec86</r_object_id>
+    <nome_fantasia>SANDVIK MINING AND CONSTRUCTION DO BRASIL</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>56</Item>
+    <id_empresa>08035f5180017055</id_empresa>
+    <r_object_id>08035f51814976b9</r_object_id>
+    <nome_fantasia>SGS DO BRASIL</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>57</Item>
+    <id_empresa>08035f5180017238</id_empresa>
+    <r_object_id>08035f518005c284</r_object_id>
+    <nome_fantasia>HATCH DO BRASIL</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>58</Item>
+    <id_empresa>08035f518002df50</id_empresa>
+    <r_object_id>08035f5181348359</r_object_id>
+    <nome_fantasia>CONSTRUTORA BARBOSA MELLO</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>59</Item>
+    <id_empresa>08035f51801751b4</id_empresa>
+    <r_object_id>08035f518173c236</r_object_id>
+    <nome_fantasia>DELTA DUCON ENGENHARIA E EQUIPAMENTOS INDUSTRIAIS</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>60</Item>
+    <id_empresa>08035f51801751c0</id_empresa>
+    <r_object_id>08035f51812c26d5</r_object_id>
+    <nome_fantasia>JATOP SERVICOS</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>61</Item>
+    <id_empresa>08035f51801751c4</id_empresa>
+    <r_object_id>08035f518134859b</r_object_id>
+    <nome_fantasia>KOTCHERGENKO ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>62</Item>
+    <id_empresa>08035f518023684b</id_empresa>
+    <r_object_id>08035f518134859e</r_object_id>
+    <nome_fantasia>CONSTRUTORA ANDRADE FERREIRA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>63</Item>
+    <id_empresa>08035f51800e7453</id_empresa>
+    <r_object_id>08035f5181344ccc</r_object_id>
+    <nome_fantasia>SCK HEAVY INDUSTRIES</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>64</Item>
+    <id_empresa>08035f5180236976</id_empresa>
+    <r_object_id>08035f5181359b5d</r_object_id>
+    <nome_fantasia>FEBA INDUSTRIA MECANICA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>65</Item>
+    <id_empresa>08035f5180236988</id_empresa>
+    <r_object_id>08035f51812f85f2</r_object_id>
+    <nome_fantasia>FILIZOLA BALANCAS INDUSTRIAIS</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>66</Item>
+    <id_empresa>08035f51800d32cb</id_empresa>
+    <r_object_id>08035f5181321be1</r_object_id>
+    <nome_fantasia>USIMINAS MECANICA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>67</Item>
+    <id_empresa>08035f51800a1f4d</id_empresa>
+    <r_object_id>08035f51812f85f4</r_object_id>
+    <nome_fantasia>BORRACHA DO BRASIL</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>68</Item>
+    <id_empresa>08035f51800a20a9</id_empresa>
+    <r_object_id>08035f518138d59a</r_object_id>
+    <nome_fantasia>METSO MINERALS</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>69</Item>
+    <id_empresa>08035f5180236c37</id_empresa>
+    <r_object_id>08035f51829a4110</r_object_id>
+    <nome_fantasia>PROJEL - ENGENHARIA E CONSULTORIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>70</Item>
+    <id_empresa>08035f5180236c37</id_empresa>
+    <r_object_id>08035f51829a4111</r_object_id>
+    <nome_fantasia>PROJEL - ENGENHARIA E CONSULTORIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>71</Item>
+    <id_empresa>08035f5180236c37</id_empresa>
+    <r_object_id>08035f51829a4112</r_object_id>
+    <nome_fantasia>PROJEL - ENGENHARIA E CONSULTORIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>72</Item>
+    <id_empresa>08035f5180236998</id_empresa>
+    <r_object_id>08035f51812f8784</r_object_id>
+    <nome_fantasia>FORNAC</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>73</Item>
+    <id_empresa>08035f5180236a34</id_empresa>
+    <r_object_id>08035f518138cafa</r_object_id>
+    <nome_fantasia>ICEC INDUSTRIA DE CONSTRUCAO</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>74</Item>
+    <id_empresa>08035f5180236beb</id_empresa>
+    <r_object_id>08035f5180c4db5a</r_object_id>
+    <nome_fantasia>PIMENTA DE AVILA CONSULTORIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>75</Item>
+    <id_empresa>08035f5180236beb</id_empresa>
+    <r_object_id>08035f5180c4da43</r_object_id>
+    <nome_fantasia>PIMENTA DE AVILA CONSULTORIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>76</Item>
+    <id_empresa>08035f5180236c13</id_empresa>
+    <r_object_id>08035f5180b5f57c</r_object_id>
+    <nome_fantasia>POTAMOS ENGENHARIA E HIDROLOGIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>77</Item>
+    <id_empresa>08035f5180462cd1</id_empresa>
+    <r_object_id>08035f51812c8212</r_object_id>
+    <nome_fantasia>FOCUS ARQUITETURA E ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>78</Item>
+    <id_empresa>08035f518049c590</id_empresa>
+    <r_object_id>08035f5180a180c0</r_object_id>
+    <nome_fantasia>GOLDER ASSOCIATES</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>79</Item>
+    <id_empresa>08035f518063b5de</id_empresa>
+    <r_object_id>08035f51812c26d4</r_object_id>
+    <nome_fantasia>ALPHAGEOS TECNOLOGIA APLICADA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>80</Item>
+    <id_empresa>08035f51806209f3</id_empresa>
+    <r_object_id>08035f5181348358</r_object_id>
+    <nome_fantasia>CONSTRUTORA ANDRADE GUTIERREZ SA EST. UNIF.</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>81</Item>
+    <id_empresa>08035f51806e4270</id_empresa>
+    <r_object_id>08035f5181348357</r_object_id>
+    <nome_fantasia>MDGEO SERVICOS DE HIDROGEOLOGIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>82</Item>
+    <id_empresa>08035f518092c7d5</id_empresa>
+    <r_object_id>08035f51826c6fb0</r_object_id>
+    <nome_fantasia>GEOESTAVEL</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>83</Item>
+    <id_empresa>08035f518092c7d5</id_empresa>
+    <r_object_id>08035f5182951b26</r_object_id>
+    <nome_fantasia>GEOESTAVEL</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>84</Item>
+    <id_empresa>08035f518092c7d5</id_empresa>
+    <r_object_id>08035f5181a0f526</r_object_id>
+    <nome_fantasia>GEOESTAVEL</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>85</Item>
+    <id_empresa>08035f5180258b34</id_empresa>
+    <r_object_id>08035f51820030bc</r_object_id>
+    <nome_fantasia>FUGRO IN SITU</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>86</Item>
+    <id_empresa>08035f51805dc9a5</id_empresa>
+    <r_object_id>08035f518131b8b6</r_object_id>
+    <nome_fantasia>RIP SERVICOS INDUSTRIAIS</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>87</Item>
+    <id_empresa>08035f51806240c1</id_empresa>
+    <r_object_id>08035f518135984c</r_object_id>
+    <nome_fantasia>MITSUBISHI CORPORATION</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>88</Item>
+    <id_empresa>08035f51806b4f3c</id_empresa>
+    <r_object_id>08035f518160ad66</r_object_id>
+    <nome_fantasia>FORSHIP ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>89</Item>
+    <id_empresa>08035f51808cdbce</id_empresa>
+    <r_object_id>08035f518195994f</r_object_id>
+    <nome_fantasia>NORTKAR</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>90</Item>
+    <id_empresa>08035f51805ce9f0</id_empresa>
+    <r_object_id>08035f518135a01e</r_object_id>
+    <nome_fantasia>METASA INDUSTRIA METALURGICA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>91</Item>
+    <id_empresa>08035f51807c167a</id_empresa>
+    <r_object_id>08035f5182971fdb</r_object_id>
+    <nome_fantasia>SNC LAVALIN INC.</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>92</Item>
+    <id_empresa>08035f51807c167a</id_empresa>
+    <r_object_id>08035f51812c26d1</r_object_id>
+    <nome_fantasia>SNC LAVALIN INC.</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>93</Item>
+    <id_empresa>08035f518023deb9</id_empresa>
+    <r_object_id>08035f51812c2875</r_object_id>
+    <nome_fantasia>ORTENG SPE PROJETOS E MONTAGENS</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>94</Item>
+    <id_empresa>08035f518023deba</id_empresa>
+    <r_object_id>08035f518135155a</r_object_id>
+    <nome_fantasia>ABB</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>95</Item>
+    <id_empresa>08035f51806b79f2</id_empresa>
+    <r_object_id>08035f5181a6241b</r_object_id>
+    <nome_fantasia>TMSA - TECNOLOGIA EM MOVIMENTACAO</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>96</Item>
+    <id_empresa>08035f51808cb0fd</id_empresa>
+    <r_object_id>08035f51813931ba</r_object_id>
+    <nome_fantasia>PARAGON</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>97</Item>
+    <id_empresa>08035f51809e37ca</id_empresa>
+    <r_object_id>08035f51813931b9</r_object_id>
+    <nome_fantasia>NOVOESPACO</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>98</Item>
+    <id_empresa>08035f5180b4ac31</id_empresa>
+    <r_object_id>08035f51818e3ce9</r_object_id>
+    <nome_fantasia>HIDROVIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>99</Item>
+    <id_empresa>08035f5180b4ac31</id_empresa>
+    <r_object_id>08035f5180b4ac34</r_object_id>
+    <nome_fantasia>HIDROVIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>100</Item>
+    <id_empresa>08035f5180b6c7e7</id_empresa>
+    <r_object_id>08035f518232cc21</r_object_id>
+    <nome_fantasia>SETE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>101</Item>
+    <id_empresa>08035f5180b6c7e7</id_empresa>
+    <r_object_id>08035f518221ea41</r_object_id>
+    <nome_fantasia>SETE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>102</Item>
+    <id_empresa>08035f5180b0d24d</id_empresa>
+    <r_object_id>08035f51817235b3</r_object_id>
+    <nome_fantasia>CME</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>103</Item>
+    <id_empresa>08035f5180b5d0ca</id_empresa>
+    <r_object_id>08035f51826dc758</r_object_id>
+    <nome_fantasia>VMA SOCIEDADE TECNICA DE VENDAS</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>104</Item>
+    <id_empresa>08035f5180b5d0ca</id_empresa>
+    <r_object_id>08035f51818e3e4a</r_object_id>
+    <nome_fantasia>VMA SOCIEDADE TECNICA DE VENDAS</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>105</Item>
+    <id_empresa>08035f5180b5dd1c</id_empresa>
+    <r_object_id>08035f518275ae3d</r_object_id>
+    <nome_fantasia>COFFEY CONSULTORIA E SERVICOS LTDA.</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>106</Item>
+    <id_empresa>08035f5180b5dd1c</id_empresa>
+    <r_object_id>08035f51818e3ce8</r_object_id>
+    <nome_fantasia>COFFEY CONSULTORIA E SERVICOS LTDA.</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>107</Item>
+    <id_empresa>08035f51809f453a</id_empresa>
+    <r_object_id>08035f5181321c02</r_object_id>
+    <nome_fantasia>OYAMOTA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>108</Item>
+    <id_empresa>08035f5180a26097</id_empresa>
+    <r_object_id>08035f518293dce8</r_object_id>
+    <nome_fantasia>TEC3 GEOTECNIA E RECURSOS HIDRICOS LTDA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>109</Item>
+    <id_empresa>08035f5180b66eb9</id_empresa>
+    <r_object_id>08035f518135155c</r_object_id>
+    <nome_fantasia>BRASIL SAT</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>110</Item>
+    <id_empresa>08035f518137f424</id_empresa>
+    <r_object_id>08035f518138cafb</r_object_id>
+    <nome_fantasia>INDUMEP</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>111</Item>
+    <id_empresa>08035f518148a03e</id_empresa>
+    <r_object_id>08035f518149739e</r_object_id>
+    <nome_fantasia>CONSORCIO S11D</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>112</Item>
+    <id_empresa>08035f5181269a46</id_empresa>
+    <r_object_id>08035f51812fec87</r_object_id>
+    <nome_fantasia>SANDVIK MNING</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>113</Item>
+    <id_empresa>08035f5181269a4b</id_empresa>
+    <r_object_id>08035f51812ffd46</r_object_id>
+    <nome_fantasia>SCHENCK PROCESS</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>114</Item>
+    <id_empresa>08035f518137f423</id_empresa>
+    <r_object_id>08035f518138caf9</r_object_id>
+    <nome_fantasia>COORSTEK</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>115</Item>
+    <id_empresa>08035f518137f425</id_empresa>
+    <r_object_id>08035f518138cb1f</r_object_id>
+    <nome_fantasia>RAILROAD</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>116</Item>
+    <id_empresa>08035f5181493998</id_empresa>
+    <r_object_id>08035f51817b4e85</r_object_id>
+    <nome_fantasia>USIMINAS MONTAGEM ELETROMECANICA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>117</Item>
+    <id_empresa>08035f518173f7c6</id_empresa>
+    <r_object_id>08035f51817643b5</r_object_id>
+    <nome_fantasia>CONSTRUTORA FERRARI</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>118</Item>
+    <id_empresa>08035f5181751a5d</id_empresa>
+    <r_object_id>08035f51827af862</r_object_id>
+    <nome_fantasia>SKM</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>119</Item>
+    <id_empresa>08035f51817c050b</id_empresa>
+    <r_object_id>08035f51817c050c</r_object_id>
+    <nome_fantasia>SARENS BRASIL</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>120</Item>
+    <id_empresa>08035f5181811ec0</id_empresa>
+    <r_object_id>08035f518181371a</r_object_id>
+    <nome_fantasia>CONSORCIO TGP</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>121</Item>
+    <id_empresa>08035f518137f9f0</id_empresa>
+    <r_object_id>08035f51814976b8</r_object_id>
+    <nome_fantasia>MAMMOET BRASIL GUINDASTES LTDA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>122</Item>
+    <id_empresa>08035f51817a1198</id_empresa>
+    <r_object_id>08035f51817a247a</r_object_id>
+    <nome_fantasia>BRITANITE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>123</Item>
+    <id_empresa>08035f5180f1491f</id_empresa>
+    <r_object_id>08035f51818e3e4b</r_object_id>
+    <nome_fantasia>WALM ENGENHARIA E TECNOLOGIA AMBIENTAL LTDA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>124</Item>
+    <id_empresa>08035f518137f9f1</id_empresa>
+    <r_object_id>08035f51813931bb</r_object_id>
+    <nome_fantasia>TC ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>125</Item>
+    <id_empresa>08035f518137f90c</id_empresa>
+    <r_object_id>08035f518139266d</r_object_id>
+    <nome_fantasia>DTA ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>126</Item>
+    <id_empresa>08035f518137f9ef</id_empresa>
+    <r_object_id>08035f51813926e7</r_object_id>
+    <nome_fantasia>GALVAO ENGENHARIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>127</Item>
+    <id_empresa>08035f5180f153c7</id_empresa>
+    <r_object_id>08035f518145e973</r_object_id>
+    <nome_fantasia>WALM</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>128</Item>
+    <id_empresa>08035f518137f909</id_empresa>
+    <r_object_id>08035f51813931bc</r_object_id>
+    <nome_fantasia>CONSMARA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>129</Item>
+    <id_empresa>08035f518137f90a</id_empresa>
+    <r_object_id>08035f518139266a</r_object_id>
+    <nome_fantasia>CRM</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>130</Item>
+    <id_empresa>08035f518137f90d</id_empresa>
+    <r_object_id>08035f5181439afc</r_object_id>
+    <nome_fantasia>ENDICON</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>131</Item>
+    <id_empresa>08035f518137f9ee</id_empresa>
+    <r_object_id>08035f51813926e8</r_object_id>
+    <nome_fantasia>FUNCATE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>132</Item>
+    <id_empresa>08035f518137f422</id_empresa>
+    <r_object_id>08035f5181568142</r_object_id>
+    <nome_fantasia>BRASILSAT</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>133</Item>
+    <id_empresa>08035f518137f426</id_empresa>
+    <r_object_id>08035f518138cb20</r_object_id>
+    <nome_fantasia>WAL</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>134</Item>
+    <id_empresa>08035f518137f90b</id_empresa>
+    <r_object_id>08035f518139266b</r_object_id>
+    <nome_fantasia>DSERVICE</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>135</Item>
+    <id_empresa>08035f5181767dcd</id_empresa>
+    <r_object_id>08035f5181813719</r_object_id>
+    <nome_fantasia>CONSORCIO TKL</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>136</Item>
+    <id_empresa>08035f51818c7688</id_empresa>
+    <r_object_id>08035f5182129d8e</r_object_id>
+    <nome_fantasia>CARSTE CONSULTORES ASSOCIADOS</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>137</Item>
+    <id_empresa>08035f51818c7688</id_empresa>
+    <r_object_id>08035f51818c8278</r_object_id>
+    <nome_fantasia>CARSTE CONSULTORES ASSOCIADOS</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>138</Item>
+    <id_empresa>08035f51818c7688</id_empresa>
+    <r_object_id>08035f5181adc3a0</r_object_id>
+    <nome_fantasia>CARSTE CONSULTORES ASSOCIADOS</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>139</Item>
+    <id_empresa>08035f51818c7688</id_empresa>
+    <r_object_id>08035f5181adc39d</r_object_id>
+    <nome_fantasia>CARSTE CONSULTORES ASSOCIADOS</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>140</Item>
+    <id_empresa>08035f51819c1c29</id_empresa>
+    <r_object_id>08035f5181cacd4b</r_object_id>
+    <nome_fantasia>FCCM - FUNDACAO CASA DE CULTURA DE MARABA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>141</Item>
+    <id_empresa>08035f51818db345</id_empresa>
+    <r_object_id>08035f51822d51c0</r_object_id>
+    <nome_fantasia>ECOSSISTEMA CONSULTORIA AMBIENTAL</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>142</Item>
+    <id_empresa>08035f51818db345</id_empresa>
+    <r_object_id>08035f5182098761</r_object_id>
+    <nome_fantasia>ECOSSISTEMA CONSULTORIA AMBIENTAL</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>143</Item>
+    <id_empresa>08035f51818db345</id_empresa>
+    <r_object_id>08035f51818e3ce3</r_object_id>
+    <nome_fantasia>ECOSSISTEMA CONSULTORIA AMBIENTAL</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>144</Item>
+    <id_empresa>08035f51818db347</id_empresa>
+    <r_object_id>08035f51818e3ce4</r_object_id>
+    <nome_fantasia>ATIVO AMBIENTAL</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>145</Item>
+    <id_empresa>08035f51818db349</id_empresa>
+    <r_object_id>08035f5181b03f6d</r_object_id>
+    <nome_fantasia>BIOESPELEO CONSULTORIA AMBIENTAL</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>146</Item>
+    <id_empresa>08035f51818db349</id_empresa>
+    <r_object_id>08035f51818e3ce1</r_object_id>
+    <nome_fantasia>BIOESPELEO CONSULTORIA AMBIENTAL</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+  <ace3bc81-5ce8-434c-910c-d24ff4181c4d>
+    <Item>147</Item>
+    <id_empresa>08035f51818db34b</id_empresa>
+    <r_object_id>08035f51818e3ce5</r_object_id>
+    <nome_fantasia>SPELAYON CONSULTORIA</nome_fantasia>
+    <codigo_site>KS</codigo_site>
+  </ace3bc81-5ce8-434c-910c-d24ff4181c4d>
   <d8b9f68e-fb73-4ce2-9934-0f529282ed56>
     <Name>log_level</Name>
     <Value>1</Value>
@@ -7802,6 +8936,7 @@
     <i_antecedent_id>09035f5180a94635</i_antecedent_id>
     <i_chronicle_id>09035f5180a3f838</i_chronicle_id>
     <r_version_label>CURRENT|2.2</r_version_label>
+    <r_creation_date>2012-09-26T09:55:46-03:00</r_creation_date>
     <i_has_folder>true</i_has_folder>
     <a_content_type>acad</a_content_type>
     <r_link_cnt>0</r_link_cnt>
@@ -7824,6 +8959,7 @@
     <nome_formato>A1</nome_formato>
     <sigla_tipo_emissao>H</sigla_tipo_emissao>
     <confidencial>false</confidencial>
+    <data_emissao_realiz>2012-09-26T09:55:32-03:00</data_emissao_realiz>
     <avanco_fisico>0</avanco_fisico>
     <padronizado>false</padronizado>
     <numero_contratada>D1-001_129-515-3006_00-B</numero_contratada>
@@ -7836,6 +8972,7 @@
     <i_antecedent_id>09035f5180a936d3</i_antecedent_id>
     <i_chronicle_id>09035f5180a43976</i_chronicle_id>
     <r_version_label>CURRENT|2.2</r_version_label>
+    <r_creation_date>2012-09-26T10:01:01-03:00</r_creation_date>
     <i_has_folder>true</i_has_folder>
     <a_content_type>msw8</a_content_type>
     <r_link_cnt>0</r_link_cnt>
@@ -7858,6 +8995,7 @@
     <nome_formato>A4</nome_formato>
     <sigla_tipo_emissao>H</sigla_tipo_emissao>
     <confidencial>false</confidencial>
+    <data_emissao_realiz>2012-09-26T10:00:50-03:00</data_emissao_realiz>
     <avanco_fisico>0</avanco_fisico>
     <padronizado>false</padronizado>
     <numero_contratada>ET-001_129-515-3006_00-B</numero_contratada>
@@ -7870,6 +9008,7 @@
     <i_antecedent_id>0</i_antecedent_id>
     <i_chronicle_id>09035f5180a827fd</i_chronicle_id>
     <r_version_label>CURRENT|1.0</r_version_label>
+    <r_creation_date>2012-08-20T15:33:53-03:00</r_creation_date>
     <i_has_folder>true</i_has_folder>
     <a_content_type>msw8</a_content_type>
     <r_link_cnt>0</r_link_cnt>
@@ -7893,6 +9032,7 @@
     <sigla_finalidade_devolucao>NPR</sigla_finalidade_devolucao>
     <sigla_tipo_emissao>B</sigla_tipo_emissao>
     <confidencial>false</confidencial>
+    <data_emissao_realiz>2012-08-20T15:33:43-03:00</data_emissao_realiz>
     <avanco_fisico>0</avanco_fisico>
     <padronizado>false</padronizado>
     <numero_contratada>RT-001_129-515-3006_00-B</numero_contratada>
@@ -7905,7 +9045,7 @@
     <i_antecedent_id>09035f5180b4a278</i_antecedent_id>
     <i_chronicle_id>09035f5180b04ab2</i_chronicle_id>
     <r_version_label>2.1|CURRENT</r_version_label>
-    <r_creation_date>2012-03-12T09:36:00-03:00</r_creation_date>
+    <r_creation_date>2012-12-03T09:36:00-02:00</r_creation_date>
     <i_has_folder>true</i_has_folder>
     <a_content_type>acad</a_content_type>
     <r_link_cnt>0</r_link_cnt>
@@ -7928,7 +9068,7 @@
     <nome_formato>A1</nome_formato>
     <sigla_tipo_emissao>H</sigla_tipo_emissao>
     <confidencial>false</confidencial>
-    <data_emissao_realiz>2012-03-12T09:36:00-03:00</data_emissao_realiz>
+    <data_emissao_realiz>2012-12-03T09:36:00-02:00</data_emissao_realiz>
     <avanco_fisico>0</avanco_fisico>
     <padronizado>false</padronizado>
     <numero_contratada>D1-001_129-515-3006_03-H</numero_contratada>
@@ -7941,7 +9081,7 @@
     <i_antecedent_id>09035f5180b04b6d</i_antecedent_id>
     <i_chronicle_id>09035f5180b04b6d</i_chronicle_id>
     <r_version_label>CURRENT|2.0</r_version_label>
-    <r_creation_date>2012-04-12T10:26:00-03:00</r_creation_date>
+    <r_creation_date>2012-12-04T10:26:00-02:00</r_creation_date>
     <i_has_folder>true</i_has_folder>
     <a_content_type>msw8</a_content_type>
     <r_link_cnt>0</r_link_cnt>
@@ -7964,7 +9104,7 @@
     <nome_formato>A4</nome_formato>
     <sigla_tipo_emissao>H</sigla_tipo_emissao>
     <confidencial>false</confidencial>
-    <data_emissao_realiz>2012-04-12T10:26:00-03:00</data_emissao_realiz>
+    <data_emissao_realiz>2012-12-04T10:26:00-02:00</data_emissao_realiz>
     <avanco_fisico>0</avanco_fisico>
     <padronizado>false</padronizado>
     <numero_contratada>DT-001_129-515-3006_00-B</numero_contratada>
@@ -7977,7 +9117,7 @@
     <i_antecedent_id>09035f5180b05308</i_antecedent_id>
     <i_chronicle_id>09035f5180b05308</i_chronicle_id>
     <r_version_label>2.0|CURRENT</r_version_label>
-    <r_creation_date>2013-10-04T09:41:00-03:00</r_creation_date>
+    <r_creation_date>2013-04-10T09:41:00-03:00</r_creation_date>
     <i_has_folder>true</i_has_folder>
     <a_content_type>msw8</a_content_type>
     <r_link_cnt>0</r_link_cnt>
@@ -7999,7 +9139,7 @@
     <nome_formato>A4</nome_formato>
     <sigla_tipo_emissao>H</sigla_tipo_emissao>
     <confidencial>false</confidencial>
-    <data_emissao_realiz>2013-10-04T09:41:00-03:00</data_emissao_realiz>
+    <data_emissao_realiz>2013-04-10T09:41:00-03:00</data_emissao_realiz>
     <avanco_fisico>0</avanco_fisico>
     <padronizado>false</padronizado>
     <numero_contratada>RT-001_129-515-3006_00-B</numero_contratada>
@@ -8012,7 +9152,7 @@
     <i_antecedent_id>09035f5180b4a257</i_antecedent_id>
     <i_chronicle_id>09035f5180b07c1a</i_chronicle_id>
     <r_version_label>CURRENT|2.1</r_version_label>
-    <r_creation_date>2012-04-12T10:34:00-03:00</r_creation_date>
+    <r_creation_date>2012-12-04T10:34:00-02:00</r_creation_date>
     <i_has_folder>true</i_has_folder>
     <a_content_type>msw8</a_content_type>
     <r_link_cnt>0</r_link_cnt>
@@ -8035,7 +9175,7 @@
     <nome_formato>A4</nome_formato>
     <sigla_tipo_emissao>H</sigla_tipo_emissao>
     <confidencial>false</confidencial>
-    <data_emissao_realiz>2012-04-12T10:34:00-03:00</data_emissao_realiz>
+    <data_emissao_realiz>2012-12-04T10:34:00-02:00</data_emissao_realiz>
     <avanco_fisico>0</avanco_fisico>
     <padronizado>false</padronizado>
     <numero_contratada>ET-001_129-515-3006_00-B</numero_contratada>
@@ -8048,9 +9188,11 @@
     <i_antecedent_id>09035f5181b8ff11</i_antecedent_id>
     <i_chronicle_id>09035f5180b48b17</i_chronicle_id>
     <r_version_label>CURRENT|2.0</r_version_label>
+    <r_creation_date>2015-02-19T11:12:44-02:00</r_creation_date>
     <i_has_folder>true</i_has_folder>
     <a_content_type>acad</a_content_type>
     <r_link_cnt>0</r_link_cnt>
+    <data_emissao_gr>2015-02-19T11:12:34-02:00</data_emissao_gr>
     <numero_gr_contratada>GRD - S11D - 188</numero_gr_contratada>
     <object_name>1000KS-X-01037_REV_0.DWG</object_name>
     <numero_vale>1000KS-X-01037</numero_vale>
@@ -8071,6 +9213,7 @@
     <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
     <sigla_tipo_emissao>C</sigla_tipo_emissao>
     <confidencial>false</confidencial>
+    <data_emissao_realiz>2015-02-19T11:12:35-02:00</data_emissao_realiz>
     <avanco_fisico>0</avanco_fisico>
     <padronizado>false</padronizado>
     <numero_contratada>D1-002_129-515-3006_02-J</numero_contratada>
@@ -8083,9 +9226,11 @@
     <i_antecedent_id>09035f5181b8ffe6</i_antecedent_id>
     <i_chronicle_id>09035f5180b49f91</i_chronicle_id>
     <r_version_label>CURRENT|2.0</r_version_label>
+    <r_creation_date>2015-02-19T11:12:48-02:00</r_creation_date>
     <i_has_folder>true</i_has_folder>
     <a_content_type>acad</a_content_type>
     <r_link_cnt>0</r_link_cnt>
+    <data_emissao_gr>2015-02-19T11:12:35-02:00</data_emissao_gr>
     <numero_gr_contratada>GRD - S11D - 188</numero_gr_contratada>
     <object_name>1000KS-X-01038_REV_0.DWG</object_name>
     <numero_vale>1000KS-X-01038</numero_vale>
@@ -8106,6 +9251,7 @@
     <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
     <sigla_tipo_emissao>C</sigla_tipo_emissao>
     <confidencial>false</confidencial>
+    <data_emissao_realiz>2015-02-19T11:12:35-02:00</data_emissao_realiz>
     <avanco_fisico>0</avanco_fisico>
     <padronizado>false</padronizado>
     <numero_contratada>D1-003_129-515-3006_02-J</numero_contratada>
@@ -8118,9 +9264,11 @@
     <i_antecedent_id>09035f5181b8ffcb</i_antecedent_id>
     <i_chronicle_id>09035f5180b49ff0</i_chronicle_id>
     <r_version_label>CURRENT|2.0</r_version_label>
+    <r_creation_date>2015-02-19T11:12:46-02:00</r_creation_date>
     <i_has_folder>true</i_has_folder>
     <a_content_type>acad</a_content_type>
     <r_link_cnt>0</r_link_cnt>
+    <data_emissao_gr>2015-02-19T11:12:35-02:00</data_emissao_gr>
     <numero_gr_contratada>GRD - S11D - 188</numero_gr_contratada>
     <object_name>1000KS-X-01039_REV_0.DWG</object_name>
     <numero_vale>1000KS-X-01039</numero_vale>
@@ -8141,13 +9289,203 @@
     <sigla_finalidade_devolucao>APR</sigla_finalidade_devolucao>
     <sigla_tipo_emissao>C</sigla_tipo_emissao>
     <confidencial>false</confidencial>
+    <data_emissao_realiz>2015-02-19T11:12:35-02:00</data_emissao_realiz>
     <avanco_fisico>0</avanco_fisico>
     <padronizado>false</padronizado>
     <numero_contratada>D1-004_129-515-3006_02-J</numero_contratada>
     <server_path>/usr/software/documentum/fs_ged_engenharia_01/00035f51/80/5a/25/a4.dwg</server_path>
     <Filename>KS_GED_ENG_1.csv</Filename>
   </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
-    <Filename>KS_GED_ENG_1.csv</Filename>
-  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc1d</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc1e</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc1f</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc20</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc21</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc22</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc23</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc24</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc25</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc43</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc44</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc45</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc46</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc47</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc48</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc49</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc4a</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc4b</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc4c</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc4d</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc4e</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc4f</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc50</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc51</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc52</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc53</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc54</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc55</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc56</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc5a</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc5b</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc5c</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc5d</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc5e</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc5f</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc60</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc61</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc62</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc63</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc65</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc66</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc67</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc68</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc69</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc6a</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc6b</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc6c</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+  <ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
+    <r_object_id>090003e98008fc6d</r_object_id>
+    <queue_name>d2c_mass_create_queue</queue_name>
+  </ad75cf6d-bd4d-4d76-8814-4b56bb47d97b>
 </NewDataSet>

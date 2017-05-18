@@ -328,6 +328,417 @@
               </xs:sequence>
             </xs:complexType>
           </xs:element>
+          <xs:element name="_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Item" type="xs:short" minOccurs="0" />
+                <xs:element name="object_name" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_control_doc_number" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="subject" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="192" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="title" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="400" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="document_type" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_site" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_project_number" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_eng_project" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_fase" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_asset_corporation" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_asset_area" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_subarea" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_discipline_s" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_ind_multipagina" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_documento_fornecedor" type="xs:boolean" minOccurs="0" />
+                <xs:element name="vale_documento_base" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_asset_org_function_area" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_data_reuniao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="vale_localidade" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_data_envio" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="vale_nome_remetente" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_nome_destinatario" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_is_fluido" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="3" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_is_espec" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="10" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_is_linha" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="3" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_is_folha" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="3" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_is_spool" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_equipamento" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_rc_referencia" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_rp_referencia" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_rt_referencia" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_revision" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_sigla_idioma" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_numero_paginas" type="xs:short" minOccurs="0" />
+                <xs:element name="vale_tipo_formato_papel" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_numero_contrato" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_numero_contratada" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_empresa_contratada" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_finalidade_devolucao" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="3" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_asset_equipment_number" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1024" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_numero_ld" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_localizacao_acervo" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_sigla_tipo_emissao" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_doc_type_classification" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1064" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_asset_number" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_observacoes" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1064" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_1a_emissao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="vale_reprogramacao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="vale_qt_reprogramacao" type="xs:short" minOccurs="0" />
+                <xs:element name="vale_data_realizada" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="vale_avanco_fisico" type="xs:short" minOccurs="0" />
+                <xs:element name="vale_codigo_atividade" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_item_contrato" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_codigo_sap" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="eif_issue_reason" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_medicao" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_coringa" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_substituto" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_padronizado" type="xs:boolean" minOccurs="0" />
+                <xs:element name="vale_livre" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="a_status" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_data_emissao_gr" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="vale_situacao_aprovacao" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_se_finalizada" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_codigo_material" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_numero_gr_contratada" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="file_path" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1024" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Filename" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
         </xs:choice>
       </xs:complexType>
       <xs:unique name="Constraint1" msdata:PrimaryKey="true">
@@ -7830,4 +8241,1018 @@
     <Name>REPEATING_ATTRIBUTE_DELIMETER</Name>
     <Value>|</Value>
   </_x0039_dfe85a5-0cde-4341-8064-68918c84df3d>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>100</Item>
+    <object_name>DF-6000KS-E-81063-E-25101_REV_3.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-E-25101</ao_control_doc_number>
+    <title>PROJETO FERRO CARAJÁS - PROJETO DETALHADO - ENERGIA/ AUTOMAÇÃO /TI SE-2032KS-02-BRITAGEM TERCIÁRIA - ELETROCENTRO - FECHAMENTO LATERAL INFERIOR.</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>e</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T16:25:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D0198</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-E-25101_REV_3.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>101</Item>
+    <object_name>DF-6000KS-E-81063-E-25103_REV_4.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-E-25103</ao_control_doc_number>
+    <title>PROJETO FERRO CARAJÁS - PROJETO DETALHADO - ENERGIA/ AUTOMAÇÃO /TI SE-2092KS-02-BRITAGEM TERCIÁRIA - ELETROCENTRO - FECHAMENTO LATERAL INFERIOR.</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>e</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T16:25:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>4</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D0200</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-E-25103_REV_4.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>102</Item>
+    <object_name>DF-6000KS-E-81063-J-19088_REV_4.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-J-19088</ao_control_doc_number>
+    <title>PROJETO FERRO CARAJÁS - PROJETO DETALHADO - ENERGIA/ AUTOMAÇÃO/ TI SE-2092KS-02 - BRITAGEM TERCIÁRIA ELETROCENTRO - FECHAMENTO LATERAL INFERIOR.</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T16:26:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>4</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D1267</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-J-19088_REV_4.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>103</Item>
+    <object_name>DF-6000KS-E-81063-J-19089_REV_5.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-J-19089</ao_control_doc_number>
+    <title>PROJETO DETALHADO - 2032KS-02 - PENEIRAMENTO SECUNDÁRIO- PROJETO LETROMECÂNICO - LISTA DE CABOS DE FORÇA, CONTROLE E COMUNICAÇÃO</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T16:26:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>5</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D1268</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-J-19089_REV_5.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>104</Item>
+    <object_name>DF-6000KS-E-81063-J-19095_REV_2.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-J-19095</ao_control_doc_number>
+    <title>PROJETO DETALHADO SE-2092KS-02 - ESTAÇÃO DE CARREGAMENTO PROJETO ELETROMECÂNICO LISTA DE CABOS DE FORÇA, CONTROLE E COMUNICAÇÃO</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T16:25:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>2</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D1274</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-J-19095_REV_2.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>105</Item>
+    <object_name>DF-6000KS-E-81063-J-19096_REV_2.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-J-19096</ao_control_doc_number>
+    <title>PROJETO DETALHADO USINA DE BENEFICIAMENTO - ESTAÇÃO DE CARREGAMENTO SE-2092KS-02 QR-2092KS-21 QUADRO RELÉS DE SEGURANÇA - CADERNO DIMENSIONAL E ELÉTRICO</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T16:25:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>2</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D1275</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-J-19096_REV_2.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>106</Item>
+    <object_name>DF-6000KS-E-81063-J-19097_REV_2.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-J-19097</ao_control_doc_number>
+    <title>PROJETO DETALHADO BENEFICIATION PLANT / PRODUCT STORE YARD SE-2092KS-02 PA-2092KS-21 PAINEL DE DISTRIBUIÇÃO DE TENSÃO DE CONTROLE - AUTOMAÇÃO CADERNO DIMENSIONAL E ELÉTRICO</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T16:25:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>2</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D1276</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-J-19097_REV_2.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>107</Item>
+    <object_name>DF-6000KS-E-81063-J-19098_REV_2.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-J-19098</ao_control_doc_number>
+    <title>PROJETO DETALHADO PENEIRAMENTO SECUNDÁRIO SE-2092KS-02 NB-2092KS-21 NO - BREAK AUTOMAÇÃO 20KVA MONOFÁSICO CADERNO DIMENSIONAL E ELÉTRICO</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-02-03T11:49:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>2</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D1277</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-J-19098_REV_2.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>108</Item>
+    <object_name>DF-6000KS-E-81063-J-19104_REV_2.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-J-19104</ao_control_doc_number>
+    <title>PROJETO DETALHADO - ENERGIA / AUTOMAÇÃO / TI - SE-2092KS-02 - ESTAÇÃO DE CARREGAMENTO - PROJETO ELETROMECANICO - SDACI</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:17:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>2</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D1283</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-J-19104_REV_2.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>109</Item>
+    <object_name>DF-6000KS-E-81063-J-19119_REV_3.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-J-19119</ao_control_doc_number>
+    <title>PROJETO DETALHADO USINA DE BENEFICIAMENTO - PÁTIO DE ESTOCAGEM DE PRODUTOS SE-2032KS-02 PA-2032KS-21 PAINEL DE DISTRIBUIÇÃO DE TENSÃO DE CONTROLE - AUTOMAÇÃO CADERNO DIMENSIONAL E ELÉTRICO</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:17:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D1298</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-J-19119_REV_3.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>110</Item>
+    <object_name>DF-6000KS-E-81063-J-19145_REV_4.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-J-19145</ao_control_doc_number>
+    <title>PROJETO DETALHADO USINA DE BENEFICIAMENTO - PÁTIO DE ESTOCAGEM DE PRODUTOS SE-2032KS-02 PA-2032KS-22 PAINEL DE DISTRIBUIÇÃO DE TENSÃO DE CONTROLE - AUTOMAÇÃO CADERNO DIMENSIONAL E ELÉTRICO</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:16:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>4</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-J-19145_REV_4.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>111</Item>
+    <object_name>DF-6000KS-E-81063-J-19171_REV_3.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-J-19171</ao_control_doc_number>
+    <title>PROJETO DETALHADO USINA DE BENEFICIAMENTO - PÁTIO DE ESTOCAGEM DE PRODUTOS SE-2032KS-02 PA-2032KS-23 PAINEL DE DISTRIBUIÇÃO DE TENSÃO DE CONTROLE - AUTOMAÇÃO CADERNO DIMENSIONAL E ELÉTRICO</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:16:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D8011</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-J-19171_REV_3.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>112</Item>
+    <object_name>DF-6000KS-E-81063-J-23091_REV_3.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-J-23091</ao_control_doc_number>
+    <title>PROJETO DETALHADO USINA DE BENEFICIAMENTO - PÁTIO DE ESTOCAGEM DE PRODUTOS SE-2032KS-02 PA-2032KS-24 PAINEL DE DISTRIBUIÇÃO DE TENSÃO DE CONTROLE - AUTOMAÇÃO CADERNO DIMENSIONAL E ELÉTRICO</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:17:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D1716</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-J-23091_REV_3.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>113</Item>
+    <object_name>DF-6000KS-E-81063-J-25072_REV_4.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-J-25072</ao_control_doc_number>
+    <title>PROJETO DETALHADO PENEIRAMENTO SECUNDÁRIO SE-2032KS-02 NB-2032KS-21 NO - BREAK AUTOMAÇÃO 20KVA MONOFÁSICO CADERNO DIMENSIONAL E ELÉTRICO</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:17:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>4</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D1945</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-J-25072_REV_4.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>114</Item>
+    <object_name>DF-6000KS-E-81063-J-25078_REV_3.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-J-25078</ao_control_doc_number>
+    <title>PROJETO DETALHADO - ENERGIA / AUTOMAÇÃO / TI - SE-2032KS-02 - PENEIRAMENTO SECUNDÁRIO - PROJETO ELETROMECANICO -   SDACI -</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:18:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D0175</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-J-25078_REV_3.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>115</Item>
+    <object_name>DF-6000KS-E-81063-J-25079_REV_3.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-J-25079</ao_control_doc_number>
+    <title>PROJETO DETALHADO BENEFICIATION PLANT / PRODUCT STORE YARD SE-2091KS-02 PA-2091KS-22 PAINEL DE DISTRIBUIÇÃO DE TENSÃO DE CONTROLE - AUTOMAÇÃO CADERNO DIMENSIONAL E ELÉTRICO</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:17:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D2375</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-J-25079_REV_3.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>116</Item>
+    <object_name>DF-6000KS-E-81063-J-25084_REV_3.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-J-25084</ao_control_doc_number>
+    <title>PROJETO DETALHADO USINA DE BENEFICIAMENTO - PENEIRAMENTO SECUNDÁRIO SE-2032KS-02 QR-2032KS-21 QUADRO RELÉS DE SEGURANÇA - CADERNO DIMENSIONAL E ELÉTRICO</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:16:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D0181</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-J-25084_REV_3.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>117</Item>
+    <object_name>DF-6000KS-E-81063-J-25097_REV_3.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-J-25097</ao_control_doc_number>
+    <title>PROJETO DETALHADO USINA DE BENEFICIAMENTO - PENEIRAMENTO SECUNDÁRIO SE-2032KS-02 QR-2032KS-22 QUADRO RELÉS DE SEGURANÇA - CADERNO DIMENSIONAL E ELÉTRICO</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:16:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D0194</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-J-25097_REV_3.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>118</Item>
+    <object_name>DF-6000KS-E-81063-J-25157_REV_4.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-J-25157</ao_control_doc_number>
+    <title>PROJETO DETALHADO USINA DE BENEFICIAMENTO - PÁTIO DE ESTOCAGEM DE PRODUTOS SE-2092KS-02 PA-2092KS-22 PAINEL DE DISTRIBUIÇÃO DE TENSÃO DE CONTROLE - AUTOMAÇÃO CADERNO DIMENSIONAL E ELÉTRICO</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:16:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>4</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-J-25157_REV_4.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>119</Item>
+    <object_name>DF-6000KS-E-81063-J-25170_REV_3.zip</object_name>
+    <ao_control_doc_number>DF-6000KS-E-81063-J-25170</ao_control_doc_number>
+    <title>PROJETO DETALHADO USINA DE BENEFICIAMENTO - PENEIRAMENTO SECUNDÁRIO SE-2032KS-02 QR-2032KS-23 QUADRO RELÉS DE SEGURANÇA - CADERNO DIMENSIONAL E ELÉTRICO</title>
+    <document_type>dg</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:17:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D2672</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-6000KS-E-81063-J-25170_REV_3.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>120</Item>
+    <object_name>DF-DI-6000KS-E-81063-E-19117_REV_3.zip</object_name>
+    <ao_control_doc_number>DF-DI-6000KS-E-81063-E-19117</ao_control_doc_number>
+    <title>PROJETO DETALHADO USINA DE BENEFICIAMENTO - ESTAÇÃO DE CARREGAMENTO SE-2092KS-02 QR-2092KS-22 QUADRO RELÉS DE SEGURANÇA - CADERNO DIMENSIONAL E ELÉTRICO</title>
+    <document_type>di</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>e</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:43:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D1296</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-DI-6000KS-E-81063-E-19117_REV_3.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>121</Item>
+    <object_name>DF-DI-6000KS-E-81063-E-25095_REV_3.zip</object_name>
+    <ao_control_doc_number>DF-DI-6000KS-E-81063-E-25095</ao_control_doc_number>
+    <title>PROJETO DETALHADO - ENERGIA / AUTOMAÇÃO / TI - SE-2032KS-02 - PENEIRAMENTO SECUNDÁRIO -  PROJETO ELETROMECANICO - SISTEMA DO SDACI - DIAGRAMA DE INTERLIGAÇÃO</title>
+    <document_type>di</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>e</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:42:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D0192</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-DI-6000KS-E-81063-E-25095_REV_3.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>122</Item>
+    <object_name>DF-DI-6000KS-E-81063-J-19170_REV_3.zip</object_name>
+    <ao_control_doc_number>DF-DI-6000KS-E-81063-J-19170</ao_control_doc_number>
+    <title>PROJETO DETALHADO - ENERGIA / AUTOMAÇÃO / TI - SE-2092KS-02 - ESTAÇÃO DE CARREGAMENTO -PAINÉIS DO SDACI - CADERNO DIMENSIONAL</title>
+    <document_type>di</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:42:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D6881</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-DI-6000KS-E-81063-J-19170_REV_3.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>123</Item>
+    <object_name>DF-DI-6000KS-E-81063-J-23161_REV_3.zip</object_name>
+    <ao_control_doc_number>DF-DI-6000KS-E-81063-J-23161</ao_control_doc_number>
+    <title>PROJETO DETALHADO - ENERGIA / AUTOMAÇÃO / TI - SE-2032KS-02 - PENEIRAMENTO SECUNDÁRIO - PROJETO ELETROMECANICO - PAINÉIS DO  SDACI - CADERNO DIMENSIONAL</title>
+    <document_type>di</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:42:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_numero_contratada>3BBR500218D2671</vale_numero_contratada>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-DI-6000KS-E-81063-J-23161_REV_3.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>124</Item>
+    <object_name>DF-DI-6000KS-E-81063-J-25171_REV_3.zip</object_name>
+    <ao_control_doc_number>DF-DI-6000KS-E-81063-J-25171</ao_control_doc_number>
+    <title>PROJETO DETALHADO ENERGIA / AUTOMAÇÃO / TI SE-2091KS-02 PATIO DE ESTOCAGEM DE PRODUTOS PROJETO ELETROMECÂNICO - SISTEMA DE DETECÇÃO, ALARME E COMBATE À INCÊNDIO DIAGRAMA DE INTERLIGAÇÃO</title>
+    <document_type>di</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>j</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:42:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a3</vale_tipo_formato_papel>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-DI-6000KS-E-81063-J-25171_REV_3.zip</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>125</Item>
+    <object_name>DF-LB-6000KS-E-81063-E-19144_REV_3.xls</object_name>
+    <ao_control_doc_number>DF-LB-6000KS-E-81063-E-19144</ao_control_doc_number>
+    <title>PROJETO DETALHADO - ENERGIA / AUTOMAÇÃO / TI - SE-2092KS-02  - ESTAÇÃO DE CARREGAMENTO -  PROJETO ELETROMECANICO - SISTEMA DO SDACI - DIAGRAMA DE INTERLIGAÇÃO</title>
+    <document_type>lb</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>e</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:42:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a4</vale_tipo_formato_papel>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-LB-6000KS-E-81063-E-19144_REV_3.xls</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>126</Item>
+    <object_name>DF-LB-6000KS-E-81063-E-19145_REV_3.xlsx</object_name>
+    <ao_control_doc_number>DF-LB-6000KS-E-81063-E-19145</ao_control_doc_number>
+    <title>PROJETO DETALHADO - ENERGIA / AUTOMAÇÃO / TI - SE-2032KS-02 - PENEIRAMENTO SECUNDÁRIO - MONTAGEM DA ESTRUTURA METÁLICA-MODULOS - CONJUNTO MECÂNICO - CADERNO DE MONTAGEM DO ELETROCENTRO</title>
+    <document_type>lb</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>e</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:42:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a4</vale_tipo_formato_papel>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-LB-6000KS-E-81063-E-19145_REV_3.xlsx</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>127</Item>
+    <object_name>DF-LB-6000KS-E-81063-E-25156_REV_3.xls</object_name>
+    <ao_control_doc_number>DF-LB-6000KS-E-81063-E-25156</ao_control_doc_number>
+    <title>PROJETO DETALHADO - ENERGIA / AUTOMAÇÃO / TI - SE-2091KS-02 - PATIO DE ESTOCAGEM DE PRODUTOS - MONTAGEM DA ESTRUTURA METÁLICA-MODULOS - CONJUNTO MECÂNICO - DESENHO ISOMÉTRICO DO ELETROCENTRO</title>
+    <document_type>lb</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>e</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:42:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a4</vale_tipo_formato_papel>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-LB-6000KS-E-81063-E-25156_REV_3.xls</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>128</Item>
+    <object_name>DF-LB-6000KS-E-81063-E-25157_REV_3.xlsx</object_name>
+    <ao_control_doc_number>DF-LB-6000KS-E-81063-E-25157</ao_control_doc_number>
+    <title>PROJETO DETALHADO - ENERGIA / AUTOMAÇÃO / TI - SE-2092KS-02 - ESTAÇÃO DE CARREGAMENTO - MONTAGEM DA ESTRUTURA METÁLICA-MODULOS - CONJUNTO MECÂNICO - CADERNO DE MONTAGEM DO ELETROCENTRO</title>
+    <document_type>lb</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>e</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-02-03T12:06:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>3</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a4</vale_tipo_formato_papel>
+    <vale_sigla_tipo_emissao>g</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-LB-6000KS-E-81063-E-25157_REV_3.xlsx</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>129</Item>
+    <object_name>DF-LE-6000KS-E-81063-E-19106_REV_4.xls</object_name>
+    <ao_control_doc_number>DF-LE-6000KS-E-81063-E-19106</ao_control_doc_number>
+    <title>PROJETO DETALHADO - SE-2032KS-02 - PENEIRAMENTO SECUNDÁRIO - PROJETO ELETROMECÂNICO - PLANO DE CORTE - CABOS</title>
+    <document_type>le</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>e</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:43:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>4</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a4</vale_tipo_formato_papel>
+    <vale_sigla_tipo_emissao>c</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-LE-6000KS-E-81063-E-19106_REV_4.xls</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+  <_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
+    <Item>130</Item>
+    <object_name>DF-LE-6000KS-E-81063-E-25090_REV_4.xls</object_name>
+    <ao_control_doc_number>DF-LE-6000KS-E-81063-E-25090</ao_control_doc_number>
+    <title>PROJETO DETALHADO - SE-2032KS-02 - PENEIRAMENTO SECUNDÁRIO - PROJETO ELETROMECÂNICO - PLANO DE CORTE - CABOS</title>
+    <document_type>le</document_type>
+    <vale_site>ks</vale_site>
+    <ao_project_number>N1030-01</ao_project_number>
+    <vale_eng_project>PROJETO FERRO CARAJAS S11D</vale_eng_project>
+    <vale_fase>CONS</vale_fase>
+    <ao_asset_corporation>ABB</ao_asset_corporation>
+    <ao_asset_area>60</ao_asset_area>
+    <vale_subarea>0</vale_subarea>
+    <ao_discipline_s>e</ao_discipline_s>
+    <vale_documento_fornecedor>true</vale_documento_fornecedor>
+    <vale_localidade>CANAA DOS CARAJAS - PROJETO FERRO CARAJAS S11D</vale_localidade>
+    <vale_data_envio>2017-01-30T17:41:00-02:00</vale_data_envio>
+    <vale_equipamento>Subestação Secundária</vale_equipamento>
+    <vale_rt_referencia>RT-6000KS-E-81063</vale_rt_referencia>
+    <ao_revision>4</ao_revision>
+    <vale_numero_paginas>1</vale_numero_paginas>
+    <vale_tipo_formato_papel>a4</vale_tipo_formato_papel>
+    <vale_sigla_tipo_emissao>c</vale_sigla_tipo_emissao>
+    <ao_doc_type_classification>i</ao_doc_type_classification>
+    <vale_avanco_fisico>100</vale_avanco_fisico>
+    <vale_item_contrato>ISBL/OSBL</vale_item_contrato>
+    <vale_padronizado>true</vale_padronizado>
+    <a_status>Effective</a_status>
+    <vale_numero_gr_contratada>GRD-ABB-SE-625</vale_numero_gr_contratada>
+    <file_path>ftp://difn/MIGRACAO%20GED%202.0%20-%20TESTE%20-%20LUCINEI/DF-LE-6000KS-E-81063-E-25090_REV_4.xls</file_path>
+    <Filename>Migracao_GED2.0_teste1_4.2.csv</Filename>
+  </_x0033_ec67a73-fdf6-4dd7-95c0-5aea9e60d5aa>
 </NewDataSet>

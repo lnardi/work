@@ -450,6 +450,196 @@
               </xs:sequence>
             </xs:complexType>
           </xs:element>
+          <xs:element name="_x0031_91a84a9-3493-4f4a-913d-20f4ca6c72e0">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="a_status" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_site" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_tipo_se" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="title" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_numero_se" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_data_abertura" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="vale_responsavel_tecnico" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_fase" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ao_asset_org_function_area" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="primary_filename" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="r_object_type" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="object_name">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="folder_path" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="domain" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="acl_name" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="acl_domain" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_segmento_negocio" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_numero_projeto" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_legacy_objectid" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_legacy_lookup" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="project_name" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="log_entry" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="120" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_site_normativos" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_site_membros" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_site_manage" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="vale_site_create" type="xs:string" minOccurs="0" />
+                <xs:element name="subject" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="previous_state" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
           <xs:element name="_x0039_4281bc2-f472-49f5-bcea-29325253179c">
             <xs:complexType>
               <xs:sequence>
@@ -520,6 +710,10 @@
           </xs:element>
         </xs:choice>
       </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//_x0031_91a84a9-3493-4f4a-913d-20f4ca6c72e0" />
+        <xs:field xpath="object_name" />
+      </xs:unique>
     </xs:element>
   </xs:schema>
   <_x0038_0a80c2b-748e-490a-892a-348b0a43ad1e>
@@ -6152,11 +6346,11 @@
   </_x0037_9cdcccd-68bd-4c64-bb6d-65f63f3eb988>
   <_x0037_9cdcccd-68bd-4c64-bb6d-65f63f3eb988>
     <tipo>PR-3</tipo>
-    <a_satus>Suspended</a_satus>
+    <a_satus>Migration</a_satus>
   </_x0037_9cdcccd-68bd-4c64-bb6d-65f63f3eb988>
   <_x0037_9cdcccd-68bd-4c64-bb6d-65f63f3eb988>
     <tipo>PR-4</tipo>
-    <a_satus>Canceled</a_satus>
+    <a_satus>Migration</a_satus>
   </_x0037_9cdcccd-68bd-4c64-bb6d-65f63f3eb988>
   <_x0037_9cdcccd-68bd-4c64-bb6d-65f63f3eb988>
     <tipo>SE-5</tipo>
@@ -13101,160 +13295,48 @@
     <vale_legacy_objectid>08035f518252441d</vale_legacy_objectid>
   </_x0031_e7ccc05-d100-44c6-bb06-28d4e4a31e37>
   <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>4</Item>
-    <fase>FEL1</fase>
-    <r_object_id>08035f51828f94ba</r_object_id>
-    <object_name>N1307 - SPCI DO TCLD</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>N</sigla_segmento_negocio>
-    <numero_projeto>1307</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KS</codigo_site>
-    <nome>SPCI DO TCLD</nome>
-    <area_responsavel>DIIC/GEEC</area_responsavel>
-    <a_status>1</a_status>
-    <Filename>PROJETOS.csv</Filename>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>5</Item>
-    <fase>FEL2</fase>
-    <r_object_id>08035f5180002a8a</r_object_id>
-    <object_name>N1030-01 - PROJETO FERRO CARAJAS S11D</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>N</sigla_segmento_negocio>
-    <numero_projeto>1030</numero_projeto>
-    <numero_sequencial>01</numero_sequencial>
-    <tipo>PR</tipo>
-    <codigo_site>KS</codigo_site>
-    <nome>PROJETO FERRO CARAJAS S11D</nome>
-    <area_responsavel>DISF</area_responsavel>
-    <a_status>2</a_status>
-    <Filename>PROJETOS.csv</Filename>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>6</Item>
-    <fase>FEL3</fase>
-    <r_object_id>08035f518145e972</r_object_id>
-    <object_name>N1030-03 - ELABORACAO DE ESTUDOS TEORICOS DE VIBRACOES NO ENTORNO DAS LAGOAS DO AMENDOIM E VIOLAO</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>N</sigla_segmento_negocio>
-    <numero_projeto>1030</numero_projeto>
-    <numero_sequencial>03</numero_sequencial>
-    <tipo>PR</tipo>
-    <codigo_site>KS</codigo_site>
-    <nome>ELABORACAO DE ESTUDOS TEORICOS DE VIBRACOES NO ENTORNO DAS LAGOAS DO AMENDOIM E VIOLAO</nome>
-    <area_responsavel>DIPF / GEEGF / GAGFF</area_responsavel>
-    <a_status>3</a_status>
-    <Filename>PROJETOS.csv</Filename>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>7</Item>
-    <fase>FEL1</fase>
-    <r_object_id>08035f518289165b</r_object_id>
-    <object_name>N1309 - POSTO AVANCADO LUBRIFICACAO DA USINA</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>N</sigla_segmento_negocio>
-    <numero_projeto>1309</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KS</codigo_site>
-    <nome>POSTO AVANCADO LUBRIFICACAO DA USINA</nome>
-    <area_responsavel>DIIC - GEEIC - GAPCF</area_responsavel>
-    <a_status>4</a_status>
-    <Filename>PROJETOS.csv</Filename>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>8</Item>
-    <fase>FEL2</fase>
-    <r_object_id>08035f51828d11b7</r_object_id>
-    <object_name>N1300 - OFICINA DE AFIACAO</object_name>
-    <ativo>true</ativo>
-    <sigla_segmento_negocio>N</sigla_segmento_negocio>
-    <numero_projeto>1300</numero_projeto>
-    <tipo>PR</tipo>
-    <codigo_site>KS</codigo_site>
-    <nome>OFICINA DE AFIACAO</nome>
-    <area_responsavel>DIIC/GEEIC</area_responsavel>
-    <a_status>5</a_status>
-    <Filename>PROJETOS.csv</Filename>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>18</Item>
-    <fase>OPER</fase>
-    <r_object_id>08035f51818c3c73</r_object_id>
-    <object_name>SE-Y1000 - ESPELEOLOGIA S11D</object_name>
-    <ativo>true</ativo>
-    <tipo>SE</tipo>
-    <codigo_site>KS</codigo_site>
-    <nome>ESPELEOLOGIA S11D</nome>
-    <numero_se>Y1000</numero_se>
-    <responsavel_tecnico>FERNANDA SILVA LETRO</responsavel_tecnico>
-    <area_responsavel>GAEAF</area_responsavel>
-    <a_status>1</a_status>
-    <Filename>PROJETOS.csv</Filename>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
     <Item>19</Item>
     <fase>OPER</fase>
-    <r_object_id>08035f5181ada3ad</r_object_id>
-    <object_name>SE-Y1024 - ESPELEOLOGIA S11C</object_name>
+    <r_object_id>08035f51828d11bd</r_object_id>
+    <object_name>N1308 - DRENAGEM DA PILHA DE ESTERIL</object_name>
     <ativo>true</ativo>
-    <tipo>SE</tipo>
+    <sigla_segmento_negocio>N</sigla_segmento_negocio>
+    <numero_projeto>1308</numero_projeto>
+    <tipo>PR</tipo>
     <codigo_site>KS</codigo_site>
-    <nome>ESPELEOLOGIA S11C</nome>
-    <numero_se>Y1024</numero_se>
-    <data_abertura>2014-08-10T13:58:15-03:00</data_abertura>
-    <responsavel_tecnico>RAFAEL SCHERER</responsavel_tecnico>
-    <area_responsavel>GAEAF</area_responsavel>
-    <a_status>2</a_status>
-    <Filename>PROJETOS.csv</Filename>
+    <nome>DRENAGEM DA PILHA DE ESTERIL</nome>
+    <area_responsavel>DIIC/GEEIC</area_responsavel>
+    <a_status>1</a_status>
+    <Filename>PROJETOS_OPER.csv</Filename>
   </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>20</Item>
-    <fase>OPER</fase>
-    <r_object_id>08035f5181ada8b2</r_object_id>
-    <object_name>SE-Y1023 - ESPELEOLOGIA S11B</object_name>
-    <ativo>true</ativo>
-    <tipo>SE</tipo>
-    <codigo_site>KS</codigo_site>
-    <nome>ESPELEOLOGIA S11B</nome>
-    <numero_se>Y1023</numero_se>
-    <data_abertura>2014-08-10T14:23:16-03:00</data_abertura>
-    <responsavel_tecnico>ALLAN CALUX</responsavel_tecnico>
-    <area_responsavel>GAEAF</area_responsavel>
-    <a_status>3</a_status>
-    <Filename>PROJETOS.csv</Filename>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>21</Item>
-    <fase>OPER</fase>
-    <r_object_id>08035f5182097e84</r_object_id>
-    <object_name>SE-Y1041 - ESPELEOLOGIA S11D PTERONOTUS</object_name>
-    <ativo>true</ativo>
-    <tipo>SE</tipo>
-    <codigo_site>KS</codigo_site>
-    <nome>ESPELEOLOGIA S11D PTERONOTUS</nome>
-    <numero_se>Y1041</numero_se>
-    <responsavel_tecnico>MARIANE RIBEIRO</responsavel_tecnico>
-    <area_responsavel>GAEAF</area_responsavel>
-    <a_status>4</a_status>
-    <Filename>PROJETOS.csv</Filename>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-  <_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
-    <Item>22</Item>
-    <fase>OPER</fase>
-    <r_object_id>08035f5182129d8d</r_object_id>
-    <object_name>SE-Y1049 - ESPELEOLOGIA MORCEGOS S11D-0040</object_name>
-    <ativo>true</ativo>
-    <tipo>SE</tipo>
-    <codigo_site>KS</codigo_site>
-    <nome>ESPELEOLOGIA MORCEGOS S11D-0040</nome>
-    <numero_se>Y1049</numero_se>
-    <data_abertura>2015-08-07T09:52:58-03:00</data_abertura>
-    <responsavel_tecnico>XAVIER PROUS</responsavel_tecnico>
-    <area_responsavel>GAEAF</area_responsavel>
-    <a_status>5</a_status>
-    <Filename>PROJETOS.csv</Filename>
-  </_x0032_d42797b-c6cc-4861-ab72-865a3b873e17>
+  <_x0031_91a84a9-3493-4f4a-913d-20f4ca6c72e0>
+    <a_status>Approved</a_status>
+    <vale_site>ks</vale_site>
+    <vale_tipo_se>oper</vale_tipo_se>
+    <title>DRENAGEM DA PILHA DE ESTERIL</title>
+    <vale_numero_se>1308</vale_numero_se>
+    <vale_fase>oper</vale_fase>
+    <ao_asset_org_function_area>DIIC/GEEIC</ao_asset_org_function_area>
+    <primary_filename />
+    <r_object_type>vale_eng_solicitacao_eng</r_object_type>
+    <object_name>SE-1308</object_name>
+    <folder_path>/Migration</folder_path>
+    <domain>vale_eng</domain>
+    <acl_name>vale migration acl</acl_name>
+    <acl_domain>dm_dbo</acl_domain>
+    <vale_segmento_negocio>n</vale_segmento_negocio>
+    <vale_numero_projeto>1308</vale_numero_projeto>
+    <vale_legacy_objectid>08035f51828d11bd</vale_legacy_objectid>
+    <vale_legacy_lookup>08035f51828d11bd</vale_legacy_lookup>
+    <project_name />
+    <log_entry>19#PROJETOS_OPER.csv</log_entry>
+    <vale_site_normativos>enggr_normativo_site_ks</vale_site_normativos>
+    <vale_site_membros>enggr_membros_site_ks</vale_site_membros>
+    <vale_site_manage>vale_ks_manage_site</vale_site_manage>
+    <vale_site_create>vale_ks_security_write_restrict|vale_ks_security_delete_internal|vale_ks_security_delete_restrict|vale_ks_security_write_internal</vale_site_create>
+    <subject>1</subject>
+    <previous_state />
+  </_x0031_91a84a9-3493-4f4a-913d-20f4ca6c72e0>
   <_x0039_4281bc2-f472-49f5-bcea-29325253179c>
     <Item>1</Item>
     <r_object_id>08035f51822a341a</r_object_id>
